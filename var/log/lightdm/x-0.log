@@ -1,0 +1,19 @@
+
+X.Org X Server 1.19.3
+Release Date: 2017-03-15
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.4.0-70-generic x86_64 Ubuntu
+Current Operating System: Linux virtualbox 4.10.0-19-generic #21-Ubuntu SMP Thu Apr 6 17:04:57 UTC 2017 x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-19-generic root=UUID=c486629a-8c47-4d0b-88aa-b6a9c08de0e7 ro quiet splash
+Build Date: 28 March 2017  06:16:52AM
+xorg-server 2:1.19.3-1ubuntu1 (For technical support please see http://www.ubuntu.com/support) 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue Jun 20 14:34:54 2017
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+pci id for fd 14: 80ee:beef, driver (null)
+EGL_MESA_drm_image required.

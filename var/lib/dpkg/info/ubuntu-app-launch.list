@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/bin/snappy-xmir
+/usr/bin/snappy-xmir-envvars
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/ubuntu-app-launch
+/usr/lib/x86_64-linux-gnu/ubuntu-app-launch/oom-adjust-setuid-helper
+/usr/lib/x86_64-linux-gnu/ubuntu-app-launch/socket-demangler
+/usr/lib/x86_64-linux-gnu/ubuntu-app-launch/systemd-helper-helper
+/usr/lib/x86_64-linux-gnu/ubuntu-app-launch/xmir-helper
+/usr/share
+/usr/share/doc
+/usr/share/doc/ubuntu-app-launch
+/usr/share/doc/ubuntu-app-launch/changelog.Debian.gz
+/usr/share/doc/ubuntu-app-launch/copyright

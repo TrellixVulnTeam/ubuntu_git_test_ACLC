@@ -1,0 +1,6 @@
+13d6e888ff34ff262cb2cf0772f4bb00  lib/systemd/system/repowerd.service
+1d83b81db5ce9a3fcc1fa971165f0756  usr/sbin/repowerd
+2b4631a699e1f7bfad24584c86c4a3d8  usr/sbin/repowerd-cli
+f718a12f4c7382265571691cef81334d  usr/share/apport/package-hooks/repowerd.py
+0cf202060fd4f2cd59671e00394c8e9e  usr/share/doc/repowerd/changelog.Debian.gz
+86b2ba30e44bd96d7873c893a754059a  usr/share/doc/repowerd/copyright

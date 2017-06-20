@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=therion-viewer
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Therion loch viewer
+GenericName=Therion Cave Survey Viewer
+Comment=View therion surveys in 3D
+Type=Application
+Exec=loch %f
+Icon=therion
+Categories=Education;Geology;Science;
+MimeType=model/therion-lox
+
+X-Ubuntu-Gettext-Domain=app-install-data

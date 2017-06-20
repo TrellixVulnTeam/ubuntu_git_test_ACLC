@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/init/boot-hooks/unity8-setcap.conf -- "$@"
+# End automatically added section

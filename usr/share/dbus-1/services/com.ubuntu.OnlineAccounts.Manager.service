@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.ubuntu.OnlineAccounts.Manager
+Exec=/usr/bin/online-accounts-service

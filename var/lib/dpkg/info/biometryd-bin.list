@@ -1,0 +1,15 @@
+/.
+/etc
+/etc/dbus-1
+/etc/dbus-1/system.d
+/etc/dbus-1/system.d/com.ubuntu.biometryd.Service.conf
+/etc/init
+/etc/init/biometryd.conf
+/usr
+/usr/bin
+/usr/bin/biometryd
+/usr/share
+/usr/share/doc
+/usr/share/doc/biometryd-bin
+/usr/share/doc/biometryd-bin/changelog.Debian.gz
+/usr/share/doc/biometryd-bin/copyright

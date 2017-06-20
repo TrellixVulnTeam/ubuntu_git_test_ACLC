@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-workspace
+X-AppInstall-Popcon=260
+X-AppInstall-Section=universe
+
+Name=Plasma Windowed
+Comment=Run Plasmoids as simple applications
+
+Exec=plasmawindowed %u
+Terminal=false
+Hidden=true
+Icon=plasma
+Type=Application
+X-DBUS-StartupType=Unique
+InitialPreference=1
+
+X-Ubuntu-Gettext-Domain=app-install-data

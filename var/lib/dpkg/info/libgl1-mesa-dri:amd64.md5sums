@@ -1,0 +1,17 @@
+ba8c81c9037634b6404dc34ee30933a4  usr/lib/x86_64-linux-gnu/dri/i915_dri.so
+ba8c81c9037634b6404dc34ee30933a4  usr/lib/x86_64-linux-gnu/dri/i965_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/kms_swrast_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/nouveau_dri.so
+ba8c81c9037634b6404dc34ee30933a4  usr/lib/x86_64-linux-gnu/dri/nouveau_vieux_dri.so
+ba8c81c9037634b6404dc34ee30933a4  usr/lib/x86_64-linux-gnu/dri/r200_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/r300_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/r600_dri.so
+ba8c81c9037634b6404dc34ee30933a4  usr/lib/x86_64-linux-gnu/dri/radeon_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/virtio_gpu_dri.so
+f41f7e4c10a8b7d770cbe5f9bd0c0290  usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libgl1-mesa-dri/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libgl1-mesa-dri/script
+0ba699454c0841cbd5f5d407dfe59f4d  usr/share/doc/libgl1-mesa-dri/changelog.Debian.gz
+8b68944959c818870ee1893cf08437ae  usr/share/doc/libgl1-mesa-dri/copyright

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/mir
+/usr/lib/x86_64-linux-gnu/mir/server-platform
+/usr/lib/x86_64-linux-gnu/mir/server-platform/graphics-mesa-kms.so.12
+/usr/share
+/usr/share/doc
+/usr/share/doc/mir-platform-graphics-mesa-kms12
+/usr/share/doc/mir-platform-graphics-mesa-kms12/copyright
+/usr/share/doc/mir-platform-graphics-mesa-kms12/changelog.Debian.gz

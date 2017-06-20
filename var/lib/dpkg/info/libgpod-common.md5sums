@@ -1,0 +1,6 @@
+a18fdf379956a9295817450721672a20  lib/udev/iphone-set-info
+fdc2e6e987d0b638139f8066164c4250  lib/udev/ipod-set-info
+5f743a1869484ed73a80407d815fdc53  lib/udev/rules.d/90-libgpod.rules
+d3a007d8f2d1a35ba65440b256b9c46b  usr/bin/ipod-read-sysinfo-extended
+4ecffd7f0fb5346327a0d3516ad3c3d5  usr/bin/ipod-time-sync
+b47716402c2b017c43bce7c32b5cfa97  usr/share/doc/libgpod-common/copyright

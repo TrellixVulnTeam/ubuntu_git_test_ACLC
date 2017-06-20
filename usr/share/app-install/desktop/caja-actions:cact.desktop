@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=caja-actions
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Caja-Actions Configuration Tool
+Comment=Configure items to be added to the Caja context menus
+Exec=caja-actions-config-tool
+Icon=caja-actions
+Categories=Settings;DesktopSettings;
+StartupNotify=true
+Keywords=customize;Caja;context;menu;MATE;configuration;tool;
+X-Ubuntu-Gettext-Domain=app-install-data

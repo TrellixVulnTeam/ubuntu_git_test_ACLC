@@ -1,0 +1,549 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libfwup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: libfwup.c:51 libfwup.c:62
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libfwup 9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-08 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libfwup.c:49
+msgid "ia32"
+msgstr ""
+
+#: libfwup.c:58
+msgid "x64"
+msgstr ""
+
+#: libfwup.c:60
+msgid "aa64"
+msgstr ""
+
+#: libfwup.c:67
+msgid "/sys/firmware/efi/esrt/"
+msgstr ""
+
+#: libfwup.c:71
+msgid "LIBFWUP_ESRT_DIR"
+msgstr ""
+
+#: libfwup.c:75 libfwup.c:77
+msgid "entries/"
+msgstr ""
+
+#: libfwup.c:150
+#, c-format
+msgid "fwup_supported() returned %d"
+msgstr ""
+
+#: libfwup.c:157
+msgid "DELL_CAPSULE_FIRMWARE_UPDATES_ENABLED is unsupported"
+msgstr ""
+
+#: libfwup.c:162
+msgid "DELL_CAPSULE_FIRMWARE_UPDATES_ENABLED is enabled"
+msgstr ""
+
+#: libfwup.c:168
+msgid "DELL_CAPSULE_FIRMWARE_UPDATES_ENABLED activation failed"
+msgstr ""
+
+#: libfwup.c:198
+msgid "ESRT is not present"
+msgstr ""
+
+#: libfwup.c:202
+msgid "ESRT cannot be enabled"
+msgstr ""
+
+#: libfwup.c:208
+msgid "ESRT has no entries."
+msgstr ""
+
+#: libfwup.c:248 libfwup.c:360
+msgid "efi_guid_to_str() failed"
+msgstr ""
+
+#: libfwup.c:253 libfwup.c:366
+#, c-format
+msgid "fwupdate-%s-%<PRIx64>"
+msgstr ""
+
+#: libfwup.c:255 libfwup.c:368 libfwup.c:904
+msgid "asprintf() failed"
+msgstr ""
+
+#: libfwup.c:267 libfwup.c:797 libfwup.c:966
+msgid "efi_get_variable() failed"
+msgstr ""
+
+#: libfwup.c:272 libfwup.c:434 libfwup.c:812 libfwup.c:880 libfwup.c:918
+#, c-format
+msgid "calloc(1, %zd) failed"
+msgstr ""
+
+#: libfwup.c:282
+msgid "calloc(1, 1024) failed"
+msgstr ""
+
+#: libfwup.c:294
+msgid "efidp_make_end_entire() failed"
+msgstr ""
+
+#: libfwup.c:309
+msgid "efi_del_variable() failed"
+msgstr ""
+
+#: libfwup.c:314 libfwup.c:547
+msgid "get_info() failed"
+msgstr ""
+
+#: libfwup.c:321
+msgid "fwupdate saved state version mismatch"
+msgstr ""
+
+#: libfwup.c:327
+msgid "efidp_size() failed"
+msgstr ""
+
+#: libfwup.c:335
+#, c-format
+msgid "malloc(%zd) failed"
+msgstr ""
+
+#: libfwup.c:376
+#, c-format
+msgid "device path size (%zd) was unreasonable"
+msgstr ""
+
+#: libfwup.c:382
+#, c-format
+msgid "device path size (%zd) would overflow"
+msgstr ""
+
+#: libfwup.c:404
+#, c-format
+msgid "efi_set_variable(%s) failed"
+msgstr ""
+
+#: libfwup.c:428 libfwup.c:479
+msgid "invalid iter"
+msgstr ""
+
+#: libfwup.c:441
+msgid "get_esrt_dir(1) failed"
+msgstr ""
+
+#: libfwup.c:446
+msgid "opendir(path) failed"
+msgstr ""
+
+#: libfwup.c:456
+msgid "dirfd() failed"
+msgstr ""
+
+#: libfwup.c:513
+msgid "readdir failed"
+msgstr ""
+
+#: libfwup.c:518
+msgid "."
+msgstr ""
+
+#: libfwup.c:518
+msgid ".."
+msgstr ""
+
+#: libfwup.c:524
+msgid "openat() failed"
+msgstr ""
+
+#: libfwup.c:529
+msgid "fw_class"
+msgstr ""
+
+#: libfwup.c:532
+msgid "efi_str_to_guid() failed"
+msgstr ""
+
+#: libfwup.c:535
+msgid "fw_type"
+msgstr ""
+
+#: libfwup.c:536
+msgid "fw_version"
+msgstr ""
+
+#: libfwup.c:537
+msgid "capsule_flags"
+msgstr ""
+
+#: libfwup.c:539
+msgid "last_attempt_status"
+msgstr ""
+
+#: libfwup.c:541
+msgid "last_attempt_version"
+msgstr ""
+
+#: libfwup.c:543
+msgid "lowest_supported_fw_version"
+msgstr ""
+
+#: libfwup.c:564 libfwup.c:597 libfwup.c:610 libfwup.c:623 libfwup.c:636
+#: libfwup.c:649
+#, c-format
+msgid "invalid %s"
+msgstr ""
+
+#: libfwup.c:564 libfwup.c:597 libfwup.c:610 libfwup.c:623 libfwup.c:636
+#: libfwup.c:649
+msgid "resource"
+msgstr ""
+
+#: libfwup.c:564
+msgid "iter"
+msgstr ""
+
+#: libfwup.c:578
+msgid "invalid resource"
+msgstr ""
+
+#: libfwup.c:589
+msgid "put_info() failed"
+msgstr ""
+
+#: libfwup.c:597
+msgid "guid"
+msgstr ""
+
+#: libfwup.c:610 libfwup.c:636
+msgid "version"
+msgstr ""
+
+#: libfwup.c:623
+msgid "type"
+msgstr ""
+
+#: libfwup.c:649
+msgid "status"
+msgstr ""
+
+#: libfwup.c:664
+msgid "invalid argument"
+msgstr ""
+
+#: libfwup.c:670
+msgid "invalid status"
+msgstr ""
+
+#: libfwup.c:704 libfwup.c:705
+msgid "/boot/efi/EFI/"
+msgstr ""
+
+#: libfwup.c:704
+msgid "/shim"
+msgstr ""
+
+#: libfwup.c:705
+msgid "/fwup"
+msgstr ""
+
+#: libfwup.c:706
+msgid "\\fwup"
+msgstr ""
+
+#: libfwup.c:714
+msgid "/sys/firmware/efi/"
+msgstr ""
+
+#: libfwup.c:715
+msgid "fw_platform_size"
+msgstr ""
+
+#: libfwup.c:727 libfwup.c:730
+msgid ".efi"
+msgstr ""
+
+#: libfwup.c:733
+msgid "could not find shim or fwup on ESP"
+msgstr ""
+
+#: libfwup.c:738
+#, c-format
+msgid "%s%s.efi"
+msgstr ""
+
+#: libfwup.c:741 libfwup.c:1185
+msgid "asprintf failed"
+msgstr ""
+
+#: libfwup.c:748 libfwup.c:755
+msgid "strdup failed"
+msgstr ""
+
+#: libfwup.c:782 libfwup.c:793 libfwup.c:821
+msgid "BootOrder"
+msgstr ""
+
+#: libfwup.c:788
+msgid "efi_get_variable_size() failed"
+msgstr ""
+
+#: libfwup.c:825
+msgid "efi_set_variable() failed"
+msgstr ""
+
+#: libfwup.c:860
+msgid "could not find paths for shim and fwup"
+msgstr ""
+
+#: libfwup.c:873 libfwup.c:898
+msgid "efi_generate_file_device_path() failed"
+msgstr ""
+
+#: libfwup.c:902
+#, c-format
+msgid "Linux-Firmware-Updater %s"
+msgstr ""
+
+#: libfwup.c:913
+msgid "efi_loadopt_create() failed"
+msgstr ""
+
+#: libfwup.c:927
+msgid "loadopt size was unreasonable."
+msgstr ""
+
+#: libfwup.c:948
+#, c-format
+msgid "Boot%hX%n"
+msgstr ""
+
+#: libfwup.c:950
+msgid "sscanf failed"
+msgstr ""
+
+#: libfwup.c:972
+msgid "load option was invalid"
+msgstr ""
+
+#: libfwup.c:980 libfwup.c:986
+msgid "device path doesn't match"
+msgstr ""
+
+#: libfwup.c:991
+msgid "variable data doesn't match"
+msgstr ""
+
+#: libfwup.c:996
+msgid "load option doesn't match"
+msgstr ""
+
+#: libfwup.c:1006
+msgid "failed to find boot variable"
+msgstr ""
+
+#: libfwup.c:1016
+msgid "could not set boot variable active"
+msgstr ""
+
+#: libfwup.c:1020
+msgid "Boot####"
+msgstr ""
+
+#: libfwup.c:1033
+msgid "no free boot variables!"
+msgstr ""
+
+#: libfwup.c:1037
+#, c-format
+msgid "Boot%04X"
+msgstr ""
+
+#: libfwup.c:1045
+msgid "could not set boot variable"
+msgstr ""
+
+#: libfwup.c:1053
+msgid "could not set BootOrder"
+msgstr ""
+
+#: libfwup.c:1058
+msgid "BootNext"
+msgstr ""
+
+#: libfwup.c:1065
+msgid "could not set BootNext"
+msgstr ""
+
+#: libfwup.c:1144
+#, c-format
+msgid "/boot/efi%s"
+msgstr ""
+
+#: libfwup.c:1176
+#, c-format
+msgid "open of %s failed"
+msgstr ""
+
+#: libfwup.c:1182
+#, c-format
+msgid "/boot/efi/EFI/%s/fw/fwupdate-XXXXXX.cap"
+msgstr ""
+
+#: libfwup.c:1190
+#, c-format
+msgid "mkostemps(%s) failed"
+msgstr ""
+
+#: libfwup.c:1289
+msgid "invalid file descriptor"
+msgstr ""
+
+#: libfwup.c:1299 libfwup.c:1428
+msgid "get_info failed."
+msgstr ""
+
+#: libfwup.c:1310
+msgid "r"
+msgstr ""
+
+#: libfwup.c:1314
+msgid "w"
+msgstr ""
+
+#: libfwup.c:1328
+msgid "read failed"
+msgstr ""
+
+#: libfwup.c:1332
+msgid "fgetc() == EOF but no error is set."
+msgstr ""
+
+#: libfwup.c:1344 libfwup.c:1448
+msgid "write failed"
+msgstr ""
+
+#: libfwup.c:1348
+msgid "fputc() == EOF but no error is set."
+msgstr ""
+
+#: libfwup.c:1367 libfwup.c:1465
+msgid "put_info failed."
+msgstr ""
+
+#: libfwup.c:1420
+msgid "buf invalid."
+msgstr ""
+
+#: libfwup.c:1496
+msgid "Success"
+msgstr ""
+
+#: libfwup.c:1498
+msgid "Unsuccessful"
+msgstr ""
+
+#: libfwup.c:1500
+msgid "Insufficient resources"
+msgstr ""
+
+#: libfwup.c:1502
+msgid "Incorrect version"
+msgstr ""
+
+#: libfwup.c:1504
+msgid "Invalid firmware format"
+msgstr ""
+
+#: libfwup.c:1506
+msgid "Authentication signing error"
+msgstr ""
+
+#: libfwup.c:1508
+msgid "AC power required"
+msgstr ""
+
+#: libfwup.c:1510
+msgid "Battery level is too low"
+msgstr ""
+
+#: libfwup.c:1532
+msgid "Could not create iterator"
+msgstr ""
+
+#: libfwup.c:1577
+#, c-format
+msgid ""
+"\n"
+"Information for the update status entry %d:\n"
+msgstr ""
+
+#: libfwup.c:1578
+#, c-format
+msgid "  Information Version: %d\n"
+msgstr ""
+
+#: libfwup.c:1579
+#, c-format
+msgid "  Firmware GUID: %s\n"
+msgstr ""
+
+#: libfwup.c:1580
+#, c-format
+msgid "  Capsule Flags: 0x%08x\n"
+msgstr ""
+
+#: libfwup.c:1581
+#, c-format
+msgid "  Hardware Instance: %<PRIu64>\n"
+msgstr ""
+
+#: libfwup.c:1582
+#, c-format
+msgid "  Update Status: %s\n"
+msgstr ""
+
+#: libfwup.c:1583
+msgid "Preparing"
+msgstr ""
+
+#: libfwup.c:1584
+msgid "Attempted"
+msgstr ""
+
+#: libfwup.c:1585
+msgid "Unknown"
+msgstr ""
+
+#: libfwup.c:1599
+#, c-format
+msgid "  Attempted Time: "
+msgstr ""
+
+#: libfwup.c:1601
+#, c-format
+msgid "%s"
+msgstr ""
+
+#: libfwup.c:1603
+#, c-format
+msgid "Unknown\n"
+msgstr ""
+
+#: libfwup.c:1605
+#, c-format
+msgid "  Capsule File Path: %s\n"
+msgstr ""

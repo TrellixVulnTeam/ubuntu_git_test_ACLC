@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=mdfinder.app
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=System;FileTools;
+Name=MDFinder
+Comment=GNUstep Finder and desktop search system
+Keywords=file;explore;extract;search;
+Icon=_usr_lib_GNUstep_Applications_MDFinder.app_Resources_MDFinder
+Exec=MDFinder
+
+X-Ubuntu-Gettext-Domain=app-install-data

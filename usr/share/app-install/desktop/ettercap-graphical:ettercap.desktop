@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ettercap-graphical
+X-AppInstall-Popcon=25
+X-AppInstall-Section=universe
+
+Name=Ettercap
+Comment=Multipurpose Network sniffer/analyser/interceptor/logger
+Exec=ettercap-pkexec -G
+Icon=ettercap
+Terminal=false
+Type=Application
+Categories=Network;
+Keywords=ettercap,ettercap-pkexec
+
+X-Ubuntu-Gettext-Domain=app-install-data

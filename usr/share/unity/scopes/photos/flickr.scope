@@ -1,0 +1,25 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Photos.Flickr
+DBusPath=/com/canonical/unity/scope/photos/flickr
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-flickr.svg
+Keywords=flickr;
+Keywords[bg]=flickr;
+Keywords[en_AU]=flickr;
+Keywords[en_GB]=flickr;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/flickr/unity_flickr_daemon.py
+RemoteContent=true
+Type=photos
+Name=Flickr
+Name[bg]=Flickr
+Name[en_AU]=Flickr
+Name[en_GB]=Flickr
+Description=This is an Ubuntu search plugin that enables information from Flickr to be searched and displayed in the Dash underneath the Photos header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Flickr
+SearchHint[bg]=Търсене във Flickr
+SearchHint[en_AU]=Search Flickr
+SearchHint[en_GB]=Search Flickr
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-lens-photos

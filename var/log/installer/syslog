@@ -1,0 +1,1934 @@
+Jun 20 12:19:05 ubuntu rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="1078" x-info="http://www.rsyslog.com"] start
+Jun 20 12:19:05 ubuntu rsyslogd: rsyslogd's groupid changed to 108
+Jun 20 12:19:05 ubuntu rsyslogd: rsyslogd's userid changed to 104
+Jun 20 12:19:05 ubuntu keyboard-setup.sh[948]:  * Setting up keyboard layout...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Create Static Device Nodes in /dev.
+Jun 20 12:19:05 ubuntu systemd-modules-load[952]: Inserted module 'lp'
+Jun 20 12:19:05 ubuntu systemd[1]: Starting udev Kernel Device Manager...
+Jun 20 12:19:05 ubuntu systemd-modules-load[952]: Inserted module 'ppdev'
+Jun 20 12:19:05 ubuntu systemd-modules-load[952]: Inserted module 'parport_pc'
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Flush Journal to Persistent Storage...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Load Kernel Modules.
+Jun 20 12:19:05 ubuntu systemd[1]: Started LVM2 metadata daemon.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Apply Kernel Variables...
+Jun 20 12:19:05 ubuntu systemd[1]: Mounting FUSE Control File System...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Apply Kernel Variables.
+Jun 20 12:19:05 ubuntu systemd[1]: Mounted FUSE Control File System.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Flush Journal to Persistent Storage.
+Jun 20 12:19:05 ubuntu systemd[1]: Started udev Coldplug all Devices.
+Jun 20 12:19:05 ubuntu systemd[1]: Started udev Kernel Device Manager.
+Jun 20 12:19:05 ubuntu keyboard-setup.sh[948]:    ...done.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Set the console keyboard layout.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Show Plymouth Boot Screen...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Show Plymouth Boot Screen.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Encrypted Volumes.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Local File Systems (Pre).
+Jun 20 12:19:05 ubuntu systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+Jun 20 12:19:05 ubuntu systemd[1]: Mounting /tmp...
+Jun 20 12:19:05 ubuntu systemd[1]: Mounted /tmp.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Local File Systems.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Clean up any mess left by 0dns-up...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Create Volatile Files and Directories...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Set console font and keymap...
+Jun 20 12:19:05 ubuntu systemd-tmpfiles[1012]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Create Volatile Files and Directories.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Network Time Synchronization...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Set console font and keymap.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Clean up any mess left by 0dns-up.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Nameserver information manager...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Nameserver information manager.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Network (Pre).
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Raise network interfaces...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Network Time Synchronization.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target System Time Synchronized.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target System Initialization.
+Jun 20 12:19:05 ubuntu systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jun 20 12:19:05 ubuntu systemd[1]: apt-daily.timer: Adding 5h 50min 48.902398s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Daily apt activities.
+Jun 20 12:19:05 ubuntu systemd[1]: snapd.refresh.timer: Adding 2h 14min 33.658810s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: snapd.refresh.timer: Adding 3h 30min 17.571379s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Timer to automatically refresh installed snaps.
+Jun 20 12:19:05 ubuntu systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jun 20 12:19:05 ubuntu systemd[1]: Started CUPS Scheduler.
+Jun 20 12:19:05 ubuntu systemd[1]: Started ACPI Events Check.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Paths.
+Jun 20 12:19:05 ubuntu systemd[1]: Listening on CUPS Scheduler.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Socket activation for snappy daemon.
+Jun 20 12:19:05 ubuntu systemd[1]: motd-news.timer: Adding 13min 44.805357s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Message of the Day.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Timers.
+Jun 20 12:19:05 ubuntu systemd[1]: Listening on UUID daemon activation socket.
+Jun 20 12:19:05 ubuntu systemd[1]: Listening on ACPID Listen Socket.
+Jun 20 12:19:05 ubuntu systemd[1]: Listening on Socket activation for snappy daemon.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Sockets.
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Basic System.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Modem Manager...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Login Service...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting System Logging Service...
+Jun 20 12:19:05 ubuntu systemd[1]: Started CUPS Scheduler.
+Jun 20 12:19:05 ubuntu systemd[1]: Started ACPI event daemon.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Accounts Service...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting monitor and control system power state...
+Jun 20 12:19:05 ubuntu systemd[1]: Started crash report submission daemon.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Ubuntu live CD installer...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting LSB: Speech Dispatcher...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Thermal Daemon Service...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+Jun 20 12:19:05 ubuntu systemd[1]: Started D-Bus System Message Bus.
+Jun 20 12:19:05 ubuntu dbus-daemon[1096]: Unknown group "power" in message bus configuration file
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Linux version 4.10.0-19-generic (buildd@lcy01-13) (gcc version 6.3.0 20170321 (Ubuntu 6.3.0-10ubuntu1) ) #21-Ubuntu SMP Thu Apr 6 17:04:57 UTC 2017 (Ubuntu 4.10.0-19.21-generic 4.10.8)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Command line: file=/cdrom/preseed/ubuntu.seed boot=casper initrd=/casper/initrd.lz quiet splash --- maybe-ubiquity
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] KERNEL supported cpus:
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   Intel GenuineIntel
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   AMD AuthenticAMD
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   Centaur CentaurHauls
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] SMBIOS 2.5 present.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Hypervisor detected: KVM
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] MTRR default type: uncachable
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] MTRR variable ranges disabled:
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] MTRR: Disabled
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff89e00009fff0]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Base memory trampoline at [ffff89e000099000] 99000 size 24576
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BRK [0x2f828000, 0x2f828fff] PGTABLE
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BRK [0x2f829000, 0x2f829fff] PGTABLE
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BRK [0x2f82a000, 0x2f82afff] PGTABLE
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BRK [0x2f82b000, 0x2f82bfff] PGTABLE
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] BRK [0x2f82c000, 0x2f82cfff] PGTABLE
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] RAMDISK: [mem 0x3e357000-0x3ffeffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: DSDT 0x000000003FFF0470 002118 (v01 VBOX   VBOXBIOS 00000002 INTL 20160108)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: APIC 0x000000003FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20160108)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] No NUMA configuration found
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3e32c000-0x3e356fff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3e2ac001, primary cpu clock
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] kvm-clock: using sched offset of 7735313584 cycles
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Zone ranges:
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003ffeffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   Normal   empty
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   Device   empty
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Movable zone start for each node
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Early memory node ranges
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] On node 0 totalpages: 262030
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+Jun 20 12:19:05 ubuntu kernel: [    0.000000]   DMA32 zone: 258032 pages, LIFO batch:31
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] e820: [mem 0x40000000-0xfffbffff] available for PCI devices
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] percpu: Embedded 36 pages/cpu @ffff89e03e000000 s107800 r8192 d31464 u1048576
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] pcpu-alloc: s107800 r8192 d31464 u1048576 alloc=1*2097152
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Policy zone: DMA32
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Kernel command line: file=/cdrom/preseed/ubuntu.seed boot=casper initrd=/casper/initrd.lz quiet splash --- maybe-ubiquity
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Memory: 980644K/1048120K available (9061K kernel code, 1666K rwdata, 3816K rodata, 2228K init, 2364K bss, 67476K reserved, 0K cma-reserved)
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Hierarchical RCU implementation.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=2
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] NR_IRQS:524544 nr_irqs:440 16
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] Console: colour VGA+ 80x25
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] console [tty0] enabled
+Jun 20 12:19:05 ubuntu kernel: [    0.000000] tsc: Detected 2593.992 MHz processor
+Jun 20 12:19:05 ubuntu kernel: [    0.033054] Calibrating delay loop (skipped) preset value.. 5187.98 BogoMIPS (lpj=10375968)
+Jun 20 12:19:05 ubuntu kernel: [    0.033056] pid_max: default: 32768 minimum: 301
+Jun 20 12:19:05 ubuntu kernel: [    0.033065] ACPI: Core revision 20160930
+Jun 20 12:19:05 ubuntu kernel: [    0.033764] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Jun 20 12:19:05 ubuntu kernel: [    0.033783] Security Framework initialized
+Jun 20 12:19:05 ubuntu kernel: [    0.033784] Yama: becoming mindful.
+Jun 20 12:19:05 ubuntu kernel: [    0.033794] AppArmor: AppArmor initialized
+Jun 20 12:19:05 ubuntu kernel: [    0.033850] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.033975] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.034427] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.034428] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.034612] CPU: Physical Processor ID: 0
+Jun 20 12:19:05 ubuntu kernel: [    0.034613] CPU: Processor Core ID: 0
+Jun 20 12:19:05 ubuntu kernel: [    0.034634] mce: CPU supports 0 MCE banks
+Jun 20 12:19:05 ubuntu kernel: [    0.034656] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Jun 20 12:19:05 ubuntu kernel: [    0.034656] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Jun 20 12:19:05 ubuntu kernel: [    0.034802] Freeing SMP alternatives memory: 32K
+Jun 20 12:19:05 ubuntu kernel: [    0.035946] ftrace: allocating 34175 entries in 134 pages
+Jun 20 12:19:05 ubuntu kernel: [    0.046695] smpboot: Max logical packages: 1
+Jun 20 12:19:05 ubuntu kernel: [    0.047715] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 20 12:19:05 ubuntu kernel: [    0.152983] smpboot: CPU0: Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz (family: 0x6, model: 0x3c, stepping: 0x3)
+Jun 20 12:19:05 ubuntu kernel: [    0.153047] Performance Events: unsupported p6 CPU model 60 no PMU driver, software events only.
+Jun 20 12:19:05 ubuntu kernel: [    0.153070] KVM setup paravirtual spinlock
+Jun 20 12:19:05 ubuntu kernel: [    0.153582] smp: Bringing up secondary CPUs ...
+Jun 20 12:19:05 ubuntu kernel: [    0.153640] x86: Booting SMP configuration:
+Jun 20 12:19:05 ubuntu kernel: [    0.153641] .... node  #0, CPUs:      #1
+Jun 20 12:19:05 ubuntu kernel: [    0.154091] kvm-clock: cpu 1, msr 0:3e2ac041, secondary cpu clock
+Jun 20 12:19:05 ubuntu kernel: [    0.154205] mce: CPU supports 0 MCE banks
+Jun 20 12:19:05 ubuntu kernel: [    0.156285] smp: Brought up 1 node, 2 CPUs
+Jun 20 12:19:05 ubuntu kernel: [    0.156287] smpboot: Total of 2 processors activated (10375.96 BogoMIPS)
+Jun 20 12:19:05 ubuntu kernel: [    0.156720] devtmpfs: initialized
+Jun 20 12:19:05 ubuntu kernel: [    0.156783] x86/mm: Memory block size: 128MB
+Jun 20 12:19:05 ubuntu kernel: [    0.157874] evm: security.selinux
+Jun 20 12:19:05 ubuntu kernel: [    0.157874] evm: security.SMACK64
+Jun 20 12:19:05 ubuntu kernel: [    0.157874] evm: security.SMACK64EXEC
+Jun 20 12:19:05 ubuntu kernel: [    0.157875] evm: security.SMACK64TRANSMUTE
+Jun 20 12:19:05 ubuntu kernel: [    0.157875] evm: security.SMACK64MMAP
+Jun 20 12:19:05 ubuntu kernel: [    0.157876] evm: security.ima
+Jun 20 12:19:05 ubuntu kernel: [    0.157876] evm: security.capability
+Jun 20 12:19:05 ubuntu kernel: [    0.158398] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jun 20 12:19:05 ubuntu kernel: [    0.158403] futex hash table entries: 512 (order: 3, 32768 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.158437] pinctrl core: initialized pinctrl subsystem
+Jun 20 12:19:05 ubuntu kernel: [    0.158518] RTC time: 12:18:48, date: 06/20/17
+Jun 20 12:19:05 ubuntu kernel: [    0.158653] NET: Registered protocol family 16
+Jun 20 12:19:05 ubuntu kernel: [    0.169242] cpuidle: using governor ladder
+Jun 20 12:19:05 ubuntu kernel: [    0.180873] cpuidle: using governor menu
+Jun 20 12:19:05 ubuntu kernel: [    0.180877] PCCT header not found.
+Jun 20 12:19:05 ubuntu kernel: [    0.180930] ACPI: bus type PCI registered
+Jun 20 12:19:05 ubuntu kernel: [    0.180932] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 20 12:19:05 ubuntu kernel: [    0.181036] PCI: Using configuration type 1 for base access
+Jun 20 12:19:05 ubuntu kernel: [    0.193580] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jun 20 12:19:05 ubuntu kernel: [    0.194129] ACPI: Added _OSI(Module Device)
+Jun 20 12:19:05 ubuntu kernel: [    0.194130] ACPI: Added _OSI(Processor Device)
+Jun 20 12:19:05 ubuntu kernel: [    0.194131] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun 20 12:19:05 ubuntu kernel: [    0.194132] ACPI: Added _OSI(Processor Aggregator Device)
+Jun 20 12:19:05 ubuntu kernel: [    0.194351] ACPI: Executed 1 blocks of module-level executable AML code
+Jun 20 12:19:05 ubuntu kernel: [    0.196199] ACPI: Interpreter enabled
+Jun 20 12:19:05 ubuntu kernel: [    0.196207] ACPI: (supports S0 S5)
+Jun 20 12:19:05 ubuntu kernel: [    0.196208] ACPI: Using IOAPIC for interrupt routing
+Jun 20 12:19:05 ubuntu kernel: [    0.196321] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun 20 12:19:05 ubuntu kernel: [    0.198853] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 20 12:19:05 ubuntu kernel: [    0.198856] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Jun 20 12:19:05 ubuntu kernel: [    0.198859] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jun 20 12:19:05 ubuntu kernel: [    0.198864] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Jun 20 12:19:05 ubuntu kernel: [    0.199027] PCI host bridge to bus 0000:00
+Jun 20 12:19:05 ubuntu kernel: [    0.199029] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jun 20 12:19:05 ubuntu kernel: [    0.199030] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jun 20 12:19:05 ubuntu kernel: [    0.199031] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jun 20 12:19:05 ubuntu kernel: [    0.199031] pci_bus 0000:00: root bus resource [mem 0x40000000-0xffdfffff window]
+Jun 20 12:19:05 ubuntu kernel: [    0.199032] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun 20 12:19:05 ubuntu kernel: [    0.199055] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jun 20 12:19:05 ubuntu kernel: [    0.199358] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jun 20 12:19:05 ubuntu kernel: [    0.199722] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Jun 20 12:19:05 ubuntu kernel: [    0.199940] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Jun 20 12:19:05 ubuntu kernel: [    0.200031] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jun 20 12:19:05 ubuntu kernel: [    0.200032] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jun 20 12:19:05 ubuntu kernel: [    0.200033] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jun 20 12:19:05 ubuntu kernel: [    0.200033] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jun 20 12:19:05 ubuntu kernel: [    0.200161] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Jun 20 12:19:05 ubuntu kernel: [    0.203884] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe7ffffff pref]
+Jun 20 12:19:05 ubuntu kernel: [    0.223953] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Jun 20 12:19:05 ubuntu kernel: [    0.224655] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.225923] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Jun 20 12:19:05 ubuntu kernel: [    0.228459] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Jun 20 12:19:05 ubuntu kernel: [    0.229060] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Jun 20 12:19:05 ubuntu kernel: [    0.229587] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.230123] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Jun 20 12:19:05 ubuntu kernel: [    0.232530] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Jun 20 12:19:05 ubuntu kernel: [    0.232602] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Jun 20 12:19:05 ubuntu kernel: [    0.232652] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Jun 20 12:19:05 ubuntu kernel: [    0.233094] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Jun 20 12:19:05 ubuntu kernel: [    0.233686] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Jun 20 12:19:05 ubuntu kernel: [    0.236732] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Jun 20 12:19:05 ubuntu kernel: [    0.237302] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Jun 20 12:19:05 ubuntu kernel: [    0.237808] pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Jun 20 12:19:05 ubuntu kernel: [    0.240822] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Jun 20 12:19:05 ubuntu kernel: [    0.241436] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Jun 20 12:19:05 ubuntu kernel: [    0.242428] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Jun 20 12:19:05 ubuntu kernel: [    0.243416] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Jun 20 12:19:05 ubuntu kernel: [    0.243922] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Jun 20 12:19:05 ubuntu kernel: [    0.245658] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Jun 20 12:19:05 ubuntu kernel: [    0.245846] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Jun 20 12:19:05 ubuntu kernel: [    0.245912] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Jun 20 12:19:05 ubuntu kernel: [    0.245978] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Jun 20 12:19:05 ubuntu kernel: [    0.246086] ACPI: Enabled 2 GPEs in block 00 to 07
+Jun 20 12:19:05 ubuntu kernel: [    0.246366] SCSI subsystem initialized
+Jun 20 12:19:05 ubuntu kernel: [    0.246504] libata version 3.00 loaded.
+Jun 20 12:19:05 ubuntu kernel: [    0.246613] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jun 20 12:19:05 ubuntu kernel: [    0.246616] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jun 20 12:19:05 ubuntu kernel: [    0.246619] pci 0000:00:02.0: vgaarb: bridge control possible
+Jun 20 12:19:05 ubuntu kernel: [    0.246619] vgaarb: loaded
+Jun 20 12:19:05 ubuntu kernel: [    0.246644] ACPI: bus type USB registered
+Jun 20 12:19:05 ubuntu kernel: [    0.246661] usbcore: registered new interface driver usbfs
+Jun 20 12:19:05 ubuntu kernel: [    0.246667] usbcore: registered new interface driver hub
+Jun 20 12:19:05 ubuntu kernel: [    0.246685] usbcore: registered new device driver usb
+Jun 20 12:19:05 ubuntu kernel: [    0.246965] PCI: Using ACPI for IRQ routing
+Jun 20 12:19:05 ubuntu kernel: [    0.246966] PCI: pci_cache_line_size set to 64 bytes
+Jun 20 12:19:05 ubuntu kernel: [    0.247088] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.247091] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.247206] NetLabel: Initializing
+Jun 20 12:19:05 ubuntu kernel: [    0.247206] NetLabel:  domain hash size = 128
+Jun 20 12:19:05 ubuntu kernel: [    0.247207] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jun 20 12:19:05 ubuntu kernel: [    0.247221] NetLabel:  unlabeled traffic allowed by default
+Jun 20 12:19:05 ubuntu kernel: [    0.247396] clocksource: Switched to clocksource kvm-clock
+Jun 20 12:19:05 ubuntu kernel: [    0.254720] VFS: Disk quotas dquot_6.6.0
+Jun 20 12:19:05 ubuntu kernel: [    0.254734] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.254816] AppArmor: AppArmor Filesystem Enabled
+Jun 20 12:19:05 ubuntu kernel: [    0.254853] pnp: PnP ACPI init
+Jun 20 12:19:05 ubuntu kernel: [    0.254907] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 20 12:19:05 ubuntu kernel: [    0.254957] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Jun 20 12:19:05 ubuntu kernel: [    0.255348] pnp: PnP ACPI: found 2 devices
+Jun 20 12:19:05 ubuntu kernel: [    0.265353] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jun 20 12:19:05 ubuntu kernel: [    0.265362] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jun 20 12:19:05 ubuntu kernel: [    0.265372] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jun 20 12:19:05 ubuntu kernel: [    0.265373] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jun 20 12:19:05 ubuntu kernel: [    0.265374] pci_bus 0000:00: resource 7 [mem 0x40000000-0xffdfffff window]
+Jun 20 12:19:05 ubuntu kernel: [    0.265429] NET: Registered protocol family 2
+Jun 20 12:19:05 ubuntu kernel: [    0.265617] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.265628] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.265644] TCP: Hash tables configured (established 8192 bind 8192)
+Jun 20 12:19:05 ubuntu kernel: [    0.266016] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.266019] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jun 20 12:19:05 ubuntu kernel: [    0.266044] NET: Registered protocol family 1
+Jun 20 12:19:05 ubuntu kernel: [    0.266052] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jun 20 12:19:05 ubuntu kernel: [    0.266070] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jun 20 12:19:05 ubuntu kernel: [    0.266096] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jun 20 12:19:05 ubuntu kernel: [    0.267675] PCI: CLS 0 bytes, default 64
+Jun 20 12:19:05 ubuntu kernel: [    0.267712] Unpacking initramfs...
+Jun 20 12:19:05 ubuntu kernel: [    4.337328] Freeing initrd memory: 29284K
+Jun 20 12:19:05 ubuntu kernel: [    4.337548] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Jun 20 12:19:05 ubuntu kernel: [    4.337569] Scanning for low memory corruption every 60 seconds
+Jun 20 12:19:05 ubuntu kernel: [    4.337974] audit: initializing netlink subsys (disabled)
+Jun 20 12:19:05 ubuntu kernel: [    4.338071] audit: type=2000 audit(1497961142.618:1): initialized
+Jun 20 12:19:05 ubuntu kernel: [    4.338269] Initialise system trusted keyrings
+Jun 20 12:19:05 ubuntu kernel: [    4.338410] workingset: timestamp_bits=36 max_order=18 bucket_order=0
+Jun 20 12:19:05 ubuntu kernel: [    4.339523] zbud: loaded
+Jun 20 12:19:05 ubuntu kernel: [    4.339891] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jun 20 12:19:05 ubuntu kernel: [    4.340068] fuse init (API version 7.26)
+Jun 20 12:19:05 ubuntu kernel: [    4.342516] Key type asymmetric registered
+Jun 20 12:19:05 ubuntu kernel: [    4.342517] Asymmetric key parser 'x509' registered
+Jun 20 12:19:05 ubuntu kernel: [    4.342555] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Jun 20 12:19:05 ubuntu kernel: [    4.342611] io scheduler noop registered
+Jun 20 12:19:05 ubuntu kernel: [    4.342612] io scheduler deadline registered
+Jun 20 12:19:05 ubuntu kernel: [    4.342622] io scheduler cfq registered (default)
+Jun 20 12:19:05 ubuntu kernel: [    4.342767] intel_idle: does not run on family 6 model 60
+Jun 20 12:19:05 ubuntu kernel: [    4.342848] ACPI: AC Adapter [AC] (on-line)
+Jun 20 12:19:05 ubuntu kernel: [    4.342893] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jun 20 12:19:05 ubuntu kernel: [    4.342896] ACPI: Power Button [PWRF]
+Jun 20 12:19:05 ubuntu kernel: [    4.342948] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Jun 20 12:19:05 ubuntu kernel: [    4.342949] ACPI: Sleep Button [SLPF]
+Jun 20 12:19:05 ubuntu kernel: [    4.343110] GHES: HEST is not enabled!
+Jun 20 12:19:05 ubuntu kernel: [    4.343171] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jun 20 12:19:05 ubuntu kernel: [    4.343697] ACPI: Battery Slot [BAT0] (battery present)
+Jun 20 12:19:05 ubuntu kernel: [    4.344107] Linux agpgart interface v0.103
+Jun 20 12:19:05 ubuntu kernel: [    4.345661] loop: module loaded
+Jun 20 12:19:05 ubuntu kernel: [    4.345735] ata_piix 0000:00:01.1: version 2.13
+Jun 20 12:19:05 ubuntu kernel: [    4.346052] scsi host0: ata_piix
+Jun 20 12:19:05 ubuntu kernel: [    4.346143] scsi host1: ata_piix
+Jun 20 12:19:05 ubuntu kernel: [    4.346169] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Jun 20 12:19:05 ubuntu kernel: [    4.346169] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Jun 20 12:19:05 ubuntu kernel: [    4.346217] libphy: Fixed MDIO Bus: probed
+Jun 20 12:19:05 ubuntu kernel: [    4.346217] tun: Universal TUN/TAP device driver, 1.6
+Jun 20 12:19:05 ubuntu kernel: [    4.346218] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jun 20 12:19:05 ubuntu kernel: [    4.346265] PPP generic driver version 2.4.2
+Jun 20 12:19:05 ubuntu kernel: [    4.346290] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun 20 12:19:05 ubuntu kernel: [    4.346292] ehci-pci: EHCI PCI platform driver
+Jun 20 12:19:05 ubuntu kernel: [    4.346717] ehci-pci 0000:00:0b.0: EHCI Host Controller
+Jun 20 12:19:05 ubuntu kernel: [    4.346721] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Jun 20 12:19:05 ubuntu kernel: [    4.346873] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Jun 20 12:19:05 ubuntu kernel: [    4.359511] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Jun 20 12:19:05 ubuntu kernel: [    4.359552] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jun 20 12:19:05 ubuntu kernel: [    4.359554] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 20 12:19:05 ubuntu kernel: [    4.359555] usb usb1: Product: EHCI Host Controller
+Jun 20 12:19:05 ubuntu kernel: [    4.359556] usb usb1: Manufacturer: Linux 4.10.0-19-generic ehci_hcd
+Jun 20 12:19:05 ubuntu kernel: [    4.359557] usb usb1: SerialNumber: 0000:00:0b.0
+Jun 20 12:19:05 ubuntu kernel: [    4.359655] hub 1-0:1.0: USB hub found
+Jun 20 12:19:05 ubuntu kernel: [    4.359659] hub 1-0:1.0: 12 ports detected
+Jun 20 12:19:05 ubuntu kernel: [    4.359883] ehci-platform: EHCI generic platform driver
+Jun 20 12:19:05 ubuntu kernel: [    4.359893] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jun 20 12:19:05 ubuntu kernel: [    4.359895] ohci-pci: OHCI PCI platform driver
+Jun 20 12:19:05 ubuntu kernel: [    4.360395] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Jun 20 12:19:05 ubuntu kernel: [    4.360400] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Jun 20 12:19:05 ubuntu kernel: [    4.360472] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Jun 20 12:19:05 ubuntu kernel: [    4.420331] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 20 12:19:05 ubuntu kernel: [    4.420333] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 20 12:19:05 ubuntu kernel: [    4.420334] usb usb2: Product: OHCI PCI host controller
+Jun 20 12:19:05 ubuntu kernel: [    4.420335] usb usb2: Manufacturer: Linux 4.10.0-19-generic ohci_hcd
+Jun 20 12:19:05 ubuntu kernel: [    4.420336] usb usb2: SerialNumber: 0000:00:06.0
+Jun 20 12:19:05 ubuntu kernel: [    4.420458] hub 2-0:1.0: USB hub found
+Jun 20 12:19:05 ubuntu kernel: [    4.420471] hub 2-0:1.0: 12 ports detected
+Jun 20 12:19:05 ubuntu kernel: [    4.420790] ohci-platform: OHCI generic platform driver
+Jun 20 12:19:05 ubuntu kernel: [    4.420802] uhci_hcd: USB Universal Host Controller Interface driver
+Jun 20 12:19:05 ubuntu kernel: [    4.420855] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Jun 20 12:19:05 ubuntu kernel: [    4.421295] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 20 12:19:05 ubuntu kernel: [    4.421299] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 20 12:19:05 ubuntu kernel: [    4.421392] mousedev: PS/2 mouse device common for all mice
+Jun 20 12:19:05 ubuntu kernel: [    4.421624] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jun 20 12:19:05 ubuntu kernel: [    4.421919] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Jun 20 12:19:05 ubuntu kernel: [    4.421968] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Jun 20 12:19:05 ubuntu kernel: [    4.421972] i2c /dev entries driver
+Jun 20 12:19:05 ubuntu kernel: [    4.422026] device-mapper: uevent: version 1.0.3
+Jun 20 12:19:05 ubuntu kernel: [    4.422064] device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+Jun 20 12:19:05 ubuntu kernel: [    4.422142] ledtrig-cpu: registered to indicate activity on CPUs
+Jun 20 12:19:05 ubuntu kernel: [    4.422789] NET: Registered protocol family 10
+Jun 20 12:19:05 ubuntu kernel: [    4.425980] Segment Routing with IPv6
+Jun 20 12:19:05 ubuntu kernel: [    4.425993] NET: Registered protocol family 17
+Jun 20 12:19:05 ubuntu kernel: [    4.425999] Key type dns_resolver registered
+Jun 20 12:19:05 ubuntu kernel: [    4.426407] registered taskstats version 1
+Jun 20 12:19:05 ubuntu kernel: [    4.426414] Loading compiled-in X.509 certificates
+Jun 20 12:19:05 ubuntu kernel: [    4.428504] Loaded X.509 cert 'Build time autogenerated kernel key: 8e99ee5b0fead84880b7849b477f2b92957907bc'
+Jun 20 12:19:05 ubuntu kernel: [    4.428518] zswap: loaded using pool lzo/zbud
+Jun 20 12:19:05 ubuntu kernel: [    4.437137] Key type big_key registered
+Jun 20 12:19:05 ubuntu kernel: [    4.437141] Key type trusted registered
+Jun 20 12:19:05 ubuntu kernel: [    4.438645] Key type encrypted registered
+Jun 20 12:19:05 ubuntu kernel: [    4.438647] AppArmor: AppArmor sha1 policy hashing enabled
+Jun 20 12:19:05 ubuntu kernel: [    4.438650] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Jun 20 12:19:05 ubuntu kernel: [    4.438664] evm: HMAC attrs: 0x1
+Jun 20 12:19:05 ubuntu kernel: [    4.438840]   Magic number: 5:47:330
+Jun 20 12:19:05 ubuntu kernel: [    4.438864] tty tty51: hash matches
+Jun 20 12:19:05 ubuntu kernel: [    4.438933] rtc_cmos rtc_cmos: setting system clock to 2017-06-20 12:18:53 UTC (1497961133)
+Jun 20 12:19:05 ubuntu kernel: [    4.439029] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Jun 20 12:19:05 ubuntu kernel: [    4.439029] EDD information not available.
+Jun 20 12:19:05 ubuntu kernel: [    4.439044] PM: Hibernation image not present or could not be loaded.
+Jun 20 12:19:05 ubuntu kernel: [    4.503783] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Jun 20 12:19:05 ubuntu kernel: [    4.504073] ata2.00: configured for UDMA/33
+Jun 20 12:19:05 ubuntu kernel: [    4.504693] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Jun 20 12:19:05 ubuntu kernel: [    4.505199] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Jun 20 12:19:05 ubuntu kernel: [    4.505200] cdrom: Uniform CD-ROM driver Revision: 3.20
+Jun 20 12:19:05 ubuntu kernel: [    4.505321] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Jun 20 12:19:05 ubuntu kernel: [    4.505360] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Jun 20 12:19:05 ubuntu kernel: [    4.506729] Freeing unused kernel memory: 2228K
+Jun 20 12:19:05 ubuntu kernel: [    4.506730] Write protecting the kernel read-only data: 14336k
+Jun 20 12:19:05 ubuntu kernel: [    4.507060] Freeing unused kernel memory: 1164K
+Jun 20 12:19:05 ubuntu kernel: [    4.507665] Freeing unused kernel memory: 280K
+Jun 20 12:19:05 ubuntu kernel: [    4.512175] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jun 20 12:19:05 ubuntu kernel: [    4.521386] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.521436] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.521441] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.521448] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.522936] random: udevadm: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.522955] random: udevadm: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.523284] random: udevadm: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.523355] random: udevadm: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.523363] random: udevadm: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.523534] random: udevadm: uninitialized urandom read (16 bytes read)
+Jun 20 12:19:05 ubuntu kernel: [    4.536078] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Jun 20 12:19:05 ubuntu kernel: [    4.536134] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Jun 20 12:19:05 ubuntu kernel: [    4.538946] FUJITSU Extended Socket Network Device Driver - version 1.2 - Copyright (c) 2015 FUJITSU LIMITED
+Jun 20 12:19:05 ubuntu kernel: [    4.542452] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Jun 20 12:19:05 ubuntu kernel: [    4.542452] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jun 20 12:19:05 ubuntu kernel: [    4.756083] random: fast init done
+Jun 20 12:19:05 ubuntu kernel: [    4.756614] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Jun 20 12:19:05 ubuntu kernel: [    4.867589] usb 2-1: new full-speed USB device number 2 using ohci-pci
+Jun 20 12:19:05 ubuntu kernel: [    4.889890] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:4a:ca:0f
+Jun 20 12:19:05 ubuntu kernel: [    4.889895] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Jun 20 12:19:05 ubuntu kernel: [    4.889917] ahci 0000:00:0d.0: version 3.0
+Jun 20 12:19:05 ubuntu kernel: [    4.890343] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Jun 20 12:19:05 ubuntu kernel: [    4.890509] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Jun 20 12:19:05 ubuntu kernel: [    4.890510] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Jun 20 12:19:05 ubuntu kernel: [    4.890851] scsi host2: ahci
+Jun 20 12:19:05 ubuntu kernel: [    4.890895] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Jun 20 12:19:05 ubuntu kernel: [    4.891290] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Jun 20 12:19:05 ubuntu kernel: [    5.172282] usb 2-1: New USB device found, idVendor=80ee, idProduct=0021
+Jun 20 12:19:05 ubuntu kernel: [    5.172283] usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Jun 20 12:19:05 ubuntu kernel: [    5.172285] usb 2-1: Product: USB Tablet
+Jun 20 12:19:05 ubuntu kernel: [    5.172286] usb 2-1: Manufacturer: VirtualBox
+Jun 20 12:19:05 ubuntu kernel: [    5.177915] hidraw: raw HID events driver (C) Jiri Kosina
+Jun 20 12:19:05 ubuntu kernel: [    5.187212] usbcore: registered new interface driver usbhid
+Jun 20 12:19:05 ubuntu kernel: [    5.187213] usbhid: USB HID core driver
+Jun 20 12:19:05 ubuntu kernel: [    5.191458] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+Jun 20 12:19:05 ubuntu kernel: [    5.191534] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Jun 20 12:19:05 ubuntu kernel: [    5.207996] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jun 20 12:19:05 ubuntu kernel: [    5.208150] ata3.00: ATA-8: VBOX HARDDISK, 1.0, max UDMA/133
+Jun 20 12:19:05 ubuntu kernel: [    5.208152] ata3.00: 31457280 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Jun 20 12:19:05 ubuntu kernel: [    5.208385] ata3.00: configured for UDMA/133
+Jun 20 12:19:05 ubuntu kernel: [    5.208526] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Jun 20 12:19:05 ubuntu kernel: [    5.243669] sd 2:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Jun 20 12:19:05 ubuntu kernel: [    5.243674] sd 2:0:0:0: [sda] Write Protect is off
+Jun 20 12:19:05 ubuntu kernel: [    5.243676] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jun 20 12:19:05 ubuntu kernel: [    5.243683] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 20 12:19:05 ubuntu kernel: [    5.243714] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Jun 20 12:19:05 ubuntu kernel: [    5.244252] sd 2:0:0:0: [sda] Attached SCSI disk
+Jun 20 12:19:05 ubuntu kernel: [    5.355567] tsc: Refined TSC clocksource calibration: 2594.400 MHz
+Jun 20 12:19:05 ubuntu kernel: [    5.355584] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x256591e0320, max_idle_ns: 440795262845 ns
+Jun 20 12:19:05 ubuntu kernel: [    7.787618] floppy0: no floppy controllers found
+Jun 20 12:19:05 ubuntu kernel: [    7.787656] work still pending
+Jun 20 12:19:05 ubuntu kernel: [    9.157861] ISO 9660 Extensions: Microsoft Joliet Level 3
+Jun 20 12:19:05 ubuntu kernel: [    9.160463] ISO 9660 Extensions: RRIP_1991A
+Jun 20 12:19:05 ubuntu kernel: [    9.178461] aufs 4.x-rcN-20170206
+Jun 20 12:19:05 ubuntu kernel: [   13.931772] floppy0: no floppy controllers found
+Jun 20 12:19:05 ubuntu kernel: [   13.931815] work still pending
+Jun 20 12:19:05 ubuntu kernel: [   15.641150] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jun 20 12:19:05 ubuntu kernel: [   15.776289] lp: driver loaded but no devices found
+Jun 20 12:19:05 ubuntu kernel: [   15.788189] ppdev: user-space parallel port driver
+Jun 20 12:19:05 ubuntu kernel: [   15.911656] random: crng init done
+Jun 20 12:19:05 ubuntu rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Jun 20 12:19:05 ubuntu rsyslogd-2007: action 'action 11' suspended, next retry is Tue Jun 20 12:19:35 2017 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] AppArmor D-Bus mediation is enabled
+Jun 20 12:19:05 ubuntu acpid: starting up with netlink and the input layer
+Jun 20 12:19:05 ubuntu acpid: 9 rules loaded
+Jun 20 12:19:05 ubuntu acpid: waiting for events: event logging is off
+Jun 20 12:19:05 ubuntu ModemManager[1076]: <info>  ModemManager (version 1.6.4) starting in system bus...
+Jun 20 12:19:05 ubuntu thermald[1090]: NO RAPL sysfs present
+Jun 20 12:19:05 ubuntu thermald[1090]: 13 CPUID levels; family:model:stepping 0x6:3c:3 (6:60:3)
+Jun 20 12:19:05 ubuntu thermald[1090]: Polling mode is enabled: 4
+Jun 20 12:19:05 ubuntu thermald[1090]: Thermal DTS: No coretemp sysfs found
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service'
+Jun 20 12:19:05 ubuntu systemd[1]: Started Thermal Daemon Service.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Network Manager...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Snappy daemon.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Auto import assertions from block devices...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Run anacron jobs.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting LSB: Record successful boot for GRUB...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Regular background program processing daemon.
+Jun 20 12:19:05 ubuntu cron[1136]: (CRON) INFO (pidfile fd = 3)
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: Found user 'avahi' (UID 118) and group 'avahi' (GID 125).
+Jun 20 12:19:05 ubuntu cron[1136]: (CRON) INFO (Running @reboot jobs)
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting LSB: automatic crash report generation...
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: /etc/modprobe.d is not a file
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: /etc/modprobe.d is not a file
+Jun 20 12:19:05 ubuntu systemd[1]: Started System Logging Service.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: /etc/modprobe.d is not a file
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: Successfully dropped root privileges.
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: avahi-daemon 0.6.32 starting up.
+Jun 20 12:19:05 ubuntu speech-dispatcher[1087]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+Jun 20 12:19:05 ubuntu systemd[1]: Started LSB: Speech Dispatcher.
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: Successfully called chroot().
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: Successfully dropped remaining capabilities.
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: No service file found in /etc/avahi/services.
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: Network interface enumeration completed.
+Jun 20 12:19:05 ubuntu avahi-daemon[1137]: Server startup complete. Host name is ubuntu.local. Local service cookie is 3276160655.
+Jun 20 12:19:05 ubuntu systemd[1]: Reloading.
+Jun 20 12:19:05 ubuntu grub-common[1135]:  * Recording successful boot for GRUB
+Jun 20 12:19:05 ubuntu grub-common[1135]:    ...done.
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service'
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: /etc/modprobe.d is not a file
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: /etc/modprobe.d is not a file
+Jun 20 12:19:05 ubuntu thermald[1090]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Jun 20 12:19:05 ubuntu thermald[1090]: No thermal sensors found
+Jun 20 12:19:05 ubuntu thermald[1090]: THD engine start failed
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: Error: can't open /lib/modules/4.10.0-19-generic/updates/dkms
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: Error: can't open /lib/modules/4.10.0-19-generic/updates/dkms
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.4159] NetworkManager (version 1.4.4) is starting...
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.4184] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.4305] manager[0x55a5523ae040]: monitoring kernel firmware directory '/lib/firmware'.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.4305] monitoring ifupdown state file '/run/network/ifstate'.
+Jun 20 12:19:05 ubuntu kernel: [   16.368305] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.4352] dns-mgr[0x55a55238caa0]: init: dns=systemd-resolved, rc-manager=symlink, plugin=systemd-resolved
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service'
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Jun 20 12:19:05 ubuntu whoopsie[1084]: [12:19:05] Using lock path: /var/lock/whoopsie/lock
+Jun 20 12:19:05 ubuntu kernel: [   16.409712] [drm] Initialized
+Jun 20 12:19:05 ubuntu systemd[1]: apt-daily.timer: Adding 9h 29min 35.919010s random time.
+Jun 20 12:19:05 ubuntu gpu-manager[1133]: update-alternatives: error: no alternatives for x86_64-linux-gnu_gfxcore_conf
+Jun 20 12:19:05 ubuntu systemd[1]: motd-news.timer: Adding 51min 31.392771s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: snapd.refresh.timer: Adding 4h 40min 12.543418s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: snapd.refresh.timer: Adding 35min 35.409438s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Network Manager.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Jun 20 12:19:05 ubuntu systemd[1]: Started LSB: Record successful boot for GRUB.
+Jun 20 12:19:05 ubuntu apport[1144]:  * Starting automatic crash report generation: apport
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.login1'
+Jun 20 12:19:05 ubuntu systemd[1]: Started Login Service.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Authorization Manager...
+Jun 20 12:19:05 ubuntu irqbalance[1140]:  * Starting SMP IRQ Balancer: irqbalance
+Jun 20 12:19:05 ubuntu systemd[1]: Started Make remote CUPS printers available locally.
+Jun 20 12:19:05 ubuntu apport[1144]:    ...done.
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Jun 20 12:19:05 ubuntu irqbalance[1140]:    ...done.
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6009] init!
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6011] management mode: unmanaged
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6014] devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3): no ifupdown configuration found.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] end _init.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] (1379473856) ... get_connections.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6015] (1379473856) ... get_connections (managed=false): return empty list.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.6018] get unmanaged devices count: 0
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jun 20 12:19:05 ubuntu kernel: [   16.559356] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Jun 20 12:19:05 ubuntu polkitd[1249]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Jun 20 12:19:05 ubuntu accounts-daemon[1082]: started daemon version 0.6.42
+Jun 20 12:19:05 ubuntu kernel: [   16.585238] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Jun 20 12:19:05 ubuntu kernel: [   16.598609] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Jun 20 12:19:05 ubuntu kernel: [   16.598628] vboxguest: Successfully loaded version 5.1.16_Ubuntu (interface 0x00010004)
+Jun 20 12:19:05 ubuntu systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+Jun 20 12:19:05 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+Jun 20 12:19:05 ubuntu systemd[1]: Started monitor and control system power state.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 20 12:19:05 ubuntu snap[1132]: auto-import is disabled on classic
+Jun 20 12:19:05 ubuntu systemd[1]: Started Authorization Manager.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Auto import assertions from block devices.
+Jun 20 12:19:05 ubuntu systemd[1]: Reloading.
+Jun 20 12:19:05 ubuntu mtp-probe: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1"
+Jun 20 12:19:05 ubuntu /usr/lib/snapd/snapd[1131]: snapmgr.go:373: DEBUG: snapmgr refresh randomness 1h27m17.569560621s
+Jun 20 12:19:05 ubuntu mtp-probe: bus: 2, device: 2 was not an MTP device
+Jun 20 12:19:05 ubuntu /usr/lib/snapd/snapd[1131]: daemon.go:250: DEBUG: init done in 341.652µs
+Jun 20 12:19:05 ubuntu /usr/lib/snapd/snapd[1131]: daemon.go:251: started snapd/2.23.6+17.04.1 (series 16; classic) ubuntu/17.04 (amd64) linux/4.10.0-19-generic.
+Jun 20 12:19:05 ubuntu snapd[1131]: 2017/06/20 12:19:05.742438 daemon.go:251: started snapd/2.23.6+17.04.1 (series 16; classic) ubuntu/17.04 (amd64) linux/4.10.0-19-generic.
+Jun 20 12:19:05 ubuntu /usr/lib/snapd/snapd[1131]: taskrunner.go:353: DEBUG: Running task 1 on Do: Mark system seeded
+Jun 20 12:19:05 ubuntu kernel: [   16.684406] [drm] VRAM 08000000
+Jun 20 12:19:05 ubuntu /usr/lib/snapd/snapd[1131]: stateengine.go:98: state ensure error: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com: Temporary failure in name resolution
+Jun 20 12:19:05 ubuntu kernel: [   16.695304] [TTM] Zone  kernel: Available graphics memory: 506816 kiB
+Jun 20 12:19:05 ubuntu kernel: [   16.695305] [TTM] Initializing pool allocator
+Jun 20 12:19:05 ubuntu kernel: [   16.695310] [TTM] Initializing DMA pool allocator
+Jun 20 12:19:05 ubuntu snapd[1131]: 2017/06/20 12:19:05.756359 stateengine.go:98: state ensure error: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com: Temporary failure in name resolution
+Jun 20 12:19:05 ubuntu kernel: [   16.697773] fbcon: vboxdrmfb (fb0) is primary device
+Jun 20 12:19:05 ubuntu kernel: [   16.732837] Console: switching to colour frame buffer device 100x37
+Jun 20 12:19:05 ubuntu kernel: [   16.733751] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Jun 20 12:19:05 ubuntu kernel: [   16.743482] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Jun 20 12:19:05 ubuntu systemd[1]: apt-daily.timer: Adding 9h 58min 46.673138s random time.
+Jun 20 12:19:05 ubuntu kernel: [   16.752479] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 10737418240 ms ovfl timer
+Jun 20 12:19:05 ubuntu kernel: [   16.752480] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Jun 20 12:19:05 ubuntu kernel: [   16.752480] RAPL PMU: hw unit of domain package 2^-0 Joules
+Jun 20 12:19:05 ubuntu kernel: [   16.752481] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Jun 20 12:19:05 ubuntu kernel: [   16.752481] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Jun 20 12:19:05 ubuntu systemd[1]: motd-news.timer: Adding 16min 4.468508s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: snapd.refresh.timer: Adding 1h 9min 22.819266s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: snapd.refresh.timer: Adding 2h 11min 25.635229s random time.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Modem Manager.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Accounts Service.
+Jun 20 12:19:05 ubuntu systemd[1]: Started Raise network interfaces.
+Jun 20 12:19:05 ubuntu kernel: [   16.783939] AVX version of gcm_enc/dec engaged.
+Jun 20 12:19:05 ubuntu kernel: [   16.783940] AES CTR mode by8 optimization enabled
+Jun 20 12:19:05 ubuntu systemd[1]: Reached target Network.
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Network Name Resolution...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Hostname Service...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Permit User Sessions...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting OpenVPN service...
+Jun 20 12:19:05 ubuntu systemd[1]: Starting Daemon for power management...
+Jun 20 12:19:05 ubuntu systemd[1]: Started Permit User Sessions.
+Jun 20 12:19:05 ubuntu systemd[1]: Started OpenVPN service.
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jun 20 12:19:05 ubuntu systemd[1]: Started Daemon for power management.
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jun 20 12:19:05 ubuntu systemd[1]: Started Hostname Service.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9526] settings: hostname: using hostnamed
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9526] settings: hostname changed from (none) to "ubuntu"
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9530] dhcp-init: Using DHCP client 'dhclient'
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9530] manager: WiFi enabled by radio killswitch; enabled by state file
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9530] manager: WWAN enabled by radio killswitch; enabled by state file
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9530] manager: Networking is enabled by state file
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMVxlanFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMVlanFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMVethFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMTunFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMMacvlanFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMIPTunnelFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMInfinibandFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMEthernetFactory (internal)
+Jun 20 12:19:05 ubuntu nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9531] Loaded device plugin: NMBridgeFactory (internal)
+Jun 20 12:19:05 ubuntu nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9532] Loaded device plugin: NMBondFactory (internal)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9543] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Jun 20 12:19:05 ubuntu systemd-resolved[1362]: Positive Trust Anchors:
+Jun 20 12:19:05 ubuntu systemd-resolved[1362]: . IN DS 19036 8 2 49aac11d7b6f6446702e54a1607371607a1a41855200fd2ce1cdde32f24e8fb5
+Jun 20 12:19:05 ubuntu systemd-resolved[1362]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Jun 20 12:19:05 ubuntu systemd-resolved[1362]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9695] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Jun 20 12:19:05 ubuntu systemd-resolved[1362]: Using system hostname 'ubuntu'.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9739] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9753] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: ((devices/nm-device.c:970)): assertion '<dropped>' failed
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9762] device (lo): link connected
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9769] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/0)
+Jun 20 12:19:05 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.resolve1'
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9813] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/1)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9826] keyfile: add connection in-memory (eeefe4ca-ec26-3b8f-a303-a50d818d7d78,"Wired connection 1")
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9831] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9840] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Jun 20 12:19:05 ubuntu kernel: [   16.923332] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Jun 20 12:19:05 ubuntu kernel: [   16.924933] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Jun 20 12:19:05 ubuntu whoopsie[1084]: [12:19:05] Could not get the Network Manager state:
+Jun 20 12:19:05 ubuntu whoopsie[1084]: [12:19:05] GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such property 'state'
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9910] devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9912] device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3): no ifupdown configuration found.
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9941] urfkill disappeared from the bus
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9943] ModemManager available in the bus
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9990] device (enp0s3): link connected
+Jun 20 12:19:05 ubuntu NetworkManager[1130]: <info>  [1497961145.9996] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jun 20 12:19:06 ubuntu kernel: [   16.936239] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jun 20 12:19:06 ubuntu kernel: [   16.936504] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0015] policy: auto-activating connection 'Wired connection 1'
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0024] device (enp0s3): Activation: starting connection 'Wired connection 1' (eeefe4ca-ec26-3b8f-a303-a50d818d7d78)
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0028] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0031] manager: NetworkManager state is now CONNECTING
+Jun 20 12:19:06 ubuntu systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jun 20 12:19:06 ubuntu whoopsie[1084]: [12:19:06] offline
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0079] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0090] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0099] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0155] dhcp4 (enp0s3): dhclient started with pid 1416
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0447] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0450] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jun 20 12:19:06 ubuntu dhclient[1416]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x62265b48)
+Jun 20 12:19:06 ubuntu dhclient[1416]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x485b2662)
+Jun 20 12:19:06 ubuntu dhclient[1416]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Jun 20 12:19:06 ubuntu dhclient[1416]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0654] dhcp4 (enp0s3):   address 10.0.2.15
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0657] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0659] dhcp4 (enp0s3):   gateway 10.0.2.2
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0661] dhcp4 (enp0s3):   server identifier 10.0.2.2
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0663] dhcp4 (enp0s3):   lease time 86400
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0665] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0667] dhcp4 (enp0s3): state changed unknown -> bound
+Jun 20 12:19:06 ubuntu avahi-daemon[1137]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Jun 20 12:19:06 ubuntu avahi-daemon[1137]: New relevant interface enp0s3.IPv4 for mDNS.
+Jun 20 12:19:06 ubuntu avahi-daemon[1137]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0700] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0774] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0804] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Jun 20 12:19:06 ubuntu systemd-resolved[1362]: Switching to fallback DNS server 8.8.8.8.
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0817] manager: NetworkManager state is now CONNECTED_LOCAL
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0834] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 20 12:19:06 ubuntu nm-dispatcher: req:2 'connectivity-change': new request (1 scripts)
+Jun 20 12:19:06 ubuntu nm-dispatcher: req:2 'connectivity-change': start running ordered scripts...
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0863] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Jun 20 12:19:06 ubuntu NetworkManager[1130]: <info>  [1497961146.0870] device (enp0s3): Activation: successful, device activated.
+Jun 20 12:19:06 ubuntu nm-dispatcher: req:3 'up' [enp0s3]: new request (1 scripts)
+Jun 20 12:19:06 ubuntu nm-dispatcher: req:3 'up' [enp0s3]: start running ordered scripts...
+Jun 20 12:19:06 ubuntu dhclient[1416]: bound to 10.0.2.15 -- renewal in 34196 seconds.
+Jun 20 12:19:06 ubuntu systemd-resolved[1362]: DNSSEC validation failed for question daisy.ubuntu.com IN A: failed-auxiliary
+Jun 20 12:19:06 ubuntu whoopsie[1084]: [12:19:06] Cannot reach: https://daisy.ubuntu.com
+Jun 20 12:19:06 ubuntu whoopsie[1084]: [12:19:06] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+Jun 20 12:19:06 ubuntu whoopsie[1084]: [12:19:06] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+Jun 20 12:19:06 ubuntu whoopsie[1084]: [12:19:06] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+Jun 20 12:19:06 ubuntu systemd-resolved[1362]: Switching to DNS server 10.0.2.3 for interface enp0s3.
+Jun 20 12:19:06 ubuntu systemd-resolved[1362]: Using degraded feature set (UDP) for DNS server 10.0.2.3.
+Jun 20 12:19:06 ubuntu systemd-resolved[1362]: Server 10.0.2.3 does not support DNSSEC, downgrading to non-DNSSEC mode.
+Jun 20 12:19:06 ubuntu whoopsie[1084]: [12:19:06] online
+Jun 20 12:19:06 ubuntu kernel: [   17.431885] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Jun 20 12:19:06 ubuntu systemd[1]: Reached target Sound Card.
+Jun 20 12:19:06 ubuntu systemd-udevd[989]: Process '/usr/sbin/alsactl -E HOME=/run/alsa restore 0' failed with exit code 99.
+Jun 20 12:19:07 ubuntu avahi-daemon[1137]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::1ac2:3d12:efc9:21f6.
+Jun 20 12:19:07 ubuntu avahi-daemon[1137]: New relevant interface enp0s3.IPv6 for mDNS.
+Jun 20 12:19:07 ubuntu avahi-daemon[1137]: Registering new address record for fe80::1ac2:3d12:efc9:21f6 on enp0s3.*.
+Jun 20 12:19:07 ubuntu systemd[1]: Received SIGRTMIN+21 from PID 240 (plymouthd).
+Jun 20 12:19:07 ubuntu systemd[1]: Created slice User Slice of ubuntu.
+Jun 20 12:19:07 ubuntu systemd[1]: Starting User Manager for UID 999...
+Jun 20 12:19:07 ubuntu systemd[1]: Started Session c1 of user ubuntu.
+Jun 20 12:19:07 ubuntu systemd[1621]: Reached target Timers.
+Jun 20 12:19:07 ubuntu systemd[1621]: Starting D-Bus User Message Bus Socket.
+Jun 20 12:19:07 ubuntu systemd[1621]: Reached target Paths.
+Jun 20 12:19:07 ubuntu systemd[1621]: Listening on D-Bus User Message Bus Socket.
+Jun 20 12:19:07 ubuntu systemd[1621]: Reached target Sockets.
+Jun 20 12:19:07 ubuntu systemd[1621]: Reached target Basic System.
+Jun 20 12:19:07 ubuntu systemd[1621]: Reached target Default.
+Jun 20 12:19:07 ubuntu systemd[1621]: Startup finished in 17ms.
+Jun 20 12:19:07 ubuntu systemd[1]: Started User Manager for UID 999.
+Jun 20 12:19:07 ubuntu systemd[1621]: Started D-Bus User Message Bus.
+Jun 20 12:19:07 ubuntu dbus-daemon[1628]: Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service'
+Jun 20 12:19:07 ubuntu systemd[1621]: Starting Accessibility services bus...
+Jun 20 12:19:07 ubuntu dbus-daemon[1628]: Successfully activated service 'org.a11y.Bus'
+Jun 20 12:19:07 ubuntu systemd[1621]: Started Accessibility services bus.
+Jun 20 12:19:07 ubuntu at-spi-bus-launcher[1672]: Activating service name='org.a11y.atspi.Registry'
+Jun 20 12:19:07 ubuntu at-spi-bus-launcher[1672]: Successfully activated service 'org.a11y.atspi.Registry'
+Jun 20 12:19:07 ubuntu org.a11y.atspi.Registry[1677]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jun 20 12:19:07 ubuntu dbus-daemon[1628]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+Jun 20 12:19:07 ubuntu systemd[1621]: Starting Virtual filesystem service...
+Jun 20 12:19:07 ubuntu dbus-daemon[1628]: Successfully activated service 'org.gtk.vfs.Daemon'
+Jun 20 12:19:07 ubuntu systemd[1621]: Started Virtual filesystem service.
+Jun 20 12:19:07 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Jun 20 12:19:07 ubuntu systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Jun 20 12:19:07 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Jun 20 12:19:07 ubuntu systemd[1]: Started Manage, Install and Generate Color Profiles.
+Jun 20 12:19:07 ubuntu dbus-daemon[1628]: Activating service name='org.gnome.ScreenSaver'
+Jun 20 12:19:07 ubuntu org.gnome.ScreenSaver[1628]: Unable to init server: Could not connect: Connection refused
+Jun 20 12:19:07 ubuntu gnome-screensav[1732]: Unable to initialize GTK+
+Jun 20 12:19:08 ubuntu dbus-daemon[1628]: Activated service 'org.gnome.ScreenSaver' failed: Process org.gnome.ScreenSaver exited with status 1
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'
+Jun 20 12:19:08 ubuntu systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Jun 20 12:19:08 ubuntu systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully called chroot.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully dropped privileges.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully limited resources.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Running.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Watchdog thread running.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Canary thread running.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully made thread 1766 of process 1766 (n/a) owned by '999' high priority at nice level -11.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Supervising 1 threads of 1 processes of 1 users.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Supervising 1 threads of 1 processes of 1 users.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully made thread 1780 of process 1766 (n/a) owned by '999' RT at priority 5.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Supervising 2 threads of 1 processes of 1 users.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Supervising 2 threads of 1 processes of 1 users.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully made thread 1783 of process 1766 (n/a) owned by '999' RT at priority 5.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Supervising 3 threads of 1 processes of 1 users.
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] authkey.c: Failed to open cookie file '/home/ubuntu/.config/pulse/cookie': No such file or directory
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] authkey.c: Failed to load authentication key '/home/ubuntu/.config/pulse/cookie': No such file or directory
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] authkey.c: Failed to open cookie file '/home/ubuntu/.pulse-cookie': No such file or directory
+Jun 20 12:19:08 ubuntu pulseaudio[1766]: [pulseaudio] authkey.c: Failed to load authentication key '/home/ubuntu/.pulse-cookie': No such file or directory
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Activating service name='com.canonical.Unity.Greeter.Broadcast' (using servicehelper)
+Jun 20 12:19:08 ubuntu ModemManager[1076]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Successfully activated service 'com.canonical.Unity.Greeter.Broadcast'
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Successfully made thread 1795 of process 1795 (n/a) owned by '999' high priority at nice level -11.
+Jun 20 12:19:08 ubuntu rtkit-daemon[1767]: Supervising 4 threads of 2 processes of 1 users.
+Jun 20 12:19:08 ubuntu pulseaudio[1795]: [pulseaudio] pid.c: Daemon already running.
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Jun 20 12:19:08 ubuntu systemd[1]: Starting Locale Service...
+Jun 20 12:19:08 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.locale1'
+Jun 20 12:19:08 ubuntu systemd[1]: Started Locale Service.
+Jun 20 12:19:08 ubuntu kernel: [   19.819495] floppy0: no floppy controllers found
+Jun 20 12:19:08 ubuntu kernel: [   19.819523] work still pending
+Jun 20 12:19:09 ubuntu ubiquity[1827]: Ubiquity 17.04.9
+Jun 20 12:19:11 ubuntu ubiquity[1827]: switched to page language
+Jun 20 12:19:11 ubuntu NetworkManager[1130]: <info>  [1497961151.2055] manager: startup complete
+Jun 20 12:19:11 ubuntu ubiquity[1827]: log-output -t ubiquity setxkbmap -layout us,au,cm,gb -variant ,,,
+Jun 20 12:19:11 ubuntu ubiquity[1827]: switched to page wireless
+Jun 20 12:19:11 ubuntu ubiquity[1827]: switched to page language
+Jun 20 12:19:14 ubuntu localechooser: info: Language = 'en'
+Jun 20 12:19:14 ubuntu localechooser: info: line=en;0;US;en_US.UTF-8;;console-setup
+Jun 20 12:19:14 ubuntu localechooser: info: Set debian-installer/language = 'en'
+Jun 20 12:19:14 ubuntu localechooser: info: Default country = 'US'
+Jun 20 12:19:14 ubuntu localechooser: info: Default locale = 'en_US.UTF-8'
+Jun 20 12:19:14 ubuntu localechooser: info: Set debian-installer/consoledisplay = 'console-setup'
+Jun 20 12:19:14 ubuntu localechooser: info: Set debian-installer/country = 'US'
+Jun 20 12:19:14 ubuntu localechooser: info: Set debian-installer/locale = 'en_US.UTF-8'
+Jun 20 12:19:14 ubuntu localechooser: info: System locale (debian-installer/locale) = 'en_US.UTF-8'
+Jun 20 12:19:14 ubuntu ubiquity[1827]: debconffilter_done: ubi-language (current: ubi-language)
+Jun 20 12:19:14 ubuntu ubiquity[1827]: Step_before = stepLanguage
+Jun 20 12:19:14 ubuntu ubiquity[1827]: Step_before = stepLanguage
+Jun 20 12:19:15 ubuntu ubiquity[1827]: switched to page wireless
+Jun 20 12:19:15 ubuntu ubiquity[1827]: switched to page prepare
+Jun 20 12:19:16 ubuntu systemd[1]: Reloading.
+Jun 20 12:19:16 ubuntu NetworkManager[1130]: <info>  [1497961156.2063] manager: WiFi hardware radio set enabled
+Jun 20 12:19:16 ubuntu NetworkManager[1130]: <info>  [1497961156.2063] manager: WWAN hardware radio set enabled
+Jun 20 12:19:16 ubuntu systemd[1]: apt-daily.timer: Adding 3h 59min 59.088786s random time.
+Jun 20 12:19:16 ubuntu systemd[1]: motd-news.timer: Adding 50.927452s random time.
+Jun 20 12:19:16 ubuntu systemd[1]: snapd.refresh.timer: Adding 2h 18min 45.254512s random time.
+Jun 20 12:19:16 ubuntu systemd[1]: snapd.refresh.timer: Adding 5h 2min 9.708795s random time.
+Jun 20 12:19:16 ubuntu systemd[1]: Started Network Name Resolution.
+Jun 20 12:19:23 ubuntu ubiquity[1827]: debconffilter_done: ubi-prepare (current: ubi-prepare)
+Jun 20 12:19:23 ubuntu ubiquity[1827]: Step_before = stepPrepare
+Jun 20 12:19:23 ubuntu activate-dmraid: No Serial ATA RAID disks detected
+Jun 20 12:19:24 ubuntu kernel: [   35.047435] raid6: sse2x1   gen() 10425 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.095442] raid6: sse2x1   xor()  8303 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.143432] raid6: sse2x2   gen() 13491 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.191436] raid6: sse2x2   xor()  8948 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.239441] raid6: sse2x4   gen() 15578 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.287451] raid6: sse2x4   xor() 11001 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.287452] raid6: using algorithm sse2x4 gen() 15578 MB/s
+Jun 20 12:19:24 ubuntu kernel: [   35.287453] raid6: .... xor() 11001 MB/s, rmw enabled
+Jun 20 12:19:24 ubuntu kernel: [   35.287453] raid6: using ssse3x2 recovery algorithm
+Jun 20 12:19:24 ubuntu kernel: [   35.290600] xor: automatically using best checksumming function   avx       
+Jun 20 12:19:24 ubuntu kernel: [   35.322953] Btrfs loaded, crc32c=crc32c-intel
+Jun 20 12:19:24 ubuntu kernel: [   35.347008] JFS: nTxBlock = 7919, nTxLock = 63352
+Jun 20 12:19:24 ubuntu kernel: [   35.389174] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Jun 20 12:19:24 ubuntu partman:   No matching physical volumes found
+Jun 20 12:19:24 ubuntu partman:   Reading volume groups from cache.
+Jun 20 12:19:25 ubuntu ubiquity[1827]: switched to page partman
+Jun 20 12:19:26 ubuntu systemd[1]: Reloading.
+Jun 20 12:19:26 ubuntu systemd[1]: apt-daily.timer: Adding 7h 36min 28.249594s random time.
+Jun 20 12:19:26 ubuntu systemd[1]: motd-news.timer: Adding 30min 17.879807s random time.
+Jun 20 12:19:26 ubuntu systemd[1]: snapd.refresh.timer: Adding 1h 40min 34.501474s random time.
+Jun 20 12:19:26 ubuntu systemd[1]: snapd.refresh.timer: Adding 3h 31min 4.779316s random time.
+Jun 20 12:19:27 ubuntu ubiquity[1827]: switched to page partman
+Jun 20 12:19:28 ubuntu kernel: [   38.992034] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Jun 20 12:19:28 ubuntu kernel: [   39.030777] QNX4 filesystem 0.2.3 registered.
+Jun 20 12:19:31 ubuntu ubiquity[1827]: message repeated 4 times: [ switched to page partman]
+Jun 20 12:19:33 ubuntu pulseaudio[1766]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Jun 20 12:19:37 ubuntu systemd-timesyncd[1028]: Synchronized to time server 91.189.89.198:123 (ntp.ubuntu.com).
+Jun 20 12:19:37 ubuntu systemd[1621]: Time has been changed
+Jun 20 12:19:37 ubuntu systemd[1]: Time has been changed
+Jun 20 12:19:37 ubuntu systemd[1]: apt-daily.timer: Adding 8h 4min 16.102671s random time.
+Jun 20 12:19:37 ubuntu systemd[1]: motd-news.timer: Adding 34min 41.155872s random time.
+Jun 20 12:19:37 ubuntu systemd[1]: snapd.refresh.timer: Adding 6min 50.114417s random time.
+Jun 20 12:19:37 ubuntu systemd[1]: snapd.refresh.timer: Adding 2h 9min 812.646ms random time.
+Jun 20 12:19:50 ubuntu ubiquity: /lib/partman/free_space/50new/do_option: 205: /lib/partman/free_space/50new/do_option: /lib/partman/active_partition/copy/choices: not found
+Jun 20 12:19:51 ubuntu ubiquity: message repeated 2 times: [ /lib/partman/free_space/50new/do_option: 205: /lib/partman/free_space/50new/do_option: /lib/partman/active_partition/copy/choices: not found]
+Jun 20 12:19:51 ubuntu ubiquity[1827]: switched to page partman
+Jun 20 12:19:51 ubuntu ubiquity: /lib/partman/choose_partition/60partition_tree/do_option: 205: /lib/partman/choose_partition/60partition_tree/do_option: /lib/partman/active_partition/copy/choices: not found
+Jun 20 12:19:51 ubuntu ubiquity[1827]: switched to page partman
+Jun 20 12:19:53 ubuntu ubiquity[1827]: switched to page partman
+Jun 20 12:19:56 ubuntu ubiquity[1827]: debconffilter_done: ubi-partman (current: ubi-partman)
+Jun 20 12:19:56 ubuntu ubiquity[1827]: Step_before = stepPartAdvanced
+Jun 20 12:19:56 ubuntu clock-setup: rdate called using NTP server ntp.ubuntu.com.
+Jun 20 12:19:56 ubuntu systemd[1621]: Time has been changed
+Jun 20 12:19:56 ubuntu systemd[1]: Time has been changed
+Jun 20 12:19:56 ubuntu systemd[1]: apt-daily.timer: Adding 8h 46min 19.863495s random time.
+Jun 20 12:19:56 ubuntu systemd[1]: motd-news.timer: Adding 18min 42.594707s random time.
+Jun 20 12:19:56 ubuntu systemd[1]: snapd.refresh.timer: Adding 43.450733s random time.
+Jun 20 12:19:56 ubuntu systemd[1]: snapd.refresh.timer: Adding 5h 29min 17.477319s random time.
+Jun 20 12:19:56 ubuntu clock-setup: Tue Jun 20 12:19:56 UTC 2017
+Jun 20 12:19:56 ubuntu clock-setup: rdate: adjust local clock by -0.003339 seconds
+Jun 20 12:19:56 ubuntu ubiquity[1827]: switched to page timezone
+Jun 20 12:19:57 ubuntu kernel: [   66.483038]  sda: sda1
+Jun 20 12:19:57 ubuntu partman: mke2fs 1.43.4 (31-Jan-2017)
+Jun 20 12:19:57 ubuntu kernel: [   66.748485] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+Jun 20 12:19:58 ubuntu partman-swapfile: 728525+0 records in
+Jun 20 12:19:58 ubuntu partman-swapfile: 728525+0 records out
+Jun 20 12:19:58 ubuntu partman-swapfile: 746009600 bytes (746 MB, 711 MiB) copied, 1.21675 s, 613 MB/s
+Jun 20 12:19:58 ubuntu kernel: [   68.074689] Adding 728520k swap on /target/swapfile.  Priority:-1 extents:3 across:744904k SSFS
+Jun 20 12:19:59 ubuntu ubiquity[1827]: debconffilter_done: ubiquity.components.partman_commit (current: ubi-timezone)
+Jun 20 12:19:59 ubuntu os-prober: File descriptor 3 (pipe:[31301]) leaked on lvs invocation.
+Jun 20 12:19:59 ubuntu os-prober:  Parent PID 6338: log-output
+Jun 20 12:19:59 ubuntu ubiquity[1827]: debconffilter_done: ubi-timezone (current: ubi-timezone)
+Jun 20 12:19:59 ubuntu ubiquity[1827]: Step_before = stepLocation
+Jun 20 12:19:59 ubuntu /install.py: keeping packages due to preseeding: icedtea6-plugin openoffice.org
+Jun 20 12:19:59 ubuntu /install.py: keeping language packs for: en_US.UTF-8
+Jun 20 12:19:59 ubuntu ubiquity[1827]: switched to page console_setup
+Jun 20 12:20:00 ubuntu ubiquity[1827]: log-output -t ubiquity setxkbmap -model pc105 -layout us -variant intl -option
+Jun 20 12:20:04 ubuntu ubiquity: Your console font configuration will be updated the next time your system
+Jun 20 12:20:04 ubuntu ubiquity: boots. If you want to update it now, run 'setupcon' from a virtual console.
+Jun 20 12:20:04 ubuntu ubiquity: dpkg-maintscript-helper: error: couldn't identify the package
+Jun 20 12:20:04 ubuntu ubiquity: dpkg-maintscript-helper: error: couldn't identify the package
+Jun 20 12:20:04 ubuntu ubiquity[1827]: log-output -t ubiquity setxkbmap -model pc105 -layout us -variant intl -option
+Jun 20 12:20:04 ubuntu ubiquity[1827]: debconffilter_done: ubi-console-setup (current: ubi-console-setup)
+Jun 20 12:20:04 ubuntu ubiquity[1827]: Step_before = stepKeyboardConf
+Jun 20 12:20:04 ubuntu ubiquity[1827]: switched to page usersetup
+Jun 20 12:20:41 ubuntu ubiquity[1827]: debconffilter_done: ubi-usersetup (current: ubi-usersetup)
+Jun 20 12:20:41 ubuntu ubiquity[1827]: Step_before = stepUserInfo
+Jun 20 12:21:01 ubuntu ubiquity[1827]: debconffilter_done: ubiquity.components.install (current: None)
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target python2.7 /usr/lib/python2.7/py_compile.py
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target python2.7 /usr/lib/python2.7/py_compile.py
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target python3.5 /usr/lib/python3.5/py_compile.py
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target python3.5 /usr/lib/python3.5/py_compile.py
+Jun 20 12:21:02 ubuntu ubiquity: Listing /usr/share/python/ ...
+Jun 20 12:21:02 ubuntu ubiquity: Listing /usr/share/python/debpython ...
+Jun 20 12:21:02 ubuntu ubiquity: Listing /usr/share/python/dist ...
+Jun 20 12:21:02 ubuntu ubiquity: Listing /usr/share/python/runtime.d ...
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target python2.7 -m compileall /usr/share/python/
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target py3compile -p python3 /usr/share/python3/
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:21:02 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:21:03 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/public_modules.rtinstall rtinstall python2.7  2.7.13-2
+Jun 20 12:21:03 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apport.rtupdate pre-rtupdate python2.7 python2.7
+Jun 20 12:21:03 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apport.rtupdate rtupdate python2.7 python2.7
+Jun 20 12:21:03 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python/runtime.d/apport.rtupdate post-rtupdate python2.7 python2.7
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/public_modules.rtinstall rtinstall python3.5  3.5.3-1
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ibus-table.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/dh-python.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugins.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/hplip-data.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/gedit.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/python3-uno.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ibus.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubuntu-drivers-common.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-zeitgeist.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity-frontend-gtk.rtupdate pre-rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ibus-table.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/dh-python.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:04 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugins.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:05 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:05 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/hplip-data.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:06 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/gedit.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:06 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/python3-uno.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:06 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ibus.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:06 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubuntu-drivers-common.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-zeitgeist.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity-frontend-gtk.rtupdate rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ibus-table.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/dh-python.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugins.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/hplip-data.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/gedit.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/python3-uno.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ibus.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubuntu-drivers-common.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/rhythmbox-plugin-zeitgeist.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /usr/share/python3/runtime.d/ubiquity-frontend-gtk.rtupdate post-rtupdate python3.5 python3.5
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:21:07 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:21:07 ubuntu localechooser: Generating locales (this might take a while)...
+Jun 20 12:21:07 ubuntu localechooser:   nl_NL.UTF-8
+Jun 20 12:21:07 ubuntu localechooser: ...
+Jun 20 12:21:08 ubuntu localechooser:  done
+Jun 20 12:21:08 ubuntu localechooser: Generation complete.
+Jun 20 12:21:08 ubuntu localechooser: Adding /usr/lib/locale/nl_NL.utf8
+Jun 20 12:21:08 ubuntu localechooser: Generating locales (this might take a while)...
+Jun 20 12:21:08 ubuntu localechooser: Generation complete.
+Jun 20 12:21:08 ubuntu ubiquity: umount: /target/cdrom: mountpoint not found
+Jun 20 12:21:08 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/cdrom
+Jun 20 12:21:08 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /cdrom /target/cdrom
+Jun 20 12:21:08 ubuntu ubiquity: /usr/lib/ubiquity/apt-setup/generators/01setup: 9: /usr/lib/ubiquity/apt-setup/generators/01setup:
+Jun 20 12:21:08 ubuntu ubiquity: cannot open /target/etc/apt/sources.list: No such file
+Jun 20 12:21:08 ubuntu ubiquity: 
+Jun 20 12:21:09 ubuntu in-target: Reading package lists...
+Jun 20 12:21:09 ubuntu in-target: 
+Jun 20 12:21:09 ubuntu apt-setup: Using CD-ROM mount point /cdrom/
+Jun 20 12:21:09 ubuntu apt-setup: Identifying...
+Jun 20 12:21:09 ubuntu apt-setup: [37faf2e09f73d288b750b7fe001295bb-2]
+Jun 20 12:21:09 ubuntu apt-setup: Scanning disc for index files...
+Jun 20 12:21:09 ubuntu apt-setup: Found 4 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+Jun 20 12:21:09 ubuntu apt-setup: Found label 'Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412)'
+Jun 20 12:21:09 ubuntu apt-setup: This disc is called:
+Jun 20 12:21:09 ubuntu apt-setup: 'Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412)'
+Jun 20 12:21:09 ubuntu apt-setup: Copying package lists...
+Jun 20 12:21:09 ubuntu apt-setup: gpgv: Signature made wo 12 apr 2017 05:43:31 CEST
+Jun 20 12:21:09 ubuntu apt-setup: 
+Jun 20 12:21:09 ubuntu apt-setup: gpgv:                using RSA key
+Jun 20 12:21:09 ubuntu apt-setup: 
+Jun 20 12:21:09 ubuntu apt-setup: gpgv: Good signature from "Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>"
+Jun 20 12:21:09 ubuntu apt-setup: 
+Jun 20 12:21:09 ubuntu apt-setup: #015Reading Package Indexes... 0%
+Jun 20 12:21:09 ubuntu apt-setup: #015Reading Package Indexes... Done
+Jun 20 12:21:09 ubuntu apt-setup: Writing new source list
+Jun 20 12:21:09 ubuntu apt-setup: Source list entries for this disc are:
+Jun 20 12:21:09 ubuntu apt-setup: deb cdrom:[Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412)]/ zesty main restricted
+Jun 20 12:21:09 ubuntu apt-setup: Repeat this process for the rest of the CDs in your set.
+Jun 20 12:21:09 ubuntu in-target: Ign:1 cdrom://Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412) zesty InRelease
+Jun 20 12:21:09 ubuntu in-target: Hit:2 cdrom://Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412) zesty Release
+Jun 20 12:21:10 ubuntu dbus[1096]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service'
+Jun 20 12:21:10 ubuntu systemd[1]: Starting PackageKit Daemon...
+Jun 20 12:21:10 ubuntu PackageKit: daemon start
+Jun 20 12:21:10 ubuntu dbus[1096]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jun 20 12:21:10 ubuntu systemd[1]: Started PackageKit Daemon.
+Jun 20 12:21:10 ubuntu in-target: Reading package lists...
+Jun 20 12:21:10 ubuntu in-target: 
+Jun 20 12:21:10 ubuntu choose-mirror[7936]: INFO: base system installable from CD; skipping mirror check
+Jun 20 12:21:10 ubuntu choose-mirror[7936]: INFO: base system installable from CD; skipping architecture check
+Jun 20 12:21:11 ubuntu in-target: Get:1 http://nl.archive.ubuntu.com/ubuntu zesty InRelease [243 kB]
+Jun 20 12:21:11 ubuntu in-target: Get:2 http://nl.archive.ubuntu.com/ubuntu zesty-updates InRelease [89,2 kB]
+Jun 20 12:21:11 ubuntu in-target: Get:3 http://nl.archive.ubuntu.com/ubuntu zesty-backports InRelease [89,2 kB]
+Jun 20 12:21:11 ubuntu in-target: Get:4 http://nl.archive.ubuntu.com/ubuntu zesty/main amd64 Packages [1207 kB]
+Jun 20 12:21:12 ubuntu in-target: Get:5 http://nl.archive.ubuntu.com/ubuntu zesty/main i386 Packages [1204 kB]
+Jun 20 12:21:12 ubuntu in-target: Get:6 http://nl.archive.ubuntu.com/ubuntu zesty/main Translation-en [577 kB]
+Jun 20 12:21:12 ubuntu in-target: Get:7 http://nl.archive.ubuntu.com/ubuntu zesty/main amd64 DEP-11 Metadata [536 kB]
+Jun 20 12:21:12 ubuntu in-target: Get:8 http://nl.archive.ubuntu.com/ubuntu zesty/main DEP-11 64x64 Icons [373 kB]
+Jun 20 12:21:13 ubuntu in-target: Get:9 http://nl.archive.ubuntu.com/ubuntu zesty/restricted amd64 Packages [8672 B]
+Jun 20 12:21:13 ubuntu in-target: Get:10 http://nl.archive.ubuntu.com/ubuntu zesty/restricted i386 Packages [8648 B]
+Jun 20 12:21:13 ubuntu in-target: Get:11 http://nl.archive.ubuntu.com/ubuntu zesty/restricted Translation-en [2724 B]
+Jun 20 12:21:13 ubuntu in-target: Get:12 http://nl.archive.ubuntu.com/ubuntu zesty/restricted amd64 DEP-11 Metadata [185 B]
+Jun 20 12:21:13 ubuntu in-target: Get:13 http://nl.archive.ubuntu.com/ubuntu zesty/universe i386 Packages [8037 kB]
+Jun 20 12:21:14 ubuntu in-target: Get:14 http://nl.archive.ubuntu.com/ubuntu zesty/universe amd64 Packages [8068 kB]
+Jun 20 12:21:15 ubuntu in-target: Get:15 http://nl.archive.ubuntu.com/ubuntu zesty/universe Translation-en [4671 kB]
+Jun 20 12:21:15 ubuntu in-target: Get:16 http://nl.archive.ubuntu.com/ubuntu zesty/universe amd64 DEP-11 Metadata [2713 kB]
+Jun 20 12:21:15 ubuntu in-target: Get:17 http://nl.archive.ubuntu.com/ubuntu zesty/universe DEP-11 64x64 Icons [7842 kB]
+Jun 20 12:21:16 ubuntu in-target: Get:18 http://nl.archive.ubuntu.com/ubuntu zesty/multiverse amd64 Packages [154 kB]
+Jun 20 12:21:16 ubuntu in-target: Get:19 http://nl.archive.ubuntu.com/ubuntu zesty/multiverse i386 Packages [147 kB]
+Jun 20 12:21:16 ubuntu in-target: Get:20 http://nl.archive.ubuntu.com/ubuntu zesty/multiverse Translation-en [109 kB]
+Jun 20 12:21:16 ubuntu in-target: Get:21 http://nl.archive.ubuntu.com/ubuntu zesty/multiverse amd64 DEP-11 Metadata [43,3 kB]
+Jun 20 12:21:16 ubuntu in-target: Get:22 http://nl.archive.ubuntu.com/ubuntu zesty/multiverse DEP-11 64x64 Icons [207 kB]
+Jun 20 12:21:16 ubuntu in-target: Get:23 http://nl.archive.ubuntu.com/ubuntu zesty-updates/main amd64 Packages [124 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:24 http://nl.archive.ubuntu.com/ubuntu zesty-updates/main i386 Packages [122 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:25 http://nl.archive.ubuntu.com/ubuntu zesty-updates/main Translation-en [56,6 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:26 http://nl.archive.ubuntu.com/ubuntu zesty-updates/main amd64 DEP-11 Metadata [41,8 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:27 http://nl.archive.ubuntu.com/ubuntu zesty-updates/main DEP-11 64x64 Icons [14,0 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:28 http://nl.archive.ubuntu.com/ubuntu zesty-updates/restricted amd64 Packages [2168 B]
+Jun 20 12:21:17 ubuntu in-target: Get:29 http://nl.archive.ubuntu.com/ubuntu zesty-updates/restricted i386 Packages [2156 B]
+Jun 20 12:21:17 ubuntu in-target: Get:30 http://nl.archive.ubuntu.com/ubuntu zesty-updates/restricted Translation-en [1280 B]
+Jun 20 12:21:17 ubuntu in-target: Get:31 http://nl.archive.ubuntu.com/ubuntu zesty-updates/restricted amd64 DEP-11 Metadata [193 B]
+Jun 20 12:21:17 ubuntu in-target: Get:32 http://nl.archive.ubuntu.com/ubuntu zesty-updates/universe i386 Packages [68,5 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:33 http://nl.archive.ubuntu.com/ubuntu zesty-updates/universe amd64 Packages [68,6 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:34 http://nl.archive.ubuntu.com/ubuntu zesty-updates/universe Translation-en [39,0 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:35 http://nl.archive.ubuntu.com/ubuntu zesty-updates/universe amd64 DEP-11 Metadata [57,6 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:36 http://nl.archive.ubuntu.com/ubuntu zesty-updates/universe DEP-11 64x64 Icons [63,5 kB]
+Jun 20 12:21:17 ubuntu in-target: Get:37 http://nl.archive.ubuntu.com/ubuntu zesty-updates/multiverse amd64 Packages [4176 B]
+Jun 20 12:21:17 ubuntu in-target: Get:38 http://nl.archive.ubuntu.com/ubuntu zesty-updates/multiverse i386 Packages [4320 B]
+Jun 20 12:21:17 ubuntu in-target: Get:39 http://nl.archive.ubuntu.com/ubuntu zesty-updates/multiverse Translation-en [2168 B]
+Jun 20 12:21:17 ubuntu in-target: Get:40 http://nl.archive.ubuntu.com/ubuntu zesty-updates/multiverse amd64 DEP-11 Metadata [2464 B]
+Jun 20 12:21:17 ubuntu in-target: Get:41 http://nl.archive.ubuntu.com/ubuntu zesty-updates/multiverse DEP-11 64x64 Icons [2638 B]
+Jun 20 12:21:17 ubuntu in-target: Get:42 http://nl.archive.ubuntu.com/ubuntu zesty-backports/main i386 Packages [1476 B]
+Jun 20 12:21:18 ubuntu in-target: Get:43 http://nl.archive.ubuntu.com/ubuntu zesty-backports/main amd64 Packages [1484 B]
+Jun 20 12:21:18 ubuntu in-target: Get:44 http://nl.archive.ubuntu.com/ubuntu zesty-backports/main Translation-en [664 B]
+Jun 20 12:21:18 ubuntu in-target: Get:45 http://nl.archive.ubuntu.com/ubuntu zesty-backports/main amd64 DEP-11 Metadata [208 B]
+Jun 20 12:21:18 ubuntu in-target: Get:46 http://nl.archive.ubuntu.com/ubuntu zesty-backports/main DEP-11 64x64 Icons [29 B]
+Jun 20 12:21:18 ubuntu in-target: Get:47 http://nl.archive.ubuntu.com/ubuntu zesty-backports/restricted amd64 DEP-11 Metadata [194 B]
+Jun 20 12:21:18 ubuntu in-target: Get:48 http://nl.archive.ubuntu.com/ubuntu zesty-backports/universe i386 Packages [2728 B]
+Jun 20 12:21:18 ubuntu in-target: Get:49 http://nl.archive.ubuntu.com/ubuntu zesty-backports/universe amd64 Packages [2724 B]
+Jun 20 12:21:18 ubuntu in-target: Get:50 http://nl.archive.ubuntu.com/ubuntu zesty-backports/universe Translation-en [1176 B]
+Jun 20 12:21:18 ubuntu in-target: Get:51 http://nl.archive.ubuntu.com/ubuntu zesty-backports/universe amd64 DEP-11 Metadata [4672 B]
+Jun 20 12:21:18 ubuntu in-target: Get:52 http://nl.archive.ubuntu.com/ubuntu zesty-backports/universe DEP-11 64x64 Icons [2716 B]
+Jun 20 12:21:18 ubuntu in-target: Get:53 http://nl.archive.ubuntu.com/ubuntu zesty-backports/multiverse amd64 DEP-11 Metadata [212 B]
+Jun 20 12:21:18 ubuntu in-target: Get:54 http://nl.archive.ubuntu.com/ubuntu zesty-backports/multiverse DEP-11 64x64 Icons [29 B]
+Jun 20 12:21:20 ubuntu in-target: Fetched 37,0 MB in 7s (5127 kB/s)
+Jun 20 12:21:20 ubuntu in-target: Reading package lists...
+Jun 20 12:21:21 ubuntu in-target: 
+Jun 20 12:21:22 ubuntu in-target: Reading package lists...
+Jun 20 12:21:22 ubuntu in-target: 
+Jun 20 12:21:22 ubuntu in-target: Reading package lists...
+Jun 20 12:21:22 ubuntu in-target: 
+Jun 20 12:21:23 ubuntu in-target: Get:1 http://security.ubuntu.com/ubuntu zesty-security InRelease [89,2 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:2 http://security.ubuntu.com/ubuntu zesty-security/main i386 Packages [80,3 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:3 http://security.ubuntu.com/ubuntu zesty-security/main amd64 Packages [82,2 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:4 http://security.ubuntu.com/ubuntu zesty-security/main Translation-en [37,5 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:5 http://security.ubuntu.com/ubuntu zesty-security/main amd64 DEP-11 Metadata [5812 B]
+Jun 20 12:21:23 ubuntu in-target: Get:6 http://security.ubuntu.com/ubuntu zesty-security/main DEP-11 64x64 Icons [5289 B]
+Jun 20 12:21:23 ubuntu in-target: Get:7 http://security.ubuntu.com/ubuntu zesty-security/restricted i386 Packages [2156 B]
+Jun 20 12:21:23 ubuntu in-target: Get:8 http://security.ubuntu.com/ubuntu zesty-security/restricted amd64 Packages [2168 B]
+Jun 20 12:21:23 ubuntu in-target: Get:9 http://security.ubuntu.com/ubuntu zesty-security/restricted Translation-en [1280 B]
+Jun 20 12:21:23 ubuntu in-target: Get:10 http://security.ubuntu.com/ubuntu zesty-security/universe amd64 Packages [39,8 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:11 http://security.ubuntu.com/ubuntu zesty-security/universe i386 Packages [39,9 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:12 http://security.ubuntu.com/ubuntu zesty-security/universe Translation-en [26,0 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:13 http://security.ubuntu.com/ubuntu zesty-security/universe amd64 DEP-11 Metadata [8904 B]
+Jun 20 12:21:23 ubuntu in-target: Get:14 http://security.ubuntu.com/ubuntu zesty-security/universe DEP-11 64x64 Icons [27,0 kB]
+Jun 20 12:21:23 ubuntu in-target: Get:15 http://security.ubuntu.com/ubuntu zesty-security/multiverse amd64 Packages [1824 B]
+Jun 20 12:21:23 ubuntu in-target: Get:16 http://security.ubuntu.com/ubuntu zesty-security/multiverse i386 Packages [1976 B]
+Jun 20 12:21:23 ubuntu in-target: Get:17 http://security.ubuntu.com/ubuntu zesty-security/multiverse Translation-en [1020 B]
+Jun 20 12:21:23 ubuntu in-target: Get:18 http://security.ubuntu.com/ubuntu zesty-security/multiverse amd64 DEP-11 Metadata [208 B]
+Jun 20 12:21:23 ubuntu in-target: Get:19 http://security.ubuntu.com/ubuntu zesty-security/multiverse DEP-11 64x64 Icons [29 B]
+Jun 20 12:21:26 ubuntu in-target: Fetched 453 kB in 0s (1599 kB/s)
+Jun 20 12:21:26 ubuntu in-target: Reading package lists...
+Jun 20 12:21:26 ubuntu in-target: 
+Jun 20 12:21:27 ubuntu clock-setup: hwclock from util-linux 2.29
+Jun 20 12:21:27 ubuntu clock-setup: Using the /dev interface to the clock.
+Jun 20 12:21:27 ubuntu clock-setup: Assuming hardware clock is kept in UTC time.
+Jun 20 12:21:27 ubuntu clock-setup: Time since last adjustment is 0 seconds
+Jun 20 12:21:27 ubuntu clock-setup: Calculated Hardware Clock drift is 0.000000 seconds
+Jun 20 12:21:27 ubuntu clock-setup: missed it - 1497961286.960305 is too far past 1497961286.500000 (0.460305 > 0.001000)
+Jun 20 12:21:27 ubuntu clock-setup: 1497961287.500000 is close enough to 1497961287.500000 (0.000000 < 0.002000)
+Jun 20 12:21:27 ubuntu clock-setup: Set RTC to 1497961287 (1497961286 + 1; refsystime = 1497961286.000000)
+Jun 20 12:21:27 ubuntu clock-setup: Setting Hardware Clock to 12:21:27 = 1497961287 seconds since 1969
+Jun 20 12:21:27 ubuntu clock-setup: ioctl(RTC_SET_TIME) was successful.
+Jun 20 12:21:28 ubuntu user-setup: pwconv: failed to change the mode of /etc/passwd- to 0600
+Jun 20 12:21:28 ubuntu user-setup: Shadow passwords are now on.
+Jun 20 12:21:28 ubuntu user-setup: Adding user `user' ...
+Jun 20 12:21:28 ubuntu user-setup: Adding new group `user' (1000) ...
+Jun 20 12:21:28 ubuntu user-setup: Adding new user `user' (1000) with group `user' ...
+Jun 20 12:21:28 ubuntu user-setup: Creating home directory `/home/user' ...
+Jun 20 12:21:28 ubuntu user-setup: Copying files from `/etc/skel' ...
+Jun 20 12:21:28 ubuntu user-setup: addgroup: The group `lpadmin' already exists as a system group. Exiting.
+Jun 20 12:21:28 ubuntu user-setup: Adding group `sambashare' (GID 131) ...
+Jun 20 12:21:28 ubuntu user-setup: Done.
+Jun 20 12:21:28 ubuntu user-setup: Adding user `user' to group `adm' ...
+Jun 20 12:21:28 ubuntu user-setup: Adding user user to group adm
+Jun 20 12:21:28 ubuntu user-setup: Done.
+Jun 20 12:21:28 ubuntu user-setup: Adding user `user' to group `cdrom' ...
+Jun 20 12:21:28 ubuntu user-setup: Adding user user to group cdrom
+Jun 20 12:21:28 ubuntu user-setup: Done.
+Jun 20 12:21:28 ubuntu user-setup: Adding user `user' to group `dip' ...
+Jun 20 12:21:29 ubuntu user-setup: Adding user user to group dip
+Jun 20 12:21:29 ubuntu user-setup: Done.
+Jun 20 12:21:29 ubuntu user-setup: Adding user `user' to group `lpadmin' ...
+Jun 20 12:21:29 ubuntu user-setup: Adding user user to group lpadmin
+Jun 20 12:21:29 ubuntu user-setup: Done.
+Jun 20 12:21:29 ubuntu user-setup: Adding user `user' to group `plugdev' ...
+Jun 20 12:21:29 ubuntu user-setup: Adding user user to group plugdev
+Jun 20 12:21:29 ubuntu user-setup: Done.
+Jun 20 12:21:29 ubuntu user-setup: Adding user `user' to group `sambashare' ...
+Jun 20 12:21:29 ubuntu user-setup: Adding user user to group sambashare
+Jun 20 12:21:29 ubuntu user-setup: Done.
+Jun 20 12:21:29 ubuntu user-setup: adduser: The group `debian-tor' does not exist.
+Jun 20 12:21:29 ubuntu user-setup: adduser: The group `libvirtd' does not exist.
+Jun 20 12:21:29 ubuntu user-setup: adduser: The group `lxd' does not exist.
+Jun 20 12:21:29 ubuntu user-setup: Adding user `user' to group `sudo' ...
+Jun 20 12:21:29 ubuntu user-setup: Adding user user to group sudo
+Jun 20 12:21:29 ubuntu user-setup: Done.
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/20xconfig
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/22gnome_panel_data
+Jun 20 12:21:29 ubuntu ubiquity: /usr/bin/casper-reconfigure: package 'gnome-panel-data' is not installed
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/25modules
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/30accessibility
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/31brltty
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/31ubuntu_driver_packages
+Jun 20 12:21:29 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/32gnome_power_manager
+Jun 20 12:21:30 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/40install_driver_updates
+Jun 20 12:21:30 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/45jackd2
+Jun 20 12:21:30 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/49kubuntu_gnome_icon_cache
+Jun 20 12:21:30 ubuntu /plugininstall.py: running /usr/lib/ubiquity/target-config/50gkd-caps
+Jun 20 12:21:30 ubuntu ubiquity: Setting capabilities for gnome-keyring-daemon using Linux Capabilities failed.
+Jun 20 12:21:31 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:21:31 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:21:31 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:21:31 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:21:35 ubuntu /plugininstall.py: Verifying downloads ...
+Jun 20 12:21:35 ubuntu /plugininstall.py: Downloads verified successfully
+Jun 20 12:21:35 ubuntu ubiquity: (Reading database ...
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 5%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 10%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 15%#015(Reading database ... 20%#015(Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 55%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 60%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 65%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 70%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 75%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 80%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 85%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 90%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 95%
+Jun 20 12:21:36 ubuntu ubiquity: (Reading database ... 100%#015(Reading database ...
+Jun 20 12:21:36 ubuntu ubiquity: 186460 files and directories currently installed.)
+Jun 20 12:21:36 ubuntu ubiquity: Preparing to unpack .../00-firefox-locale-en_54.0+build3-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:36 ubuntu ubiquity: Unpacking firefox-locale-en (54.0+build3-0ubuntu0.17.04.1) over (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:21:36 ubuntu ubiquity: Preparing to unpack .../01-thunderbird-locale-zh-hant_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:36 ubuntu ubiquity: Unpacking thunderbird-locale-zh-hant (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:36 ubuntu ubiquity: Preparing to unpack .../02-thunderbird-locale-zh-hans_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:36 ubuntu ubiquity: Unpacking thunderbird-locale-zh-hans (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:36 ubuntu ubiquity: Preparing to unpack .../03-thunderbird-locale-ru_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:36 ubuntu ubiquity: Unpacking thunderbird-locale-ru (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:36 ubuntu ubiquity: Preparing to unpack .../04-thunderbird-locale-pt_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:36 ubuntu ubiquity: Unpacking thunderbird-locale-pt (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:36 ubuntu ubiquity: Preparing to unpack .../05-thunderbird-locale-it_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:36 ubuntu ubiquity: Unpacking thunderbird-locale-it (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:37 ubuntu ubiquity: Preparing to unpack .../06-thunderbird-locale-fr_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:37 ubuntu ubiquity: Unpacking thunderbird-locale-fr (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:37 ubuntu ubiquity: Preparing to unpack .../07-thunderbird-locale-es_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:37 ubuntu ubiquity: Unpacking thunderbird-locale-es (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:37 ubuntu ubiquity: Preparing to unpack .../08-thunderbird-locale-en_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:37 ubuntu ubiquity: Unpacking thunderbird-locale-en (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:37 ubuntu ubiquity: Preparing to unpack .../09-thunderbird-locale-de_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:37 ubuntu ubiquity: Unpacking thunderbird-locale-de (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:37 ubuntu ubiquity: Preparing to unpack .../10-thunderbird_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:37 ubuntu ubiquity: Unpacking thunderbird (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:40 ubuntu ubiquity: Preparing to unpack .../11-thunderbird-gnome-support_1%3a52.1.1+build1-0ubuntu0.17.04.1_amd64.deb ...
+Jun 20 12:21:40 ubuntu ubiquity: Unpacking thunderbird-gnome-support (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:40 ubuntu ubiquity: Preparing to unpack .../12-thunderbird-locale-en-us_1%3a52.1.1+build1-0ubuntu0.17.04.1_all.deb ...
+Jun 20 12:21:40 ubuntu ubiquity: Unpacking thunderbird-locale-en-us (1:52.1.1+build1-0ubuntu0.17.04.1) over (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up firefox-locale-en (54.0+build3-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Processing triggers for mime-support (3.60ubuntu1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Processing triggers for desktop-file-utils (0.23-1ubuntu2) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Processing triggers for bamfdaemon (0.5.3+17.04.20170406-0ubuntu1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Rebuilding /usr/share/applications/bamf-2.index...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-de (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-gnome-support (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-zh-hans (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-it (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Processing triggers for man-db (2.7.6.1-2) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-pt (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Processing triggers for gnome-menus (3.13.3-6ubuntu5) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-zh-hant (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-es (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-ru (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-fr (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-en (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:41 ubuntu ubiquity: Setting up thunderbird-locale-en-us (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:21:43 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:21:43 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:21:43 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:21:43 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:21:45 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:21:45 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:21:45 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:21:45 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:21:45 ubuntu hw-detect: Detected module 'usb-storage' for 'USB storage'
+Jun 20 12:21:45 ubuntu hw-detect: insmod /lib/modules/4.10.0-19-generic/kernel/drivers/usb/storage/usb-storage.ko
+Jun 20 12:21:45 ubuntu kernel: [  175.139936] usbcore: registered new interface driver usb-storage
+Jun 20 12:21:45 ubuntu ubiquity: modprobe: invalid option -- 'l'
+Jun 20 12:21:47 ubuntu check-missing-firmware: looking at dmesg for the first time
+Jun 20 12:21:47 ubuntu check-missing-firmware: saving timestamp for a later use: [  175.139936]
+Jun 20 12:21:47 ubuntu check-missing-firmware: /dev/.udev/firmware-missing does not exist, skipping
+Jun 20 12:21:47 ubuntu check-missing-firmware: /run/udev/firmware-missing does not exist, skipping
+Jun 20 12:21:47 ubuntu check-missing-firmware: no missing firmware in loaded kernel modules
+Jun 20 12:21:47 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:21:47 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:21:47 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:21:47 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:21:47 ubuntu /plugininstall.py: log-output -t ubiquity /usr/lib/ubiquity/debian-installer-utils/register-module.post-base-installer
+Jun 20 12:21:48 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:21:48 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:21:48 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:21:48 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:21:48 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /tmp/.X11-unix /target/tmp/.X11-unix
+Jun 20 12:21:48 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target dpkg-divert --package ubiquity --rename --quiet --add /usr/sbin/update-initramfs
+Jun 20 12:21:48 ubuntu ubiquity: Running depmod.
+Jun 20 12:21:48 ubuntu ubiquity: Not updating initrd symbolic links since we are being updated/reinstalled
+Jun 20 12:21:48 ubuntu ubiquity: (4.10.0-19.21 was configured last, according to dpkg)
+Jun 20 12:21:48 ubuntu ubiquity: Not updating image symbolic links since we are being updated/reinstalled
+Jun 20 12:21:48 ubuntu ubiquity: (4.10.0-19.21 was configured last, according to dpkg)
+Jun 20 12:21:48 ubuntu ubiquity: Examining /etc/kernel/postinst.d.
+Jun 20 12:21:48 ubuntu ubiquity: run-parts: executing /etc/kernel/postinst.d/apt-auto-removal
+Jun 20 12:21:48 ubuntu ubiquity:  4.10.0-19-generic
+Jun 20 12:21:48 ubuntu ubiquity:  /boot/vmlinuz-4.10.0-19-generic
+Jun 20 12:21:48 ubuntu ubiquity: 
+Jun 20 12:21:48 ubuntu ubiquity: run-parts: executing /etc/kernel/postinst.d/initramfs-tools 4.10.0-19-generic /boot/vmlinuz-4.10.0-19-generic
+Jun 20 12:21:48 ubuntu ubiquity: run-parts: executing /etc/kernel/postinst.d/unattended-upgrades 4.10.0-19-generic /boot/vmlinuz-4.10.0-19-generic
+Jun 20 12:21:48 ubuntu ubiquity: run-parts: executing /etc/kernel/postinst.d/update-notifier 4.10.0-19-generic /boot/vmlinuz-4.10.0-19-generic
+Jun 20 12:21:48 ubuntu ubiquity: run-parts: executing /etc/kernel/postinst.d/zz-update-grub 4.10.0-19-generic /boot/vmlinuz-4.10.0-19-generic
+Jun 20 12:21:50 ubuntu ubiquity: 
+Jun 20 12:21:50 ubuntu ubiquity: Creating config file /etc/papersize with new version
+Jun 20 12:21:51 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target dpkg-divert --package ubiquity --rename --quiet --remove /usr/sbin/update-initramfs
+Jun 20 12:21:51 ubuntu ubiquity: update-initramfs: Generating /boot/initrd.img-4.10.0-19-generic
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target update-initramfs -c -k 4.10.0-19-generic
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/tmp/.X11-unix
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:22:07 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:22:07 ubuntu /plugininstall.py: Verifying downloads ...
+Jun 20 12:22:07 ubuntu /plugininstall.py: Downloads verified successfully
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /proc /target/proc
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /sys /target/sys
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:22:08 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:22:08 ubuntu grub-installer: info: architecture: amd64/generic
+Jun 20 12:22:08 ubuntu ubiquity: File descriptor 3 (pipe:[35958]) leaked on lvdisplay invocation.
+Jun 20 12:22:08 ubuntu ubiquity:  Parent PID 18652: /bin/sh
+Jun 20 12:22:08 ubuntu ubiquity: 
+Jun 20 12:22:08 ubuntu ubiquity: Volume group "sda" not found
+Jun 20 12:22:08 ubuntu ubiquity: 
+Jun 20 12:22:08 ubuntu ubiquity: 
+Jun 20 12:22:08 ubuntu ubiquity: Cannot process volume group sda
+Jun 20 12:22:08 ubuntu ubiquity: 
+Jun 20 12:22:08 ubuntu grub-installer: info: Identified partition label for /dev/sda1: msdos
+Jun 20 12:22:09 ubuntu grub-installer: dpkg: warning: ignoring request to remove grub-efi which isn't installed
+Jun 20 12:22:09 ubuntu grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64-bin which isn't installed
+Jun 20 12:22:09 ubuntu grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64 which isn't installed
+Jun 20 12:22:09 ubuntu grub-installer: dpkg: warning: ignoring request to remove grub-efi-amd64-signed which isn't installed
+Jun 20 12:22:09 ubuntu grub-installer: dpkg: warning: ignoring request to remove grub-efi-ia32-bin which isn't installed
+Jun 20 12:22:09 ubuntu grub-installer: dpkg: warning: ignoring request to remove grub-efi-ia32 which isn't installed
+Jun 20 12:22:09 ubuntu grub-installer: info: Installing grub on '/dev/sda'
+Jun 20 12:22:09 ubuntu grub-installer: info: grub-install does not support --no-floppy
+Jun 20 12:22:09 ubuntu grub-installer: info: Running chroot /target grub-install  --force "/dev/sda"
+Jun 20 12:22:09 ubuntu grub-installer: Installing for i386-pc platform.
+Jun 20 12:22:10 ubuntu grub-installer: Installation finished. No error reported.
+Jun 20 12:22:10 ubuntu grub-installer: info: grub-install ran successfully
+Jun 20 12:22:10 ubuntu ubiquity: Setting partition 1 of /dev/sda to active... done.
+Jun 20 12:22:10 ubuntu /bin/in-target: warning: /target/etc/mtab won't be updated since it is a symlink.
+Jun 20 12:22:11 ubuntu os-prober: File descriptor 3 (pipe:[35958]) leaked on lvs invocation. Parent PID 19376: log-output
+Jun 20 12:22:11 ubuntu /plugininstall.py: log-output -t ubiquity umount -f /target/proc
+Jun 20 12:22:11 ubuntu /plugininstall.py: log-output -t ubiquity umount -f /target/sys
+Jun 20 12:22:11 ubuntu /plugininstall.py: log-output -t ubiquity umount -f /target/dev
+Jun 20 12:22:11 ubuntu /plugininstall.py: log-output -t ubiquity umount -f /target/run
+Jun 20 12:22:16 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:22:16 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:22:16 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:22:16 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ...
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 5%#015(Reading database ... 10%#015(Reading database ... 15%#015(Reading database ... 20%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 55%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 60%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 65%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 70%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 75%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 80%
+Jun 20 12:22:17 ubuntu ubiquity: (Reading database ... 85%
+Jun 20 12:22:18 ubuntu ubiquity: (Reading database ... 90%
+Jun 20 12:22:18 ubuntu ubiquity: (Reading database ... 95%
+Jun 20 12:22:18 ubuntu ubiquity: (Reading database ... 100%#015(Reading database ... 186463 files and directories currently installed.)
+Jun 20 12:22:18 ubuntu ubiquity: Removing a11y-profile-manager (0.1.11-0ubuntu3) ...
+Jun 20 12:22:18 ubuntu ubiquity: Removing btrfs-tools (4.9.1-1ubuntu1) ...
+Jun 20 12:22:18 ubuntu ubiquity: 
+Jun 20 12:22:18 ubuntu ubiquity: Removing btrfs-progs (4.9.1-1ubuntu1) ...
+Jun 20 12:22:18 ubuntu ubiquity: Removing lupin-casper (0.57) ...
+Jun 20 12:22:18 ubuntu ubiquity: Removing casper (1.380) ...
+Jun 20 12:22:18 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:18 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:18 ubuntu ubiquity: Removing cifs-utils (2:6.6-5ubuntu1) ...
+Jun 20 12:22:18 ubuntu ubiquity: Removing lvm2 (2.02.167-1ubuntu5) ...
+Jun 20 12:22:19 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:19 ubuntu ubiquity: invoke-rc.d: policy-rc.d denied execution of stop.
+Jun 20 12:22:19 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:19 ubuntu ubiquity: invoke-rc.d: policy-rc.d denied execution of stop.
+Jun 20 12:22:19 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:19 ubuntu ubiquity: message repeated 4 times: [ Running in chroot, ignoring request.]
+Jun 20 12:22:19 ubuntu ubiquity: Removing dmraid (1.0.0.rc16-4.2ubuntu3) ...
+Jun 20 12:22:19 ubuntu ubiquity: update-initramfs: deferring update (trigger activated)
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx (1:4.2.9.1-6) ...
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx-ui-qimpanel (2.1.2-2) ...
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx-table (1:4.2.9.1-6) ...
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx-config-gtk (0.4.8-3) ...
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx-config-common (0.4.8-3) ...
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx-pinyin (1:4.2.9.1-6) ...
+Jun 20 12:22:19 ubuntu ubiquity: Removing fcitx-mozc:amd64 (2.19.2623.102+dfsg-1) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-data (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-frontend-all (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-frontend-gtk2 (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-frontend-gtk3 (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-frontend-qt4 (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-frontend-qt5:amd64 (1.0.5-1build1~3) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-hangul:amd64 (0.3.0-3) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-module-cloudpinyin:amd64 (0.3.4-3) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-module-kimpanel (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-module-dbus (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-module-lua (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-ui-classic (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-module-x11 (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-unikey (0.2.4-1.1) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing fcitx-modules (1:4.2.9.1-6) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing firefox-locale-de (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing firefox-locale-es (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:20 ubuntu ubiquity: Removing firefox-locale-fr (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:21 ubuntu ubiquity: Removing firefox-locale-it (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:21 ubuntu ubiquity: Removing firefox-locale-pt (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:21 ubuntu ubiquity: Removing firefox-locale-ru (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:21 ubuntu ubiquity: Removing firefox-locale-zh-hans (52.0.1+build2-0ubuntu1) ...
+Jun 20 12:22:21 ubuntu ubiquity: Removing fonts-arphic-ukai (0.2.20080216.2-4ubuntu2) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing fonts-arphic-uming (0.2.20080216.2-7ubuntu2) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing gparted (0.25.0-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-de-at (20161207-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-de-ch (20161207-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-de-de (20161207-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-en-ca (1:5.2.5-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing myspell-en-gb (1:5.2.5-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-en-gb (1:5.2.5-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing myspell-en-za (1:5.2.5-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-en-za (1:5.2.5-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-fr (1:5.7-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-fr-classical (1:5.7-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing myspell-it (1:5.2.5-1) ...
+Jun 20 12:22:22 ubuntu ubiquity: Removing hunspell-it (1:5.2.5-1) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hunspell-ru (1:5.2.5-1) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-de (1:5.2.5-1) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing openoffice.org-hyphenation (0.10) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-en-ca (0.10) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-fi (0.10) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-fr (1:5.2.5-1) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-ga (0.10) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-id (0.10) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-it (1:5.2.5-1) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing hyphen-ru (20030310-1ubuntu2) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing jfsutils (1.1.15-3) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing kpartx-boot (0.6.4-3ubuntu3) ...
+Jun 20 12:22:23 ubuntu ubiquity: update-initramfs: deferring update (trigger activated)
+Jun 20 12:22:23 ubuntu ubiquity: Removing kpartx (0.6.4-3ubuntu3) ...
+Jun 20 12:22:23 ubuntu ubiquity: Removing liblvm2app2.2:amd64 (2.02.167-1ubuntu5) ...
+Jun 20 12:22:23 ubuntu ubiquity: 
+Jun 20 12:22:23 ubuntu ubiquity: Removing libdmraid1.0.0.rc16 (1.0.0.rc16-4.2ubuntu3) ...
+Jun 20 12:22:23 ubuntu ubiquity: 
+Jun 20 12:22:23 ubuntu ubiquity: Removing libfcitx-qt0:amd64 (1:4.2.9.1-6) ...
+Jun 20 12:22:23 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libfcitx-qt5-1:amd64 (1.0.5-1build1~3) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libgtkmm-2.4-1v5:amd64 (1:2.24.5-1) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libhangul1:amd64 (0.1.0-3) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libhangul-data (0.1.0-3) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing presage (0.9.1-2.1ubuntu4) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libpresage1v5:amd64 (0.9.1-2.1ubuntu4) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libpresage-data (0.9.1-2.1ubuntu4) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libqt5quickwidgets5:amd64 (5.7.1-1ubuntu1~7) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing xfsprogs (4.3.0+nmu1ubuntu4) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreadline5:amd64 (5.2+dfsg-3build1) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-de (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-en-gb (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-es (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-fr (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-it (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-pt (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-pt-br (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-ru (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-zh-cn (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-help-zh-tw (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-de (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-en-gb (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-en-za (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-es (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-fr (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-it (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:24 ubuntu ubiquity: Removing libreoffice-l10n-pt (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:24 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing libreoffice-l10n-pt-br (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing libreoffice-l10n-ru (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing libreoffice-l10n-zh-cn (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing libreoffice-l10n-zh-tw (1:5.3.1-0ubuntu2) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing libtinyxml2.6.2v5:amd64 (2.6.2-4) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing mozc-utils-gui (2.19.2623.102+dfsg-1) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing libzinnia0v5 (0.06-2.1ubuntu1) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing linux-signed-generic (4.10.0.19.21) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing linux-signed-image-generic (4.10.0.19.21) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Removing linux-signed-image-4.10.0-19-generic (4.10.0-19.21) ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Generating grub configuration file ...
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Warning: Setting GRUB_TIMEOUT to a non-zero value when GRUB_HIDDEN_TIMEOUT is set is no longer supported.
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Found linux image: /boot/vmlinuz-4.10.0-19-generic
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Found initrd image: /boot/initrd.img-4.10.0-19-generic
+Jun 20 12:22:25 ubuntu ubiquity: 
+Jun 20 12:22:25 ubuntu ubiquity: Found memtest86+ image: /boot/memtest86+.elf
+Jun 20 12:22:25 ubuntu ubiquity: Found memtest86+ image: /boot/memtest86+.bin
+Jun 20 12:22:26 ubuntu ubiquity: done
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing localechooser-data (2.65ubuntu4) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mokutil (0.3.0-0ubuntu4) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mozc-data (2.19.2623.102+dfsg-1) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mozc-server (2.19.2623.102+dfsg-1) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing myspell-en-au (2.1-5.4) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing myspell-es (1.11-14) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing myspell-pt (20091013-11) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing myspell-pt-br (20131030-9) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing myspell-pt-pt (20091013-11) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mythes-de (20160424-3) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mythes-de-ch (20160424-3) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mythes-en-au (2.1-5.4) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mythes-fr (1:5.2.5-1) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mythes-it (1:5.2.5-1) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing mythes-ru (1:5.2.5-1) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing samba-common-bin (2:4.5.4+dfsg-1ubuntu2) ...
+Jun 20 12:22:26 ubuntu ubiquity: 
+Jun 20 12:22:26 ubuntu ubiquity: Removing python-samba (2:4.5.4+dfsg-1ubuntu2) ...
+Jun 20 12:22:26 ubuntu ubiquity: Removing python-crypto (2.6.1-7) ...
+Jun 20 12:22:26 ubuntu ubiquity: Removing python-ldb (2:1.1.27-1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing python-tdb (1.3.11-2) ...
+Jun 20 12:22:27 ubuntu ubiquity: 
+Jun 20 12:22:27 ubuntu ubiquity: Removing reiserfsprogs (1:3.6.25-4) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing samba-common (2:4.5.4+dfsg-1ubuntu2) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing tegaki-zinnia-japanese (0.3-1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-de (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: 
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-en-gb (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-es-es (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-es-ar (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-es (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-fr (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-it (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-pt-pt (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-pt-br (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-pt (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-ru (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-zh-cn (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-zh-hans (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-zh-tw (1:45.8.0+build1-0ubuntu1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing thunderbird-locale-zh-hant (1:52.1.1+build1-0ubuntu0.17.04.1) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing ubiquity-slideshow-ubuntu (125) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing user-setup (1.63ubuntu4) ...
+Jun 20 12:22:27 ubuntu ubiquity: Removing wbrazilian (3.0~beta4-19) ...
+Jun 20 12:22:29 ubuntu ubiquity: Removing wfrench (1.2.3-10.1) ...
+Jun 20 12:22:30 ubuntu ubiquity: Removing witalian (1.8) ...
+Jun 20 12:22:32 ubuntu ubiquity: Removing wngerman (20161207-1) ...
+Jun 20 12:22:33 ubuntu ubiquity: Removing wogerman (1:2-31) ...
+Jun 20 12:22:33 ubuntu ubiquity: Removing wportuguese (20161001-1) ...
+Jun 20 12:22:34 ubuntu ubiquity: Removing wspanish (1.0.27) ...
+Jun 20 12:22:35 ubuntu ubiquity: Removing wswiss (20161207-1) ...
+Jun 20 12:22:36 ubuntu ubiquity: Removing fcitx-bin (1:4.2.9.1-6) ...
+Jun 20 12:22:36 ubuntu ubiquity: Removing libfcitx-core0:amd64 (1:4.2.9.1-6) ...
+Jun 20 12:22:36 ubuntu ubiquity: Removing libgettextpo0:amd64 (0.19.8.1-1ubuntu2) ...
+Jun 20 12:22:36 ubuntu ubiquity: Removing ubiquity-frontend-gtk (17.04.9) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing dmeventd (2:1.02.136-1ubuntu5) ...
+Jun 20 12:22:37 ubuntu ubiquity: /usr/sbin/policy-rc.d returned 101, not running 'stop dm-event.socket'
+Jun 20 12:22:37 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:37 ubuntu ubiquity: message repeated 2 times: [ Running in chroot, ignoring request.]
+Jun 20 12:22:37 ubuntu ubiquity: Removing liblvm2cmd2.02:amd64 (2.02.167-1ubuntu5) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing gir1.2-timezonemap-1.0 (0.4.5) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing gir1.2-xkl-1.0:amd64 (5.4-2) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-gnome-de-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-de-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-gnome-es-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-es-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-gnome-fr-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-fr-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-gnome-it-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-gnome-pt-base (1:17.04+20170404) ...
+Jun 20 12:22:37 ubuntu ubiquity: Removing language-pack-gnome-ru-base (1:17.04+20170404) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing language-pack-gnome-zh-hans-base (1:17.04+20170404) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing language-pack-it-base (1:17.04+20170404) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing language-pack-pt-base (1:17.04+20170404) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing language-pack-ru-base (1:17.04+20170404) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing language-pack-zh-hans-base (1:17.04+20170404) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing libdevmapper-event1.02.1:amd64 (2:1.02.136-1ubuntu5) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing metacity (1:3.24.0-2ubuntu1) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing ubiquity (17.04.9) ...
+Jun 20 12:22:38 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:38 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:38 ubuntu ubiquity: Removing apt-clone (0.4.1ubuntu2) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing archdetect-deb (1.117ubuntu4) ...
+Jun 20 12:22:38 ubuntu ubiquity: Removing cryptsetup (2:1.7.2-0ubuntu1) ...
+Jun 20 12:22:39 ubuntu ubiquity: update-initramfs: deferring update (trigger activated)
+Jun 20 12:22:39 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:39 ubuntu ubiquity: message repeated 2 times: [ Running in chroot, ignoring request.]
+Jun 20 12:22:39 ubuntu ubiquity: Removing cryptsetup-bin (2:1.7.2-0ubuntu1) ...
+Jun 20 12:22:39 ubuntu ubiquity: Removing dpkg-repack (1.43) ...
+Jun 20 12:22:39 ubuntu ubiquity: Removing ecryptfs-utils (111-0ubuntu4) ...
+Jun 20 12:22:39 ubuntu ubiquity: Removing keyutils (1.5.9-9ubuntu1) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-de (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-de (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-es (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-es (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-fr (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-fr (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-it (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-pt (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-ru (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-gnome-zh-hans (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-it (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-pt (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-ru (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing language-pack-zh-hans (1:17.04+20170404) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing libdebian-installer4:amd64 (0.102ubuntu3) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing libecryptfs1 (111-0ubuntu4) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing libparted-fs-resize0:amd64 (3.2-17) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing python3-icu (1.9.5-1) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing python3-pam (0.4.2-13.2ubuntu2) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing rdate (1:1.2-6) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing ubiquity-casper (1.380) ...
+Jun 20 12:22:40 ubuntu ubiquity: Removing ubiquity-ubuntu-artwork (17.04.9) ...
+Jun 20 12:22:40 ubuntu ubiquity: Processing triggers for libgtk2.0-0:amd64 (2.24.31-1ubuntu1) ...
+Jun 20 12:22:40 ubuntu ubiquity: Processing triggers for mime-support (3.60ubuntu1) ...
+Jun 20 12:22:41 ubuntu ubiquity: Processing triggers for desktop-file-utils (0.23-1ubuntu2) ...
+Jun 20 12:22:41 ubuntu ubiquity: Processing triggers for dictionaries-common (1.27.2) ...
+Jun 20 12:22:41 ubuntu ubiquity: Processing triggers for cracklib-runtime (2.9.2-3) ...
+Jun 20 12:22:41 ubuntu ubiquity: Processing triggers for initramfs-tools (0.125ubuntu9) ...
+Jun 20 12:22:41 ubuntu ubiquity: update-initramfs: Generating /boot/initrd.img-4.10.0-19-generic
+Jun 20 12:22:52 ubuntu ubiquity: Processing triggers for libgtk-3-0:amd64 (3.22.11-0ubuntu3) ...
+Jun 20 12:22:53 ubuntu ubiquity: Processing triggers for bamfdaemon (0.5.3+17.04.20170406-0ubuntu1) ...
+Jun 20 12:22:53 ubuntu ubiquity: Rebuilding /usr/share/applications/bamf-2.index...
+Jun 20 12:22:53 ubuntu ubiquity: Processing triggers for libc-bin (2.24-9ubuntu2) ...
+Jun 20 12:22:53 ubuntu ubiquity: Processing triggers for doc-base (0.10.7) ...
+Jun 20 12:22:53 ubuntu ubiquity: Processing 1 removed doc-base file, 33 changed doc-base files...
+Jun 20 12:22:53 ubuntu ubiquity: Processing triggers for man-db (2.7.6.1-2) ...
+Jun 20 12:22:54 ubuntu ubiquity: Processing triggers for shared-mime-info (1.8-1) ...
+Jun 20 12:22:55 ubuntu ubiquity: Processing triggers for gnome-menus (3.13.3-6ubuntu5) ...
+Jun 20 12:22:55 ubuntu ubiquity: Processing triggers for hicolor-icon-theme (0.15-1) ...
+Jun 20 12:22:55 ubuntu ubiquity: Processing triggers for fontconfig (2.11.94-0ubuntu2) ...
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ...
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 5%#015(Reading database ... 10%#015(Reading database ... 15%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 20%#015(Reading database ... 25%#015(Reading database ... 30%#015(Reading database ... 35%#015(Reading database ... 40%#015(Reading database ... 45%#015(Reading database ... 50%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 55%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 60%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 65%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 70%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 75%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 80%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 85%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 90%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 95%
+Jun 20 12:22:55 ubuntu ubiquity: (Reading database ... 100%#015(Reading database ... 168879 files and directories currently installed.)
+Jun 20 12:22:55 ubuntu ubiquity: Removing dmeventd (2:1.02.136-1ubuntu5) ...
+Jun 20 12:22:55 ubuntu ubiquity: Purging configuration files for dmeventd (2:1.02.136-1ubuntu5) ...
+Jun 20 12:22:55 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:56 ubuntu ubiquity: message repeated 3 times: [ Running in chroot, ignoring request.]
+Jun 20 12:22:56 ubuntu ubiquity: Removing wngerman (20161207-1) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Purging configuration files for wngerman (20161207-1) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Removing language-pack-pt-base (1:17.04+20170404) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Purging configuration files for language-pack-pt-base (1:17.04+20170404) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Removing kpartx-boot (0.6.4-3ubuntu3) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Purging configuration files for kpartx-boot (0.6.4-3ubuntu3) ...
+Jun 20 12:22:56 ubuntu ubiquity: Removing language-pack-gnome-fr-base (1:17.04+20170404) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Purging configuration files for language-pack-gnome-fr-base (1:17.04+20170404) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Removing wogerman (1:2-31) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Purging configuration files for wogerman (1:2-31) ...
+Jun 20 12:22:56 ubuntu ubiquity: 
+Jun 20 12:22:56 ubuntu ubiquity: Removing cifs-utils (2:6.6-5ubuntu1) ...
+Jun 20 12:22:56 ubuntu ubiquity: Purging configuration files for cifs-utils (2:6.6-5ubuntu1) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing libdmraid1.0.0.rc16 (1.0.0.rc16-4.2ubuntu3) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for libdmraid1.0.0.rc16 (1.0.0.rc16-4.2ubuntu3) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing fonts-arphic-uming (0.2.20080216.2-7ubuntu2) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for fonts-arphic-uming (0.2.20080216.2-7ubuntu2) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing language-pack-ru-base (1:17.04+20170404) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for language-pack-ru-base (1:17.04+20170404) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing fcitx (1:4.2.9.1-6) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for fcitx (1:4.2.9.1-6) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing language-pack-gnome-es-base (1:17.04+20170404) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for language-pack-gnome-es-base (1:17.04+20170404) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing dmraid (1.0.0.rc16-4.2ubuntu3) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for dmraid (1.0.0.rc16-4.2ubuntu3) ...
+Jun 20 12:22:57 ubuntu ubiquity: update-initramfs: deferring update (trigger activated)
+Jun 20 12:22:57 ubuntu ubiquity: Removing linux-signed-image-4.10.0-19-generic (4.10.0-19.21) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for linux-signed-image-4.10.0-19-generic (4.10.0-19.21) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing libhangul1:amd64 (0.1.0-3) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for libhangul1:amd64 (0.1.0-3) ...
+Jun 20 12:22:57 ubuntu ubiquity: Removing lvm2 (2.02.167-1ubuntu5) ...
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for lvm2 (2.02.167-1ubuntu5) ...
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: message repeated 2 times: [ Running in chroot, ignoring request.]
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Removing cryptsetup (2:1.7.2-0ubuntu1) ...
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Purging configuration files for cryptsetup (2:1.7.2-0ubuntu1) ...
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:57 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:22:57 ubuntu ubiquity: 
+Jun 20 12:22:58 ubuntu ubiquity: Removing witalian (1.8) ...
+Jun 20 12:22:58 ubuntu ubiquity: Purging configuration files for witalian (1.8) ...
+Jun 20 12:22:58 ubuntu ubiquity: Removing mozc-data (2.19.2623.102+dfsg-1) ...
+Jun 20 12:22:58 ubuntu ubiquity: Purging configuration files for mozc-data (2.19.2623.102+dfsg-1) ...
+Jun 20 12:22:58 ubuntu ubiquity: Removing wswiss (20161207-1) ...
+Jun 20 12:22:58 ubuntu ubiquity: Purging configuration files for wswiss (20161207-1) ...
+Jun 20 12:22:58 ubuntu ubiquity: Removing wfrench (1.2.3-10.1) ...
+Jun 20 12:22:58 ubuntu ubiquity: Purging configuration files for wfrench (1.2.3-10.1) ...
+Jun 20 12:22:59 ubuntu ubiquity: Removing keyutils (1.5.9-9ubuntu1) ...
+Jun 20 12:22:59 ubuntu ubiquity: 
+Jun 20 12:22:59 ubuntu ubiquity: Purging configuration files for keyutils (1.5.9-9ubuntu1) ...
+Jun 20 12:22:59 ubuntu ubiquity: Removing myspell-en-au (2.1-5.4) ...
+Jun 20 12:22:59 ubuntu ubiquity: Purging configuration files for myspell-en-au (2.1-5.4) ...
+Jun 20 12:22:59 ubuntu ubiquity: Removing samba-common (2:4.5.4+dfsg-1ubuntu2) ...
+Jun 20 12:22:59 ubuntu ubiquity: 
+Jun 20 12:22:59 ubuntu ubiquity: Purging configuration files for samba-common (2:4.5.4+dfsg-1ubuntu2) ...
+Jun 20 12:23:00 ubuntu ubiquity: Removing myspell-pt-br (20131030-9) ...
+Jun 20 12:23:00 ubuntu ubiquity: Purging configuration files for myspell-pt-br (20131030-9) ...
+Jun 20 12:23:00 ubuntu ubiquity: Removing language-pack-gnome-zh-hans-base (1:17.04+20170404) ...
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Purging configuration files for language-pack-gnome-zh-hans-base (1:17.04+20170404) ...
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Removing casper (1.380) ...
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Purging configuration files for casper (1.380) ...
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:00 ubuntu ubiquity: 
+Jun 20 12:23:00 ubuntu ubiquity: Removing fonts-arphic-ukai (0.2.20080216.2-4ubuntu2) ...
+Jun 20 12:23:00 ubuntu ubiquity: Purging configuration files for fonts-arphic-ukai (0.2.20080216.2-4ubuntu2) ...
+Jun 20 12:23:01 ubuntu ubiquity: Removing wbrazilian (3.0~beta4-19) ...
+Jun 20 12:23:01 ubuntu ubiquity: Purging configuration files for wbrazilian (3.0~beta4-19) ...
+Jun 20 12:23:01 ubuntu ubiquity: Removing language-pack-es-base (1:17.04+20170404) ...
+Jun 20 12:23:01 ubuntu ubiquity: Purging configuration files for language-pack-es-base (1:17.04+20170404) ...
+Jun 20 12:23:01 ubuntu ubiquity: Removing myspell-es (1.11-14) ...
+Jun 20 12:23:01 ubuntu ubiquity: Purging configuration files for myspell-es (1.11-14) ...
+Jun 20 12:23:01 ubuntu ubiquity: Removing language-pack-gnome-pt-base (1:17.04+20170404) ...
+Jun 20 12:23:01 ubuntu ubiquity: Purging configuration files for language-pack-gnome-pt-base (1:17.04+20170404) ...
+Jun 20 12:23:01 ubuntu ubiquity: Removing fcitx-ui-qimpanel (2.1.2-2) ...
+Jun 20 12:23:01 ubuntu ubiquity: Purging configuration files for fcitx-ui-qimpanel (2.1.2-2) ...
+Jun 20 12:23:01 ubuntu ubiquity: Removing user-setup (1.63ubuntu4) ...
+Jun 20 12:23:01 ubuntu ubiquity: Purging configuration files for user-setup (1.63ubuntu4) ...
+Jun 20 12:23:02 ubuntu ubiquity: Removing reiserfsprogs (1:3.6.25-4) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for reiserfsprogs (1:3.6.25-4) ...
+Jun 20 12:23:02 ubuntu ubiquity: Removing language-pack-gnome-de-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for language-pack-gnome-de-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Removing language-pack-zh-hans-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for language-pack-zh-hans-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Removing language-pack-fr-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for language-pack-fr-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Removing language-pack-de-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for language-pack-de-base (1:17.04+20170404) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Removing libpresage-data (0.9.1-2.1ubuntu4) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for libpresage-data (0.9.1-2.1ubuntu4) ...
+Jun 20 12:23:02 ubuntu ubiquity: Removing wportuguese (20161001-1) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:02 ubuntu ubiquity: Purging configuration files for wportuguese (20161001-1) ...
+Jun 20 12:23:02 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Removing fcitx-bin (1:4.2.9.1-6) ...
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Purging configuration files for fcitx-bin (1:4.2.9.1-6) ...
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Removing gparted (0.25.0-1) ...
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Purging configuration files for gparted (0.25.0-1) ...
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Removing ubiquity (17.04.9) ...
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Purging configuration files for ubiquity (17.04.9) ...
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:03 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:03 ubuntu ubiquity: 
+Jun 20 12:23:03 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:04 ubuntu ubiquity: message repeated 2 times: [ Running in chroot, ignoring request.]
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Removing ubiquity-frontend-gtk (17.04.9) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Purging configuration files for ubiquity-frontend-gtk (17.04.9) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Removing wspanish (1.0.27) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Purging configuration files for wspanish (1.0.27) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Removing language-pack-gnome-ru-base (1:17.04+20170404) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Purging configuration files for language-pack-gnome-ru-base (1:17.04+20170404) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Removing language-pack-gnome-it-base (1:17.04+20170404) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Purging configuration files for language-pack-gnome-it-base (1:17.04+20170404) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Removing language-pack-it-base (1:17.04+20170404) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:04 ubuntu ubiquity: Purging configuration files for language-pack-it-base (1:17.04+20170404) ...
+Jun 20 12:23:04 ubuntu ubiquity: 
+Jun 20 12:23:05 ubuntu ubiquity: Removing myspell-pt-pt (20091013-11) ...
+Jun 20 12:23:05 ubuntu ubiquity: 
+Jun 20 12:23:05 ubuntu ubiquity: Purging configuration files for myspell-pt-pt (20091013-11) ...
+Jun 20 12:23:05 ubuntu ubiquity: 
+Jun 20 12:23:05 ubuntu ubiquity: Processing triggers for ureadahead (0.100.0-19) ...
+Jun 20 12:23:05 ubuntu ubiquity: 
+Jun 20 12:23:05 ubuntu ubiquity: Processing triggers for initramfs-tools (0.125ubuntu9) ...
+Jun 20 12:23:05 ubuntu ubiquity: 
+Jun 20 12:23:05 ubuntu ubiquity: update-initramfs: Generating /boot/initrd.img-4.10.0-19-generic
+Jun 20 12:23:05 ubuntu ubiquity: 
+Jun 20 12:23:17 ubuntu ubiquity: Processing triggers for systemd (232-21ubuntu2) ...
+Jun 20 12:23:17 ubuntu ubiquity: Running in chroot, ignoring request.
+Jun 20 12:23:18 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:23:18 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:23:18 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:23:18 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:23:19 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:23:19 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:23:19 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /dev /target/dev
+Jun 20 12:23:19 ubuntu /plugininstall.py: log-output -t ubiquity mount --bind /run /target/run
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/run
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity umount /target/dev
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t proc proc /proc
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t sysfs sysfs /sys
+Jun 20 12:23:20 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target mount -t securityfs securityfs /sys/kernel/security
+Jun 20 12:23:20 ubuntu ubiquity:  * Recaching AppArmor profiles
+Jun 20 12:23:21 ubuntu ubiquity: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Jun 20 12:23:22 ubuntu ubiquity: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Jun 20 12:23:23 ubuntu ubiquity:    ...done.
+Jun 20 12:23:23 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target /etc/init.d/apparmor recache
+Jun 20 12:23:23 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /proc
+Jun 20 12:23:23 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys/kernel/security
+Jun 20 12:23:23 ubuntu /plugininstall.py: log-output -t ubiquity chroot /target umount /sys
+Jun 20 12:23:23 ubuntu ubiquity: sudo
+Jun 20 12:23:23 ubuntu ubiquity: :
+Jun 20 12:23:23 ubuntu ubiquity: unable to resolve host ubuntu
+Jun 20 12:23:23 ubuntu ubiquity: :
+Jun 20 12:23:23 ubuntu ubiquity: Connection refused
+Jun 20 12:23:23 ubuntu ubiquity: 
+Jun 20 12:23:23 ubuntu ubiquity: sudo: unable to resolve host ubuntu: Connection refused

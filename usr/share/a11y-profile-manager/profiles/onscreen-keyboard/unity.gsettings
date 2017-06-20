@@ -1,0 +1,16 @@
+[org.gnome.desktop.a11y.keyboard]
+enable=true
+
+[org.gnome.desktop.a11y.keyboard]
+stickykeys-enable=true
+
+[org.gnome.desktop.a11y.keyboard]
+stickykeys-two-key-off=false
+
+[org.gnome.desktop.interface]
+toolkit-accessibility=true
+
+[org.gnome.desktop.a11y.keyboard]
+stickykeys-modifier-beep=false
+[org.gnome.desktop.a11y.applications]
+screen-keyboard-enabled=true

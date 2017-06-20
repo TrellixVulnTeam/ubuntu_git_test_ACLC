@@ -1,0 +1,13 @@
+[org.gnome.desktop.interface]
+icon-theme="HighContrast"
+monospace-font-name="monospace 18"
+font-name="sans 18"
+cursor-size=48
+cursor-theme="whiteglass"
+
+[org.gnome.desktop.background]
+picture-uri=""
+picture-options="none"
+primary-color="#666666"
+secondary-color="#7F7F7F"
+color-shading-type="solid"

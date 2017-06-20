@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=italc-master
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Name=iTALC
+GenericName=View and remote-control clients
+Comment=Intelligent Teaching And Learning with Computers
+Exec=italc
+Icon=italc
+Type=Application
+Terminal=false
+Keywords=education;classroom;teachers;students;remote control;computer-labs;
+Categories=Qt;KDE;Education;X-KDE-Edu-Teaching;RemoteAccess;
+
+X-Ubuntu-Gettext-Domain=app-install-data

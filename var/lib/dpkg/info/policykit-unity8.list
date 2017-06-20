@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/policykit-unity8
+/usr/lib/x86_64-linux-gnu/policykit-unity8/policykit-agent
+/usr/share
+/usr/share/doc
+/usr/share/doc/policykit-unity8
+/usr/share/doc/policykit-unity8/changelog.Debian.gz
+/usr/share/doc/policykit-unity8/copyright
+/usr/share/upstart
+/usr/share/upstart/sessions
+/usr/share/upstart/sessions/unity8-policy-kit.conf

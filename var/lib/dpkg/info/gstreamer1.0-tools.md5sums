@@ -1,0 +1,7 @@
+dcbaff351972caa8ee0c886a53c22383  usr/bin/gst-inspect-1.0
+99b86288996585ffa79a2deb3b5d1eaf  usr/bin/gst-launch-1.0
+d03ed79189cfd0cc6e61702ea682902e  usr/bin/gst-typefind-1.0
+755edde22ad9130c5ea5caa718046f66  usr/share/doc/gstreamer1.0-tools/copyright
+5d380f7673f8d99ec5fbb9db3d844725  usr/share/man/man1/gst-inspect-1.0.1.gz
+f00c1f82f1b239687789bb8a6cdabc9f  usr/share/man/man1/gst-launch-1.0.1.gz
+3c07d8e7f9d8fdfc58d583c814bec6f2  usr/share/man/man1/gst-typefind-1.0.1.gz

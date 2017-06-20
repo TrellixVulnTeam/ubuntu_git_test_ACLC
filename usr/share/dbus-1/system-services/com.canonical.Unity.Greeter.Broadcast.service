@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.canonical.Unity.Greeter.Broadcast
+Exec=/usr/lib/x86_64-linux-gnu/unity-greeter-session-broadcast/unity-greeter-session-broadcast-service
+User=root

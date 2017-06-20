@@ -1,0 +1,8 @@
+module Ubuntu.Settings.Components
+plugin UbuntuSettingsComponentsQml
+typeinfo Components.qmltypes
+
+ActionTextField 0.1 ActionTextField.qml
+Calendar 0.1 Calendar.qml
+MessageHeader 0.1 MessageHeader.qml
+UbuntuShapeForItem 0.1 UbuntuShapeForItem.qml

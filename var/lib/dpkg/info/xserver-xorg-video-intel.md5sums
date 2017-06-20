@@ -1,0 +1,16 @@
+ba2b225f0f95c98f7997ec47f81e1209  usr/bin/dri3info
+349e4866a4f6f80a80834bce5262fda6  usr/bin/intel-virtual-output
+2d5421e0374be9071184cf9a9c26c642  usr/lib/x86_64-linux-gnu/libI810XvMC.so.1.0.0
+03805751c618e2a159931e0dab26af17  usr/lib/x86_64-linux-gnu/libIntelXvMC.so.1.0.0
+1e79c7e07cbe2e935a0e530aef0d5fae  usr/lib/xorg/modules/drivers/intel_drv.so
+e1ea446aeaa05a5bd53a3e357c50f297  usr/lib/xserver-xorg-video-intel/xf86-video-intel-backlight-helper
+1c6ead0eff0fe4363b51af7794c8aad3  usr/share/doc/xserver-xorg-video-intel/NEWS.gz
+3c75a86f49f1186110715feca8869340  usr/share/doc/xserver-xorg-video-intel/README
+238112d3c9d2e3d6226c83f5cc570352  usr/share/doc/xserver-xorg-video-intel/README.Debian
+d4388b95d5ea1d11f443388f52fff3cd  usr/share/doc/xserver-xorg-video-intel/changelog.Debian.gz
+29b9875944e025d3e295717774d525e9  usr/share/doc/xserver-xorg-video-intel/copyright
+e012d6c4fc362a320e6699338ec52fa7  usr/share/doc/xserver-xorg-video-intel/xorg.conf
+c978eead6751d25c1607405fa3598146  usr/share/lintian/overrides/xserver-xorg-video-intel
+91def31117c31bf5564727f55fda72ee  usr/share/man/man4/intel-virtual-output.4.gz
+712c7e327ccfcda1f8869440bedeb4c1  usr/share/man/man4/intel.4.gz
+e96c83ad191609a2c5225eac740ee402  usr/share/polkit-1/actions/org.x.xf86-video-intel.backlight-helper.policy

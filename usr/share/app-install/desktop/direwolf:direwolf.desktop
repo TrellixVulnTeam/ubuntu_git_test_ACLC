@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=direwolf
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=/usr/bin/direwolf
+Name=Dire Wolf
+Comment=APRS Soundcard TNC
+Icon=_usr_share_direwolf_dw-icon
+Terminal=true
+Categories=Network;HamRadio
+Keywords=Ham Radio;APRS;Soundcard TNC;KISS;AGWPE;AX.25
+
+X-Ubuntu-Gettext-Domain=app-install-data

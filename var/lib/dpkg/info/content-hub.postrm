@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_apparmor
+if [ "$1" = "purge" ] && ! [ -e "/etc/apparmor.d/content-hub-peer-picker" ] ; then
+    rm -f "/etc/apparmor.d/disable/content-hub-peer-picker" || true
+    rm -f "/etc/apparmor.d/force-complain/content-hub-peer-picker" || true
+    rm -f "/etc/apparmor.d/local/content-hub-peer-picker" || true
+    rmdir /etc/apparmor.d/disable 2>/dev/null || true
+    rmdir /etc/apparmor.d/local   2>/dev/null || true
+    rmdir /etc/apparmor.d         2>/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_apparmor
+if [ "$1" = "purge" ] && ! [ -e "/etc/apparmor.d/content-hub-clipboard" ] ; then
+    rm -f "/etc/apparmor.d/disable/content-hub-clipboard" || true
+    rm -f "/etc/apparmor.d/force-complain/content-hub-clipboard" || true
+    rm -f "/etc/apparmor.d/local/content-hub-clipboard" || true
+    rmdir /etc/apparmor.d/disable 2>/dev/null || true
+    rmdir /etc/apparmor.d/local   2>/dev/null || true
+    rmdir /etc/apparmor.d         2>/dev/null || true
+fi
+# End automatically added section

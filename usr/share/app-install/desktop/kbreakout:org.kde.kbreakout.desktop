@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kbreakout
+X-AppInstall-Popcon=94
+X-AppInstall-Section=universe
+
+Name=KBreakOut
+Icon=kbreakout
+Type=Application
+Exec=kbreakout -qwindowtitle %c
+X-DocPath=kbreakout/index.html
+GenericName=Breakout-like Game
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;ArcadeGame;
+X-DBUS-ServiceName=org.kde.kbreakout
+
+X-Ubuntu-Gettext-Domain=app-install-data

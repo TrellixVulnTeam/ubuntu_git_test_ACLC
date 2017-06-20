@@ -1,0 +1,11 @@
+b29b07901ec6cd8e3d056376fcce56f8  usr/lib/x86_64-linux-gnu/libunity-scopes.so.1.0.7
+626d18784fa2f801da4c6541807489b4  usr/lib/x86_64-linux-gnu/unity-scopes/scoperegistry
+9b40167c20134824c78ff3752446f596  usr/lib/x86_64-linux-gnu/unity-scopes/scoperunner
+ca3a944c3c11b3b574bbef962977a56a  usr/lib/x86_64-linux-gnu/unity-scopes/smartscopesproxy
+3034e9b2e97f453b3bc0d91f0a7efd0c  usr/share/apport/package-hooks/libunity-scopes1.0.py
+521152d664f952bd13cbb64dfda49e69  usr/share/click/hooks/scope.hook
+db06ed301e61a722b3790334e84bd9c5  usr/share/doc/libunity-scopes1.0/changelog.Debian.gz
+b2bccf52f3f4872124fc97b4b20bcc3f  usr/share/doc/libunity-scopes1.0/copyright
+ff3b56278769e24057067e1f4ad4720c  usr/share/upstart/sessions/scope-registry.conf
+13d6bf8fbc37d9f2094dce531aea93ea  usr/share/upstart/sessions/smart-scopes-proxy.conf
+f101c381b46b1287a6b24ed836f440d2  var/lib/libunity-scopes/version

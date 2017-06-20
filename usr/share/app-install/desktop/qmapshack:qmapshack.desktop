@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=qmapshack
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=QMapShack
+Exec=qmapshack %F
+Icon=QMapShack
+Terminal=false
+Type=Application
+X-MultipleArgs=false
+Categories=Qt;Utility;Geography;
+GenericName=GPS device mapping utility
+Keywords=map;GPS;geocaching;waypoints;tracks;
+MimeType=application/x-gpx;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

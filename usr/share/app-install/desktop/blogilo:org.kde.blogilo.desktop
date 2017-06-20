@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=blogilo
+X-AppInstall-Popcon=69
+X-AppInstall-Section=universe
+
+Name=Blogilo
+Exec=blogilo
+Icon=blogilo
+Type=Application
+Categories=Qt;KDE;Network;
+GenericName=A KDE Blogging Client
+Terminal=false
+X-DBUS-ServiceName=org.kde.blogilo
+
+X-Ubuntu-Gettext-Domain=app-install-data

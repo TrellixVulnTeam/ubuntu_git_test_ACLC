@@ -1,0 +1,6 @@
+befcdf93b09da678f8b1e8e25553d4fd  usr/lib/systemd/user/indicator-transfer.service
+1b9d757afa8b03e77923447d612b40dd  usr/lib/x86_64-linux-gnu/indicator-transfer/indicator-transfer-service
+2cdda7cea4c0d1aebe38dbb14839cbb0  usr/share/doc/indicator-transfer/copyright
+c75495ee5223875d3877e72e7130fed5  usr/share/unity/indicators/com.canonical.indicator.transfer
+a93edccddb67881b61fdf5c2c06525bb  usr/share/upstart/sessions/indicator-transfer.conf
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/indicator-transfer.override

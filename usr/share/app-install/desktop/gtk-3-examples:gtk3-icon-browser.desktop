@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gtk-3-examples
+X-AppInstall-Popcon=11
+X-AppInstall-Section=main
+
+Name=Icon Browser
+Comment=An application that shows themed icons
+Exec=gtk3-icon-browser
+Icon=gtk3-icon-browser
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kamoso
+X-AppInstall-Popcon=206
+X-AppInstall-Section=universe
+
+Name=Kamoso
+GenericName=Camera
+Comment=Use your webcam to take pictures or make videos
+Exec=kamoso -qwindowtitle %c
+Icon=kamoso
+Type=Application
+X-DocPath=kamoso/index.html
+Terminal=false
+Categories=Qt;KDE;AudioVideo;
+
+X-Ubuntu-Gettext-Domain=app-install-data

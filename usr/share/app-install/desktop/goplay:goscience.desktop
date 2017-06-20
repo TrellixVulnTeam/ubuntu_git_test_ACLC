@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=goplay
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Type=Application
+Name=GoScience!
+GenericName=goscience
+Comment=Science packages browser
+Icon=goscience
+Exec=goscience
+Terminal=false
+Categories=Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,25 @@
+[Desktop Entry]
+X-AppInstall-Package=darkradiant
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=DarkRadiant
+GenericName=Level editor
+Keywords=doom;doom3;idtech;level;map;the dark mod;game development;
+
+Comment=3D level editor for Doom 3 and the Dark Mod
+
+Icon=_usr_share_darkradiant_bitmaps_darkradiant_icon_64x64
+
+# The %f means a single, local, absolute file. Remote files will be
+# first copied in a local temp location and then given to the program:
+Exec=/usr/bin/darkradiant %f
+
+Terminal=false
+
+Type=Application
+
+Categories=Game;3DGraphics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

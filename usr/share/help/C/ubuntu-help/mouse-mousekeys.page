@@ -1,0 +1,214 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  style="task"
+  id="mouse-mousekeys">
+<info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="pointing"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-16" status="outdated"/>
+    <revision version="13.10" date="2013-09-12" status="review"/>
+
+    <desc>Enable mouse keys to control the mouse with the keypad.</desc>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    
+</info>
+
+<title>Click and move mouse pointer using the keypad</title>
+
+<p>If you have difficulties using a mouse or other pointing device, you can
+control the mouse pointer using the numeric keypad on your keyboard. This
+feature is called <em>mouse keys</em>.</p>
+
+<p>To enable mouse keys using the keyboard:</p>
+
+<steps>
+  <item><p>Tap the <key><link xref="windows-key">Super</link></key> key to open the <gui>Dash</gui>.</p></item>
+  <item><p>Type <input>Universal Access</input> and press <key>Enter</key> to open the Universal Access settings.</p></item>
+  <item><p>Press <key>Tab</key> once to select the <gui>Seeing</gui> tab.</p></item>
+  <item><p>Press <key>←</key> twice to switch to the <gui>Pointing and Clicking</gui> tab.</p></item>
+  <item><p>Press <key>↓</key> once to select the <gui>Mouse Keys</gui> switch then press <key>Enter</key> to switch it on.</p></item>
+ <item>
+  <p>
+  Make sure that <key>Num Lock</key> is turned off. You will now be able to
+  move the mouse pointer using the keypad.
+  </p>
+ </item>
+</steps>
+
+ <note style = "tip">
+ <p>The above instructions provide the shortest way to enable mouse keys using
+ only the keyboard. See <gui>Universal Access</gui> settings for more
+ accessibility options.</p>
+ </note>
+
+<p></p>
+
+<p>
+The numeric keypad is a set of numerical buttons on your keyboard, usually arranged
+into a square grid. With mouse keys there are three buttons: primary, alternate, and modifier. Initially the primary button is selected.
+Here are some examples of how to use mouse keys:</p>
+
+<list type="disc">
+
+  <item><p>
+Each number on the keypad (except 0 and 5) corresponds to a direction. For example, pressing
+<key>8</key> will move the pointer upwards and pressing <key>2</key> will move
+it downwards.
+</p></item>
+
+  <item><p>
+To click the selected button, press <key>5</key>.
+</p></item>
+
+  <item><p>
+To double-click the selected button, quickly press 
+<key>5</key> twice or press <key>+</key> once. 
+</p></item>
+
+  <item><p>
+To right click, 
+press <key>-</key> to select the alternate button (if it is not already selected) and press <key>5</key>.
+</p></item>
+
+  <item><p>
+To middle click, 
+press <key>*</key> to select the modifier button (if it is not already selected) and press <key>5</key>.
+</p></item>
+
+
+  <item><p>
+To drag and drop using the primary button, 
+press <key>/</key> to select the primary button (if it is not already selected),
+press <key>0</key> to depress the button, drag the pointer to the required position, and 
+press <key>.</key> to release the button.
+</p></item>
+
+
+</list>
+
+<p>
+ </p>
+<p>Here is a table of mouse keys and their actions:</p>
+
+
+<table frame="top bottom" rules="rows">
+
+  <tr>
+    <td><p><em>Key</em></p></td>
+    <td><p><em>Action</em></p></td>
+  </tr>
+  <tr>
+    <td><p><key>8</key></p></td>
+    <td><p>Pointer up</p></td>
+  </tr>
+  <tr>
+    <td><p><key>2</key></p></td>
+    <td><p>Pointer down</p></td>
+  </tr>
+  <tr>
+    <td><p><key>6</key></p></td>
+    <td><p>Pointer right</p></td>
+  </tr>
+  <tr>
+    <td><p><key>4</key></p></td>
+    <td><p>Pointer left</p></td>
+  </tr>
+
+  <tr>
+    <td><p><key>7</key></p></td>
+    <td><p>Pointer up and left</p></td>
+  </tr>
+  <tr>
+    <td><p><key>9</key></p></td>
+    <td><p>Pointer up and right</p></td>
+  </tr>
+  <tr>
+    <td><p><key>3</key></p></td>
+    <td><p>Pointer down and right</p></td>
+  </tr>
+  <tr>
+    <td><p><key>1</key></p></td>
+    <td><p>Pointer down and left</p></td>
+  </tr>
+
+  <tr>
+    <td><p><key>/</key></p></td>
+    <td><p>Select the primary button. On a mouse the primary button is usually the left button</p></td>
+  </tr>
+  <tr>
+    <td><p><key>*</key></p></td>
+    <td><p>Select the modifier button. On a mouse the modifier button (if present) is usually the middle button</p></td>
+  </tr>
+  <tr>
+    <td><p><key>-</key></p></td>
+    <td><p>Select the alternate button. On a mouse the alternate button is usually the right button</p></td>
+  </tr>
+  <tr>
+    <td><p><key>5</key></p></td>
+    <td><p>Click selected button</p></td>
+  </tr>
+
+  <tr>
+    <td><p><key>+</key></p></td>
+    <td><p>Double click selected button</p></td>
+  </tr>
+  <tr>
+    <td><p><key>0</key></p></td>
+    <td><p>Depress selected button</p></td>
+  </tr>
+  <tr>
+    <td><p><key>.</key></p></td>
+    <td><p>Release selected button</p></td>
+  </tr>
+
+</table>
+
+<p>
+</p>
+
+<note>
+<p>If you have a keyboard without a keypad (as with some laptops),
+you may need to hold down the function (<key>Fn</key>)
+key and use certain other keys on your keyboard as a keypad. If you use this
+feature often, you may wish to purchase an external USB keypad.
+</p>
+</note>
+
+<p>
+</p>
+
+<note>
+<p>
+If you want to use the keypad to type numbers while mouse keys is enabled, turn
+<key>Num Lock</key> on. The mouse cannot be controlled with the keypad when
+<key>Num Lock</key> is turned on, though.
+</p>
+</note>
+
+<p>
+</p>
+
+<note>
+    <p>
+    The normal number keys, in a line at the top of the keyboard, will not
+    control the mouse pointer. Only the keypad number keys can be used.
+    </p>
+</note>
+
+
+</page>

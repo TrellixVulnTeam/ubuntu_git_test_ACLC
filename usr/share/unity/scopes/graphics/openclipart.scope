@@ -1,0 +1,18 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Graphics.Openclipart
+DBusPath=/com/canonical/unity/scope/graphics/openclipart
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-openclipart.svg
+Keywords=openclipart;clipart;svg;vector;
+RequiredMetadata=
+OptionalMetadata=published[s];author[s];resource[s];
+Loader=/usr/share/unity-scopes/openclipart/unity_openclipart_daemon.py
+Module=openclipart.unity_openclipart_daemon
+ModuleType=python3
+RemoteContent=true
+Type=graphics
+Name=OpenClipArt
+Description=This is an Ubuntu search plugin that enables information from OpenClipArt to be searched and displayed in the Dash underneath the Graphics header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search OpenClipArt
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-openclipart

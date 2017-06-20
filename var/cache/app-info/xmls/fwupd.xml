@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components origin="ubuntu-zesty-security-universe" version="0.9">
+  <component type="firmware">
+    <id>com.8bitdo.fc30.firmware</id>
+    <name>FC30</name>
+    <summary>Firmware for the 8Bitdo FC30 Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your FC30 device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/fc30/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/hughsie/8bitdo-firmware/master/screenshots/FC30.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1477454400" urgency="medium" version="2.70">
+        <location>https://secure-lvfs.rhcloud.com/downloads/de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab</location>
+        <checksum type="sha1" filename="de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab" target="container">79dcd4ff3ab4907486ab98b0f70d36ffeea5637a</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_270.dat" target="content">17225b72755743a7e085cce6371ff1549255b36c</checksum>
+        <description><p>Support remapping the buttons by the RemapTools on Gamepad Mode.</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53555</size>
+      </release>
+      <release timestamp="1473393600" urgency="medium" version="2.69">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab</location>
+        <checksum type="sha1" filename="a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab" target="container">7572ee89294b123c0471dbc31a1afebc74540d8c</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_269.dat" target="content">07db92076bdc7c866e05066dcf65a575dbe8e8f1</checksum>
+        <description><p>Support HID and SPP on mode 4 (START+X).</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53459</size>
+      </release>
+      <release timestamp="1470456000" urgency="medium" version="2.68">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab</location>
+        <checksum type="sha1" filename="a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab" target="container">501d20f1b8a0f1accf9092d8afeaf173aa45dbf6</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_V2.68.dat" target="content">070a864ce768da0c0cad049cda62ee20cffbd7fe</checksum>
+        <description><p>This stable release adds the following feature:</p><ul><li>Joystick Mode (hold START button power on) support for OSX</li></ul><p>This stable release also fixes the following issues:</p><ul><li>Improve the Bluetooth automatic connection</li><li>Improve the connection with the Retro Receiver NES</li><li>Make the LED blink much quicker when the in auto-connect status</li></ul></description>
+        <size type="installed">47132</size>
+        <size type="download">54725</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">7934f46a-77cb-5ade-af34-2bd2842ced3d</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.8bitdo.fc30arcade.firmware</id>
+    <name>FC30 Joystick</name>
+    <summary>Firmware for the 8Bitdo FC30 Joystick Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your FC30 Joystick device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/fc30joystick/</url>
+    <screenshots/>
+    <releases>
+      <release timestamp="1464753600" urgency="medium" version="1.42">
+        <location>https://secure-lvfs.rhcloud.com/downloads/e82409cae5a51682add773d6fb990e435f31ef6b-8Bitdo-FC30ARCADE-1.42.cab</location>
+        <checksum type="sha1" filename="e82409cae5a51682add773d6fb990e435f31ef6b-8Bitdo-FC30ARCADE-1.42.cab" target="container">e4b409d688c2c4e256b6e361b2ffe4ff38ef7c20</checksum>
+        <checksum type="sha1" filename="8Bitdo_joy_firmware_V1.42.dat" target="content">09c1c03464eb7c86e49f5b36f6d0815772f3ffd8</checksum>
+        <description><p>Add support for Joystick Mode to OS X.</p></description>
+        <size type="installed">45596</size>
+        <size type="download">47056</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">c33353e3-208f-592d-8c9e-6ece32062b8b</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.8bitdo.fc30pro.firmware</id>
+    <name>FC30 Pro</name>
+    <summary>Firmware for the 8Bitdo FC30 Pro Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your FC30 Pro device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/nes30pro/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/hughsie/8bitdo-firmware/master/screenshots/FC30PRO.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1473134400" urgency="medium" version="1.71">
+        <location>https://secure-lvfs.rhcloud.com/downloads/e70fd8e0d98eaa452819c39ed633726a90553505-8Bitdo-SFC30PRO_NES30PRO-1.71.cab</location>
+        <checksum type="sha1" filename="e70fd8e0d98eaa452819c39ed633726a90553505-8Bitdo-SFC30PRO_NES30PRO-1.71.cab" target="container">1c7f9af397276651a7440baa7dd9e1f35c2aef25</checksum>
+        <checksum type="sha1" filename="Pro_Firmware_V1.71.dat" target="content">5fd7423887dc17402427392d2e8e8de006329e8a</checksum>
+        <description><p>This stable release fixes the following issues:</p><ul><li>Enhance the stability of the Bluetooth automatic connection</li><li>Modify the value of the arrow and joystick on PC Joystick mode</li></ul></description>
+        <size type="installed">43548</size>
+        <size type="download">46915</size>
+      </release>
+      <release timestamp="1456376400" urgency="medium" version="1.69">
+        <location>https://secure-lvfs.rhcloud.com/downloads/c5caa13b0aeab0869b9eada15171c6268bd989cf-8Bitdo-SFC30PRO_NES30PRO-1.69.cab</location>
+        <checksum type="sha1" filename="c5caa13b0aeab0869b9eada15171c6268bd989cf-8Bitdo-SFC30PRO_NES30PRO-1.69.cab" target="container">3d0fadd768aab0f033dea272adb5e9f33b491bcc</checksum>
+        <checksum type="sha1" filename="firmware.dat" target="content">ea0e727d7af8229302cc41a35ec89eaf626c9aa9</checksum>
+        <description><p>This stable release fixes the following issues:</p><ul><li>Disable auto-sleep when the device is connected to a USB port</li><li>Improve performance of the analog sticks</li><li>Add support for Joystick Mode to OS X</li></ul></description>
+        <size type="installed">42524</size>
+        <size type="download">45700</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">66550b65-e2be-5a61-8f67-b437d312f397</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.8bitdo.nes30.firmware</id>
+    <name>NES30</name>
+    <summary>Firmware for the 8Bitdo NES30 Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your NES30 device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/nes30/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/hughsie/8bitdo-firmware/master/screenshots/NES30.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1477454400" urgency="medium" version="2.70">
+        <location>https://secure-lvfs.rhcloud.com/downloads/de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab</location>
+        <checksum type="sha1" filename="de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab" target="container">79dcd4ff3ab4907486ab98b0f70d36ffeea5637a</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_270.dat" target="content">17225b72755743a7e085cce6371ff1549255b36c</checksum>
+        <description><p>Support remapping the buttons by the RemapTools on Gamepad Mode.</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53555</size>
+      </release>
+      <release timestamp="1473393600" urgency="medium" version="2.69">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab</location>
+        <checksum type="sha1" filename="a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab" target="container">7572ee89294b123c0471dbc31a1afebc74540d8c</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_269.dat" target="content">07db92076bdc7c866e05066dcf65a575dbe8e8f1</checksum>
+        <description><p>Support HID and SPP on mode 4 (START+X).</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53459</size>
+      </release>
+      <release timestamp="1470456000" urgency="medium" version="2.68">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab</location>
+        <checksum type="sha1" filename="a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab" target="container">501d20f1b8a0f1accf9092d8afeaf173aa45dbf6</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_V2.68.dat" target="content">070a864ce768da0c0cad049cda62ee20cffbd7fe</checksum>
+        <description><p>This stable release adds the following feature:</p><ul><li>Joystick Mode (hold START button power on) support for OSX</li></ul><p>This stable release also fixes the following issues:</p><ul><li>Improve the Bluetooth automatic connection</li><li>Improve the connection with the Retro Receiver NES</li><li>Make the LED blink much quicker when the in auto-connect status</li></ul></description>
+        <size type="installed">47132</size>
+        <size type="download">54725</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">0f540624-1414-50bb-9fa6-c724b4fa4464</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.8bitdo.nes30pro.firmware</id>
+    <name>NES30 Pro</name>
+    <summary>Firmware for the 8Bitdo NES30 Pro Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your NES30 Pro device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/nes30pro/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/hughsie/8bitdo-firmware/master/screenshots/NES30PRO.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1473134400" urgency="medium" version="1.71">
+        <location>https://secure-lvfs.rhcloud.com/downloads/e70fd8e0d98eaa452819c39ed633726a90553505-8Bitdo-SFC30PRO_NES30PRO-1.71.cab</location>
+        <checksum type="sha1" filename="e70fd8e0d98eaa452819c39ed633726a90553505-8Bitdo-SFC30PRO_NES30PRO-1.71.cab" target="container">1c7f9af397276651a7440baa7dd9e1f35c2aef25</checksum>
+        <checksum type="sha1" filename="Pro_Firmware_V1.71.dat" target="content">5fd7423887dc17402427392d2e8e8de006329e8a</checksum>
+        <description><p>This stable release fixes the following issues:</p><ul><li>Enhance the stability of the Bluetooth automatic connection</li><li>Modify the value of the arrow and joystick on PC Joystick mode</li></ul></description>
+        <size type="installed">43548</size>
+        <size type="download">46915</size>
+      </release>
+      <release timestamp="1456376400" urgency="medium" version="1.69">
+        <location>https://secure-lvfs.rhcloud.com/downloads/c5caa13b0aeab0869b9eada15171c6268bd989cf-8Bitdo-SFC30PRO_NES30PRO-1.69.cab</location>
+        <checksum type="sha1" filename="c5caa13b0aeab0869b9eada15171c6268bd989cf-8Bitdo-SFC30PRO_NES30PRO-1.69.cab" target="container">3d0fadd768aab0f033dea272adb5e9f33b491bcc</checksum>
+        <checksum type="sha1" filename="firmware.dat" target="content">ea0e727d7af8229302cc41a35ec89eaf626c9aa9</checksum>
+        <description><p>This stable release fixes the following issues:</p><ul><li>Disable auto-sleep when the device is connected to a USB port</li><li>Improve performance of the analog sticks</li><li>Add support for Joystick Mode to OS X</li></ul></description>
+        <size type="installed">42524</size>
+        <size type="download">45700</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">4fa94782-9ab0-531f-b038-a3e79ddf4b19</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.8bitdo.sfc30.firmware</id>
+    <name>SFC30</name>
+    <summary>Firmware for the 8Bitdo SFC30 Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your SFC30 device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/sfc30/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/hughsie/8bitdo-firmware/master/screenshots/SFC30.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1477454400" urgency="medium" version="2.70">
+        <location>https://secure-lvfs.rhcloud.com/downloads/de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab</location>
+        <checksum type="sha1" filename="de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab" target="container">79dcd4ff3ab4907486ab98b0f70d36ffeea5637a</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_270.dat" target="content">17225b72755743a7e085cce6371ff1549255b36c</checksum>
+        <description><p>Support remapping the buttons by the RemapTools on Gamepad Mode.</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53555</size>
+      </release>
+      <release timestamp="1473393600" urgency="medium" version="2.69">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab</location>
+        <checksum type="sha1" filename="a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab" target="container">7572ee89294b123c0471dbc31a1afebc74540d8c</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_269.dat" target="content">07db92076bdc7c866e05066dcf65a575dbe8e8f1</checksum>
+        <description><p>Support HID and SPP on mode 4 (START+X).</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53459</size>
+      </release>
+      <release timestamp="1470456000" urgency="medium" version="2.68">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab</location>
+        <checksum type="sha1" filename="a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab" target="container">501d20f1b8a0f1accf9092d8afeaf173aa45dbf6</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_V2.68.dat" target="content">070a864ce768da0c0cad049cda62ee20cffbd7fe</checksum>
+        <description><p>This stable release adds the following feature:</p><ul><li>Joystick Mode (hold START button power on) support for OSX</li></ul><p>This stable release also fixes the following issues:</p><ul><li>Improve the Bluetooth automatic connection</li><li>Improve the connection with the Retro Receiver NES</li><li>Make the LED blink much quicker when the in auto-connect status</li></ul></description>
+        <size type="installed">47132</size>
+        <size type="download">54725</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">f94d3231-f6e1-5ef3-a4a0-dc819d74ae54</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.8bitdo.snes30.firmware</id>
+    <name>SNES30</name>
+    <summary>Firmware for the 8Bitdo SNES30 Game Controller</summary>
+    <developer_name>8Bitdo</developer_name>
+    <description><p>Updating the firmware on your SNES30 device improves performance and adds new features.</p></description>
+    <project_license>Proprietary</project_license>
+    <url type="homepage">http://www.8bitdo.com/snes30/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://raw.githubusercontent.com/hughsie/8bitdo-firmware/master/screenshots/SNES30.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1477454400" urgency="medium" version="2.70">
+        <location>https://secure-lvfs.rhcloud.com/downloads/de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab</location>
+        <checksum type="sha1" filename="de5bdc59f89e409e45b3b89401b121bb641e42fd-8Bitdo-SFC30_NES30_SFC30_SNES30-2.70.cab" target="container">79dcd4ff3ab4907486ab98b0f70d36ffeea5637a</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_270.dat" target="content">17225b72755743a7e085cce6371ff1549255b36c</checksum>
+        <description><p>Support remapping the buttons by the RemapTools on Gamepad Mode.</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53555</size>
+      </release>
+      <release timestamp="1473393600" urgency="medium" version="2.69">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab</location>
+        <checksum type="sha1" filename="a316529c319096a5f3ac8a1804e6a56c9693d091-8Bitdo-SFC30_NES30_SFC30_SNES30-2.69.cab" target="container">7572ee89294b123c0471dbc31a1afebc74540d8c</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_269.dat" target="content">07db92076bdc7c866e05066dcf65a575dbe8e8f1</checksum>
+        <description><p>Support HID and SPP on mode 4 (START+X).</p></description>
+        <size type="installed">47644</size>
+        <size type="download">53459</size>
+      </release>
+      <release timestamp="1470456000" urgency="medium" version="2.68">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab</location>
+        <checksum type="sha1" filename="a05623c0a8f98a7cd7b566d0d6f1e55d0c71481e-8Bitdo-SFC30_NES30_SFC30_SNES30-2.68.cab" target="container">501d20f1b8a0f1accf9092d8afeaf173aa45dbf6</checksum>
+        <checksum type="sha1" filename="bluetooth_firmware_V2.68.dat" target="content">070a864ce768da0c0cad049cda62ee20cffbd7fe</checksum>
+        <description><p>This stable release adds the following feature:</p><ul><li>Joystick Mode (hold START button power on) support for OSX</li></ul><p>This stable release also fixes the following issues:</p><ul><li>Improve the Bluetooth automatic connection</li><li>Improve the connection with the Retro Receiver NES</li><li>Make the LED blink much quicker when the in auto-connect status</li></ul></description>
+        <size type="installed">47132</size>
+        <size type="download">54725</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">8baed357-638e-5b54-b582-0476bf7d6348</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi124c207d.firmware</id>
+    <name>XPS 15 9550/Precision 5510 System Update</name>
+    <summary>Firmware for the Dell XPS 15 9550/Precision 5510</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494209424" version="66073">
+        <location>https://secure-lvfs.rhcloud.com/downloads/b5e34f55c4e7378f7b48838695edcd12a518251d-1.2.25.cab</location>
+        <checksum type="sha1" filename="b5e34f55c4e7378f7b48838695edcd12a518251d-1.2.25.cab" target="container">038eec9896852df9ba897acd00a4ef953392acd4</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">5512af623dac21ea3cd7727f3266a34a774af112</checksum>
+        <size type="installed">9752059</size>
+        <size type="download">9472189</size>
+      </release>
+      <release timestamp="1487347947" version="66069">
+        <location>https://secure-lvfs.rhcloud.com/downloads/e68d5709ac4a245e737f19282821225370cfb373-XPS5510v1.2.21.cab</location>
+        <checksum type="sha1" filename="e68d5709ac4a245e737f19282821225370cfb373-XPS5510v1.2.21.cab" target="container">96f2953ebf4f7f7c8e8d7fbb7f1a8d53edb0dfe7</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">6f32976f40fa52f8b15a79ffd0d02113f794427b</checksum>
+        <description><p>None</p></description>
+        <size type="installed">9724533</size>
+        <size type="download">9446168</size>
+      </release>
+      <release timestamp="1482460011" version="66067">
+        <location>https://secure-lvfs.rhcloud.com/downloads/508f9d5235a31efebe55b67d2d9d13ba79a2d22b-firmware.cab</location>
+        <checksum type="sha1" filename="508f9d5235a31efebe55b67d2d9d13ba79a2d22b-firmware.cab" target="container">374b1823e852170508be5ab22c8fc663ec172407</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">ace919b8df66bc5a94486abcae51cd7596d05c78</checksum>
+        <size type="installed">9716936</size>
+        <size type="download">9434051</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">124c207d-5db8-4d95-bd31-34fd971b34f9</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi1610b70e.firmware</id>
+    <name>Inspiron 14 7000 Gaming/Inspiron 15 7000 Gaming System Update</name>
+    <summary>Firmware for the Dell Inspiron 14 7000 Gaming/Inspiron 15 7000 Gaming</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1486349212" version="65540">
+        <location>https://secure-lvfs.rhcloud.com/downloads/3db335853c63ec5e122eade3b0cb4a0823193ff9-firmware.cab</location>
+        <checksum type="sha1" filename="3db335853c63ec5e122eade3b0cb4a0823193ff9-firmware.cab" target="container">75c985021f3b055bdb368838fe26f48412454ca5</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">b2d69f8537354aba6792122819804f760efff99d</checksum>
+        <size type="installed">6976701</size>
+        <size type="download">6696630</size>
+      </release>
+      <release timestamp="1484017919" version="65539">
+        <location>https://secure-lvfs.rhcloud.com/downloads/9f91eb2a21b2dd4c97a9d2cb666a1ec624389289-firmware.cab</location>
+        <checksum type="sha1" filename="9f91eb2a21b2dd4c97a9d2cb666a1ec624389289-firmware.cab" target="container">ee19ddded3bc7244bff5d867c505c244fa428e6a</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">08fda1bd94c61d138f6a9a67a738fe3132f51661</checksum>
+        <size type="installed">6976696</size>
+        <size type="download">6689763</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">1610b70e-2db1-41d0-bcaf-19ad38fff695</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi169d9146.firmware</id>
+    <name>Vostro 14-3468 System Update</name>
+    <summary>Firmware for the Dell Vostro 14-3468</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1487132883" version="67328">
+        <location>https://secure-lvfs.rhcloud.com/downloads/2dc6130cd109062d7d1fe1a64c1eea9a56ecfbc5-firmware.cab</location>
+        <checksum type="sha1" filename="2dc6130cd109062d7d1fe1a64c1eea9a56ecfbc5-firmware.cab" target="container">abde1a9735798276cbfab5effcbe4c1129bc00ef</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">5ebdc54f9f4df62fbadcc4b5641ee1800651bc7a</checksum>
+        <size type="installed">6387457</size>
+        <size type="download">6095281</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">169d9146-3097-49be-8767-43155e325b41</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi1d4362ca.firmware</id>
+    <name>Inspiron 14-3467 System Update</name>
+    <summary>Firmware for the Dell Inspiron 14-3467</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1487131055" version="66816">
+        <location>https://secure-lvfs.rhcloud.com/downloads/99c920e2ceb8792cf729edd038498ec3497c84ee-firmware.cab</location>
+        <checksum type="sha1" filename="99c920e2ceb8792cf729edd038498ec3497c84ee-firmware.cab" target="container">98d1b335a4b69d3687697c826f84ded7d1812499</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">be331e33c9b6e39ef3bac6cc9b784e9ed90a7c75</checksum>
+        <size type="installed">6403089</size>
+        <size type="download">6110949</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">1d4362ca-a083-4954-81b7-1262fb6c82fe</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi212026ee.firmware</id>
+    <name>Latitude E7X70 System Update</name>
+    <summary>Firmware for the Dell Latitude E7X70</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494576037" version="69380">
+        <location>https://secure-lvfs.rhcloud.com/downloads/8176c3c4f114fd847a72c29eb3ce3112d7e0176c-firmware_Latitude_E7x70_1.15.4.wu.cab</location>
+        <checksum type="sha1" filename="8176c3c4f114fd847a72c29eb3ce3112d7e0176c-firmware_Latitude_E7x70_1.15.4.wu.cab" target="container">97345783819b95f9b4b1e2665c82472dac48e5c0</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e98ecbeff16d6f999384c10493a21a3bc38fde19</checksum>
+        <size type="installed">9607966</size>
+        <size type="download">9322751</size>
+      </release>
+      <release timestamp="1486459210" version="68868">
+        <location>https://secure-lvfs.rhcloud.com/downloads/c45f80c3437a4e37625e20b1985bc030d10a1b1c-firmware_Latitude_E7x70_1.13.4.wu.cab</location>
+        <checksum type="sha1" filename="c45f80c3437a4e37625e20b1985bc030d10a1b1c-firmware_Latitude_E7x70_1.13.4.wu.cab" target="container">d118cba225e3285080c1112e3501f28b0ac5942e</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">1f60b59efd1e625cbc40f72628bf50abc1c0b419</checksum>
+        <description><p>None</p></description>
+        <size type="installed">9541208</size>
+        <size type="download">9256157</size>
+      </release>
+      <release timestamp="1478678371" version="68355">
+        <location>https://secure-lvfs.rhcloud.com/downloads/56a045df3eb323191365f274f8ad03bd97e247f3-firmware_Latitude_E7x70_1.11.3.wu.cab</location>
+        <checksum type="sha1" filename="56a045df3eb323191365f274f8ad03bd97e247f3-firmware_Latitude_E7x70_1.11.3.wu.cab" target="container">1876f0d78e9ba1cc05e0176eea61937ba46620df</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">306ea92787c61c659d145e9d0069f457bd30841e</checksum>
+        <size type="installed">9526133</size>
+        <size type="download">9240246</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">212026ee-fde4-4d08-ac41-c62cb4036a42</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi21f94926.firmware</id>
+    <name>Edge Gateway 3000/3001/3002/3003 System Update</name>
+    <summary>Firmware for the Dell Edge Gateway 3000/3001/3002/3003</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494994433" version="65537">
+        <location>https://secure-lvfs.rhcloud.com/downloads/0dd764b8aeac3186559431b03a6adb21e498669b-firmware_EdgeGateway3000_1.0.1.wu.cab</location>
+        <checksum type="sha1" filename="0dd764b8aeac3186559431b03a6adb21e498669b-firmware_EdgeGateway3000_1.0.1.wu.cab" target="container">cdb2f0de26d9e1365b8c4f56ad5bfc3901143ef2</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e419227bed61b2ebd3992804dc51a3fc8bdb2f0c</checksum>
+        <description><p>None</p></description>
+        <size type="installed">4743976</size>
+        <size type="download">4481575</size>
+      </release>
+      <release timestamp="1492417099" version="65536">
+        <location>https://secure-lvfs.rhcloud.com/downloads/4ab464b1842d0adc924f1d220b6f4df481946d0b-firmware_Caracalla_010000.wu.cab</location>
+        <checksum type="sha1" filename="4ab464b1842d0adc924f1d220b6f4df481946d0b-firmware_Caracalla_010000.wu.cab" target="container">fe72f696a12eee37706e9821ecc1c5e9f5032a8b</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e6c31170db98592a2dff2443ddcc5e590f91ea19</checksum>
+        <description><p>None</p></description>
+        <size type="installed">4744271</size>
+        <size type="download">4481319</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">21f94926-ce92-421c-b275-84392db26185</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi22d63f4.firmware</id>
+    <name>TPM 2.0 Update</name>
+    <summary>Firmware for the Dell TPM 2.0</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1476994481" version="16974080">
+        <location>https://secure-lvfs.rhcloud.com/downloads/a1a6e10beb96281fa78c62a7d967c8c3a1cf7430-DellTpm2.0_Fw1.3.1.0.cab</location>
+        <checksum type="sha1" filename="a1a6e10beb96281fa78c62a7d967c8c3a1cf7430-DellTpm2.0_Fw1.3.1.0.cab" target="container">1b6af0a6946181fae71388858674243bf59d2bea</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">ed7a6f42118e02fa764d56882c597929f6bc3990</checksum>
+        <size type="installed">605938</size>
+        <size type="download">609809</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">04964de9-67d9-5a17-878a-0d65a210424e</firmware>
+      <firmware type="flashed">052137be-4a5b-5549-82d1-e21692c00392</firmware>
+      <firmware type="flashed">0d97d303-ca6f-5e8c-808b-9b220c60dfa7</firmware>
+      <firmware type="flashed">0dcf7fed-ad88-56d8-a7f9-e38c2911e359</firmware>
+      <firmware type="flashed">10e5f36b-f162-5b53-b841-9fd484056d54</firmware>
+      <firmware type="flashed">12e92c7d-889e-52a1-b59a-8f8ddfdb859e</firmware>
+      <firmware type="flashed">3c1266d4-b576-5100-b396-c1642d279b87</firmware>
+      <firmware type="flashed">475d9bbd-1b7a-554e-8ca7-54985174a962</firmware>
+      <firmware type="flashed">559a8f9c-0846-546e-a4c4-3d515f18816f</firmware>
+      <firmware type="flashed">6454c849-6ff4-5bb3-b8e4-3acc1fead067</firmware>
+      <firmware type="flashed">652e973e-6944-5f95-87f6-5fb4504ea0f7</firmware>
+      <firmware type="flashed">73c2051d-8688-56fb-a93f-d56a9b455e52</firmware>
+      <firmware type="flashed">75305a8e-596f-5a3b-9aea-ebee36dc585e</firmware>
+      <firmware type="flashed">7d7f37ee-6e31-51db-be91-064e3eceb72c</firmware>
+      <firmware type="flashed">80771650-33a1-5959-b6b6-d3090227fec5</firmware>
+      <firmware type="flashed">8bc551f7-f7ca-5ea8-a4cb-38ae16ecfa17</firmware>
+      <firmware type="flashed">91dba50c-99f7-55b5-bb0c-6f3a28ed1fc5</firmware>
+      <firmware type="flashed">a0451b50-d5e2-5821-9fce-43314d3d70fd</firmware>
+      <firmware type="flashed">a5e85209-7281-583e-aa02-8ee1f11ae8d4</firmware>
+      <firmware type="flashed">b1546053-9236-5ed9-968e-2211e5c4a657</firmware>
+      <firmware type="flashed">b4863e29-50f7-5d4c-a086-7c9f66e3c4a8</firmware>
+      <firmware type="flashed">b62a2412-5ac4-5350-b16e-7e8f4655d096</firmware>
+      <firmware type="flashed">ba6efd02-40f2-53d7-ac3e-b381aac1a6a9</firmware>
+      <firmware type="flashed">bb2a16fc-e8d3-517a-925c-516e3a72ef63</firmware>
+      <firmware type="flashed">bc891321-25aa-54f6-86e7-633d065b8d5d</firmware>
+      <firmware type="flashed">bfb13c22-a04b-53b8-a4bb-12625c337779</firmware>
+      <firmware type="flashed">c00c3fdc-05b0-5dc2-88ce-5bbe3a64b863</firmware>
+      <firmware type="flashed">ce22fcac-25b8-50f8-ab56-f09f162bf770</firmware>
+      <firmware type="flashed">ce944d62-7332-5e2d-a5c0-259da47950e7</firmware>
+      <firmware type="flashed">d898a81d-50b0-5653-8869-b170fa8266d5</firmware>
+      <firmware type="flashed">da25d11b-5e8f-5373-ad7f-a89bbba0fd81</firmware>
+      <firmware type="flashed">db39816f-33fe-5dd6-a380-3b894d91bed8</firmware>
+      <firmware type="flashed">dbdced98-2612-5150-8f29-d768dde17e50</firmware>
+      <firmware type="flashed">df9cd4d2-04fe-5b9c-8cf4-2f14d2b24808</firmware>
+      <firmware type="flashed">e58a5f6d-ba78-5f0f-a35f-612f97ca8c9a</firmware>
+      <firmware type="flashed">eb7d88ab-30a0-5529-9525-520233557222</firmware>
+      <firmware type="flashed">f35d9954-c5d8-50c5-8fe7-a66f977a6c01</firmware>
+      <firmware type="flashed">f598a50b-56c8-5c9c-9509-fe2804475ad6</firmware>
+      <firmware type="flashed">fe513367-e400-529d-81bd-c7b42cf870ef</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi293af847.firmware</id>
+    <name>OptiPlex 3050 System Update</name>
+    <summary>Firmware for the Dell OptiPlex 3050</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1482423065" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/b08201000cc4d6056c0644938d8cea9fa7719595-firmware.OptiPlex_3050_1.2.0.wu.cab</location>
+        <checksum type="sha1" filename="b08201000cc4d6056c0644938d8cea9fa7719595-firmware.OptiPlex_3050_1.2.0.wu.cab" target="container">3ef299371d30e37cabe7821e9ea3c5d3da274f80</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">8067ab4a797eb21d1311f7364d8ef9bd56dfaf20</checksum>
+        <size type="installed">9232642</size>
+        <size type="download">8940042</size>
+      </release>
+      <release timestamp="1478846399" urgency="high" version="65537">
+        <location>https://secure-lvfs.rhcloud.com/downloads/2fa5c88bffac21d517e6072283421529c3469934-firmware.OptiPlex_3050_1.0.1.wu.cab</location>
+        <checksum type="sha1" filename="2fa5c88bffac21d517e6072283421529c3469934-firmware.OptiPlex_3050_1.0.1.wu.cab" target="container">ae2dcd94c79666947827e7c0a2f905a4b4a689cb</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">fe2d65e547d87f2718dda92189bb7a96a05f9832</checksum>
+        <description><p>OptiPlex 3050 BIOS 1.0.1 for LVFS</p></description>
+        <size type="installed">9197450</size>
+        <size type="download">8907457</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">293af847-1181-443c-8dd4-5d935d9f8ee5</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi33773727.firmware</id>
+    <name>XPS 13 9350 System Update</name>
+    <summary>Firmware for the Dell XPS 13 9350</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494416144" version="66577">
+        <location>https://secure-lvfs.rhcloud.com/downloads/ea2aa51a9db18a3b980d6fa8f4472aca6b3757eb-XPS_9350_1.4.17.cab</location>
+        <checksum type="sha1" filename="ea2aa51a9db18a3b980d6fa8f4472aca6b3757eb-XPS_9350_1.4.17.cab" target="container">871a20d049ad744f601f682705ae3f7986990874</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">84948ddc75fadc867f75fc3e1cb67b2d624af3f0</checksum>
+        <size type="installed">11025157</size>
+        <size type="download">10744505</size>
+      </release>
+      <release timestamp="1482981297" version="66573">
+        <location>https://secure-lvfs.rhcloud.com/downloads/7adcf7f3d0857d6c0de0c567653ec0a70b225666-XPS_9350_BIOS_1.4.13.wu.cab</location>
+        <checksum type="sha1" filename="7adcf7f3d0857d6c0de0c567653ec0a70b225666-XPS_9350_BIOS_1.4.13.wu.cab" target="container">7ac3d5b84fba286c5096fc295a34cb2b1eac52e3</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">100e553a668aa5acad874a3b033e5ac37b398391</checksum>
+        <size type="installed">11008217</size>
+        <size type="download">10730313</size>
+      </release>
+      <release timestamp="1476263617" version="66570">
+        <location>https://secure-lvfs.rhcloud.com/downloads/f443e68f2130cca6d13f70c31078f3877fbd75ab-XPS_9350_1.4.10_BIOS.wu.cab</location>
+        <checksum type="sha1" filename="f443e68f2130cca6d13f70c31078f3877fbd75ab-XPS_9350_1.4.10_BIOS.wu.cab" target="container">8d1a2cf95d061371f93bc789d7eb14fd830b0171</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">0d92ce300821527be940e9e97a50ce779c90906d</checksum>
+        <size type="installed">11001505</size>
+        <size type="download">10724310</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">33773727-8ee7-4d81-9fa0-57e8d889e1fa</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi34578c72.firmware</id>
+    <name>XPS 15 9560/Precision 5520 System Update</name>
+    <summary>Firmware for the Dell XPS 15 9560/Precision 5520</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494227505" version="66307">
+        <location>https://secure-lvfs.rhcloud.com/downloads/88402006d070ab9ad60529ab397de9c95244e866-1.3.3.cab</location>
+        <checksum type="sha1" filename="88402006d070ab9ad60529ab397de9c95244e866-1.3.3.cab" target="container">47d24687c83c3c8e56226c4e0bbb5f1ac2eb7ced</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">63add0a01e42906a2fa2134379ca2118e1d5b477</checksum>
+        <size type="installed">10327019</size>
+        <size type="download">10037349</size>
+      </release>
+      <release timestamp="1490924022" version="66052">
+        <location>https://secure-lvfs.rhcloud.com/downloads/fdab6b6740a254c640ef6c109ff7692e1d1d0531-XPS9560v1.2.4.cab</location>
+        <checksum type="sha1" filename="fdab6b6740a254c640ef6c109ff7692e1d1d0531-XPS9560v1.2.4.cab" target="container">88cf5f75e9d5ec1bac17857a76463da919099bb8</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">28824ed9b9a7d1679ed419fd2f28ed73c118c1c7</checksum>
+        <description><p>None</p></description>
+        <size type="installed">10309477</size>
+        <size type="download">10022154</size>
+      </release>
+      <release timestamp="1484751675" version="65795">
+        <location>https://secure-lvfs.rhcloud.com/downloads/bb5205d8ecb7e787b4c9655e7e67ce1e37d5c49d-XPS_9560_Precision_5520_1.1.3.cab</location>
+        <checksum type="sha1" filename="bb5205d8ecb7e787b4c9655e7e67ce1e37d5c49d-XPS_9560_Precision_5520_1.1.3.cab" target="container">0fa6cf2a23999992a07d4b0e864878d79a67f4ac</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">74aa7cb91c323bdde66e62017cce5b53046e7b9e</checksum>
+        <size type="installed">10143378</size>
+        <size type="download">9856041</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">34578c72-11dc-4378-bc7f-b643866f598c</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi3c20b9e1.firmware</id>
+    <name>OptiPlex 7450 AIO System Update</name>
+    <summary>Firmware for the Dell OptiPlex 7450 AIO</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494252573" version="66562">
+        <location>https://secure-lvfs.rhcloud.com/downloads/222f950860a3d792c090b353cc03a1df7f20a0ca-firmware.OptiPlex_7450_AIO_1.4.2.wu.cab</location>
+        <checksum type="sha1" filename="222f950860a3d792c090b353cc03a1df7f20a0ca-firmware.OptiPlex_7450_AIO_1.4.2.wu.cab" target="container">3abcf4c044778b3753e01a01c049dc22db056ddb</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">2a71dbfddadf556105a2bb7b18d4920f27a9a078</checksum>
+        <size type="installed">9395815</size>
+        <size type="download">9104639</size>
+      </release>
+      <release timestamp="1482805392" urgency="medium" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/81d2ce965bc5a50e626311d359708d3ef5b63b39-firmware.OptiPlex_7450_AIO_1.2.0.wu.cab</location>
+        <checksum type="sha1" filename="81d2ce965bc5a50e626311d359708d3ef5b63b39-firmware.OptiPlex_7450_AIO_1.2.0.wu.cab" target="container">74d77f0cf3411a382ad6a5d093c924d0c62e67bd</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">6e87a50a2e3246aabd620fbc753d78431759775f</checksum>
+        <description><p>OptiPlex7450 AIO 1.2.0</p></description>
+        <size type="installed">9416567</size>
+        <size type="download">9126429</size>
+      </release>
+      <release timestamp="1478865640" version="65536">
+        <location>https://secure-lvfs.rhcloud.com/downloads/fd8e59e04380724a508ccc5589aca98d5a5d47dd-firmware.OptiPlex_7450_AIO_1.0.0.wu.cab</location>
+        <checksum type="sha1" filename="fd8e59e04380724a508ccc5589aca98d5a5d47dd-firmware.OptiPlex_7450_AIO_1.0.0.wu.cab" target="container">8ec58a41c93bbab41508c79c560f3c18fc111f42</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">a39b1dab03d9bd65133f2c0fc3b576420f10af5b</checksum>
+        <description><p>None</p></description>
+        <size type="installed">9383554</size>
+        <size type="download">9092379</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">3c20b9e1-eddd-4507-acd8-aa0d263f8cf6</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi43ca3264.firmware</id>
+    <name>OptiPlex 7440 AIO System Update</name>
+    <summary>Firmware for the Dell OptiPlex 7440 AIO</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494224664" version="67584">
+        <location>https://secure-lvfs.rhcloud.com/downloads/4e85a2d45563797fffcc610785c20311f8cfc69c-firmware.OptiPlex_7440_AIO_1.8.0.wu.cab</location>
+        <checksum type="sha1" filename="4e85a2d45563797fffcc610785c20311f8cfc69c-firmware.OptiPlex_7440_AIO_1.8.0.wu.cab" target="container">46ac0f3034517cf0df045604f6a56ce4a486b501</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e4b7bef6fd2adc1feb142de9a34f51685b195b33</checksum>
+        <size type="installed">8742197</size>
+        <size type="download">8458174</size>
+      </release>
+      <release timestamp="1482908328" version="67344">
+        <location>https://secure-lvfs.rhcloud.com/downloads/88c16001e074c2decc6eafb070422a92777006df-firmware.OptiPlex_7440_AIO_1.7.16.wu.cab</location>
+        <checksum type="sha1" filename="88c16001e074c2decc6eafb070422a92777006df-firmware.OptiPlex_7440_AIO_1.7.16.wu.cab" target="container">5a4cb1b36d7dd008850a3ef73309d3860b811a0b</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">b8955c8fa33da460d74199db959fbac142b6cd36</checksum>
+        <size type="installed">8678655</size>
+        <size type="download">8398414</size>
+      </release>
+      <release timestamp="1453220053" urgency="medium" version="66313">
+        <location>https://secure-lvfs.rhcloud.com/downloads/174243fc1da6a81fd9d132aada71187d5b24e469-firmware.OptiPlex_7440_AIO_1_3_9_LVFS.cab</location>
+        <checksum type="sha1" filename="174243fc1da6a81fd9d132aada71187d5b24e469-firmware.OptiPlex_7440_AIO_1_3_9_LVFS.cab" target="container">c89af7d6c8f9992744b7ef169eff1970a11eca89</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">0e5d526a554eda4bd04a72e6ba167834c27135f6</checksum>
+        <description><p>Dell OptiPlex 7440 AIO 1.3.9</p></description>
+        <size type="installed">8602550</size>
+        <size type="download">8320848</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">43ca3264-d791-4df8-9695-7b13a7361a0d</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi45e3439b.firmware</id>
+    <name>ChengMing 3967 System Update</name>
+    <summary>Firmware for the Dell ChengMing 3967</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1483436121" version="65539">
+        <location>https://secure-lvfs.rhcloud.com/downloads/9dcbe6419cb201be83bb4b6c31e02c9df7386ab2-firmware.cab</location>
+        <checksum type="sha1" filename="9dcbe6419cb201be83bb4b6c31e02c9df7386ab2-firmware.cab" target="container">03adbd24d6c52cce0a3ccc9a4d1a8047a5069a2c</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e854e773eb3ae81a3a8ea9dde36a41d1cf8ebe40</checksum>
+        <size type="installed">5862705</size>
+        <size type="download">5576918</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">45e3439b-0ce6-463b-b33f-f8d4a378fde1</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi48af7d21.firmware</id>
+    <name>XPS 13 9360 System Update</name>
+    <summary>Firmware for the Dell XPS 13 9360</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1484724889" version="66306">
+        <location>https://secure-lvfs.rhcloud.com/downloads/727aa0d3cfeb22287cb1e9ecdce679eb5020a169-firmware_oldGUID.cab</location>
+        <checksum type="sha1" filename="727aa0d3cfeb22287cb1e9ecdce679eb5020a169-firmware_oldGUID.cab" target="container">70eee6be03ac8d9e301169d320636f0f93c7a86a</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">944e6c27811e2757c344183367327fe51bfb0723</checksum>
+        <size type="installed">11255706</size>
+        <size type="download">10963500</size>
+      </release>
+      <release timestamp="1473758123" version="65543">
+        <location>https://secure-lvfs.rhcloud.com/downloads/fdffa502b4ebc3d60359d133e842c667a3d4b351-firmware.cab</location>
+        <checksum type="sha1" filename="fdffa502b4ebc3d60359d133e842c667a3d4b351-firmware.cab" target="container">74c864cb236904abcf9cdc3637bcfd974b3f7229</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">d8bf5682ac17935e9047bcf98006515d1d03ccbb</checksum>
+        <size type="installed">10650146</size>
+        <size type="download">10367012</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">48af7d21-3145-4f5e-b1b4-c8fc67b6e646</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi49e03513.firmware</id>
+    <name>Latitude 5X80 System Update</name>
+    <summary>Firmware for the Dell Latitude 5X80</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494485081" version="66563">
+        <location>https://secure-lvfs.rhcloud.com/downloads/5881fcfdd7abf0dc693bae0b25ce1c320f65a87f-firmware.Latitude_5x80_Precision_3520_1.4.3H.wu.cab</location>
+        <checksum type="sha1" filename="5881fcfdd7abf0dc693bae0b25ce1c320f65a87f-firmware.Latitude_5x80_Precision_3520_1.4.3H.wu.cab" target="container">8f4b03742873e502fc8fc41de3d33cb5b9f385ec</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">60b2126a44c91464e701a625350fe12f8f67b79e</checksum>
+        <size type="installed">10345562</size>
+        <size type="download">10062926</size>
+      </release>
+      <release timestamp="1494244574" version="66307">
+        <location>https://secure-lvfs.rhcloud.com/downloads/2e254dbe81f4406158187008fdd4ea158ba339ad-firmware.Latitude_5x80_Precision_3520_1.3.3H.wu.cab</location>
+        <checksum type="sha1" filename="2e254dbe81f4406158187008fdd4ea158ba339ad-firmware.Latitude_5x80_Precision_3520_1.3.3H.wu.cab" target="container">2a1e839b975d3a7a943247b4edb46919b386f10a</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">9ef74f8ce4f59c2d8d2141248056308bd9569e80</checksum>
+        <size type="installed">10344644</size>
+        <size type="download">10062464</size>
+      </release>
+      <release timestamp="1491485670" version="66306">
+        <location>https://secure-lvfs.rhcloud.com/downloads/e0bba7b32440354a791c771e753b8eb17f465e06-firmware.Latitude_5x80_Precision_3520_1.3.2H.wu.cab</location>
+        <checksum type="sha1" filename="e0bba7b32440354a791c771e753b8eb17f465e06-firmware.Latitude_5x80_Precision_3520_1.3.2H.wu.cab" target="container">37db142b99e0aecc9425f9b65b8b24dc51130e99</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">17964e3e77560eb580ff1aac5e15ed2d8748606e</checksum>
+        <size type="installed">10335652</size>
+        <size type="download">10054257</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">49e03513-7afe-498a-9d03-89e5ba1da865</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi4fed6c9d.firmware</id>
+    <name>OptiPlex 7050 System Update</name>
+    <summary>Firmware for the Dell OptiPlex 7050</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1482423650" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/8391c67ff8f2412c4fe8decfb11e70d0e7ffd042-firmware.OptiPlex_7050_1.2.0.wu.cab</location>
+        <checksum type="sha1" filename="8391c67ff8f2412c4fe8decfb11e70d0e7ffd042-firmware.OptiPlex_7050_1.2.0.wu.cab" target="container">0710d983414814f5031d4eed0a10b2c333edc6a4</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">bdb312b7f8c797c7a73d3af43d303f28f522c0e5</checksum>
+        <size type="installed">9354175</size>
+        <size type="download">9064967</size>
+      </release>
+      <release timestamp="1480576677" version="65792">
+        <location>https://secure-lvfs.rhcloud.com/downloads/76171aa507d42a676cff3d3a75dc312d6c06c732-firmware.OptiPlex_7050_1.1.0.wu.cab</location>
+        <checksum type="sha1" filename="76171aa507d42a676cff3d3a75dc312d6c06c732-firmware.OptiPlex_7050_1.1.0.wu.cab" target="container">9a5629651487a46d18dc29d6eaae7805b7303ddf</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">9d8d33f5c1f69defb3918601139bede5410a6130</checksum>
+        <size type="installed">9319007</size>
+        <size type="download">9026751</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">4fed6c9d-22b0-4731-a074-084ba68b492a</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi5034bac4.firmware</id>
+    <name>TPM 1.2 Update</name>
+    <summary>Firmware for the Dell TPM 1.2</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1480714375" version="89195009">
+        <location>https://secure-lvfs.rhcloud.com/downloads/f7375df3c5f903f55ffd64e9ce891da3aa535355-DellTpm1.2_Fw5.81.2.1.cab</location>
+        <checksum type="sha1" filename="f7375df3c5f903f55ffd64e9ce891da3aa535355-DellTpm1.2_Fw5.81.2.1.cab" target="container">77ae490f6cf7b03dd6dd485b782bde8274329af7</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">92f5815e39bfc4235cbac1ab206d2c1cc9e90ae8</checksum>
+        <size type="installed">554912</size>
+        <size type="download">359685</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">057c9e26-7e99-5afd-b128-93d91cc0e957</firmware>
+      <firmware type="flashed">08aa7676-3cc0-528a-ab12-32500bab2aff</firmware>
+      <firmware type="flashed">0e623ac8-5867-551a-b094-db9d1db4389f</firmware>
+      <firmware type="flashed">13e484c3-e6d1-510d-9f5d-4e65127f996d</firmware>
+      <firmware type="flashed">16bda90e-f82f-5a00-b001-bf7a71b1ed0d</firmware>
+      <firmware type="flashed">1e64d0c3-87c6-5318-afa3-353052227664</firmware>
+      <firmware type="flashed">225ef49f-e6f8-569c-9cf4-3b140cc9175b</firmware>
+      <firmware type="flashed">25bffbc3-98fd-57fc-891b-328744dfac2d</firmware>
+      <firmware type="flashed">2b764d92-8a21-54f0-a163-81459e644540</firmware>
+      <firmware type="flashed">2dddcf05-47bd-53be-9bd6-8633c162b8c5</firmware>
+      <firmware type="flashed">403b8d78-84b9-5634-9087-b42090499bd3</firmware>
+      <firmware type="flashed">52a6f885-b7bc-58e0-b8ec-0e0d8170bb0a</firmware>
+      <firmware type="flashed">58dde259-f0f9-582b-8a3d-6b401b0ac4c0</firmware>
+      <firmware type="flashed">5ac47548-e32a-54d8-8788-519335d8ae01</firmware>
+      <firmware type="flashed">5e9cb275-bb36-5372-9afc-87c1335f84a6</firmware>
+      <firmware type="flashed">6037bb38-64fc-5770-80b1-e1ed8c6fbdb3</firmware>
+      <firmware type="flashed">61c84b2d-1924-5867-91e2-63ae6a4373af</firmware>
+      <firmware type="flashed">64fc7cef-bddd-56c5-8143-3a31617e3db5</firmware>
+      <firmware type="flashed">6f948839-4a1c-515a-957f-c6e1bd93f992</firmware>
+      <firmware type="flashed">7fc19714-8a9b-5a73-b96b-803a3e6b3dfa</firmware>
+      <firmware type="flashed">886d42b8-fb44-5614-99a5-3901745357e4</firmware>
+      <firmware type="flashed">8e5afbc9-decd-55ed-b6d2-0e5240f88bd4</firmware>
+      <firmware type="flashed">9055a777-a92f-55da-8d34-6614d8f9df92</firmware>
+      <firmware type="flashed">9f18e315-6177-5761-87bb-32f6b9cd7de4</firmware>
+      <firmware type="flashed">a106730d-d3ff-5369-b79b-6d84f28cbf52</firmware>
+      <firmware type="flashed">a4bd4e83-0f4e-5c6c-a9ba-177ee33980d2</firmware>
+      <firmware type="flashed">aad015ec-26bd-5297-a0c7-b1e2a47cc8e7</firmware>
+      <firmware type="flashed">b0fadd9c-013d-5c86-9e33-ba8b74e83b82</firmware>
+      <firmware type="flashed">b2088ba1-51ae-514e-8f0a-64756c6e4ffc</firmware>
+      <firmware type="flashed">b2432fd8-8ab5-5346-907b-aa459bcfd3a9</firmware>
+      <firmware type="flashed">bc4c153b-7398-538e-b182-ed3da1108b69</firmware>
+      <firmware type="flashed">bc5450c3-c014-5551-b642-b0703f7ad8a4</firmware>
+      <firmware type="flashed">c5e6d7ef-4270-54bf-af0f-8b8ef2a561e6</firmware>
+      <firmware type="flashed">d433959e-03ca-524b-92b7-5022eff81a31</firmware>
+      <firmware type="flashed">e1c76b8c-565f-507e-9186-397a83cc4346</firmware>
+      <firmware type="flashed">e9df3399-749e-5e78-bad8-32766cb848c0</firmware>
+      <firmware type="flashed">f06e62b7-7039-5d5d-9c65-f7fccacbafbf</firmware>
+      <firmware type="flashed">f4bbff03-7ff5-5e38-a0dc-2a7b7b2d5bb4</firmware>
+      <firmware type="flashed">f6e202b2-73bf-519a-9b15-1918b8fa82c5</firmware>
+      <firmware type="flashed">f9bdd338-b410-5e73-902d-7b6e4694bb56</firmware>
+      <firmware type="flashed">ffcaef00-b480-5014-be2b-635e6c6f6e56</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi51d41d4e.firmware</id>
+    <name>Latitude 7370 System Update</name>
+    <summary>Firmware for the Dell Latitude 7370</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494574669" version="68612">
+        <location>https://secure-lvfs.rhcloud.com/downloads/3bc2b4fff99f6980b479d86cfffcbcee84245bea-firmware_Latitude_7370_1.12.4.wu.cab</location>
+        <checksum type="sha1" filename="3bc2b4fff99f6980b479d86cfffcbcee84245bea-firmware_Latitude_7370_1.12.4.wu.cab" target="container">f62c1fecafabe6df18cb66ec9daa7f3453fc4c38</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">93448b5c743448e0b23931c4935ae5fea8d91fa9</checksum>
+        <size type="installed">9748849</size>
+        <size type="download">9464347</size>
+      </release>
+      <release timestamp="1492488636" version="68356">
+        <location>https://secure-lvfs.rhcloud.com/downloads/95b9e07d1131a21c3ffdee9030ee9435eaa2aaaa-firmware_Latitude_7370_1.11.4.wu.cab</location>
+        <checksum type="sha1" filename="95b9e07d1131a21c3ffdee9030ee9435eaa2aaaa-firmware_Latitude_7370_1.11.4.wu.cab" target="container">79b37d896bd02b3d63c8c7239f6d02cf5540c1d8</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">fa614dff6b5f480960e02412e8df35c3e142826a</checksum>
+        <size type="installed">9748823</size>
+        <size type="download">9464170</size>
+      </release>
+      <release timestamp="1486478025" version="68102">
+        <location>https://secure-lvfs.rhcloud.com/downloads/e8802f0afa59ea692fcfbdbd35579c636f87027d-firmware_Latitude_7370_1.10.6.wu.cab</location>
+        <checksum type="sha1" filename="e8802f0afa59ea692fcfbdbd35579c636f87027d-firmware_Latitude_7370_1.10.6.wu.cab" target="container">490d5cca8930cd355ccc922923f7bc2169c2a78c</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">29066df0b27428afb5d0c6c9eb72c1b4f83b5950</checksum>
+        <description><p>None</p></description>
+        <size type="installed">9679724</size>
+        <size type="download">9395323</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">51d41d4e-1a18-49fe-9973-5188425d3c56</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi53f51f56.firmware</id>
+    <name>Latitude 7X80 System Update</name>
+    <summary>Firmware for the Dell Latitude 7X80</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1495115389" version="66566">
+        <location>https://secure-lvfs.rhcloud.com/downloads/09d089e9e04d4e2fcaecdf505e60651ff5702c67-firmware.Latitude_7x80_1.4.6.wu.cab</location>
+        <checksum type="sha1" filename="09d089e9e04d4e2fcaecdf505e60651ff5702c67-firmware.Latitude_7x80_1.4.6.wu.cab" target="container">d3ceee92674b438f3ea520a19a4137a7cfeda7af</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">9a5f751541418c62adf01f35d9f0645faecdc0a3</checksum>
+        <size type="installed">10067188</size>
+        <size type="download">9784519</size>
+      </release>
+      <release timestamp="1494239757" version="66307">
+        <location>https://secure-lvfs.rhcloud.com/downloads/31118e2449ef6b92bfa880cfba0839ea32211f1b-firmware.Latitude_7x80_1.3.3.wu.cab</location>
+        <checksum type="sha1" filename="31118e2449ef6b92bfa880cfba0839ea32211f1b-firmware.Latitude_7x80_1.3.3.wu.cab" target="container">7c3201b0283bc90219f76dba1f335ab8c072d499</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">3e8b00fbaba83662fd92eb3eb5d0c079acd2a01f</checksum>
+        <size type="installed">10065950</size>
+        <size type="download">9783420</size>
+      </release>
+      <release timestamp="1490142988" version="66057">
+        <location>https://secure-lvfs.rhcloud.com/downloads/44eed1c98b13faa8833e7c549a7825e19b729124-firmware.Latitude_7x80_1.2.9.wu.cab</location>
+        <checksum type="sha1" filename="44eed1c98b13faa8833e7c549a7825e19b729124-firmware.Latitude_7x80_1.2.9.wu.cab" target="container">58e0a1fd1817016efe2e553afe05cb87a7011a6a</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">6124ad968a28aa2503cc706c706472669cd01bde</checksum>
+        <size type="installed">10054268</size>
+        <size type="download">9771269</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">53f51f56-eff2-4516-9dda-ed501b3f0f8a</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi5b7ab884.firmware</id>
+    <name>Precision E7X10 System Update</name>
+    <summary>Firmware for the Dell Precision E7X10</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494574164" version="68612">
+        <location>https://secure-lvfs.rhcloud.com/downloads/6215e95bd8c53dddad1742d54e0a0299b6aeb54f-firmware_Precision_7x10_1.12.4.wu.cab</location>
+        <checksum type="sha1" filename="6215e95bd8c53dddad1742d54e0a0299b6aeb54f-firmware_Precision_7x10_1.12.4.wu.cab" target="container">feed1c9cf476511c9127a397d4f61faecf602f1a</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">86214525df1081de20b58e0d1dd5c79f783e7f0a</checksum>
+        <size type="installed">9639642</size>
+        <size type="download">9352467</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">5b7ab884-7cf7-489d-ba15-460dffd64aba</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi5ffdbc0d.firmware</id>
+    <name>XPS 13 9360 System Update</name>
+    <summary>Firmware for the Dell XPS 13 9360</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494235280" version="66309">
+        <location>https://secure-lvfs.rhcloud.com/downloads/4106f6f9528b7bd785ec0735c56d1876f3c8eb9f-firmware_XPS_9360_1_3_5.cab</location>
+        <checksum type="sha1" filename="4106f6f9528b7bd785ec0735c56d1876f3c8eb9f-firmware_XPS_9360_1_3_5.cab" target="container">f76859b20123e5543f7e92b3f021f46867729116</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">7d7ceab6637b001d64e7ece05d3fb4876c3c4157</checksum>
+        <size type="installed">11290199</size>
+        <size type="download">10999312</size>
+      </release>
+      <release timestamp="1484724889" version="66306">
+        <location>https://secure-lvfs.rhcloud.com/downloads/7b1c5061458f748d5900a47159617f8bda413195-firmware.cab</location>
+        <checksum type="sha1" filename="7b1c5061458f748d5900a47159617f8bda413195-firmware.cab" target="container">0de3661dbeba8134520c9852b9762a066c326d91</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">944e6c27811e2757c344183367327fe51bfb0723</checksum>
+        <size type="installed">11255706</size>
+        <size type="download">10963492</size>
+      </release>
+      <release timestamp="1480575619" version="66051">
+        <location>https://secure-lvfs.rhcloud.com/downloads/95b37375ce6af8a15abffe11155601a7d2ba03ba-firmware.cab</location>
+        <checksum type="sha1" filename="95b37375ce6af8a15abffe11155601a7d2ba03ba-firmware.cab" target="container">c04856f7dfe57e98601d69eea88c752d1f4bef21</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">430f995aba4c92533e389d79d1753bbc9047d978</checksum>
+        <size type="installed">11331770</size>
+        <size type="download">11042233</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">5ffdbc0d-f340-441c-a803-8439c8c0ae10</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi6180aaaa.firmware</id>
+    <name>Latitude E5X60 System Update</name>
+    <summary>Firmware for the Dell Latitude E5X60</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494573022" version="69124">
+        <location>https://secure-lvfs.rhcloud.com/downloads/358f816d191cda131ca59f74aad3b30d720b885f-firmware_Latitude_E5x70_Precision_3510_1.14.4.wu.cab</location>
+        <checksum type="sha1" filename="358f816d191cda131ca59f74aad3b30d720b885f-firmware_Latitude_E5x70_Precision_3510_1.14.4.wu.cab" target="container">465cc5ad25697cb64a8fd4955161f406e4af6b33</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">b7f66cd79240b642dca7da23fc709b8af53ed4c6</checksum>
+        <size type="installed">13653802</size>
+        <size type="download">13374544</size>
+      </release>
+      <release timestamp="1486459526" urgency="high" version="68614">
+        <location>https://secure-lvfs.rhcloud.com/downloads/74fb7637e18cd0ff3155884bd29c36efc5e943a2-firmware_Latitude_E5x70_Precision_3510_1.12.6.wu.cab</location>
+        <checksum type="sha1" filename="74fb7637e18cd0ff3155884bd29c36efc5e943a2-firmware_Latitude_E5x70_Precision_3510_1.12.6.wu.cab" target="container">06434c070e0068309443aecb562c2d9e684af9d7</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">02c9a447f1784046fc4339ec26bd0bc68e666c3f</checksum>
+        <description><p>None</p></description>
+        <size type="installed">13582230</size>
+        <size type="download">13302460</size>
+      </release>
+      <release timestamp="1482412269" version="68356">
+        <location>https://secure-lvfs.rhcloud.com/downloads/754f99d06990155dc9a4dd157823e2a30bb07950-firmware_Latitude_E5x70_Precision_3510_1.11.4.wu.cab</location>
+        <checksum type="sha1" filename="754f99d06990155dc9a4dd157823e2a30bb07950-firmware_Latitude_E5x70_Precision_3510_1.11.4.wu.cab" target="container">72f4bc9b0701552e79e945171dbd46b24d7b3b3f</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">281ab29c4c8243d6228083511b8d8703cd89026e</checksum>
+        <size type="installed">13564432</size>
+        <size type="download">13285522</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">6180aaaa-5529-4bbf-b4fd-65b4f788de5b</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi8080d214.firmware</id>
+    <name>OptiPlex 5050 System Update</name>
+    <summary>Firmware for the Dell OptiPlex 5050</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1482422500" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/bc000aa1c7e1ad07a55110aa61c1ead29a6fb3d0-firmware.OptiPlex_5050_1.2.0.wu.cab</location>
+        <checksum type="sha1" filename="bc000aa1c7e1ad07a55110aa61c1ead29a6fb3d0-firmware.OptiPlex_5050_1.2.0.wu.cab" target="container">d4ed7a38f740aa7b6ff89c015f87c494b7460e9f</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">3bdd7c7fe56e51604385884cd74ef3020d2f551c</checksum>
+        <size type="installed">9289023</size>
+        <size type="download">8997260</size>
+      </release>
+      <release timestamp="1478845842" urgency="high" version="65537">
+        <location>https://secure-lvfs.rhcloud.com/downloads/0031b27f734c454b4322070541c01884c9d07e80-firmware.OptiPlex_5050_1.0.1.wu.cab</location>
+        <checksum type="sha1" filename="0031b27f734c454b4322070541c01884c9d07e80-firmware.OptiPlex_5050_1.0.1.wu.cab" target="container">604ac1142f60376a745e6a51fc8f32fd93619479</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">bc23f154803324b2eedc831a8753450c6e52c104</checksum>
+        <description><p>OptiPlex 5050 BIOS 1.0.1 for LVFS</p></description>
+        <size type="installed">9254227</size>
+        <size type="download">8964473</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">8080d214-49e3-4d1a-b6d3-586c2703a0a2</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi8661c04a.firmware</id>
+    <name>Latitude 3470 System Update</name>
+    <summary>Firmware for the Dell Latitude 3470</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1487145065" version="67074">
+        <location>https://secure-lvfs.rhcloud.com/downloads/6e64ae0ceba7c705fc8c68ec8711afff643f8041-firmware.cab</location>
+        <checksum type="sha1" filename="6e64ae0ceba7c705fc8c68ec8711afff643f8041-firmware.cab" target="container">88b5225643ef372d5c8fa98dec58dca2097722ce</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">5613ac7ce60e1152babe2dfd47225cee8ae1c21d</checksum>
+        <size type="installed">6551600</size>
+        <size type="download">6272985</size>
+      </release>
+      <release timestamp="1481078527" urgency="medium" version="66818">
+        <location>https://secure-lvfs.rhcloud.com/downloads/3971f4a83d1019cb6b3144ef720560b619218279-firmware.cab</location>
+        <checksum type="sha1" filename="3971f4a83d1019cb6b3144ef720560b619218279-firmware.cab" target="container">f96146b3cd3e2bb887a350f4497c569ee64964cd</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e4abe16b9b6928fd6a58d2827ab0cfcd8e185cf7</checksum>
+        <description><p>Fixes</p><ul><li>Fixed incorrect Intel Management Engine Firmware version.</li></ul><p>Enhancements</p><ul><li>Not Applicable.</li></ul></description>
+        <size type="installed">6543956</size>
+        <size type="download">6264651</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">8661c04a-bf3e-47db-a133-ef36a2a91196</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi8b7b32a7.firmware</id>
+    <name>Latitude 5X80 System Update</name>
+    <summary>Firmware for the Dell Latitude 5X80</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494484902" version="66563">
+        <location>https://secure-lvfs.rhcloud.com/downloads/ec18c98702b0987fea5719bd697d1813953e97bf-firmware.Latitude_5x80_Precision_3520_1.4.3U.wu.cab</location>
+        <checksum type="sha1" filename="ec18c98702b0987fea5719bd697d1813953e97bf-firmware.Latitude_5x80_Precision_3520_1.4.3U.wu.cab" target="container">ad1656ceb181c717ba1e590c3bc5ba07f0c45b1d</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">0356be5783356eda8bcdd40c4d1f555633cc96eb</checksum>
+        <size type="installed">10341400</size>
+        <size type="download">10060174</size>
+      </release>
+      <release timestamp="1494244392" version="66307">
+        <location>https://secure-lvfs.rhcloud.com/downloads/96c688b871bea92d5800d28089b6bff847cc88b5-firmware.Latitude_5x80_Precision_3520_1.3.3U.wu.cab</location>
+        <checksum type="sha1" filename="96c688b871bea92d5800d28089b6bff847cc88b5-firmware.Latitude_5x80_Precision_3520_1.3.3U.wu.cab" target="container">a6198a46aada48ed1dc04348efaef9d4c31f3d1f</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">ae0f8f0d82a59a174a636379573d779786dce4f7</checksum>
+        <size type="installed">10340188</size>
+        <size type="download">10058808</size>
+      </release>
+      <release timestamp="1491485496" version="66306">
+        <location>https://secure-lvfs.rhcloud.com/downloads/66cad3d422f0a3daf138a41a72817426a226dc96-firmware.Latitude_5x80_Precision_3520_1.3.2U.wu.cab</location>
+        <checksum type="sha1" filename="66cad3d422f0a3daf138a41a72817426a226dc96-firmware.Latitude_5x80_Precision_3520_1.3.2U.wu.cab" target="container">748341b432ed6f49118cf4ffe0e4eb4a5f8a7bb9</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">926b1386a0cf0c6851150f01b727f24dfe4914c9</checksum>
+        <size type="installed">10332674</size>
+        <size type="download">10051020</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">8b7b32a7-0dee-4851-9707-ee7e8c2c4881</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefi9cb573d5.firmware</id>
+    <name>Latitude 3480 System Update</name>
+    <summary>Firmware for the Dell Latitude 3480</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1495688497" version="66050">
+        <location>https://secure-lvfs.rhcloud.com/downloads/497925800cb7ca039ba5dab6299136d7513a7a38-firmware.cab</location>
+        <checksum type="sha1" filename="497925800cb7ca039ba5dab6299136d7513a7a38-firmware.cab" target="container">94b94eb782ea479057b9f66aff1e876b94fb7ed2</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">badcb22aeabc2e571a61ce872e3a9a4a3ba7eaf3</checksum>
+        <size type="installed">6664073</size>
+        <size type="download">6377692</size>
+      </release>
+      <release timestamp="1490780990" version="65795">
+        <location>https://secure-lvfs.rhcloud.com/downloads/3978624568f6ffdf15ae946dfd956c681ec7c0a0-firmware.cab</location>
+        <checksum type="sha1" filename="3978624568f6ffdf15ae946dfd956c681ec7c0a0-firmware.cab" target="container">4f89bb6f476557e385f47b4f4eaa422f720fb054</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">b3b7d9baf45bd3342a5c6ae3e147aeb576390522</checksum>
+        <size type="installed">6661344</size>
+        <size type="download">6374710</size>
+      </release>
+      <release timestamp="1486694253" version="65539">
+        <location>https://secure-lvfs.rhcloud.com/downloads/00c77ce92fee7eedcdc446661524f4efe79423c6-firmware.cab</location>
+        <checksum type="sha1" filename="00c77ce92fee7eedcdc446661524f4efe79423c6-firmware.cab" target="container">efe22e7a936eee01a938a73b889f36a8ea00d463</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e424fee8369ee20b4bc2264a467f2ec8eb2af5ce</checksum>
+        <size type="installed">6626740</size>
+        <size type="download">6340753</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">9cb573d5-df82-476c-b841-eacd615a3932</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefia0a3aa54.firmware</id>
+    <name>Embedded Box PC 5000 System Update</name>
+    <summary>Firmware for the Dell Embedded Box PC 5000</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1491819686" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/6a13e9a1fa7069d014680a4dab4c1a1dea4a99a6-firmware_Constantine_010200.wu.cab</location>
+        <checksum type="sha1" filename="6a13e9a1fa7069d014680a4dab4c1a1dea4a99a6-firmware_Constantine_010200.wu.cab" target="container">cc7c3c43f180367d58d5ab6d20eb62e597853446</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">71a160c133d77d4e1229c30df6edfd9a9b7512c7</checksum>
+        <description><p>None</p></description>
+        <size type="installed">8832784</size>
+        <size type="download">8543533</size>
+      </release>
+      <release timestamp="1486727376" version="65795">
+        <location>https://secure-lvfs.rhcloud.com/downloads/7a4da32801d15520291069b710b138a3d2d5cd68-EmbeddedBoxPC5000_1.1.3.wu.cab</location>
+        <checksum type="sha1" filename="7a4da32801d15520291069b710b138a3d2d5cd68-EmbeddedBoxPC5000_1.1.3.wu.cab" target="container">6840298d62120ab43ad50ab3dd62de65c7e731d1</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">c7857f30b708ed100439e90b53d498b35425ad8e</checksum>
+        <size type="installed">8826792</size>
+        <size type="download">8536573</size>
+      </release>
+      <release timestamp="1470976938" version="65792">
+        <location>https://secure-lvfs.rhcloud.com/downloads/839d896bae75db4712396fad5dea6f883a2fe0c8-EmbeddedBoxPC5000_1.1.0.wu.cab</location>
+        <checksum type="sha1" filename="839d896bae75db4712396fad5dea6f883a2fe0c8-EmbeddedBoxPC5000_1.1.0.wu.cab" target="container">bb1d753e703d9e134790b24a15e211ee688c2564</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">428cd1f7d31df0d568829504b9c9e48e98d0d80f</checksum>
+        <size type="installed">8791355</size>
+        <size type="download">8510638</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">a0a3aa54-0491-4077-b985-c057ad3e749b</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefia81a55fe.firmware</id>
+    <name>OptiPlex 3240 AIO System Update</name>
+    <summary>Firmware for the Dell OptiPlex 3240 AIO</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1482860570" version="66828">
+        <location>https://secure-lvfs.rhcloud.com/downloads/50e35ff171ec85b00d1fa796f78196722cc504fb-firmware.OptiPlex_3240_AIO_1.5.12.wu.cab</location>
+        <checksum type="sha1" filename="50e35ff171ec85b00d1fa796f78196722cc504fb-firmware.OptiPlex_3240_AIO_1.5.12.wu.cab" target="container">1e07dd485eb97b8aa30dc3d42a0403826510a042</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">6b72e0b86e4d9644a21d2bb4b07969041cc09263</checksum>
+        <size type="installed">6121276</size>
+        <size type="download">5840162</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">a81a55fe-7418-4244-bfba-c5bad95efec2</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefiaee2604a.firmware</id>
+    <name>Embedded Box PC 3000 System Update</name>
+    <summary>Firmware for the Dell Embedded Box PC 3000</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1487849785" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/bd381e471e3ab7a97024ba09b8b04c83509a5526-firmware_Ford_010200.wu.cab</location>
+        <checksum type="sha1" filename="bd381e471e3ab7a97024ba09b8b04c83509a5526-firmware_Ford_010200.wu.cab" target="container">4a4ab0945ca8c6ba2e3ee674879b17daf1ceb903</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">4d919f8d23cf63a71d6a40093dbd545294325494</checksum>
+        <size type="installed">4712385</size>
+        <size type="download">4449390</size>
+      </release>
+      <release timestamp="1482116792" version="65795">
+        <location>https://secure-lvfs.rhcloud.com/downloads/9b2f2c34b59ff1e0acbe9ac25297dac53e0d89a2-firmware_Ford_010103.wu.cab</location>
+        <checksum type="sha1" filename="9b2f2c34b59ff1e0acbe9ac25297dac53e0d89a2-firmware_Ford_010103.wu.cab" target="container">041d02b577233c5b5a4f565dd7089641ccee5ba3</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">e99ea50ef54c1e15ac1d380eafa4e51fffc6a02f</checksum>
+        <description><p>None</p></description>
+        <size type="installed">4712415</size>
+        <size type="download">4449335</size>
+      </release>
+      <release timestamp="1470989254" version="65792">
+        <location>https://secure-lvfs.rhcloud.com/downloads/60da1b13a19a362b1151f7cf9867d2bf1af54d17-EmbeddedBoxPC3000_1.1.0.wu.cab</location>
+        <checksum type="sha1" filename="60da1b13a19a362b1151f7cf9867d2bf1af54d17-EmbeddedBoxPC3000_1.1.0.wu.cab" target="container">f8d1109fdfa3e36afba8409ff0d397a096b96158</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">7a7a6e2858eef8fe25d2a2a475dfc198ce4f503b</checksum>
+        <size type="installed">4712025</size>
+        <size type="download">4449743</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">aee2604a-7e36-4738-918d-a8eb8e307e65</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefib566a9b1.firmware</id>
+    <name>OptiPlex 5250 AIO System Update</name>
+    <summary>Firmware for the Dell OptiPlex 5250 AIO</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494253279" version="66562">
+        <location>https://secure-lvfs.rhcloud.com/downloads/562672412a08549c33e8721cf70e3f00255d8125-firmware.OptiPlex_5250_AIO_1.4.2.wu.cab</location>
+        <checksum type="sha1" filename="562672412a08549c33e8721cf70e3f00255d8125-firmware.OptiPlex_5250_AIO_1.4.2.wu.cab" target="container">277dc42bcd70b3e6006e25db67fc8e6d7c233759</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">271ecb73464ef396a9ce98acd8f08d98bcf0fb02</checksum>
+        <size type="installed">9285803</size>
+        <size type="download">8995622</size>
+      </release>
+      <release timestamp="1482806013" urgency="medium" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/eb1b3a5a38e6f453ab5639f0a64c229e585e3c95-firmware.OptiPlex_5250_AIO_1.2.0.wu.cab</location>
+        <checksum type="sha1" filename="eb1b3a5a38e6f453ab5639f0a64c229e585e3c95-firmware.OptiPlex_5250_AIO_1.2.0.wu.cab" target="container">0dcbe32393bf76b929567079239c46c8befccbf5</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">98ccf37ea823552fbe86473f4f00cac857686b12</checksum>
+        <description><p>OptiPlex5250 AIO 1.2.0</p></description>
+        <size type="installed">9304498</size>
+        <size type="download">9015729</size>
+      </release>
+      <release timestamp="1478866246" version="65536">
+        <location>https://secure-lvfs.rhcloud.com/downloads/343f358a9e89c946d2c7a00d9cf2048decb418ab-firmware.OptiPlex_5250_AIO_1.0.0.wu.cab</location>
+        <checksum type="sha1" filename="343f358a9e89c946d2c7a00d9cf2048decb418ab-firmware.OptiPlex_5250_AIO_1.0.0.wu.cab" target="container">81c24e3359760b1ab6f64558ffe8f1617427f3d1</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">0d2ab91a8209083e2baad5aaf972c73c70726afd</checksum>
+        <size type="installed">9272026</size>
+        <size type="download">8982927</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">b566a9b1-af40-41cd-84df-865cc703a631</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefib950d63c.firmware</id>
+    <name>OptiPlex 7040 System Update</name>
+    <summary>Firmware for the Dell OptiPlex 7040</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1482313605" version="66823">
+        <location>https://secure-lvfs.rhcloud.com/downloads/956da8682f1ef342d12630649fa4b105deb28797-firmware.OptiPlex_7040_1.5.7.wu.cab</location>
+        <checksum type="sha1" filename="956da8682f1ef342d12630649fa4b105deb28797-firmware.OptiPlex_7040_1.5.7.wu.cab" target="container">272d840d9b2a97f2bd8f78ccbdf1620501cf714c</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">dde05e2fdaf5015832c3b3cb5604945200db7b4d</checksum>
+        <size type="installed">8622528</size>
+        <size type="download">8342187</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">b950d63c-f9a5-4823-b48d-395e960ab468</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefid69fed57.firmware</id>
+    <name>OptiPlex 3050 AIO System Update</name>
+    <summary>Firmware for the Dell OptiPlex 3050 AIO</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1494497010" version="66563">
+        <location>https://secure-lvfs.rhcloud.com/downloads/5385d6f3ee95be171b2e921efe20c792b9b0cf67-firmware.OptiPlex_3050_AIO_1.4.3.wu.cab</location>
+        <checksum type="sha1" filename="5385d6f3ee95be171b2e921efe20c792b9b0cf67-firmware.OptiPlex_3050_AIO_1.4.3.wu.cab" target="container">b1d27b618e9a1b0c435d2e7df22b2b156f1c560f</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">4388e8cb7666ec18c3a75ab3851e50c232e71137</checksum>
+        <size type="installed">9369836</size>
+        <size type="download">9078428</size>
+      </release>
+      <release timestamp="1482809479" urgency="medium" version="66048">
+        <location>https://secure-lvfs.rhcloud.com/downloads/856bad53c61906ee21ca73d5e45456cf75e5104b-firmware.OptiPlex_3050_AIO_1.2.0.wu.cab</location>
+        <checksum type="sha1" filename="856bad53c61906ee21ca73d5e45456cf75e5104b-firmware.OptiPlex_3050_AIO_1.2.0.wu.cab" target="container">8380ba9ed1b11c5e094ff1b09b99398e8a04d786</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">b79b636a73d94519265e374dc46f16adfe616f1a</checksum>
+        <description><p>OptiPlex3050 AIO 1.2.0</p></description>
+        <size type="installed">9388798</size>
+        <size type="download">9101599</size>
+      </release>
+      <release timestamp="1478867527" version="65536">
+        <location>https://secure-lvfs.rhcloud.com/downloads/5a0f1d4b4cfc369b99ade04b31cfec5629d506e4-firmware.OptiPlex_3050_AIO_1.0.0.wu.cab</location>
+        <checksum type="sha1" filename="5a0f1d4b4cfc369b99ade04b31cfec5629d506e4-firmware.OptiPlex_3050_AIO_1.0.0.wu.cab" target="container">e6a679eb2865fc45cae5e111bf67a146de63b7ea</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">c0df8073a09e195dc1927eb8aeb280ddaaa0d6e5</checksum>
+        <size type="installed">9356198</size>
+        <size type="download">9065947</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">d69fed57-d865-43f6-b7f4-26405b40b646</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefie0f614ed.firmware</id>
+    <name>Edge Gateway 5000/5100 System Update</name>
+    <summary>Firmware for the Dell Edge Gateway 5000/5100</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1492410935" version="67072">
+        <location>https://secure-lvfs.rhcloud.com/downloads/1b3c5522d8d441275399d4ca95ee33e0fea997c9-firmware_Louis_010600.wu.cab</location>
+        <checksum type="sha1" filename="1b3c5522d8d441275399d4ca95ee33e0fea997c9-firmware_Louis_010600.wu.cab" target="container">7e5a5e5bc9515c6ec7b98045081c58970e6a4d9a</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">515aa9418dc9ac78fe43fdf6bf7e4100164e1a71</checksum>
+        <description><p>None</p></description>
+        <size type="installed">4649011</size>
+        <size type="download">4387203</size>
+      </release>
+      <release timestamp="1476852829" version="66816">
+        <location>https://secure-lvfs.rhcloud.com/downloads/59ffd7d2f7f40f874e87ed90db1ade2593e995c5-EdgeGateway5000_010500.wu.cab</location>
+        <checksum type="sha1" filename="59ffd7d2f7f40f874e87ed90db1ade2593e995c5-EdgeGateway5000_010500.wu.cab" target="container">7a0e1d68f69dd4be15cc6aa9f06d73c67359b225</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">a6198b4324b7a96e81b9b63324bb6128dba4d957</checksum>
+        <size type="installed">4650958</size>
+        <size type="download">4388881</size>
+      </release>
+      <release timestamp="1460518865" version="66306">
+        <location>https://secure-lvfs.rhcloud.com/downloads/fb4428e20c738152103d92ed94adf9958d5237f2-firmware.cab</location>
+        <checksum type="sha1" filename="fb4428e20c738152103d92ed94adf9958d5237f2-firmware.cab" target="container">203c294eb34bd0cd481f0be488db45d064ff8f70</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">647cf1904adaaf235754169987b1aa6b4f0a7be7</checksum>
+        <size type="installed">4597155</size>
+        <size type="download">4331476</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">e0f614ed-fb82-467a-a34e-71172cc07e4d</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.dell.uefif952fe9e.firmware</id>
+    <name>Latitude 3380 System Update</name>
+    <summary>Firmware for the Dell Latitude 3380</summary>
+    <developer_name>Dell Inc.</developer_name>
+    <description><p>Updating the system firmware improves performance.</p></description>
+    <project_license>proprietary</project_license>
+    <url type="homepage">http://support.dell.com/</url>
+    <releases>
+      <release timestamp="1495689026" version="65794">
+        <location>https://secure-lvfs.rhcloud.com/downloads/10c9978567b7e4b6fd56c54110f6938a56de1b94-firmware.cab</location>
+        <checksum type="sha1" filename="10c9978567b7e4b6fd56c54110f6938a56de1b94-firmware.cab" target="container">1e3106de0d5258cb138155d18eba6de39e6eaace</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">33930dfd6f03711b03c234b63fa255d62b8c546a</checksum>
+        <size type="installed">6623205</size>
+        <size type="download">6337894</size>
+      </release>
+      <release timestamp="1490780735" version="65543">
+        <location>https://secure-lvfs.rhcloud.com/downloads/12d80c3783c15694628c257a0eeb64d1a4b112e4-firmware.cab</location>
+        <checksum type="sha1" filename="12d80c3783c15694628c257a0eeb64d1a4b112e4-firmware.cab" target="container">42104b670c9fff6cfca6cd6f68eccc6469717593</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">c650d20e0929acaf2701b4f0742ffd7a76edc933</checksum>
+        <size type="installed">6620069</size>
+        <size type="download">6334339</size>
+      </release>
+      <release timestamp="1483927190" version="65538">
+        <location>https://secure-lvfs.rhcloud.com/downloads/fd7d375b1fe71cdcb887def0489b83c8f1943d8b-firmware.cab</location>
+        <checksum type="sha1" filename="fd7d375b1fe71cdcb887def0489b83c8f1943d8b-firmware.cab" target="container">8bb954a400932b255610dcce70a6cbd32153602d</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">a3155140149ca3d26f8201712873f25dda27a1e1</checksum>
+        <size type="installed">6570734</size>
+        <size type="download">6285072</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">f952fe9e-b7c7-4022-bf83-f2307b97e17d</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.hughski.ColorHug.firmware</id>
+    <name>ColorHug</name>
+    <summary>Firmware for the Hughski ColorHug Colorimeter</summary>
+    <developer_name>Hughski Limited</developer_name>
+    <description><p>Updating the firmware on your ColorHug device improves performance and adds new features.</p></description>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">http://www.hughski.com/</url>
+    <releases>
+      <release timestamp="1480683870" urgency="low" version="1.2.6">
+        <location>https://secure-lvfs.rhcloud.com/downloads/aa1b94b36c91929fbf75551b8a376d7292f8c51c-hughski-colorhug-1.2.6.cab</location>
+        <checksum type="sha1" filename="aa1b94b36c91929fbf75551b8a376d7292f8c51c-hughski-colorhug-1.2.6.cab" target="container">570a4259af0c7670f3883e84d2f4e6ff7de572c2</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">111784ffadfd5dd43f05655b266b5142230195b6</checksum>
+        <description><p>This release fixes prevents the firmware returning an error when the remote SHA1 hash was never sent.</p></description>
+        <size type="installed">16384</size>
+        <size type="download">18054</size>
+      </release>
+      <release timestamp="1452082463" urgency="low" version="1.2.5">
+        <location>https://secure-lvfs.rhcloud.com/downloads/9a4e77009da7d3b5f15a1388afeb9e5d41a5a8ae-hughski-colorhug2-1.2.5.cab</location>
+        <checksum type="sha1" filename="9a4e77009da7d3b5f15a1388afeb9e5d41a5a8ae-hughski-colorhug2-1.2.5.cab" target="container">3831532bc94e6385807372a5485a8cbf6b024eeb</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">71a538f9b9e9b4a649be0e4b4d492ff4b53de7ac</checksum>
+        <description><p>This release fixes the firmware package to work with new versions of fwupd.</p></description>
+        <size type="installed">16384</size>
+        <size type="download">17779</size>
+      </release>
+      <release timestamp="1438454314" version="1.2.4">
+        <location>https://secure-lvfs.rhcloud.com/downloads/27e234cfcac2ed3ecdae195c67ba99ffd4435e04-hughski-colorhug-1.2.4.cab</location>
+        <checksum type="sha1" filename="27e234cfcac2ed3ecdae195c67ba99ffd4435e04-hughski-colorhug-1.2.4.cab" target="container">dfcb6be14e51f9c953e379117477f56cc4121839</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">a9ba7b28fbce61326b98e08703d5be493b251e66</checksum>
+        <description><p>This release adds support for verifying the firmware contents using fwupd.</p></description>
+        <size type="installed">16384</size>
+        <size type="download">18061</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">40338ceb-b966-4eae-adae-9c32edfcc484</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.hughski.ColorHug2.firmware</id>
+    <name>ColorHug2</name>
+    <summary>Firmware for the Hughski ColorHug2 Colorimeter</summary>
+    <developer_name>Hughski Limited</developer_name>
+    <description><p>Updating the firmware on your ColorHug2 device improves performance and adds new features.</p></description>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">http://www.hughski.com/</url>
+    <releases>
+      <release timestamp="1482901200" urgency="medium" version="2.0.7">
+        <location>https://secure-lvfs.rhcloud.com/downloads/0a29848de74d26348bc5a6e24fc9f03778eddf0e-hughski-colorhug2-2.0.7.cab</location>
+        <checksum type="sha1" filename="0a29848de74d26348bc5a6e24fc9f03778eddf0e-hughski-colorhug2-2.0.7.cab" target="container">490be5c0b13ca4a3f169bf8bc682ba127b8f7b96</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">658851e6f27c4d87de19cd66b97b610d100efe09</checksum>
+        <description><p>This release fixes prevents the firmware returning an error when the remote SHA1 hash was never sent.</p></description>
+        <size type="installed">16384</size>
+        <size type="download">19592</size>
+      </release>
+      <release timestamp="1450792062" urgency="medium" version="2.0.6">
+        <location>https://secure-lvfs.rhcloud.com/downloads/170f2c19f17b7819644d3fcc7617621cc3350a04-hughski-colorhug2-2.0.6.cab</location>
+        <checksum type="sha1" filename="170f2c19f17b7819644d3fcc7617621cc3350a04-hughski-colorhug2-2.0.6.cab" target="container">03c9c14db1894a00035ececcfae192865a710e52</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">f038b5ca40e6d7c1c0299a9e1dcc129d5f6371b6</checksum>
+        <description><p>This stable release fixes the following problems:</p><ul><li>Fix the swapped LEDs on the second half of batch 16</li><li>Fix the firmware upgrade process using new versions of fwupd</li></ul></description>
+        <size type="installed">16384</size>
+        <size type="download">19264</size>
+      </release>
+      <release timestamp="1444059405" version="2.0.5">
+        <location>https://secure-lvfs.rhcloud.com/downloads/f7dd4ab29fa610438571b8b62b26b0b0e57bb35b-hughski-colorhug2-2.0.5.cab</location>
+        <checksum type="sha1" filename="f7dd4ab29fa610438571b8b62b26b0b0e57bb35b-hughski-colorhug2-2.0.5.cab" target="container">4ee9dfa38df3b810f739d8a19d13da1b3175fb87</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">ae76c6b704b60f9d1d88dc2c8ec8a62d7b2331dc</checksum>
+        <description><p>This stable release fixes the following problems:</p><ul><li>Fix the swapped LEDs on batch 16</li><li>Make the self test more sensitive to detect floating pins</li></ul></description>
+        <size type="installed">16384</size>
+        <size type="download">19062</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">2082b5e0-7a64-478a-b1b2-e3404fab6dad</firmware>
+    </provides>
+  </component>
+  <component type="firmware">
+    <id>com.hughski.ColorHugALS.firmware</id>
+    <name>ColorHugALS</name>
+    <summary>Firmware for the Hughski ColorHug Ambient Light Sensor</summary>
+    <developer_name>Hughski Limited</developer_name>
+    <description><p>Updating the firmware on your ColorHugALS device improves performance and adds new features.</p></description>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">http://www.hughski.com/</url>
+    <releases>
+      <release timestamp="1453802420" urgency="low" version="4.0.3">
+        <location>https://secure-lvfs.rhcloud.com/downloads/8dbdd54c712b33f72d866ce3b23b3ceed3ad494d-hughski-colorhug-als-4.0.3.cab</location>
+        <checksum type="sha1" filename="8dbdd54c712b33f72d866ce3b23b3ceed3ad494d-hughski-colorhug-als-4.0.3.cab" target="container">36a03724418f41a8035478d29c25d7a4e6433bad</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">f4b17f60530ed182561ae4954e6ad1b904d83e4f</checksum>
+        <description><p>Remove the invalid .inf file from the release tarball. No code or behaviour changes.</p></description>
+        <size type="installed">8192</size>
+        <size type="download">9829</size>
+      </release>
+      <release timestamp="1442321232" version="4.0.2">
+        <location>https://secure-lvfs.rhcloud.com/downloads/73ac1aa98130e532c727308cc6560783b10ca3a9-hughski-colorhug-als-4.0.2.cab</location>
+        <checksum type="sha1" filename="73ac1aa98130e532c727308cc6560783b10ca3a9-hughski-colorhug-als-4.0.2.cab" target="container">169624c773888d78cd074ecc82ed82fef15577cc</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">0d8a2c1d73c344a8e754cf79497616710c265e4f</checksum>
+        <description><p>We now expose a standard HID ALS sensor, which means the device works with Linux, OS X and Windows8+ without installing a driver.</p><p>Many thanks to Benjamin Tissoires for the initial firmware, testing and client code examples.</p></description>
+        <size type="installed">8192</size>
+        <size type="download">10123</size>
+      </release>
+      <release timestamp="1424116753" version="3.0.2">
+        <location>https://secure-lvfs.rhcloud.com/downloads/0c4b070f6e812788df987e40a2ed4f96f28263ad-hughski-colorhug-als-3.0.2.cab</location>
+        <checksum type="sha1" filename="0c4b070f6e812788df987e40a2ed4f96f28263ad-hughski-colorhug-als-3.0.2.cab" target="container">3616221f6b7eeb3ae61ea29a5984dce188829a81</checksum>
+        <checksum type="sha1" filename="firmware.bin" target="content">7c0ae84b191822bcadbdcbe2f74a011695d783c7</checksum>
+        <description><p>This stable release fixes the following bugs:</p><ul><li>Fix the return code from GetHardwareVersion</li><li>Scale the output of TakeReadingRaw by the datasheet values</li></ul></description>
+        <size type="installed">8000</size>
+        <size type="download">5298</size>
+      </release>
+    </releases>
+    <provides>
+      <firmware type="flashed">84f40464-9272-4ef7-9399-cd95f12da696</firmware>
+    </provides>
+  </component>
+</components>

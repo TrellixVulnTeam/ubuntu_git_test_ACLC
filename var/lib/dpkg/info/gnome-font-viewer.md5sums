@@ -1,0 +1,9 @@
+496cdc1d7eb03960cd375120a8ed54bf  usr/bin/gnome-font-viewer
+1691067226bd7bd1e503d168da19849d  usr/bin/gnome-thumbnail-font
+dcf29942497be2a1b302081341940d61  usr/share/appdata/org.gnome.font-viewer.appdata.xml
+b38fd478216c36ad7b5ec141f3662a91  usr/share/applications/org.gnome.font-viewer.desktop
+f85798440299adac779748997d0dfa3a  usr/share/dbus-1/services/org.gnome.font-viewer.service
+fecc10bfad933e3e9d5b4a22a9a7a3da  usr/share/doc/gnome-font-viewer/NEWS.gz
+a3eca52de73fb0e5ebc4c75d4f93d5a2  usr/share/doc/gnome-font-viewer/changelog.Debian.gz
+002db6ae9333ed81f638cfc871185d4e  usr/share/doc/gnome-font-viewer/copyright
+2933f0c29fc435335c1a5395493885b8  usr/share/thumbnailers/gnome-font-viewer.thumbnailer

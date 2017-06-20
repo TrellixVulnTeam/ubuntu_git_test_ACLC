@@ -1,0 +1,29 @@
+module Ubuntu.Settings.Menus
+plugin UbuntuSettingsMenusQml
+typeinfo Menus.qmltypes
+
+AccessPointMenu 0.1 AccessPointMenu.qml
+BaseMenu 0.1 BaseMenu.qml
+BaseLayoutMenu 0.1 BaseLayoutMenu.qml
+ButtonMenu 0.1 ButtonMenu.qml
+CalendarMenu 0.1 CalendarMenu.qml
+CheckableMenu 0.1 CheckableMenu.qml
+EventMenu 0.1 EventMenu.qml
+GroupedMessageMenu 0.1 GroupedMessageMenu.qml
+MediaPlayerMenu 0.1 MediaPlayerMenu.qml
+ModemInfoItem 0.1 ModemInfoItem.qml
+PlaybackItemMenu 0.1 PlaybackItemMenu.qml
+ProgressBarMenu 0.1 ProgressBarMenu.qml
+ProgressValueMenu 0.1 ProgressValueMenu.qml
+RadioMenu 0.1 RadioMenu.qml
+SectionMenu 0.1 SectionMenu.qml
+SeparatorMenu 0.1 SeparatorMenu.qml
+SimpleMessageMenu 0.1 SimpleMessageMenu.qml
+SliderMenu 0.1 SliderMenu.qml
+SnapDecisionMenu 0.1 SnapDecisionMenu.qml
+StandardMenu 0.1 StandardMenu.qml
+SwitchMenu 0.1 SwitchMenu.qml
+TextMessageMenu 0.1 TextMessageMenu.qml
+TimeZoneMenu 0.1 TimeZoneMenu.qml
+TransferMenu 0.1 TransferMenu.qml
+UserSessionMenu 0.1 UserSessionMenu.qml

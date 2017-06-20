@@ -1,0 +1,20 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Developer.Devhelp
+DBusPath=/com/canonical/unity/scope/developer/devhelp
+Icon=
+QueryBinary=devhelp
+Keywords=devhelp;dev;help;doc;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/devhelp/unity_devhelp_daemon.py
+Module=devhelp.unity_devhelp_daemon
+ModuleType=python3
+RemoteContent=false
+Type=code
+Master=code.scope
+Name=Devhelp
+Description=This is an Ubuntu search plugin that enables information from Devhelp to be searched and displayed in the Dash underneath the Code header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Devhelp
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-devhelp

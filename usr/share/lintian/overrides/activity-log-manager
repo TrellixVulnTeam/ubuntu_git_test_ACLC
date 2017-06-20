@@ -1,0 +1,4 @@
+activity-log-manager: desktop-command-not-in-package
+activity-log-manager: pkg-has-shlibs-control-file-but-no-actual-shared-libs
+activity-log-manager: postinst-has-useless-call-to-ldconfig
+activity-log-manager: postrm-has-useless-call-to-ldconfig

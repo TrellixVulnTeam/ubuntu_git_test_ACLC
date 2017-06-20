@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=zyne
+X-AppInstall-Section=universe
+
+Name=Zyne
+GenericName=Modular synthesizer
+Comment=Modular synthesizer written in Python
+Icon=_usr_share_pixmaps_zyne
+Type=Application
+Categories=AudioVideo;Audio;
+Exec=zyne
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=bomberclone
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Bomberclone
+Comment=Play a Bomberman like game
+Icon=bomberclone
+Exec=bomberclone
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=bombs;arcade;clone;powerups;multi-player;single-player;network;bomberman;
+
+X-Ubuntu-Gettext-Domain=app-install-data

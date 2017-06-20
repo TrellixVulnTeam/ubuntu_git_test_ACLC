@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/GSettings.1.0
+/usr/lib/x86_64-linux-gnu/qt5/qml/GSettings.1.0/libGSettingsQmlPlugin.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/GSettings.1.0/plugins.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/GSettings.1.0/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qtdeclarative5-gsettings1.0
+/usr/share/doc/qtdeclarative5-gsettings1.0/copyright
+/usr/share/doc/qtdeclarative5-gsettings1.0/changelog.Debian.gz

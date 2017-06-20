@@ -1,0 +1,113 @@
+Package: golang-github-lxc-lxd-dev
+Priority: optional
+Section: admin
+Installed-Size: 1929
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: lxd
+Version: 2.14-0ubuntu3~17.04.1
+Depends: golang-go, lxc-dev, pkg-config
+Filename: pool/main/l/lxd/golang-github-lxc-lxd-dev_2.14-0ubuntu3~17.04.1_all.deb
+Size: 299822
+MD5sum: 0b24cbeba8affb22a2d8e55ec8da855f
+SHA1: f51c10334f23f7a1162624a5b4197ae8b12e496e
+SHA256: 4a50772f773fac38dd8885356b33eaf218236de2da2c23169439190359f0c0eb
+Description: Container hypervisor based on LXC - go source
+Homepage: https://linuxcontainers.org/
+Description-md5: bf546539c311f366eeb0ad488709554f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: lxc2
+Priority: extra
+Section: metapackages
+Installed-Size: 52
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Source: lxd
+Version: 2.14-0ubuntu3~17.04.1
+Depends: lxd, lxd-client
+Filename: pool/main/l/lxd/lxc2_2.14-0ubuntu3~17.04.1_all.deb
+Size: 4050
+MD5sum: 862bb497ca8079845b1300adfde82d75
+SHA1: 64582291be4c465a8fb1b4a49e288f0980017297
+SHA256: eef9082948c8f02d149166cb20a29594673b11ad607f48e84d197d3a337ceee0
+Description: Container hypervisor based on LXC - metapackage
+Homepage: https://linuxcontainers.org/
+Description-md5: 16aa6b32a6decc4b676db644304f6925
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: lxd
+Priority: optional
+Section: admin
+Installed-Size: 9101
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Version: 2.14-0ubuntu3~17.04.1
+Depends: acl, adduser, dnsmasq-base, ebtables, iptables, liblxc1 (>= 2.0.0~), lsb-base (>= 3.0-6), lxd-client (= 2.14-0ubuntu3~17.04.1), lxcfs, passwd (>= 1:4.1.5.1-1ubuntu5~), rsync, squashfs-tools, uidmap (>= 1:4.1.5.1-1ubuntu5~), xz-utils, init-system-helpers (>= 1.18~), libc6 (>= 2.14), libsqlite3-0 (>= 3.7.15)
+Suggests: criu, lxd-tools
+Filename: pool/main/l/lxd/lxd_2.14-0ubuntu3~17.04.1_i386.deb
+Size: 2519652
+MD5sum: 832260487079d29022daba31c9ae9fad
+SHA1: a7910bc7f08dc4d211a9551c66d4d12a201afe3e
+SHA256: d0ec51a4465a02bcaf0274efab5ba4c457e2dd2e279afef0ed1a25c01a18fe1a
+Description: Container hypervisor based on LXC - daemon
+Built-Using: golang-1.7 (= 1.7.4-2ubuntu1)
+Homepage: https://linuxcontainers.org/
+Description-md5: aae21ff20f4cc6a1e21b22e39cdd87bf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+Task: cloud-image, server
+
+Package: lxd-client
+Priority: optional
+Section: admin
+Installed-Size: 5633
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: lxd
+Version: 2.14-0ubuntu3~17.04.1
+Replaces: lxc1 (<= 2.0.0~rc13-0ubuntu2~)
+Depends: libc6 (>= 2.9)
+Suggests: lxd
+Breaks: lxc1 (<= 2.0.0~rc13-0ubuntu2~)
+Filename: pool/main/l/lxd/lxd-client_2.14-0ubuntu3~17.04.1_i386.deb
+Size: 1663452
+MD5sum: 1ccd973e3a87c9e85676b89212881fe6
+SHA1: df2a68f669f1c5c82467c30dafc3524d19ce2c3c
+SHA256: 112c62e0bf176bd4eed09b99f95a6d37b943a5402fd0fe91f1b975cf1bc0e790
+Description: Container hypervisor based on LXC - client
+Built-Using: golang-1.7 (= 1.7.4-2ubuntu1)
+Homepage: https://linuxcontainers.org/
+Description-md5: c5f7d80cfd076c2db1400c3ee9b9332f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+Task: cloud-image, server
+
+Package: lxd-tools
+Priority: optional
+Section: admin
+Installed-Size: 7166
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: lxd
+Version: 2.14-0ubuntu3~17.04.1
+Depends: libc6 (>= 2.9), python3, python3-lxc
+Filename: pool/main/l/lxd/lxd-tools_2.14-0ubuntu3~17.04.1_i386.deb
+Size: 1526224
+MD5sum: 4b4a5175c3a17c4001de3aa7d3ca1f86
+SHA1: 348810050ba4baaef6c48ea0aeb4fc1455cf359f
+SHA256: 80930a798357de3cab2244b6152da4e5f3bf5b0bc35628efc1f287592b9240aa
+Description: Container hypervisor based on LXC - extra tools
+Built-Using: golang-1.7 (= 1.7.4-2ubuntu1)
+Homepage: https://linuxcontainers.org/
+Description-md5: 0dfa59a5cd7d8576e3182fb10faa4e93
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+

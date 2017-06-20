@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+GenericName=Psychology Stimuli IDE
+Name=PsychoPy
+Exec=nd-autoinstall psychopy %F
+Type=Application
+Terminal=false
+Categories=X-NeuroDebian-Psychophysics
+Icon=psychopy
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=silverjuke
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Silverjuke
+GenericName=Music Player
+Comment=Play and organize music in an easy-to-use jukebox style
+Keywords=player;mp3;audio;cd;podcast;playlist;karaoke;kiosk mode;musicbox;party;
+TryExec=silverjuke
+Exec=silverjuke
+Icon=silverjuke
+Categories=AudioVideo;Audio;Player;Music
+
+X-Ubuntu-Gettext-Domain=app-install-data

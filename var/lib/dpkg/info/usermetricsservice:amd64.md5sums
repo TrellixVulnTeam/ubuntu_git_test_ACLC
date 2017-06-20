@@ -1,0 +1,11 @@
+e753ac718fe73d9da67bff8965852d5b  usr/lib/x86_64-linux-gnu/libusermetrics/usermetricsservice
+3bd792194ab2701c6adb624d123f0a57  usr/share/dbus-1/interfaces/com.canonical.UserMetrics.xml
+b26a7cb10d732197e517a84c0db6c830  usr/share/dbus-1/interfaces/com.canonical.usermetrics.DataSet.xml
+7f0f2e4830d12d5323d5e5b1604cb40e  usr/share/dbus-1/interfaces/com.canonical.usermetrics.DataSource.xml
+0a88b23846cee05430ae3891fa5f0c64  usr/share/dbus-1/interfaces/com.canonical.usermetrics.UserData.xml
+37f41ab5447e39db3e60c15dd8f3c4f2  usr/share/dbus-1/system-services/com.canonical.UserMetrics.service
+5ecdfc58f46da020ea9a0a21a403aebd  usr/share/doc/usermetricsservice/changelog.Debian.gz
+1e8794070733c85027c24783b42d295c  usr/share/doc/usermetricsservice/copyright
+6c1d756234e559eac623bd0da11625da  usr/share/glib-2.0/schemas/com.canonical.UserMetrics.gschema.xml
+63e62df1ab138cc31af705a1a6ac0688  usr/share/libusermetrics/themes/color-theme.xsd
+e627494db4a8a7a9dd8e678dfc891627  usr/share/libusermetrics/themes/default.xml

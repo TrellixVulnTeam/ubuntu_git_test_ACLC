@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=flare-game
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Flare
+GenericName=Flare (Action Role-Playing Game)
+Comment=A single player, 2D-isometric, action Role-Playing Game
+TryExec=/usr/games/flare
+Exec=/usr/games/flare --game=flare-game
+Categories=Game;RolePlaying;
+Icon=flare
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

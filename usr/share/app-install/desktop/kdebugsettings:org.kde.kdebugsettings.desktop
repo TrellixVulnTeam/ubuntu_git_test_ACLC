@@ -1,0 +1,15 @@
+# KDE Config File
+[Desktop Entry]
+X-AppInstall-Package=kdebugsettings
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=kdebugsettings
+GenericName=Debug settings
+Terminal=false
+Name=KDebug Settings
+X-DBUS-StartupType=Unique
+Categories=Qt;KDE;Utility;
+X-DBUS-ServiceName=org.kde.kdebugsettings
+
+X-Ubuntu-Gettext-Domain=app-install-data

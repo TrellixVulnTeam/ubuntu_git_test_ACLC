@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-logs
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Logs
+GenericName=Log Viewer
+Comment=View detailed event logs for the system
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=log;journal;debug;error;
+Type=Application
+Categories=GTK;GNOME;System;Monitor;Utility;X-GNOME-Utilities;
+Exec=gnome-logs
+Icon=gnome-logs
+Terminal=false
+StartupNotify=true
+DBusActivatable=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

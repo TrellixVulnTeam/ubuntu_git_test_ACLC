@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=talksoup.app
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Network;IRCClient;
+Name=TalkSoup
+Comment=IRC Client for GNUstep
+Keywords=irc;messaging;chat;
+Icon=_usr_lib_GNUstep_Applications_TalkSoup.app_Resources_TalkSoup
+Exec=TalkSoup
+
+X-Ubuntu-Gettext-Domain=app-install-data

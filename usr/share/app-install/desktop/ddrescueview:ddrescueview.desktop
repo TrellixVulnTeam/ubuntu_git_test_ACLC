@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ddrescueview
+X-AppInstall-Section=universe
+
+Categories=Utility;
+Keywords=ddrescue;gddrescue;recovery;log;logfile;
+Comment=graphical viewer for GNU ddrescue log files
+Exec=ddrescueview
+Icon=ddrescueview
+Name=ddrescueview
+Type=Application
+Version=1.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

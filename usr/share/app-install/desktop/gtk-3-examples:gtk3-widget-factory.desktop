@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gtk-3-examples
+X-AppInstall-Popcon=11
+X-AppInstall-Section=main
+
+Name=Widget Factory
+Comment=A showcase for GTK+ widgets, designed for testing themes.
+Exec=gtk3-widget-factory
+Icon=gtk3-widget-factory
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

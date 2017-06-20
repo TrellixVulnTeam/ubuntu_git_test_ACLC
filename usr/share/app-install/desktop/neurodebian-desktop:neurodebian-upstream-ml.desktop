@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Upstream Mailing List Archive
+Type=Application
+Exec=x-www-browser "http://lists.alioth.debian.org/pipermail/neurodebian-upstream"
+Comment=Opens the list archive in a browser window
+Icon=help-browser
+Categories=X-NeuroDebian-Support
+
+X-Ubuntu-Gettext-Domain=app-install-data

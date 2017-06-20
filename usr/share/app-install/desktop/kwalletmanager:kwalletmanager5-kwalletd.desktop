@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kwalletmanager
+X-AppInstall-Popcon=956
+X-AppInstall-Section=universe
+
+Name=Wallet Management Tool
+Exec=kwalletmanager5 --kwalletd
+Icon=kwalletmanager
+Type=Application
+Terminal=false
+X-KDE-StartupNotify=false
+NoDisplay=true
+X-DocPath=help:/kwallet5/index.html
+
+X-Ubuntu-Gettext-Domain=app-install-data

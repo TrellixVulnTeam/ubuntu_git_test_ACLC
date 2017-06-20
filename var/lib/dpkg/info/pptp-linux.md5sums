@@ -1,0 +1,9 @@
+11cf7060672056b0ae2ba04d51c55117  usr/sbin/pptp
+5df0c20b075199463eddda94ff20fd1b  usr/sbin/pptpsetup
+7817e7445787d1d6a64381c3992924a2  usr/share/doc/pptp-linux/AUTHORS
+0663ba7541e56e722ac2c828d64294e4  usr/share/doc/pptp-linux/README
+974cf60c18c2ef6e32a084aafdbd8256  usr/share/doc/pptp-linux/USING
+d1003c79d882f8c20d2ce5bf4ce3005c  usr/share/doc/pptp-linux/changelog.Debian.gz
+e46eeef71bb9916cab58243af9a7b46a  usr/share/doc/pptp-linux/copyright
+f1409b6bade5605cd3f21018fa76c06c  usr/share/man/man8/pptp.8.gz
+295978df59ab0e3e7239111104efcf38  usr/share/man/man8/pptpsetup.8.gz

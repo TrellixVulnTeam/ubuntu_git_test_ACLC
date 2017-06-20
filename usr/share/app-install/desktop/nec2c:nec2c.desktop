@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=nec2c
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=/usr/bin/nec2c
+Name=nec2c
+Comment=Antenna Modelling Software
+Terminal=true
+Categories=Network;HamRadio;X-HamRadio-Antennas
+Keywords=Ham Radio;Antenna;Electronics;Modelling
+
+X-Ubuntu-Gettext-Domain=app-install-data

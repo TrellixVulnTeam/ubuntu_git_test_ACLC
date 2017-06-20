@@ -1,0 +1,7 @@
+7e16816af04a161df7435ce3a63cca3e  usr/bin/history-daemon
+484a3a357ca6656f1a6208d0a896582e  usr/share/applications/history-daemon.desktop
+9016ee16876aa5750900474bfbb8fc89  usr/share/dbus-1/services/com.canonical.HistoryService.service
+731c2dc731682064d91e567f38f0418f  usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.HistoryDaemonObserver.service
+25913111885e62deb7ddf18819c8217a  usr/share/doc/history-service/copyright
+d2349af3a9b48c4e3ea59cc7405b27c6  usr/share/telepathy/clients/HistoryDaemonObserver.client
+3d3c38e56bcf112d96e2f185a55fca1b  usr/share/upstart/sessions/history-daemon.conf

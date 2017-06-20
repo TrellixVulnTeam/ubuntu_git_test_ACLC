@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=301
+X-AppInstall-Section=universe
+
+Icon=cs-notifications
+Exec=cinnamon-settings notifications
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Notifications
+Comment=Notification preferences
+
+X-Ubuntu-Gettext-Domain=app-install-data

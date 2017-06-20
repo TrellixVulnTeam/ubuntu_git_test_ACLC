@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=xshogi
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=Xshogi
+Comment=Play Shogi Game
+Exec=xshogi
+Icon=xshogi
+Terminal=false
+Categories=Application;Game;BoardGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

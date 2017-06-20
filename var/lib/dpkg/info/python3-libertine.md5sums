@@ -1,0 +1,8 @@
+06b507ea4ecce6de859984f1b652731b  usr/lib/python3/dist-packages/libertine/ContainerControlClient.py
+be2ca21f75ccd38d91b6e10b917ec78b  usr/lib/python3/dist-packages/libertine/ContainersConfig.py
+6b14616ed85cad7f8f60852c4e100299  usr/lib/python3/dist-packages/libertine/HostInfo.py
+315dc0e5c77b20e535a9c5a47e5e796b  usr/lib/python3/dist-packages/libertine/Libertine.py
+4b3b71603e4bd1338b9de16545a6df08  usr/lib/python3/dist-packages/libertine/__init__.py
+70789ba1dcb30235338ca657a36517a3  usr/lib/python3/dist-packages/libertine/utils.py
+affac12e96f3849a0b5e204f89458aba  usr/share/doc/python3-libertine/changelog.Debian.gz
+363c1ce6b129e0e537d2c4b1fd5bdb4e  usr/share/doc/python3-libertine/copyright

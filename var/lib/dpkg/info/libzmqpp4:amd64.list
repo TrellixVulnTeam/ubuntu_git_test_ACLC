@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libzmqpp.so.4.1.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libzmqpp4
+/usr/share/doc/libzmqpp4/changelog.Debian.gz
+/usr/share/doc/libzmqpp4/copyright
+/usr/lib/x86_64-linux-gnu/libzmqpp.so.4

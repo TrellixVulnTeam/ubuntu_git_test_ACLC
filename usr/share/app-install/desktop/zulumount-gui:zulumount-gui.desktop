@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=zulumount-gui
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=zuluMount
+GenericName=zulumount-gui
+Comment=Encrypted volumes and partition mounter
+Icon=zuluMount
+Exec=zuluMount-gui-pkexec
+Terminal=false
+StartupNotify=true
+Categories=System;Security
+Keywords=volumes;encrypting;luks;truecrypt;encrypt;security;cryptsetup
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,8 @@
+a453c0733860ecce7624db136a8e906d  usr/lib/NetworkManager/VPN/nm-openvpn-service.name
+c38e646608ffd80631689f8d59008ab1  usr/lib/NetworkManager/nm-openvpn-service
+2eb7160195cc3baea64e65f82a0f6a2f  usr/lib/NetworkManager/nm-openvpn-service-openvpn-helper
+379d15c68d31f59301cdcc18ea4cccef  usr/share/doc/network-manager-openvpn/AUTHORS
+dcecf20b25cc393d6c082da314ca90a1  usr/share/doc/network-manager-openvpn/NEWS.gz
+ee2dbef3fdefa5882822f248ab8aca15  usr/share/doc/network-manager-openvpn/README
+5bee9a9629b23616b8527327da6e5b77  usr/share/doc/network-manager-openvpn/changelog.Debian.gz
+bc5ca86a2a8161a97bf989b574834724  usr/share/doc/network-manager-openvpn/copyright

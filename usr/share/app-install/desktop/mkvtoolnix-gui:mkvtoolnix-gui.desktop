@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mkvtoolnix-gui
+X-AppInstall-Popcon=165
+X-AppInstall-Section=universe
+
+Type=Application
+Name=MKVToolNix GUI
+GenericName=Matroska files creator and tools
+Icon=mkvtoolnix-gui
+Exec=mkvtoolnix-gui %F
+Terminal=false
+MimeType=application/x-mkvtoolnix-gui-settings;video/x-matroska;audio/x-matroska;
+Categories=AudioVideo;AudioVideoEditing;
+InitialPreference=-5
+
+X-Ubuntu-Gettext-Domain=app-install-data

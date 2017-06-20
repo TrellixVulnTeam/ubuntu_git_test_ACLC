@@ -1,0 +1,6 @@
+1d833896798bd1bfd7c3a6c5a8e9c552  usr/lib/x86_64-linux-gnu/perl5/5.24/PerlIO/gzip.pm
+a5fdecf721d597f54d044d64d0109955  usr/lib/x86_64-linux-gnu/perl5/5.24/auto/PerlIO/gzip/gzip.so
+b6cbf31f971d833876cf6fbd5d7ac95e  usr/share/doc/libperlio-gzip-perl/README
+2cd4f47e871e8b00ee46673a419ee439  usr/share/doc/libperlio-gzip-perl/changelog.Debian.gz
+16e13734b2c013bd19114145889acdb9  usr/share/doc/libperlio-gzip-perl/copyright
+a5fb002fafa7784dec4086726ad11b8a  usr/share/man/man3/PerlIO::gzip.3pm.gz

@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=kid3-qt
+X-AppInstall-Popcon=73
+X-AppInstall-Section=universe
+
+Name=Kid3-qt
+Exec=kid3-qt %F
+Icon=kid3-qt
+Type=Application
+MimeType=audio/mpeg;audio/ogg;application/ogg;audio/x-flac;audio/x-flac+ogg;audio/x-vorbis+ogg;audio/x-speex+ogg;audio/x-oggflac;audio/x-musepack;audio/aac;audio/mp4;audio/x-speex;audio/x-tta;audio/x-wavpack;audio/x-aiff;audio/x-it;audio/x-mod;audio/x-s3m;audio/x-ms-wma;audio/x-wav;audio/x-xm;audio/opus;audio/x-opus+ogg;audio/x-dsf;inode/directory;
+GenericName=Audio Tagger
+Comment=Edit audio file metadata
+Terminal=false
+Categories=Qt;AudioVideo;Audio;AudioVideoEditing;
+StartupNotify=true
+StartupWMClass=kid3-qt
+Keywords=audio;id3;tag;editor;id3v1;id3v2;mp3;
+
+X-Ubuntu-Gettext-Domain=app-install-data

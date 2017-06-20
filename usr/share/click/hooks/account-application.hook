@@ -1,0 +1,3 @@
+Pattern: ${home}/.local/share/online-accounts-hooks/${id}.application
+Exec: /usr/bin/online-accounts-hooks
+User-Level: yes

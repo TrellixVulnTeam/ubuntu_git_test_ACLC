@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=terminology
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+#Encoding=UTF-8
+Type=Application
+Name=Terminology
+#GenericName=Terminal
+#GenericName[eo]=Terminalo
+#GenericName[it]=Terminale
+#GenericName[ru]=Терминал
+#GenericName[ko]=터미널
+Comment=Terminal emulator
+Keywords=shell;prompt;command;commandline;
+Exec=terminology
+Icon=terminology
+Categories=System;TerminalEmulator;
+StartupWMClass=terminology
+
+X-Ubuntu-Gettext-Domain=app-install-data

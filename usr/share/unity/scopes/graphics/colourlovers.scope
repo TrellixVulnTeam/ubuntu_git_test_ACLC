@@ -1,0 +1,18 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Graphics.Colourlovers
+DBusPath=/com/canonical/unity/scope/graphics/colourlovers
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-colourlovers.svg
+Keywords=colourlovers;color;colors;patterns;pattern;palette;palettes;
+RequiredMetadata=
+OptionalMetadata=description[s];comment_nb[s];date_created[s];rating[s];
+Loader=/usr/share/unity-scopes/colourlovers/unity_colourlovers_daemon.py
+Module=colourlovers.unity_colourlovers_daemon
+ModuleType=python3
+RemoteContent=true
+Type=graphics
+Name=COLOURlovers
+Description=This is an Ubuntu search plugin that enables information from COLOURlovers to be searched and displayed in the Dash underneath the Graphics header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search COLOURlovers palettes, patterns and colors
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-colourlovers

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+
+  
+
+  <vendor>System firmware update</vendor>
+  <vendor_url>https://github.com/hughsie/fwupd</vendor_url>
+  <icon_name>application-x-firmware</icon_name>
+
+  <action id="org.freedesktop.fwupd.update-internal-trusted">
+    <description>Install signed system firmware</description>
+    <description xml:lang="cs">Instalace podepsaného systémového firmwaru</description>
+    <description xml:lang="de">Signierte System-Firmware installieren</description>
+    <description xml:lang="en_GB">Install signed system firmware</description>
+    <description xml:lang="hr">Instaliraj frimver potpisan sustavom</description>
+    <description xml:lang="hu">Aláírt rendszer firmware telepítése</description>
+    <description xml:lang="it">Installa firmware firmato di sistema</description>
+    <description xml:lang="nl">Ondertekende systeemfirmware installeren</description>
+    <description xml:lang="pl">Instalacja podpisanego oprogramowania sprzętowego komputera</description>
+    <description xml:lang="pt_BR">Instalar firmware assinado no sistema</description>
+    <description xml:lang="ru">Установить подписанную системную микропрограмму</description>
+    <description xml:lang="sk">Nainštaluje podpísaný firmvér systému</description>
+    <description xml:lang="sr">Инсталирајте потписани системски фирмвер</description>
+    <description xml:lang="sv">Installera signerad fast programvara för systemet</description>
+    <description xml:lang="tr">İmzalı sistem ürün yazılımını yükle</description>
+    <description xml:lang="uk">Встановити підписану мікропрограму системи</description>
+    <description xml:lang="zh_CN">安装已签名的系统固件</description>
+    
+    <message>Authentication is required to update the firmware on this machine</message>
+    <message xml:lang="cs">K aktualizaci firmwaru na tomto počítači je vyžadováno ověření</message>
+    <message xml:lang="de">Auf diesem System ist eine Authentifizierung notwendig, um das Firmware Update durch zu führen</message>
+    <message xml:lang="en_GB">Authentication is required to update the firmware on this machine</message>
+    <message xml:lang="fr">Une authentification est nécessaire pour mettre à jour le micrologiciel sur cette machine</message>
+    <message xml:lang="he">אימות משתמש נדרש לעדכון קושחה מערכת זו</message>
+    <message xml:lang="hi">फर्मवेयर अपडेट के लिए प्रमाणीकरण चाहिए </message>
+    <message xml:lang="hr">Potrebna je ovjera za nadopunu frimvera na ovom računalu</message>
+    <message xml:lang="hu">Hitelesítés szükséges a firmware frissítéséhez ezen a gépen</message>
+    <message xml:lang="it">È richiesta l'autenticazione per aggiornare il firmware su questa macchina</message>
+    <message xml:lang="nl">Om de firmware op deze computer bij te werken moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zaktualizować oprogramowanie sprzętowe tego komputera</message>
+    <message xml:lang="pt_BR">É requerida autenticação para atualizar o firmware nesta máquina</message>
+    <message xml:lang="ru">Для обновления микропрограммы на этой машине требуется аутентификация</message>
+    <message xml:lang="sk">Na aktualizovanie firmvéru v tomto počítači je potrebné overenie totožnosti</message>
+    <message xml:lang="sr">Потребна је пријава за ажурирање фирмвера на овој машини</message>
+    <message xml:lang="sv">Autentisering krävs för att uppdatera den fasta programvaran för denna maskin</message>
+    <message xml:lang="tr">Bu makine üzerindeki ürün yazılımını güncellemek için kimlik doğrulama gerekir</message>
+    <message xml:lang="uk">Щоб отримати доступ до оновлення мікропрограми цього комп’ютера, вам слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：在此机器上升级固件</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.update-internal">
+    <description>Install unsigned system firmware</description>
+    <description xml:lang="cs">Instalace nepodepsaného systémového firmwaru</description>
+    <description xml:lang="de">Nicht-signierte System-Firmware installieren</description>
+    <description xml:lang="en_GB">Install unsigned system firmware</description>
+    <description xml:lang="hr">Instaliraj frimver nepotpisan sustavom</description>
+    <description xml:lang="hu">Nem aláírt rendszer firmware telepítése</description>
+    <description xml:lang="it">Installa firmware non firmato di sistema</description>
+    <description xml:lang="nl">Niet-ondertekende systeemfirmware installeren</description>
+    <description xml:lang="pl">Instalacja niepodpisanego oprogramowania sprzętowego komputera</description>
+    <description xml:lang="pt_BR">Instalar firmware não assinado no sistema</description>
+    <description xml:lang="ru">Установить неподписанную системную микропрограмму</description>
+    <description xml:lang="sk">Nainštaluje nepodpísaný firmvér systému</description>
+    <description xml:lang="sr">Инсталирајте непотписани системски фирмвер</description>
+    <description xml:lang="sv">Installera osignerad fast programvara för systemet</description>
+    <description xml:lang="tr">İmzasız sistem ürün yazılımını yükle</description>
+    <description xml:lang="uk">Встановити непідписану мікропрограму системи</description>
+    <description xml:lang="zh_CN">安装未签名的系统固件</description>
+    
+    <message>Authentication is required to update the firmware on this machine</message>
+    <message xml:lang="cs">K aktualizaci firmwaru na tomto počítači je vyžadováno ověření</message>
+    <message xml:lang="de">Auf diesem System ist eine Authentifizierung notwendig, um das Firmware Update durch zu führen</message>
+    <message xml:lang="en_GB">Authentication is required to update the firmware on this machine</message>
+    <message xml:lang="fr">Une authentification est nécessaire pour mettre à jour le micrologiciel sur cette machine</message>
+    <message xml:lang="he">אימות משתמש נדרש לעדכון קושחה מערכת זו</message>
+    <message xml:lang="hi">फर्मवेयर अपडेट के लिए प्रमाणीकरण चाहिए </message>
+    <message xml:lang="hr">Potrebna je ovjera za nadopunu frimvera na ovom računalu</message>
+    <message xml:lang="hu">Hitelesítés szükséges a firmware frissítéséhez ezen a gépen</message>
+    <message xml:lang="it">È richiesta l'autenticazione per aggiornare il firmware su questa macchina</message>
+    <message xml:lang="nl">Om de firmware op deze computer bij te werken moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zaktualizować oprogramowanie sprzętowe tego komputera</message>
+    <message xml:lang="pt_BR">É requerida autenticação para atualizar o firmware nesta máquina</message>
+    <message xml:lang="ru">Для обновления микропрограммы на этой машине требуется аутентификация</message>
+    <message xml:lang="sk">Na aktualizovanie firmvéru v tomto počítači je potrebné overenie totožnosti</message>
+    <message xml:lang="sr">Потребна је пријава за ажурирање фирмвера на овој машини</message>
+    <message xml:lang="sv">Autentisering krävs för att uppdatera den fasta programvaran för denna maskin</message>
+    <message xml:lang="tr">Bu makine üzerindeki ürün yazılımını güncellemek için kimlik doğrulama gerekir</message>
+    <message xml:lang="uk">Щоб отримати доступ до оновлення мікропрограми цього комп’ютера, вам слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：在此机器上升级固件</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.downgrade-internal">
+    <description>Install old version of system firmware</description>
+    <description xml:lang="cs">Instalace starší verze systémového firmwaru</description>
+    <description xml:lang="de">Alte Version der System-Firmware installieren</description>
+    <description xml:lang="en_GB">Install old version of system firmware</description>
+    <description xml:lang="hr">Instaliraj stariju inačicu frimvera sustava</description>
+    <description xml:lang="hu">A rendszer firmware régi verziójának telepítése</description>
+    <description xml:lang="it">Installa una vecchia versione del firmware di sistema</description>
+    <description xml:lang="nl">Oude versie van systeemfirmware installeren</description>
+    <description xml:lang="pl">Instalacja poprzedniej wersji oprogramowania sprzętowego komputera</description>
+    <description xml:lang="pt_BR">Instalar versão antiga do firmware no sistema</description>
+    <description xml:lang="ru">Установить старую версию системной микропрограммы</description>
+    <description xml:lang="sk">Nainštaluje staršiu verziu firmvéru systému</description>
+    <description xml:lang="sr">Инсталирајте старо издање системског фирмвера</description>
+    <description xml:lang="sv">Installera en gammal version av fast programvara för systemet</description>
+    <description xml:lang="tr">Eski sürüm sistem ürün yazılımını yükle</description>
+    <description xml:lang="uk">Встановити стару версію мікропрограми системи</description>
+    <description xml:lang="zh_CN">安装旧版本的系统固件</description>
+    
+    <message>Authentication is required to downgrade the firmware on this machine</message>
+    <message xml:lang="cs">K ponížení verze firmwaru na tomto počítači je vyžadováno ověření</message>
+    <message xml:lang="de">Auf diesem System ist eine Legitimierung erforderlich, um das Firmware-Downgrade durchzuführen</message>
+    <message xml:lang="en_GB">Authentication is required to downgrade the firmware on this machine</message>
+    <message xml:lang="hr">Potrebna je ovjera za vraćanje starije inačicu frimvera na ovom računalu</message>
+    <message xml:lang="hu">Hitelesítés szükséges a firmware visszafejlesztéséhez ezen a gépen</message>
+    <message xml:lang="it">È richiesta l'autenticazione tornare al precedente firmware su questa macchina</message>
+    <message xml:lang="nl">Om de firmware op deze computer af te waarderen moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zainstalować poprzednią wersję oprogramowania sprzętowego tego komputera</message>
+    <message xml:lang="pt_BR">É requerida autenticação para voltar a versão do firmware nesta máquina</message>
+    <message xml:lang="ru">Для понижения версии микропрограммы на этой машине требуется аутентификация</message>
+    <message xml:lang="sk">Vyžaduje sa overenie totožnosti na prechod na staršiu verziu firmvéru v tomto počítači</message>
+    <message xml:lang="sr">Потребна је пријава за уназађивање фирмвера на овој машини</message>
+    <message xml:lang="sv">Autentisering krävs för att nedgradera den fasta programvaran på denna maskin</message>
+    <message xml:lang="tr">Bu makine üzerindeki ürün yazılımının sürümünü indirmek için kimlik doğrulama gerekir</message>
+    <message xml:lang="uk">Для встановлення застарілої версії мікропрограми на цей комп’ютер слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：在此机器上降级固件</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.update-hotplug-trusted">
+    <description>Install signed device firmware</description>
+    <description xml:lang="cs">Instalace podepsaného firmwaru zařízení</description>
+    <description xml:lang="de">Signierte Geräte-Firmware installieren</description>
+    <description xml:lang="en_GB">Install signed device firmware</description>
+    <description xml:lang="hr">Instaliraj frimver potpisan uređajem</description>
+    <description xml:lang="hu">Aláírt eszköz firmware telepítése</description>
+    <description xml:lang="it">Installa firmware firmato del dispositivo</description>
+    <description xml:lang="nl">Ondertekende apparaatfirmware installeren</description>
+    <description xml:lang="pl">Instalacja podpisanego oprogramowania sprzętowego urządzenia</description>
+    <description xml:lang="pt_BR">Instalar firmware assinado no dispositivo</description>
+    <description xml:lang="ru">Установить подписанную микропрограмму устройства</description>
+    <description xml:lang="sk">Nainštaluje podpísaný firmvér zariadenia</description>
+    <description xml:lang="sr">Инсталирајте потписани фирмвер за уређаје</description>
+    <description xml:lang="sv">Installera signerad fast programvara för enhet</description>
+    <description xml:lang="tr">İmzalı aygıt ürün yazılımını yükle</description>
+    <description xml:lang="uk">Встановити підписану мікропрограму пристрою</description>
+    <description xml:lang="zh_CN">安装已签名的设备固件</description>
+    
+    <message>Authentication is required to update the firmware on a removable device</message>
+    <message xml:lang="cs">K aktualizaci firmwaru na výměnném zařízení je vyžadováno ověření</message>
+    <message xml:lang="de">Legitimierung ist notwendig, um die Firmware auf einem entfernbaren Gerät zu aktualisieren</message>
+    <message xml:lang="en_GB">Authentication is required to update the firmware on a removable device</message>
+    <message xml:lang="hr">Potrebna je ovjera za nadopunu frimvera na uklonjivom uređaju</message>
+    <message xml:lang="hu">Hitelesítés szükséges a firmware frissítéséhez egy cserélhető eszközön</message>
+    <message xml:lang="it">È richiesta l'autenticazione per aggiornare il firmware su un dispositivo rimovibile</message>
+    <message xml:lang="nl">Om de firmware op een verwijderbaar apparaat bij te werken moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zaktualizować oprogramowanie sprzętowe wymiennego urządzenia</message>
+    <message xml:lang="pt_BR">É requerida autenticação para atualizar o firmware em dispositivo removível</message>
+    <message xml:lang="ru">Для обновления микропрограммы на съёмном устройстве требуется аутентификация</message>
+    <message xml:lang="sk">Vyžaduje sa overenie totožnosti na aktualizovanie firmvéru vymeniteľného zariadenia </message>
+    <message xml:lang="sr">Потребна је пријава за ажурирање фирмвера на преносивом уређају</message>
+    <message xml:lang="sv">Autentisering krävs för att uppdatera den fasta programvaran på en flyttbar enhet</message>
+    <message xml:lang="tr">Çıkarılabilir aygıt üzerindeki ürün yazılımını güncellemek için kimlik doğrulama gerekir</message>
+    <message xml:lang="uk">Для оновлення мікропрограми на портативному пристрої слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：在可移动设备上升级固件</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.update-hotplug">
+    <description>Install unsigned device firmware</description>
+    <description xml:lang="cs">Instalace nepodepsaného firmwaru zařízení</description>
+    <description xml:lang="de">Nicht-signierte Geräte-Firmware installieren</description>
+    <description xml:lang="en_GB">Install unsigned device firmware</description>
+    <description xml:lang="hr">Instaliraj frimver nepotpisan uređajem</description>
+    <description xml:lang="hu">Nem aláírt eszköz firmware telepítése</description>
+    <description xml:lang="it">Installa firmware non firmato del dispositivo</description>
+    <description xml:lang="nl">Niet-ondertekende apparaatfirmware installeren</description>
+    <description xml:lang="pl">Instalacja niepodpisanego oprogramowania sprzętowego urządzenia</description>
+    <description xml:lang="pt_BR">Instalar firmware não assinado no dispositivo</description>
+    <description xml:lang="ru">Установить неподписанную микропрограмму устройства</description>
+    <description xml:lang="sk">Nainštaluje nepodpísaný firmvér zariadenia</description>
+    <description xml:lang="sr">Инсталирајте непотписани фирмвер за уређаје</description>
+    <description xml:lang="sv">Installera osignerad fast programvara för enhet</description>
+    <description xml:lang="tr">İmzasız aygıt ürün yazılımını yükle</description>
+    <description xml:lang="uk">Встановити непідписану мікропрограму пристрою</description>
+    <description xml:lang="zh_CN">安装未签名的设备固件</description>
+    
+    <message>Authentication is required to update the firmware on a removable device</message>
+    <message xml:lang="cs">K aktualizaci firmwaru na výměnném zařízení je vyžadováno ověření</message>
+    <message xml:lang="de">Legitimierung ist notwendig, um die Firmware auf einem entfernbaren Gerät zu aktualisieren</message>
+    <message xml:lang="en_GB">Authentication is required to update the firmware on a removable device</message>
+    <message xml:lang="hr">Potrebna je ovjera za nadopunu frimvera na uklonjivom uređaju</message>
+    <message xml:lang="hu">Hitelesítés szükséges a firmware frissítéséhez egy cserélhető eszközön</message>
+    <message xml:lang="it">È richiesta l'autenticazione per aggiornare il firmware su un dispositivo rimovibile</message>
+    <message xml:lang="nl">Om de firmware op een verwijderbaar apparaat bij te werken moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zaktualizować oprogramowanie sprzętowe wymiennego urządzenia</message>
+    <message xml:lang="pt_BR">É requerida autenticação para atualizar o firmware em dispositivo removível</message>
+    <message xml:lang="ru">Для обновления микропрограммы на съёмном устройстве требуется аутентификация</message>
+    <message xml:lang="sk">Vyžaduje sa overenie totožnosti na aktualizovanie firmvéru vymeniteľného zariadenia </message>
+    <message xml:lang="sr">Потребна је пријава за ажурирање фирмвера на преносивом уређају</message>
+    <message xml:lang="sv">Autentisering krävs för att uppdatera den fasta programvaran på en flyttbar enhet</message>
+    <message xml:lang="tr">Çıkarılabilir aygıt üzerindeki ürün yazılımını güncellemek için kimlik doğrulama gerekir</message>
+    <message xml:lang="uk">Для оновлення мікропрограми на портативному пристрої слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：在可移动设备上升级固件</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.downgrade-hotplug">
+    <description>Install unsigned device firmware</description>
+    <description xml:lang="cs">Instalace nepodepsaného firmwaru zařízení</description>
+    <description xml:lang="de">Nicht-signierte Geräte-Firmware installieren</description>
+    <description xml:lang="en_GB">Install unsigned device firmware</description>
+    <description xml:lang="hr">Instaliraj frimver nepotpisan uređajem</description>
+    <description xml:lang="hu">Nem aláírt eszköz firmware telepítése</description>
+    <description xml:lang="it">Installa firmware non firmato del dispositivo</description>
+    <description xml:lang="nl">Niet-ondertekende apparaatfirmware installeren</description>
+    <description xml:lang="pl">Instalacja niepodpisanego oprogramowania sprzętowego urządzenia</description>
+    <description xml:lang="pt_BR">Instalar firmware não assinado no dispositivo</description>
+    <description xml:lang="ru">Установить неподписанную микропрограмму устройства</description>
+    <description xml:lang="sk">Nainštaluje nepodpísaný firmvér zariadenia</description>
+    <description xml:lang="sr">Инсталирајте непотписани фирмвер за уређаје</description>
+    <description xml:lang="sv">Installera osignerad fast programvara för enhet</description>
+    <description xml:lang="tr">İmzasız aygıt ürün yazılımını yükle</description>
+    <description xml:lang="uk">Встановити непідписану мікропрограму пристрою</description>
+    <description xml:lang="zh_CN">安装未签名的设备固件</description>
+    
+    <message>Authentication is required to downgrade the firmware on a removable device</message>
+    <message xml:lang="cs">K ponížení verze firmwaru na výměnném zařízení je vyžadováno ověření</message>
+    <message xml:lang="de">Legitimierung ist erforderlich, um das Firmware-Downgrade auf einem entfernbaren Gerät durchzuführen</message>
+    <message xml:lang="en_GB">Authentication is required to downgrade the firmware on a removable device</message>
+    <message xml:lang="hr">Potrebna je ovjera za vraćanje starije inačicu frimvera na uklonjivom uređaju</message>
+    <message xml:lang="hu">Hitelesítés szükséges a firmware visszafejlesztéséhez egy cserélhető eszközön</message>
+    <message xml:lang="it">È richiesta l'autenticazione per tornare al precedente firmware su un dispositivo rimovibile</message>
+    <message xml:lang="nl">Om de firmware op een verwijderbaar apparaat af te waarderen moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zainstalować poprzednią wersję oprogramowania sprzętowego urządzenia wymiennego</message>
+    <message xml:lang="pt_BR">É requerida autenticação para voltar a versão do firmware em um dispositivo removível</message>
+    <message xml:lang="ru">Для понижения версии микропрограммы на съёмном устройстве требуется аутентификация</message>
+    <message xml:lang="sk">Vyžaduje sa overenie totožnosti na prechod na staršiu verziu firmvéru vymeniteľného zariadenia</message>
+    <message xml:lang="sr">Потребна је пријава за уназађивање фирмвера на преносивом уређају</message>
+    <message xml:lang="sv">Autentisering krävs för att nedgradera den fasta programvaran för en flyttbar enhet</message>
+    <message xml:lang="uk">Для встановлення застарілої версії мікропрограми на портативний пристрій слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：在可移动设备上降级固件</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.device-unlock">
+    <description>Unlock the device to allow access</description>
+    <description xml:lang="cs">Odemknutí zařízení pro umožnění přístupu</description>
+    <description xml:lang="de">Das Gerät entsperren, um Zugriff zu ermöglichen</description>
+    <description xml:lang="hr">Otključaj uređaj za dopuštenje pristupa</description>
+    <description xml:lang="hu">Eszköz feloldása hozzáférés engedélyezéséhez</description>
+    <description xml:lang="nl">Ontgrendel het apparaat om toegang te verlenen</description>
+    <description xml:lang="pl">Odblokowanie urządzenia</description>
+    <description xml:lang="pt_BR">Desbloquear o dispositivo para permitir acesso</description>
+    <description xml:lang="ru">Разблокировать устройство для получения доступа</description>
+    <description xml:lang="sk">Odomknúť zariadenie na umožnenie prístupu</description>
+    <description xml:lang="sr">Откључајте уређај да бисте дозволили приступ</description>
+    <description xml:lang="uk">Розблокування пристрою для отримання доступу</description>
+    <description xml:lang="zh_CN">解锁设备以允许访问</description>
+    
+    <message>Authentication is required to unlock a device</message>
+    <message xml:lang="cs">Pro odemknutí zařízení je požadováno ověření</message>
+    <message xml:lang="de">Legitimation ist zum Entsperren eines Geräts erforderlich</message>
+    <message xml:lang="hr">Potrebna je ovjera za otključavanje uređaja</message>
+    <message xml:lang="hu">Hitelesítés szükséges az eszköz feloldásához</message>
+    <message xml:lang="nl">Om een apparaat te ontgrendelen moet u toestemming verlenen</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby odblokować urządzenie</message>
+    <message xml:lang="pt_BR">É requerida autenticação para desbloquear um dispositivo</message>
+    <message xml:lang="ru">Для разблокировки устройства требуется аутентификация</message>
+    <message xml:lang="sk">Na odomknutie zariadenia sa vyžaduje overenie totožnosti</message>
+    <message xml:lang="sr">Потребна је пријава за откључавање уређаја</message>
+    <message xml:lang="uk">Щоб розблокувати пристрій, слід пройти розпізнавання</message>
+    <message xml:lang="zh_CN">需要认证：解锁设备</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.freedesktop.fwupd.verify-update">
+    <description>Update the stored device verification information</description>
+    
+    <message>Authentication is required to update the stored checksums for the device</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.imply">org.freedesktop.fwupd.device-unlock</annotate>
+  </action>
+
+</policyconfig>

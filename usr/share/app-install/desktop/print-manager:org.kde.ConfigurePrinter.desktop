@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=print-manager
+X-AppInstall-Popcon=4748
+X-AppInstall-Section=universe
+
+Name=Configure Printer
+Comment=Configure your printer
+Exec=configure-printer
+Icon=printer
+Type=Application
+Terminal=false
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.ConfigurePrinter
+Categories=Qt;KDE;Printing;Utility;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

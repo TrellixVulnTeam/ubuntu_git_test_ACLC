@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/Biometryd
+/usr/lib/x86_64-linux-gnu/qt5/qml/Biometryd/libbiometryd-qml.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/Biometryd/plugins.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/Biometryd/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-biometryd
+/usr/share/doc/qml-module-biometryd/copyright
+/usr/share/doc/qml-module-biometryd/changelog.Debian.gz

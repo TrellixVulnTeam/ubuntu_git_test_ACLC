@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gltron
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=GLtron
+Comment=3D lightcycle game
+Exec=gltron
+Icon=gltron
+Terminal=false
+Categories=Game;ActionGame;
+Keywords=tron;lightcycle;3D;action;
+
+X-Ubuntu-Gettext-Domain=app-install-data

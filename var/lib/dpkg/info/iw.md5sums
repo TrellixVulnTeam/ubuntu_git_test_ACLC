@@ -1,0 +1,5 @@
+19c25c702653fa3005faaa57f4dda685  sbin/iw
+1ac79a7d9d3a6036d22a8fbbeab9fa59  usr/share/doc/iw/README.Debian
+ce6a3207b5875ac3cdd48d560addf114  usr/share/doc/iw/changelog.Debian.gz
+e133c0b7a7a5b4dcb58055a44d9e7acd  usr/share/doc/iw/copyright
+e0d60b14f21513b6a37a241f6b08a4e4  usr/share/man/man8/iw.8.gz

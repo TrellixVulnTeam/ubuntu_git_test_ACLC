@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-maps
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Maps
+Comment=A simple maps application
+Exec=gapplication launch org.gnome.Maps
+Icon=gnome-maps
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;
+Keywords=Maps;
+DBusActivatable=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

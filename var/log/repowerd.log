@@ -1,0 +1,57 @@
+2017-06-20T14:34:53.466994+02:00 virtualbox repowerd[446]: main: Starting repowerd 2017.03
+2017-06-20T14:34:53.467208+02:00 virtualbox repowerd[446]: AndroidDeviceQuirks: DeviceName:
+2017-06-20T14:34:53.467397+02:00 virtualbox repowerd[446]: AndroidDeviceQuirks: Quirk: synthetic_initial_proximit_event_delay=500
+2017-06-20T14:34:53.467660+02:00 virtualbox repowerd[446]: AndroidDeviceQuirks: Quirk: synthetic_initial_proximit_event_type=near
+2017-06-20T14:34:53.468243+02:00 virtualbox repowerd[446]: AndroidDeviceQuirks: Quirk: normal_before_display_on_autobrightness=false
+2017-06-20T14:34:53.468351+02:00 virtualbox repowerd[446]: AndroidDeviceQuirks: Quirk: ignore_session_deactivation=false
+2017-06-20T14:34:53.468735+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Using config directory: /usr/share/powerd/device_configs
+2017-06-20T14:34:53.469142+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Using config directory: /usr/share/repowerd/device-configs
+2017-06-20T14:34:53.489312+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: parse_file(/usr/share/powerd/device_configs/config-default.xml)
+2017-06-20T14:34:53.492847+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: screenBrightnessDim=10
+2017-06-20T14:34:53.493017+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: screenBrightnessSettingDefault=102
+2017-06-20T14:34:53.493212+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: screenBrightnessSettingMaximum=255
+2017-06-20T14:34:53.493442+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: automatic_brightness_available=false
+2017-06-20T14:34:53.494691+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: criticalBatteryWarningLevel=4
+2017-06-20T14:34:53.494845+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: shutdownBatteryTemperature=680
+2017-06-20T14:34:53.494972+02:00 virtualbox repowerd[446]: AndroidDeviceConfig: Property: screenBrightnessSettingMinimum=10
+2017-06-20T14:34:53.498830+02:00 virtualbox repowerd[446]: Unable to select module, using null backend.
+2017-06-20T14:34:53.499239+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create UbuntuLightSensor: Failed to allocate light sensor
+2017-06-20T14:34:53.499600+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Falling back to NullLightSensor
+2017-06-20T14:34:53.501134+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create AndroidBacklight: Failed to open Android lights module
+2017-06-20T14:34:53.503639+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Trying SysfsBacklight
+2017-06-20T14:34:53.503924+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create SyfsBacklight: Couldn't find backlight in sysfs
+2017-06-20T14:34:53.504079+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create BrightnessControl: Failed to create backlight
+2017-06-20T14:34:53.504261+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Falling back to NullBrightnessControl
+2017-06-20T14:34:53.504463+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create LibsuspendSystemPowerControl: Failed to initialize libsuspend
+2017-06-20T14:34:53.504592+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Trying LogindSystemPowerControl
+2017-06-20T14:34:53.634567+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create AndroidBacklight: Failed to open Android lights module
+2017-06-20T14:34:53.634736+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Trying SysfsBacklight
+2017-06-20T14:34:53.634846+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create SyfsBacklight: Couldn't find backlight in sysfs
+2017-06-20T14:34:53.634947+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create BrightnessNotification: Failed to create backlight
+2017-06-20T14:34:53.635051+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Falling back to NullBrightnessNotification
+2017-06-20T14:34:53.635159+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create DevAlarmWakeupService: Failed to open /dev/alarm: No such file or directory
+2017-06-20T14:34:53.635279+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Trying TimerfdWakeupService
+2017-06-20T14:34:53.677233+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Failed to create UbuntuProximitySensor: Failed to allocate proximity sensor
+2017-06-20T14:34:53.677542+02:00 virtualbox repowerd[446]: DefaultDaemonConfig: Falling back to NullProximitySensor
+2017-06-20T14:34:53.901581+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: add_display_device(/org/freedesktop/UPower/devices/DisplayDevice), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:34:53.909604+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: add_device_if_battery(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:34:53.909781+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/DisplayDevice), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:34:53.911088+02:00 virtualbox repowerd[446]: LogindSystemPowerControl: initialize_is_suspend_blocked(), BlockInhibited=
+2017-06-20T14:34:54.828595+02:00 virtualbox repowerd[446]: LogindSessionTracker: change_seat_properties(/org/freedesktop/login1/seat/seat0), ActiveSession=(c1,/org/freedesktop/login1/session/c1)
+2017-06-20T14:34:54.831180+02:00 virtualbox repowerd[446]: LogindSessionTracker: track_session(c1), type=x11
+2017-06-20T14:34:54.831291+02:00 virtualbox repowerd[446]: LogindSessionTracker: activate_session(c1)
+2017-06-20T14:34:58.484296+02:00 virtualbox repowerd[446]: UnityScreenService: dbus_getBrightnessParams() => (10,10,255,102,false)
+2017-06-20T14:34:58.487707+02:00 virtualbox repowerd[446]: UnityScreenService: dbus_setUserBrightness(102)
+2017-06-20T14:34:58.488365+02:00 virtualbox repowerd[446]: LogindSessionTracker: dbus_get_session_by_pid() failed: GDBus.Error:org.freedesktop.login1.NoSessionForPID: PID 1340 does not belong to any known session
+2017-06-20T14:34:58.696322+02:00 virtualbox repowerd[446]: LogindSystemPowerControl: change_manager_properties(), BlockInhibited=handle-lid-switch
+2017-06-20T14:34:58.954229+02:00 virtualbox repowerd[446]: LogindSystemPowerControl: change_manager_properties(), BlockInhibited=handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch
+2017-06-20T14:34:58.977361+02:00 virtualbox repowerd[446]: LogindSystemPowerControl: change_manager_properties(), BlockInhibited=handle-power-key:handle-suspend-key:handle-hibernate-key
+2017-06-20T14:35:22.037039+02:00 virtualbox repowerd[446]: LogindSystemPowerControl: change_manager_properties(), BlockInhibited=handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch
+2017-06-20T14:36:55.869899+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:38:55.815021+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:40:55.789160+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:42:55.872030+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:44:55.802392+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:46:55.776598+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:48:55.783958+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00
+2017-06-20T14:50:55.878885+02:00 virtualbox repowerd[446]: UPowerPowerSourceAndLid: change_device(/org/freedesktop/UPower/devices/battery_BAT0), type=battery, is_present=1, state=fully_charged, percentage=100.00, temperature=0.00

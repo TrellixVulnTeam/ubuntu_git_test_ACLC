@@ -1,0 +1,25 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Photos.Picasa
+DBusPath=/com/canonical/unity/scope/photos/picasa
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-picasa.svg
+Keywords=picasa;
+Keywords[bg]=picasa;
+Keywords[en_AU]=picasa;
+Keywords[en_GB]=picasa;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/picasa/unity_picasa_daemon.py
+RemoteContent=true
+Type=photos
+Name=Picasa
+Name[bg]=Picasa
+Name[en_AU]=Picasa
+Name[en_GB]=Picasa
+Description=This is an Ubuntu search plugin that enables information from Picasa to be searched and displayed in the Dash underneath the Photos header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Picasa
+SearchHint[bg]=Търсене в Picasa
+SearchHint[en_AU]=Search Picasa
+SearchHint[en_GB]=Search Picasa
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-lens-photos

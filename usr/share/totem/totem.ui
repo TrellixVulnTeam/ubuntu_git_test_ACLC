@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--*- mode: xml -*--><!DOCTYPE glade-interface
+  SYSTEM 'http://glade.gnome.org/glade-2.0.dtd'>
+<interface>
+<requires lib="gtk+" version="3.11"/>
+
+<object class="GtkAdjustment" id="tmw_seek_adjustment">
+  <property name="lower">0</property>
+  <property name="upper">0</property>
+  <property name="step-increment">1</property>
+  <property name="page-increment">10</property>
+  <property name="page-size">0</property>
+  <property name="value">0</property>
+  <signal name="value-changed" handler="seek_slider_changed_cb"/>
+</object>
+  <object class="GtkApplicationWindow" id="totem_main_window">
+    <property name="can_focus">False</property>
+    <signal name="window-state-event" handler="window_state_event_cb" swapped="no"/>
+    <signal name="key-release-event" handler="window_key_press_event_cb" swapped="no"/>
+    <signal name="key-press-event" handler="window_key_press_event_cb" swapped="no"/>
+    <signal name="delete-event" handler="main_window_destroy_cb" swapped="no"/>
+    <child>
+      <object class="GtkVBox" id="totem_main_vbox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkStack" id="tmw_main_stack">
+                <property name="visible">True</property>
+                <property name="homogeneous">True</property>
+                <child>
+                  <object class="GtkVBox" id="tmw_main_vbox">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkOverlay" id="tmw_bvw_box">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <child type="overlay">
+                          <object class="GtkRevealer" id="toolbar-revealer">
+                            <property name="halign">fill</property>
+                            <property name="valign">start</property>
+                            <property name="visible">False</property>
+                            <property name="no-show-all">True</property>
+                          </object>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="name">player</property>
+                  </packing>
+                </child>
+              </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

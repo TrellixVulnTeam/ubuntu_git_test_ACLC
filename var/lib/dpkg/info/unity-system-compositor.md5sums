@@ -1,0 +1,10 @@
+3cbb0d6e2aa194f4478d1ecceccfa0ed  usr/bin/unity-system-compositor-spinner
+e36ca3ecef47bfb1a9559ece44a8f8ac  usr/sbin/unity-system-compositor
+7558ebb40d74a33c9c8a924e911bb18f  usr/sbin/unity-system-compositor.sleep
+4f85b5c6061ca3a3956d03eb0ada92a5  usr/share/apport/package-hooks/source_unity-system-compositor.py
+76e91b7dbb9fbfab3a8e44dc5ddf57ff  usr/share/dbus-1/interfaces/com.canonical.Unity.Display.xml
+bbd533a7d42ff9bb2714e921723f83f8  usr/share/dbus-1/interfaces/com.canonical.Unity.Input.xml
+6806453887eb007d95e3351cfc5c212f  usr/share/dbus-1/interfaces/com.canonical.Unity.PowerButton.xml
+c0a3b3b2d07660c9f3d9bf3260f8ec3e  usr/share/dbus-1/interfaces/com.canonical.Unity.UserActivity.xml
+563a6a47210228fdc7d986de5e8d4a5e  usr/share/doc/unity-system-compositor/changelog.Debian.gz
+d160fab368d8c7445a63294c269e71ab  usr/share/doc/unity-system-compositor/copyright

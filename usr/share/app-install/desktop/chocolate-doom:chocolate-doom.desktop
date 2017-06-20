@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=chocolate-doom
+X-AppInstall-Popcon=10
+X-AppInstall-Section=multiverse
+
+Name=Chocolate Doom
+Exec=chocolate-doom
+Icon=chocolate-doom
+Type=Application
+Comment=Conservative source port
+Categories=Game;ActionGame;
+Keywords=first;person;shooter;vanilla;
+
+X-Ubuntu-Gettext-Domain=app-install-data

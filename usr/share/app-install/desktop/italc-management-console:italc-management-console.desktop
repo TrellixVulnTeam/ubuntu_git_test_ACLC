@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=italc-management-console
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=iTALC Management Console
+Comment=Administrate your iTALC installation
+Exec=imc-pkexec
+Icon=italc
+Type=Application
+Terminal=false
+Keywords=education;classroom;teachers;students;remote control;computer-labs;
+Categories=Qt;KDE;System;Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

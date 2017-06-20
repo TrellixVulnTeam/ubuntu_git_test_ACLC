@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=kbounce
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=KBounce
+
+Type=Application
+Exec=kbounce -qwindowtitle %c
+X-DocPath=kbounce/index.html
+Icon=kbounce
+
+GenericName=Ball Bouncing Game
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;ArcadeGame;
+X-DBUS-ServiceName=org.kde.kbounce
+
+X-Ubuntu-Gettext-Domain=app-install-data

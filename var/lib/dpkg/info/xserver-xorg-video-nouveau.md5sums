@@ -1,0 +1,6 @@
+7df9c27bcd8cce036e5eb7b47f323c53  usr/lib/xorg/modules/drivers/nouveau_drv.so
+f0c17f1d22c8e0678f024735d1ddc3a1  usr/share/doc/xserver-xorg-video-nouveau/NEWS.Debian.gz
+9eb5985a8304d8aa2614471299bd7e39  usr/share/doc/xserver-xorg-video-nouveau/README.Debian
+2f2aaecd0db2b532002f95dbcf7ef35d  usr/share/doc/xserver-xorg-video-nouveau/changelog.Debian.gz
+cefef91eeeed7946f15a9df846dcb9cc  usr/share/doc/xserver-xorg-video-nouveau/copyright
+faada557f49d1ef4aa853409a7352ce6  usr/share/man/man4/nouveau.4.gz

@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=armagetronad
+X-AppInstall-Popcon=42
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Armagetron Advanced
+Exec=armagetronad %f
+Comment=3d light cycle game
+Icon=armagetronad
+Terminal=false
+Path=/usr/bin
+Categories=Game;ActionGame;
+StartupNotify=false
+MimeType=application/x-armagetronad;
+Keywords=tron-like;light;cycle;3D;multiplayer;networked;server;
+
+X-Ubuntu-Gettext-Domain=app-install-data

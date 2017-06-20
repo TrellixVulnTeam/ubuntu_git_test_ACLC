@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-dictionary
+X-AppInstall-Popcon=1293
+X-AppInstall-Section=universe
+
+Name=Dictionary
+Comment=Check word definitions and spellings in an online dictionary
+Keywords=word;synonym;definition;spelling;
+Exec=gnome-dictionary
+Terminal=false
+Type=Application
+Icon=accessories-dictionary
+StartupNotify=true
+Categories=GNOME;GTK;Office;Dictionary;
+NotShowIn=KDE;
+X-GNOME-DocPath=gnome-dictionary/gnome-dictionary.xml
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-dictionary
+X-GNOME-Bugzilla-Version=3.16.2
+DBusActivatable=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

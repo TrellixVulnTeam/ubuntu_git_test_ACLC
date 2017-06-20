@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=akregator
+X-AppInstall-Popcon=1062
+X-AppInstall-Section=universe
+
+Name=Akregator
+Exec=akregator %u
+Icon=akregator
+Type=Application
+MimeType=application/atom+xml;application/rss+xml;application/rdf+xml;
+X-DocPath=akregator/index.html
+GenericName=Feed Reader
+Comment=A KDE News Feed Reader
+Terminal=false
+Categories=Qt;KDE;Network;News;
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.akregator
+
+X-Ubuntu-Gettext-Domain=app-install-data

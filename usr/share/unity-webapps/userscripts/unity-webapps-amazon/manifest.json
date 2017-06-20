@@ -1,0 +1,12 @@
+{
+    "includes": ["http://www.amazon.*/*"],
+    "requires": ["utils.js"],
+    "name": "Amazon",
+    "scripts": ["Amazon.user.js"],
+    "maintainer": "Webapps Team <webapps@lists.launchpad.net>",
+    "manifest-version": "1.0",
+    "integration-version": "2.4",
+    "package-name": "Amazon",
+    "icons": {},
+    "domain": "amazon.com"
+}

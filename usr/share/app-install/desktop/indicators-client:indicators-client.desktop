@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=indicators-client
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Indicators Client
+Comment=Application for testing the Indicators system
+Exec=/usr/bin/indicators-client
+Terminal=false
+Icon=
+NoDisplay=false
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

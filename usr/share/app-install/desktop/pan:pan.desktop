@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pan
+X-AppInstall-Popcon=65
+X-AppInstall-Section=universe
+
+Name=Pan Newsreader
+Comment=Read and Post Usenet Articles
+Keywords=news;nntp;usenet;
+Exec=pan
+Icon=pan
+Terminal=false
+Type=Application
+Categories=GTK;Application;Network;News
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

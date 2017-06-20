@@ -1,0 +1,16 @@
+
+[Desktop Entry]
+X-AppInstall-Package=kturtle
+X-AppInstall-Popcon=119
+X-AppInstall-Section=universe
+
+Name=KTurtle
+GenericName=Educational Programming Environment
+Exec=kturtle -qwindowtitle %c
+Icon=kturtle
+X-DocPath=kturtle/index.html
+Type=Application
+Categories=Qt;KDE;Education;ComputerScience;X-KDE-Edu-Misc;
+X-DBUS-ServiceName=org.kde.kturtle
+
+X-Ubuntu-Gettext-Domain=app-install-data

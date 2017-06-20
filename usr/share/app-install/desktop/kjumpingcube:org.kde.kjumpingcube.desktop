@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=kjumpingcube
+X-AppInstall-Popcon=53
+X-AppInstall-Section=universe
+
+Name=KJumpingCube
+Exec=kjumpingcube -qwindowtitle %c
+Icon=kjumpingcube
+Type=Application
+X-DocPath=kjumpingcube/index.html
+GenericName=Territory Capture Game
+Terminal=false
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;StrategyGame;
+X-DBUS-ServiceName=org.kde.kjumpingcube
+
+X-Ubuntu-Gettext-Domain=app-install-data

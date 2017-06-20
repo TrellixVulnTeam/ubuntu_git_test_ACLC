@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=jumpnbump
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=Jump'n'Bump
+Comment=Jump on your opponents to make them explode
+Exec=jumpnbump-menu
+Icon=jumpnbump
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+Keywords=cute;fluffy;little;rabbit;bunny;jump;hop;head;explode;blood;gore;fireworks;
+
+X-Ubuntu-Gettext-Domain=app-install-data

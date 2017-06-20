@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=plank
+X-AppInstall-Popcon=19
+X-AppInstall-Section=universe
+
+Name=Plank
+GenericName=Dock
+Comment=Plank. Stupidly simple.
+Categories=Utility;
+Type=Application
+Exec=plank
+Icon=plank
+Terminal=false
+NoDisplay=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

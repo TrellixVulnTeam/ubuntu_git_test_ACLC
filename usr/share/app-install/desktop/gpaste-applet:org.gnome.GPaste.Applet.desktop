@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gpaste-applet
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=GPaste Applet
+Comment=Tray icon to manage GPaste
+Keywords=Clipboard;Manager;
+Icon=gtk-paste
+Exec=/usr/lib/gpaste/gpaste/gpaste-applet
+DBusActivatable=true
+Terminal=false
+Categories=GTK;GNOME;Utility;TrayIcon;
+StartupNotify=true
+OnlyShowIn=GNOME;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

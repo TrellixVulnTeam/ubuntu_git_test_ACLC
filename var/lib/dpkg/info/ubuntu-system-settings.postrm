@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "purge" ] ; then
+    rm -rf /var/lib/lightdm-data/*/ubuntu-system-settings/
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/usr.bin.system-settings 0.3+14.10.20140721.1-0ubuntu1~ -- "$@"
+# End automatically added section
+
+exit 0

@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=acm
+X-AppInstall-Popcon=24
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=ACM
+GenericName=Multiplayer classic aerial combat simulation
+Comment=turn-based space empire and galactic conquest computer game (client)
+Exec=acm
+TryExec=acm
+Icon=acm
+StartupNotify=false
+Terminal=false
+Categories=Game;Simulation;
+Keywords=aerial;comabt;simulation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=rurple-ng
+X-AppInstall-Section=universe
+
+Name=Rurple NG
+Comment=Learn programming with a robot
+GenericName=RUR-PLE programming learning
+Terminal=false
+Type=Application
+Exec=/usr/bin/rurple-ng
+Categories=Education;
+Keywords=programming;learning;education;robot;
+X-Ubuntu-Gettext-Domain=app-install-data

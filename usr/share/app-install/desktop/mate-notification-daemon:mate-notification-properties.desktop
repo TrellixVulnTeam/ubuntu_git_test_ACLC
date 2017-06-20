@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-notification-daemon
+X-AppInstall-Popcon=180
+X-AppInstall-Section=universe
+
+Name=Popup Notifications
+Comment=Set your popup notification preferences
+Exec=mate-notification-properties
+Icon=mate-notification-properties
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;DesktopSettings;
+OnlyShowIn=MATE;
+Keywords=MATE;Notification;Theme;
+
+X-Ubuntu-Gettext-Domain=app-install-data

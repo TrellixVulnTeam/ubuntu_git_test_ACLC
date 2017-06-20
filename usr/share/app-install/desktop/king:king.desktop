@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=king
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Interactive Viewer for 3D Vector Graphics
+GenericName=Kinemage display tool
+Comment=KiNG (Kinemage, Next Generation) is an interactive system for three-dimensional vector graphics
+Type=Application
+Exec=king %F
+Icon=kingicon-orig
+MimeType=chemical/x-kinemage
+Categories=Education;Science;Chemistry;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,5 @@
+bb60d1e5e278c94e9ae0e215f1ee884c  usr/lib/x86_64-linux-gnu/libedit.so.2.0.55
+4959b54a4e8042b998561e290f5f77e1  usr/share/doc/libedit2/TODO.Debian
+a6a0a733c8721785634c812e51b8d532  usr/share/doc/libedit2/changelog.Debian.gz
+eda44fd56a0ef44c440ecc106650ed2d  usr/share/doc/libedit2/copyright
+5aa1af3cfbc185b05ee615dae85f1d30  usr/share/lintian/overrides/libedit2

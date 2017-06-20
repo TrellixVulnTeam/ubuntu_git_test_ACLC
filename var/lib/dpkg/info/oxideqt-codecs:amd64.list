@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/oxide-qt
+/usr/lib/x86_64-linux-gnu/oxide-qt/libffmpeg.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/oxideqt-codecs
+/usr/share/doc/oxideqt-codecs/changelog.Debian.gz
+/usr/share/doc/oxideqt-codecs/copyright

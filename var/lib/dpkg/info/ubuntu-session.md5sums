@@ -1,0 +1,5 @@
+aa30d914cf3655d56e29210852fb81c5  usr/lib/systemd/user/ubuntu-session.target
+989054228f0708cf0801af1a29b60d74  usr/share/doc/ubuntu-session/copyright
+8cc25c5ae6a2c1de499c1469774f4df9  usr/share/gnome-session/sessions/ubuntu.session
+f51c95591a7896ad7901be809ea88098  usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf
+0bd718df0392d12d78beac419aae12b1  usr/share/xsessions/ubuntu.desktop

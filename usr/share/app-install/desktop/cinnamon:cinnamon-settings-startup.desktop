@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=301
+X-AppInstall-Section=universe
+
+Icon=cs-startup-programs
+Exec=cinnamon-settings startup
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Startup Applications
+Comment=Manage your startup applications
+
+X-Ubuntu-Gettext-Domain=app-install-data

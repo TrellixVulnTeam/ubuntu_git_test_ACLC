@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=flpsed
+X-AppInstall-Popcon=54
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=flpsed
+GenericName=Simple PS/PDF editor
+Comment=A simple annotator for PS/PDF files
+Icon=flpsed
+Exec=flpsed %U
+Terminal=false
+StartupNotify=true
+Categories=Graphics;
+MimeType=application/postscript;application/pdf;
+Keywords=pdf annotator;PDF;postscript editor;editor;change;documents
+
+X-Ubuntu-Gettext-Domain=app-install-data

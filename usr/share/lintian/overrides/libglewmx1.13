@@ -1,0 +1,2 @@
+libglewmx1.13: embedded-library usr/lib/*/libGLEWmx.so.*: glew
+

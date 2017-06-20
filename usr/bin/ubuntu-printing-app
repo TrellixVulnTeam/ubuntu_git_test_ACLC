@@ -1,0 +1,3 @@
+#!/bin/sh
+
+QT_PRINTER_MODULE=cupsprintersupport APP_ID=ubuntu-printing-app qmlscene $@ -I /usr/lib/x86_64-linux-gnu/ubuntu-printing-app /usr/share/ubuntu-printing-app/ubuntu-printing-app/Main.qml

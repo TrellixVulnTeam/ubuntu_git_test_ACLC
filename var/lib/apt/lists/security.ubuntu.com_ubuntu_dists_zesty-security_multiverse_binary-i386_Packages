@@ -1,0 +1,135 @@
+Package: flashplugin-downloader
+Priority: optional
+Section: multiverse/web
+Installed-Size: 25
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 26.0.0.131ubuntu0.17.04.1
+Depends: flashplugin-installer (>= 11.1.102.55ubuntu3)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-downloader_26.0.0.131ubuntu0.17.04.1_i386.deb
+Size: 1894
+MD5sum: af180b0f7e07987732a47c118c27cf80
+SHA1: 0200b677b1f68b9c490514b8a9d948cd62261c07
+SHA256: b2e2529fdede53f4ab43a438aab2e547cd4f5d72781b4117ee0f9cea3d2f536e
+Description: Adobe Flash Player plugin installer (transitional package)
+Multi-Arch: foreign
+Homepage: http://www.adobe.com/products/flashplayer.html
+Description-md5: 66ea91f4e504085408ea841953dc65d0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: flashplugin-installer
+Priority: optional
+Section: multiverse/web
+Installed-Size: 58
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 26.0.0.131ubuntu0.17.04.1
+Replaces: flashplugin (<< 6), flashplugin-downloader (<< 11.1.102.55ubuntu3), flashplugin-nonfree (<< 11.0.1.152ubuntu1)
+Provides: flashplugin-nonfree
+Depends: debconf (>= 0.5) | debconf-2.0, wget, libgtk2.0-0, fontconfig, libxt6, libxext6, libatk1.0-0, libc6, libcairo2, libexpat1, libfontconfig1, libfreetype6, libglib2.0-0, libice6, libpango1.0-0, libsm6, libx11-6, libxau6, libxcursor1, libxdmcp6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g, libnss3, libnspr4, libcurl3 | libcurl3-gnutls, libasound2, update-notifier-common (>= 0.119ubuntu2)
+Recommends: libasound2-plugins (>= 1.0.16)
+Suggests: firefox, x-ttcidfont-conf, ttf-mscorefonts-installer, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-nonfree (<< 11.0.1.152ubuntu1), libflashsupport
+Breaks: flashplugin-downloader (<< 11.1.102.55ubuntu3)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-installer_26.0.0.131ubuntu0.17.04.1_i386.deb
+Size: 6824
+MD5sum: 2ffb6a5f819c6ff4037f20dd0087b9a9
+SHA1: b6262d665f8b679277da8b3664a4075b23cb8fac
+SHA256: ed5396e8d88e3c9b965146be1c674d013abd9d32994a4f091caaee4a5d38be2f
+Description: Adobe Flash Player plugin installer
+Multi-Arch: foreign
+Homepage: http://www.adobe.com/products/flashplayer.html
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash SWF Player (http://www.adobe.com)
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Name: Adobe Flash Player (installer)
+Description-md5: a03e9ebc20ce82c05567d088e79bf750
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcuda1-367
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Depends: libcuda1-375
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/libcuda1-367_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 6490
+MD5sum: fe677d03c209a3268ca4d8484279aa35
+SHA1: d40ef551d9157eb0ad1ef0f55d5b0ab8948396b5
+SHA256: d9b48e0ee5b4a13d20176418e7d7412d6c72c9841c39ec5e52db853a3d3828ad
+Description: Transitional package for libcuda1-375
+Description-md5: 084f3742e4f1b51c41e1434a3865e6c3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-367
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Depends: nvidia-libopencl1-375
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/nvidia-libopencl1-367_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 6496
+MD5sum: 009d37098712cc0dca88775ca09c643e
+SHA1: 1c8f2305df4bff2cbe0fd7843d2b948bc15a0e5d
+SHA256: bbb1d808374971750369310e40e5874d68fa49ed92fc49a8e7598a3fb340dc48
+Description: Transitional package for nvidia-libopencl1-375
+Description-md5: ca29c96a34b6d9208ae933195156e109
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-375
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 51
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.1.3)
+Suggests: nvidia-opencl-icd-375
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/nvidia-libopencl1-375_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 14466
+MD5sum: 4b297c816d9deb62848c11b6d8c700a9
+SHA1: 736c95e29e0224895f9581f66d163e6264355fee
+SHA256: 1a8ba8e2d09bd09e7c98d1e19a919eeaa4c3250dcd46d375516cfe14d8b3c372
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-icd-367
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Depends: nvidia-opencl-icd-375
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/nvidia-opencl-icd-367_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 6492
+MD5sum: 24b3239ce576753b20f2fb68aace7238
+SHA1: 971af27373df9b667641a6a9f616290dafa0be10
+SHA256: 6d0d3568130827c1d2aedfa194b82e74f3513534d01bedaca071e110e9dd380f
+Description: Transitional package for nvidia-opencl-icd-375
+Description-md5: ea8da607bb67ba132012d762ba1a7725
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+

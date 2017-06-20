@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-libzhuyin
+X-AppInstall-Section=universe
+
+Name=IBus LibZhuyin Setup
+Comment=Set ibus-libzhuyin Preferences
+Exec=/usr/lib/ibus/ibus-setup-libzhuyin
+Icon=_usr_share_ibus-libzhuyin_icons_ibus-zhuyin
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

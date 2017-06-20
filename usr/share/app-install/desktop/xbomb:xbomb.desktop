@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xbomb
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=xbomb
+GenericName='minesweeper' game with squares, hexagons or triangles
+Exec=xbomb
+Terminal=false
+Icon=xbomb
+Categories=Game;LogicGame;
+Keywords=minesweeper;hexagon;square;triangle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

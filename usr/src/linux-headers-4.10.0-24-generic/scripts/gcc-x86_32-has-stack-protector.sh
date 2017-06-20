@@ -1,0 +1,1 @@
+../../linux-headers-4.10.0-24/scripts/gcc-x86_32-has-stack-protector.sh

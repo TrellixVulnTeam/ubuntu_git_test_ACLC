@@ -1,0 +1,7 @@
+d42d7998a0a8076f8147ba52c2346452  usr/lib/x86_64-linux-gnu/pkgconfig/unity-plugin-scopes.pc
+657de91b06dc05f82e3bc546dda89ebd  usr/lib/x86_64-linux-gnu/unity8/qml/Unity/libUnity-qml.so
+d31c6bfeec2f41b8cc708dc0013577f6  usr/lib/x86_64-linux-gnu/unity8/qml/Unity/plugin.qmltypes
+138cfa5f00fe9d745e2b4c9fd73ac9d4  usr/lib/x86_64-linux-gnu/unity8/qml/Unity/qmldir
+0ddcc312e872e71cd009dc1aab422dbb  usr/share/doc/unity-plugin-scopes/changelog.Debian.gz
+1b4bb25865805f3ff79f5c4a357fbc02  usr/share/doc/unity-plugin-scopes/copyright
+b76fb0cfa51ec5fec182e8cfac473b83  var/lib/unity-plugin-scopes/version

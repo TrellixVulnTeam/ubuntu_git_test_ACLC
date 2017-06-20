@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=qjoypad
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Name=QJoyPad
+GenericName=Joypad mapping
+Comment=Trigger keystrokes and mouse actions with gamepads/joysticks
+Icon=qjoypad
+Exec=qjoypad
+Terminal=false
+Type=Application
+Categories=Utility;Game;
+StartupNotify=false
+Keywords=joypad;joystick;joykeys;joyemu
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

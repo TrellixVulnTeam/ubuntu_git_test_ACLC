@@ -1,0 +1,14 @@
+ba1dcf3eef440abe726975253a112d80  usr/bin/url-dispatcher-dump
+714014d0422074226747362039a230f0  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/bad-url/exec-tool
+5f56abbbf9fc42c696bfed56ae575011  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/url-overlay/exec-tool
+ed227e7449e81e5c4fe66ec681df9d65  usr/lib/x86_64-linux-gnu/url-dispatcher/update-directory
+bd9ab31eaa8c221c22f987a431e7facb  usr/lib/x86_64-linux-gnu/url-dispatcher/url-dispatcher
+ce2c015b5ac4b912b83994de1d698117  usr/share/apport/package-hooks/source_url-dispatcher.py
+ff995c8fc827e7beb8a64cefbb1ceabc  usr/share/dbus-1/interfaces/com.canonical.URLDispatcher.xml
+915ad7cf6830c7d9f0a2c64a5f38d31f  usr/share/doc/url-dispatcher/changelog.Debian.gz
+d6788be7cdfeca4eb8de428a053ae40e  usr/share/doc/url-dispatcher/copyright
+8b5dd8778f6200142a39a213bebe5c1f  usr/share/upstart/sessions/url-dispatcher-refresh.conf
+023572a93bff4f371d4258ad0e2de011  usr/share/upstart/sessions/url-dispatcher-update-system.conf
+fc3b780d698683f52b08e23a89ada6e0  usr/share/upstart/sessions/url-dispatcher-update-user.conf
+d84357476215fd92f8fa9c9b280dbbe7  usr/share/upstart/sessions/url-dispatcher.conf
+244951d4a1e4c97fbc4b417df8deb9db  usr/share/url-dispatcher/bad-url.qml

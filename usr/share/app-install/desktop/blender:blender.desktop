@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=blender
+X-AppInstall-Popcon=455
+X-AppInstall-Section=universe
+
+Name=Blender
+GenericName=3D modeler
+Comment=3D modeling, animation, rendering and post-production
+Keywords=3d;cg;modeling;animation;painting;sculpting;texturing;video editing;video tracking;rendering;render engine;cycles;game engine;python;
+Exec=blender %f
+Icon=blender
+Terminal=false
+Type=Application
+Categories=Graphics;3DGraphics;
+MimeType=application/x-blender;
+
+X-Ubuntu-Gettext-Domain=app-install-data

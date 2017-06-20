@@ -1,0 +1,8 @@
+b903f0880ea6ee01fdbf855680c14a86  usr/share/a11y-profile-manager/profiles/blindness/profile.manifest
+e3ffe7dcb28f3f9b32d98d27ec91fd79  usr/share/a11y-profile-manager/profiles/braille/profile.manifest
+60d70b113163328ee8090df7304b25b6  usr/share/a11y-profile-manager/profiles/high-contrast/profile.manifest
+2378bc8e77995735c4c55e9ba0afe1d4  usr/share/a11y-profile-manager/profiles/motor-difficulties/profile.manifest
+9a2c293ccb09b7cc351a1916505808dc  usr/share/a11y-profile-manager/profiles/onscreen-keyboard/profile.manifest
+68a19922f0728803f31b8bb4126e9b78  usr/share/doc/liba11y-profile-manager-data/changelog.Debian.gz
+65fda58a55c6c2fc21d9e611d5645ca5  usr/share/doc/liba11y-profile-manager-data/copyright
+6f2f6a323d0b8ed353c054558318ed30  usr/share/glib-2.0/schemas/com.canonical.a11y-profile-manager.gschema.xml

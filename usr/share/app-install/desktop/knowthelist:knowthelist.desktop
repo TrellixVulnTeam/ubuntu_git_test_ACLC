@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=knowthelist
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Knowthelist
+GenericName=Party Music Player
+Comment=Party Music Player
+Exec=knowthelist
+Icon=knowthelist
+Terminal=false
+Type=Application
+StartupNotify=false
+Keywords=music;party;player;dj;mix;playlist;
+Categories=AudioVideo;Player;
+X-Ubuntu-Gettext-Domain=app-install-data

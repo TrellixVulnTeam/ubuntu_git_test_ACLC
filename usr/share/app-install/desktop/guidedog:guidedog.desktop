@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=guidedog
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Guidedog
+Comment=Advanced routing configuration utiliy
+Keywords=iptables;forward
+Exec=guidedog 
+Icon=guidedog
+Terminal=0
+
+X-Ubuntu-Gettext-Domain=app-install-data

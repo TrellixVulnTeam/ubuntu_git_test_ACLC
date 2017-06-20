@@ -1,0 +1,8 @@
+204771eb0be498436e7fa5c0a3b15210  usr/bin/snappy-xmir
+6cbe990239ceaaa631b3ec5ffe5858b9  usr/bin/snappy-xmir-envvars
+e1e9b1240b0b54809f0d4b5be26f9409  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/oom-adjust-setuid-helper
+668d139f0cd73b0904c93670782bddb3  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/socket-demangler
+6dedadd784fbeb43dfdec77452986388  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/systemd-helper-helper
+8fcc495ef45c8e9c1a7b21a2a8b048ca  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/xmir-helper
+6759f61224ccdddcdb0e03de0e3d8cd6  usr/share/doc/ubuntu-app-launch/changelog.Debian.gz
+dba7d145c65c9f45cfc03bdda10aabb8  usr/share/doc/ubuntu-app-launch/copyright

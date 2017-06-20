@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=freemedforms-emr
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Terminal=false
+Version=1.0
+Type=Application
+Categories=Education;Science;MedicalSoftware;
+Name=FreeMedForms EMR
+GenericName=FreeMedForms EMR
+Comment=Open source Electronic Medical Record manager
+TryExec=freemedforms
+Exec=freemedforms
+Icon=freemedforms
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

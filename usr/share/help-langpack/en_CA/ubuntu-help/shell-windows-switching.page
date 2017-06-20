@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="shell-windows-switching" xml:lang="en-CA">
+
+  <info>
+
+    <link type="guide" xref="shell-windows#working-with-windows"/>
+    <link type="guide" xref="shell-overview#apps"/>
+
+    <desc>Press <keyseq><key>Alt</key><key>Tab</key></keyseq>.</desc>
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="13.10" date="2013-10-23" status="outdated"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ubuntu Documentation Project</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Switch between windows</title>
+
+<section id="launcher">
+  <title>From the Launcher</title>
+  <steps>
+    <item><p>
+Show the <gui>Launcher</gui> by moving your mouse to the top left corner of your screen.
+    </p></item>
+    <item><p>
+Applications that are running have a small white triangle arrow on the left. Click on a 
+running application icon to switch to it.
+    </p></item>
+    <item><p>
+If a running application has multiple windows open, there will be multiple white arrows on
+the left. Click the application icon a second time to show all open windows zoomed out.
+Click the window you want to switch to.
+    </p></item>
+  </steps>
+</section>
+
+<section id="keyboard1">
+  <title>From the keyboard (method 1)</title>
+
+<steps>
+  <item><p>Press <keyseq><key>Alt</key><key>Tab</key></keyseq> to bring up the
+  <gui>window switcher</gui>.</p></item>
+
+  <item><p>Still holding down the <key>Alt</key> key, press
+  <key>Tab</key> to cycle forwards through the list of icons in the window switcher, or
+  <keyseq><key>Shift</key><key>Tab</key></keyseq> to cycle backwards.</p>
+
+  <p>Previews of applications that have multiple windows pop up as you cycle through the icons.</p>
+
+ <p>To display a preview of an application that has a single window press the <key>↓</key> key.</p>
+
+  <p>You can also move between the icons 
+  with the <key>→</key> or <key>←</key> keys, or select an icon by
+ clicking it with the mouse.</p>
+
+</item>
+
+  <item><p>Release <key>Alt</key> to switch to the window for the current icon.</p></item>
+
+</steps>
+
+<note>
+  <p>Only windows from the current <link xref="shell-workspaces">workspace</link> will be shown. To show windows from all workspaces, hold
+down the <key>Ctrl</key> and <key>Alt</key> keys and press <key>Tab</key> or
+<keyseq><key>Shift</key><key>Tab</key></keyseq>.</p>
+</note>
+
+</section>
+
+
+<section id="keyboard2">
+ <title>From the keyboard (method 2)</title>
+
+<steps>
+<item>
+  <p>
+Press <keyseq><key><link xref="windows-key">Super</link></key><key>W</key></keyseq> to show all open windows zoomed out.
+  </p>
+</item>
+
+<item><p>
+Click the window you want to switch to.
+      </p>
+</item>
+
+</steps>
+
+
+</section>
+
+</page>

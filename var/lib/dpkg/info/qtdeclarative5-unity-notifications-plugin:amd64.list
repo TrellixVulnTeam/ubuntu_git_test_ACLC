@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/unity8
+/usr/lib/x86_64-linux-gnu/unity8/qml
+/usr/lib/x86_64-linux-gnu/unity8/qml/Unity
+/usr/lib/x86_64-linux-gnu/unity8/qml/Unity/Notifications
+/usr/lib/x86_64-linux-gnu/unity8/qml/Unity/Notifications/libnotifyclientplugin.so
+/usr/lib/x86_64-linux-gnu/unity8/qml/Unity/Notifications/libnotifyplugin.so
+/usr/lib/x86_64-linux-gnu/unity8/qml/Unity/Notifications/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qtdeclarative5-unity-notifications-plugin
+/usr/share/doc/qtdeclarative5-unity-notifications-plugin/changelog.Debian.gz
+/usr/share/doc/qtdeclarative5-unity-notifications-plugin/copyright

@@ -1,0 +1,5 @@
+# (overriding since this is an ftp-master auto-reject reason)
+# lintian is correct here but the embedded library is not a regression
+# and we're working on getting rid of it:
+# https://bugs.debian.org/664224 and https://github.com/ingydotnet/yaml-libyaml-pm/issues/49
+libyaml-libyaml-perl: embedded-library usr/lib/*/YAML/XS/LibYAML/LibYAML.so: libyaml

@@ -1,0 +1,12 @@
+4c9df73c7ab82854356cc1da9c5f241d  usr/lib/x86_64-linux-gnu/libgphoto2_port.so.12.0.0
+e9e4a5d05475529f991a0c0b43406124  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/disk.so
+d86dbf707699149603c9d39a576aa52f  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/ptpip.so
+c2286dbf2f4f160603c17d49941b8aaa  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/serial.so
+a8a131c9ef34f7234c7a53559bc6e424  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/usb1.so
+671ebf85114716b4f2deb3e12b7a957b  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/usbdiskdirect.so
+6a6834a5f36f2f0df5323f5912f8a9b7  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/usbscsi.so
+1c7802bfd247c3b0110d2e7b65338b10  usr/lib/x86_64-linux-gnu/libgphoto2_port/0.12.0/vusb.so
+7735189c95723b77b2136829bbdfcc9c  usr/share/doc/libgphoto2-port12/NEWS.gz
+1157caa5c6cfa2e0f18ac5faf7ffe99b  usr/share/doc/libgphoto2-port12/README
+31ede34c8cc161c71d9eb02a7ea413b1  usr/share/doc/libgphoto2-port12/changelog.Debian.gz
+9c0e910d53e7f2d32de829551a835718  usr/share/doc/libgphoto2-port12/copyright

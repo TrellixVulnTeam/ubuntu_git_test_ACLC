@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=zulucrypt-gui
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=zuluCrypt
+GenericName=Encrypted volumes manager
+Comment=Graphical front end for zulucrypt-cli
+Icon=zuluCrypt
+Exec=zuluCrypt-gui-pkexec
+Terminal=false
+StartupNotify=true
+Categories=System;Security
+Keywords=volumes;encrypting;luks;truecrypt;encrypt;security;cryptsetup
+
+X-Ubuntu-Gettext-Domain=app-install-data

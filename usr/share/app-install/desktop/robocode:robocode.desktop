@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=robocode
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Robocode
+GenericName=Programming Game
+Comment=Java programming game with battle tanks
+Icon=robocode
+Exec=robocode
+Categories=Game;Development;Java;
+Terminal=false
+Keywords=programming;robots;AI;battle;tanks;Java;development;educational;
+
+X-Ubuntu-Gettext-Domain=app-install-data

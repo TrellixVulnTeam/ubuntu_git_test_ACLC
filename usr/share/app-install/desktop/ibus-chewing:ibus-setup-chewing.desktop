@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-chewing
+X-AppInstall-Popcon=122
+X-AppInstall-Section=main
+
+Name=IBus Chewing Preferences
+Comment=Set IBus Chewing Preferences
+Exec=/usr/lib/ibus/ibus-setup-chewing
+Icon=ibus-setup-chewing
+NoDisplay=true
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

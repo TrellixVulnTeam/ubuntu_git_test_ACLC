@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=bgfinancas
+X-AppInstall-Section=universe
+
+Name=BG Finanças
+Keywords=Personal;Finance;Manager;Money;
+Comment=Run BG Finanças
+Exec=bgfinancas
+Terminal=false
+Type=Application
+Icon=bgfinancas
+StartupNotify=true
+Categories=Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

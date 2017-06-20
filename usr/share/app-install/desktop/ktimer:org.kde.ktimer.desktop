@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=ktimer
+X-AppInstall-Popcon=82
+X-AppInstall-Section=universe
+
+GenericName=Countdown Launcher
+Exec=ktimer
+Icon=ktimer
+Type=Application
+Terminal=false
+Name=KTimer
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Utility;
+X-DocPath=ktimer/index.html
+X-DBUS-ServiceName=org.kde.ktimer
+
+X-Ubuntu-Gettext-Domain=app-install-data

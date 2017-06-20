@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dispcalgui
+X-AppInstall-Popcon=85
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=dispcalGUI Calibration and ICC Profile Loader (force)
+GenericName=Calibration and ICC Profile Loader (force)
+Icon=dispcalGUI-apply-profiles
+Exec=dispcalGUI-apply-profiles --force
+Terminal=false
+Comment=Sets ICC profiles and loads calibration curves for all configured display devices
+
+X-Ubuntu-Gettext-Domain=app-install-data

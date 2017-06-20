@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=geophar
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Geophar
+GenericName=Math tool
+Comment=Swiss-army knife for math enthusiasts
+Exec=geophar
+Icon=geophar
+Terminal=false
+Type=Application
+Categories=Qt;Science;Math;Education;
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

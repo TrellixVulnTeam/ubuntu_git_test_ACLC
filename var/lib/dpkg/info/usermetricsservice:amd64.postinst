@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+dbus-send --system --print-reply                        \
+        --dest=org.freedesktop.DBus                     \
+        /org/freedesktop/DBus                           \
+        org.freedesktop.DBus.StartServiceByName         \
+        string:"com.canonical.UserMetrics" uint32:0     \
+        || true
+
+
+
+exit 0

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=virtualbricks
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=0.5
+Name=Virtualbricks
+Comment=Manage your virtual network and virtual machines
+Exec=virtualbricks
+Icon=virtualbricks
+Terminal=true
+Type=Application
+Categories=GNOME;Application;Emulator;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

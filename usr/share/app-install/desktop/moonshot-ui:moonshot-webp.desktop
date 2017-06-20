@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=moonshot-ui
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=moonshot-webp %f
+Name=Moonshot Web Provisioning Installer
+NoDisplay=true
+Categories=System;Settings
+MimeType=application/moonshot
+
+X-Ubuntu-Gettext-Domain=app-install-data

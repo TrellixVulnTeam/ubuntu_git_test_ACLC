@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+GenericName=MRI Image Viewer
+Name=FSLView
+Exec=nd-autoinstall fslview %F
+Type=Application
+Terminal=false
+Comment=This program is part of FSL
+Categories=X-NeuroDebian-MedicalImaging
+Icon=fslview
+
+X-Ubuntu-Gettext-Domain=app-install-data

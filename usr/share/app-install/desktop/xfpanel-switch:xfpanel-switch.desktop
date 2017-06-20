@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xfpanel-switch
+X-AppInstall-Section=universe
+
+Name=Xfce Panel Switch
+Comment=Backup and restore your panel configuration
+Exec=xfpanel-switch
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE;
+OnlyShownIn=XFCE
+Keywords=Configuration;User;
+Icon=xfce4-panel
+
+X-Ubuntu-Gettext-Domain=app-install-data

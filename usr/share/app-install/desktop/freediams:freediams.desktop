@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=freediams
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Terminal=false
+Version=1.0
+Type=Application
+Categories=Education;Science;MedicalSoftware;
+Name=FreeDiams
+GenericName=Pharmaceutical Drugs Prescriptor
+Comment=Pharmaceutical drugs prescriptor assistant
+TryExec=freediams
+Exec=freediams
+Icon=freediams
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

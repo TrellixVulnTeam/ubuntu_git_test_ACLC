@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/upstart
+/usr/share/upstart/sessions
+/usr/share/upstart/sessions/tone-generator.conf
+/usr/share/doc
+/usr/share/doc/tone-generator
+/usr/share/doc/tone-generator/copyright
+/usr/share/doc/tone-generator/changelog.Debian.gz
+/usr/bin
+/usr/bin/tonegend

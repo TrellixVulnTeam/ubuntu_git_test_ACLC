@@ -1,0 +1,18 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.File.Gdrive
+DBusPath=/com/canonical/unity/scope/file/gdrive
+Module=gdrive.unity_gdrive_daemon
+ModuleType=python3
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-gdrive.svg
+Keywords=gdrive;doc;drive;google;
+Loader=/usr/share/unity-scopes/gdrive/unity_gdrive_daemon
+RequiredMetadata=author[s];shared[b];starred[b];updated[i]
+OptionalMetadata=
+RemoteContent=true
+Type=file
+Name=Google Drive
+Description=This is an Ubuntu search plugin that enables information from Google Drive to be searched and displayed in the Dash underneath the Files & Folders header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search your Google Drive
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-gdrive

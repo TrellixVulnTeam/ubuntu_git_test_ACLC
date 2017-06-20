@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kblackbox
+X-AppInstall-Popcon=62
+X-AppInstall-Section=universe
+
+GenericName=Blackbox Logic Game
+Exec=kblackbox -qwindowtitle %c
+Name=KBlackBox
+Icon=kblackbox
+X-DocPath=kblackbox/index.html
+Type=Application
+Terminal=false
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;BoardGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

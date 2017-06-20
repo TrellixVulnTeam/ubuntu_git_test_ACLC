@@ -1,0 +1,12 @@
+fb0e1ab4e5240d36654e8b469f1a4ad7  usr/lib/systemd/user/hud.service
+2573d2d90564a00f2fc5fb6ab2068ec5  usr/lib/systemd/user/window-stack-bridge.service
+7da6202d987744cad85b438d0f9defce  usr/lib/x86_64-linux-gnu/hud/hud-service
+6086f91b7995556f14ea7890626596dc  usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+851aa9ac733b74b73389c265e403e4a3  usr/share/apport/package-hooks/source_hud.py
+cf5c63527ceb077b33b72e018410f83e  usr/share/dbus-1/interfaces/com.canonical.hud.query.xml
+3351d01160ae5cc658d0c4e7040762d9  usr/share/dbus-1/interfaces/com.canonical.hud.xml
+4309efbc8b24e1eaf442f8250d4b3e0c  usr/share/dbus-1/services/com.canonical.hud.service
+290897d72db04bf9d28f42e3e52da18b  usr/share/doc/hud/changelog.Debian.gz
+bfaf45b4112c608ace602ba41e6cd77f  usr/share/doc/hud/copyright
+a22c493e87209e98ac750d150a2876c8  usr/share/glib-2.0/schemas/com.canonical.indicator.appmenu.hud.gschema.xml
+1738989a497201296115eb79b6153d4e  usr/share/glib-2.0/schemas/com.canonical.indicator.appmenu.hud.search.gschema.xml

@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=ark
+X-AppInstall-Popcon=3437
+X-AppInstall-Section=universe
+
+MimeType=application/x-tar;application/x-compressed-tar;application/x-bzip-compressed-tar;application/x-tarz;application/x-xz-compressed-tar;application/x-lzma-compressed-tar;application/x-deb;application/x-cd-image;application/x-bcpio;application/x-cpio;application/x-cpio-compressed;application/x-sv4cpio;application/x-sv4crc;application/x-rpm;application/x-source-rpm;application/vnd.ms-cab-compressed;application/x-rar;application/x-7z-compressed;application/x-java-archive;application/zip;application/x-compress;application/x-gzip;application/x-bzip;application/x-bzip2;application/x-lzma;application/x-xz;application/x-lha;
+GenericName=Archiving Tool
+Name=Ark
+Exec=ark -qwindowtitle %c %U
+Icon=ark
+X-DocPath=ark/index.html
+Type=Application
+Terminal=false
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.kde.ark
+X-KDE-HasTempFileOption=true
+Categories=Qt;KDE;Utility;Archiving;Compression;X-KDE-Utilities-File;
+InitialPreference=3
+
+X-Ubuntu-Gettext-Domain=app-install-data

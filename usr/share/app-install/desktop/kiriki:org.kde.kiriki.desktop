@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kiriki
+X-AppInstall-Popcon=81
+X-AppInstall-Section=universe
+
+Name=Kiriki
+Icon=kiriki
+Type=Application
+Exec=kiriki -qwindowtitle %c
+X-DocPath=kiriki/index.html
+GenericName=Yahtzee-like Dice Game
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;BoardGame;
+X-DBUS-ServiceName=org.kde.kiriki
+
+X-Ubuntu-Gettext-Domain=app-install-data

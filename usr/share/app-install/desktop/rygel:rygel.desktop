@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=rygel
+X-AppInstall-Popcon=168
+X-AppInstall-Section=universe
+
+Name=Rygel
+GenericName=UPnP/DLNA Services
+Comment=UPnP/DLNA Services
+Keywords=mediaserver;mediarenderer;share;audio;video;pictures;
+Categories=
+Exec=rygel
+Terminal=false
+Type=Application
+NoDisplay=true
+StartupNotify=true
+X-GNOME-Autostart-enabled=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=Rygel
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=0.26.1
+
+X-Ubuntu-Gettext-Domain=app-install-data

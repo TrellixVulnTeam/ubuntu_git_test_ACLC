@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Spyke Viewer
+GenericName=Graphical utility for analyzing electrophysiological data
+Exec=nd-autoinstall spykeviewer
+Type=Application
+Terminal=false
+Categories=X-NeuroDebian-Electrophysiology
+Icon=spykeviewer
+
+X-Ubuntu-Gettext-Domain=app-install-data

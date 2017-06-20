@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-shell-pomodoro
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Pomodoro
+Comment=A simple time management utility
+Keywords=time;timer;tasks;manage;organize;
+Exec=gnome-pomodoro
+Icon=gnome-pomodoro
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+OnlyShowIn=GNOME;
+X-GNOME-UsesNotifications=true
+DBusActivatable=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

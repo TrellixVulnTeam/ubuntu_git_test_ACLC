@@ -1,0 +1,70 @@
+Package: cockpit
+Description-md5: 5eb1d21349be18ee9bad20c445921f54
+Description-en: User interface for Linux servers
+ Cockpit runs in a browser and can manage your network of GNU/Linux
+ machines.
+
+Package: cockpit-bridge
+Description-md5: 34419f40043aa83e9a0fb5968fe56ce7
+Description-en: Cockpit bridge server-side component
+ The Cockpit bridge component installed server side and runs commands on
+ the system on behalf of the web based user interface.
+
+Package: cockpit-dashboard
+Description-md5: 42cecdb1098892e7184dfa7f7545bef6
+Description-en: Cockpit SSH remoting and dashboard
+ Cockpit support for remoting to other servers, bastion hosts, and
+ a basic dashboard.
+
+Package: cockpit-doc
+Description-md5: 917dc8f7798407683627da6ebb139a47
+Description-en: Cockpit deployment and developer guide
+ The Cockpit Deployment and Developer Guide shows sysadmins how to deploy
+ Cockpit on their machines as well as helps developers who want to embed
+ or extend Cockpit.
+
+Package: cockpit-docker
+Description-md5: c02e70ed63df0326f1a1b12deeb24144
+Description-en: Cockpit user interface for Docker containers
+ The Cockpit components for interacting with Docker and user interface.
+
+Package: cockpit-machines
+Description-md5: b27107809dfd190004a4d86226feb384
+Description-en: Cockpit user interface for virtual machines
+ The Cockpit components for managing virtual machines.
+
+Package: cockpit-networkmanager
+Description-md5: 3ec1a60ecda81a24c8267c56cf7a9a3f
+Description-en: Cockpit user interface for networking
+ The Cockpit components for interacting with networking configuration.
+
+Package: cockpit-storaged
+Description-md5: f6107ca2b49a2b554a0abcd9b73419c5
+Description-en: Cockpit user interface for storage
+ The Cockpit components for interacting with storage.
+
+Package: cockpit-system
+Description-md5: 305239ce7fcb5c6043156a1e54c69f73
+Description-en: Cockpit admin interface for a system
+ Cockpit admin interface package for configuring and
+ troubleshooting a system.
+
+Package: cockpit-tests
+Description-md5: 0b4ed46aa862cd96d493b081c605101e
+Description-en: Tests for Cockpit
+ This package contains tests and files used while testing Cockpit.
+ These files are not required for running Cockpit.
+
+Package: cockpit-ws
+Description-md5: 2e29c9c1deb6c6ed9c90530647c8f651
+Description-en: Cockpit Web Service
+ The Cockpit Web Service listens on the network, and authenticates
+ users.
+
+Package: meson
+Description-md5: 05e8ad52532257641a3b106a0836e789
+Description-en: high-productivity build system
+ Meson is a build system designed to increase programmer
+ productivity. It does this by providing a fast, simple and easy to
+ use interface for modern software development tools and practices.
+

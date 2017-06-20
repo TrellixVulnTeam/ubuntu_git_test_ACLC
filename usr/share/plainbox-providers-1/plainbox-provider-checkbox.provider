@@ -1,0 +1,12 @@
+[PlainBox Provider]
+bin_dir = /usr/lib/plainbox-provider-checkbox/bin
+data_dir = /usr/share/plainbox-provider-checkbox/data
+description = Checkbox provider
+gettext_domain = plainbox-provider-checkbox
+jobs_dir = /usr/share/plainbox-provider-checkbox/jobs
+locale_dir = /usr/share/locale
+name = plainbox-provider-checkbox
+namespace = 2013.com.canonical.certification
+units_dir = /usr/share/plainbox-provider-checkbox/units
+version = 0.25
+

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=onionshare
+X-AppInstall-Popcon=1
+X-AppInstall-Section=multiverse
+
+Encoding=UTF-8
+Name=OnionShare
+Comment=Share a file securely and anonymously over Tor
+Exec=/usr/bin/onionshare-gui
+Terminal=false
+Type=Application
+Icon=_usr_share_pixmaps_onionshare80
+Categories=Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

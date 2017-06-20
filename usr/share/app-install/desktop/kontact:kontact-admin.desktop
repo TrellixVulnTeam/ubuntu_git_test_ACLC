@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kontact
+X-AppInstall-Popcon=917
+X-AppInstall-Section=universe
+
+Name=Kontact Administration
+Icon=kontact
+Exec=kontact
+Categories=Qt;KDE;Office;ProjectManagement;
+X-DocPath=kontact-admin/index.html
+NoDisplay=true
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

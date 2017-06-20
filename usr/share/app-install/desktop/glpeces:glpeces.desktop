@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=glpeces
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Comment=Play with 39 tangrams and more than 23,000 figures
+Exec='/usr/games/glpeces'
+GenericName=GLPeces
+Icon=_usr_share_pixmaps_glpeces
+Name=GLPeces
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
+Categories=Game;LogicGame;
+Keywords=Tangram; logic game
+
+X-Ubuntu-Gettext-Domain=app-install-data

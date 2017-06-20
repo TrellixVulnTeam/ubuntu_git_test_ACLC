@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-accountsdialog
+X-AppInstall-Section=universe
+
+Name=Mate-AccountsDialog
+Comment=Add or remove users
+Categories=System;Settings;
+OnlyShowIn=MATE;
+Icon=system-users
+Exec=mate-accountsdialog
+Type=Application
+Keywords=user;group;accounts;accounts;service;management;MATE;desktop;
+Terminal=false
+X-Desktop-File-Install-Version=0.15
+
+X-Ubuntu-Gettext-Domain=app-install-data

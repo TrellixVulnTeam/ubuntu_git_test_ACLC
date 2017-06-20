@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-genius
+X-AppInstall-Popcon=38
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Exec=gnome-genius %U
+Icon=gnome-genius
+Terminal=false
+Categories=GTK;GNOME;Science;Math;Education;Calculator;Utility;
+MimeType=text/x-genius;
+Name=Genius Math Tool
+Comment=Genius Mathematical Tool and Calculator
+Keywords=Mathematics;Matrix;Vector;Linear Algebra;Calculus;Plot;Plotting;Graph;Graphing;Function;Number Theory;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

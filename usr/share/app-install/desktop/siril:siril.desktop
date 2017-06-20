@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=siril
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Siril
+Exec=siril %f
+Icon=siril-32
+Categories=Education;Science;Astronomy
+Comment=Process astronomical images
+StartupNotify=true
+Terminal=false
+Path=
+
+X-Ubuntu-Gettext-Domain=app-install-data

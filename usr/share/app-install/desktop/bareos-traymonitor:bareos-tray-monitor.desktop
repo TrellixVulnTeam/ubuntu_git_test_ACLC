@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=bareos-traymonitor
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+X-SuSE-translate=true
+Name=Bareos Tray Monitor
+GenericName=Backup Tray Monitor
+Comment=Notification Tray Monitor
+Icon=bareos-tray-monitor
+Exec=/usr/bin/bareos-tray-monitor -c /etc/bareos/tray-monitor.conf
+Terminal=false
+Type=Application
+Encoding=UTF-8
+X-Desktop-File-Install-Version=0.3
+Categories=System;Utility;Archiving;X-SuSE-Backup;
+#TrayIcon;
+
+X-Ubuntu-Gettext-Domain=app-install-data

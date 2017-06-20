@@ -1,0 +1,6 @@
+a424eb82b6a0655afea287e64771edbf  usr/lib/x86_64-linux-gnu/libQtDeclarative.so.4.8.7
+8612d32c6fc720d8f0ff8c88ca7bc7a4  usr/lib/x86_64-linux-gnu/qt4/plugins/designer/libqdeclarativeview.so
+f59b4d4e7039413c651bfaa832363791  usr/lib/x86_64-linux-gnu/qt4/plugins/qmltooling/libqmldbg_inspector.so
+77badfa3d4979f7fe8033e0501b6e582  usr/lib/x86_64-linux-gnu/qt4/plugins/qmltooling/libqmldbg_tcp.so
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqt4-declarative/copyright
+d8a68ca459c6937aad86e03b8b689e5e  usr/share/lintian/overrides/libqt4-declarative

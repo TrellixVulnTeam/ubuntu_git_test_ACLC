@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=sync-monitor-helper
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Sync Monitor
+Comment=Ask for online account authentication if the token expires
+Exec=/usr/lib/i386-linux-gnu/sync-monitor/sync-monitor-helper %u
+Terminal=false
+Type=Application
+Version=1.0
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

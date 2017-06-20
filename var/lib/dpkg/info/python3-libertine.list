@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/libertine
+/usr/lib/python3/dist-packages/libertine/ContainerControlClient.py
+/usr/lib/python3/dist-packages/libertine/ContainersConfig.py
+/usr/lib/python3/dist-packages/libertine/HostInfo.py
+/usr/lib/python3/dist-packages/libertine/Libertine.py
+/usr/lib/python3/dist-packages/libertine/__init__.py
+/usr/lib/python3/dist-packages/libertine/utils.py
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-libertine
+/usr/share/doc/python3-libertine/changelog.Debian.gz
+/usr/share/doc/python3-libertine/copyright

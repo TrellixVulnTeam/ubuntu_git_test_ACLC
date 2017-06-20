@@ -1,0 +1,14 @@
+lease {
+  interface "enp0s3";
+  fixed-address 10.0.2.15;
+  filename "Ubuntu_git_test.pxe";
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 86400;
+  option routers 10.0.2.2;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.2.2;
+  option domain-name-servers 10.0.2.3;
+  renew 2 2017/06/20 22:15:06;
+  rebind 3 2017/06/21 09:34:54;
+  expire 3 2017/06/21 12:34:54;
+}

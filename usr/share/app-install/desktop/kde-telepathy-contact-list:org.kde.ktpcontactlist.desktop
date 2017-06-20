@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=kde-telepathy-contact-list
+X-AppInstall-Popcon=705
+X-AppInstall-Section=universe
+
+Name=IM Contacts
+GenericName=Instant Messenger Contacts
+Comment=Displays your instant messenger contacts
+Exec=ktp-contactlist %u
+Type=Application
+Terminal=false
+Icon=telepathy-kde
+Categories=Qt;KDE;Network;InstantMessaging;
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.ktpcontactlist
+X-KDE-ServiceTypes=DBUS/InstantMessenger
+
+X-Ubuntu-Gettext-Domain=app-install-data

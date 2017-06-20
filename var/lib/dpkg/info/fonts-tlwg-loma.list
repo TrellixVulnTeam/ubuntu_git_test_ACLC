@@ -1,0 +1,13 @@
+/.
+/etc
+/etc/fonts
+/etc/fonts/conf.avail
+/etc/fonts/conf.avail/64-10-tlwg-loma.conf
+/etc/fonts/conf.d
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/fonts-tlwg-loma
+/usr/share/doc/fonts-tlwg-loma/copyright
+/etc/fonts/conf.d/64-10-tlwg-loma.conf
+/usr/share/doc/fonts-tlwg-loma/changelog.Debian.gz

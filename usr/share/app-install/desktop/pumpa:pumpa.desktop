@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pumpa
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Pumpa
+Exec=pumpa %U
+Icon=pumpa
+Terminal=false
+Type=Application
+GenericName=pump.io client
+Comment=pump.io social networking
+Categories=Network;InstantMessaging;
+Keywords=pump.io;social network;microblog;
+
+X-Ubuntu-Gettext-Domain=app-install-data

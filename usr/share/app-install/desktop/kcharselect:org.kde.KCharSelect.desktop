@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kcharselect
+X-AppInstall-Popcon=133
+X-AppInstall-Section=universe
+
+GenericName=Character Selector
+Exec=kcharselect --qwindowtitle %c
+Icon=accessories-character-map
+Type=Application
+Terminal=false
+X-DocPath=kcharselect/index.html
+Name=KCharSelect
+StartupNotify=true
+Categories=Qt;KDE;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

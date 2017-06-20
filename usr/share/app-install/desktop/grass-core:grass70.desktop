@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=grass-core
+X-AppInstall-Popcon=126
+X-AppInstall-Section=universe
+
+Type=Application
+Name=GRASS GIS 7
+Comment=Geographic Information System
+Categories=Education;Science;Geoscience;Geography;
+Exec=grass70
+Icon=grass70
+Terminal=true
+Keywords=wms;wfs;ogc;osgeo
+
+X-Ubuntu-Gettext-Domain=app-install-data

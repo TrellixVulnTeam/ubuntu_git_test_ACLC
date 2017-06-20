@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/MeeGo
+/usr/lib/x86_64-linux-gnu/qt5/qml/MeeGo/QOfono
+/usr/lib/x86_64-linux-gnu/qt5/qml/MeeGo/QOfono/libQOfonoQtDeclarative.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/MeeGo/QOfono/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-ofono
+/usr/share/doc/qml-module-ofono/copyright
+/usr/share/doc/qml-module-ofono/changelog.Debian.gz

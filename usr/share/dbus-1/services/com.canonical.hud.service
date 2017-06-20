@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.canonical.hud
+Exec=/usr/lib/x86_64-linux-gnu/hud/hud-service
+SystemdService=hud.service

@@ -1,0 +1,7 @@
+21d4db00d817299191e6ada8422c80ff  usr/lib/systemd/user/bamfdaemon.service
+f488fd61edfb14c36e76d3c774994533  usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+038bf61c4c803ad71c44d252bc80067b  usr/lib/x86_64-linux-gnu/bamf/bamfdaemon-dbus-runner
+ed241a34f6c01dfb01d4da473f106ea6  usr/share/dbus-1/services/org.ayatana.bamf.service
+f5575c8db849a05b3d4cf7336c7db8c2  usr/share/doc/bamfdaemon/copyright
+587162a542b383722d871fa248baa88a  usr/share/upstart/sessions/bamfdaemon.conf
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/bamfdaemon.override

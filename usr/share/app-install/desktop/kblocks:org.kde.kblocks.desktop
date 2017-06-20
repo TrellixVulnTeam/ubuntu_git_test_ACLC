@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kblocks
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=KBlocks
+Icon=kblocks
+Exec=kblocks -qwindowtitle %c
+Type=Application
+X-DocPath=kblocks/index.html
+GenericName=Falling Blocks Game
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;ArcadeGame;
+X-DBUS-ServiceName=org.kde.kblocks
+
+X-Ubuntu-Gettext-Domain=app-install-data

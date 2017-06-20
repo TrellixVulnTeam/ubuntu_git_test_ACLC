@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=krita-data
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Krita
+Exec=krita %u
+MimeType=image/x-tga;
+Type=Application
+Icon=calligrakrita
+Categories=Qt;KDE;Office;Graphics;
+StartupNotify=true
+X-KDE-ServiceTypes=Calligra/Application
+X-Calligra-DefaultMimeTypes=image/x-tga
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.krita.krita
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

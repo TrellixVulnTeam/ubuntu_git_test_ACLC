@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=sparkleshare
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Type=Application
+Name=SparkleShare
+Comment=Self hosted, instant, secure file sync
+Exec=sparkleshare start
+Icon=sparkleshare
+Terminal=false
+X-GNOME-Autostart-enabled=true
+Categories=Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=3D Slicer
+Exec=nd-autoinstall -p slicer /usr/bin/slicer3
+Type=Application
+Icon=3DSlicerLogo-DesktopIcon-48x48x256
+Categories=X-NeuroDebian-MedicalImaging
+
+X-Ubuntu-Gettext-Domain=app-install-data

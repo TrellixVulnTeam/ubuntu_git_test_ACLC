@@ -1,0 +1,4 @@
+8db4ce34785058511556a8a6b82eec60  usr/lib/x86_64-linux-gnu/pkcs11/gnome-keyring-pkcs11.so
+3b04bda84a21b4772c8dcac3439d288a  usr/share/doc/libp11-kit-gnome-keyring/changelog.Debian.gz
+0dc7244419b37bd4c9997556e0ff9293  usr/share/doc/libp11-kit-gnome-keyring/copyright
+18338a3e1e347ea0b25f3bc2182e95a6  usr/share/p11-kit/modules/gnome-keyring.module

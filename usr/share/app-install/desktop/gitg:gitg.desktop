@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=gitg
+X-AppInstall-Popcon=163
+X-AppInstall-Section=universe
+
+Name=gitg
+Comment=Git repository browser
+Exec=gitg --no-wd %U
+TryExec=gitg
+Terminal=false
+Type=Application
+Icon=gitg
+Categories=GNOME;GTK;Development;RevisionControl;
+MimeType=x-scheme-handler/gitg;
+#X-GNOME-DocPath=gitg/gitg.xml
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gitg
+X-GNOME-Bugzilla-Component=core
+X-GNOME-Bugzilla-Version=3.16.1
+
+X-Ubuntu-Gettext-Domain=app-install-data

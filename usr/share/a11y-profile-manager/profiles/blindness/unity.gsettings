@@ -1,0 +1,11 @@
+[com.canonical.indicator.datetime]
+show-calendar=false
+
+[org.gnome.desktop.interface]
+toolkit-accessibility=true
+
+[org.gnome.yelp]
+show-cursor=true
+
+[org.gnome.desktop.a11y.applications]
+screen-reader-enabled=true

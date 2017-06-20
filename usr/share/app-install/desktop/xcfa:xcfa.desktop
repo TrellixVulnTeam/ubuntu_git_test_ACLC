@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=xcfa
+X-AppInstall-Popcon=380
+X-AppInstall-Section=universe
+
+Version=5.0.2
+Name=XCFA
+GenericName=Audio Format Converter
+Comment=X Convert File Audio. Programme pour convertir les fichiers audio.
+Icon=xcfa
+MimeType=
+Type=Application
+Exec=xcfa
+Terminal=false
+StartupNotify=false
+Categories=Application;AudioVideo;AudioVideoEditing;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

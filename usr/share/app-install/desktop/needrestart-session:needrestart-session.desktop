@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=needrestart-session
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=needrestart-session
+Comment=Check for processes in the current user session need to be restarted after upgrades.
+Icon=_usr_share_needrestart-session_needrestart
+TryExec=needrestart-session
+Exec=needrestart-session
+Terminal=false
+Categories=System;
+Keywords=system;upgrades;packages;session;security;
+X-Desktop-File-Install-Version=0.22
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=poedit
+X-AppInstall-Popcon=77
+X-AppInstall-Section=universe
+
+Name=Poedit
+Type=Application
+Terminal=false
+NoDisplay=true
+MimeType=x-scheme-handler/poedit;
+Exec=poeditor --handle-poedit-uri %u
+Icon=poedit
+
+X-Ubuntu-Gettext-Domain=app-install-data

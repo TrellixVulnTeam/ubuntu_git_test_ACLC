@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=showq
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Name=ShowQ
+GenericName=ShowQ
+Comment=MIDI controllable audio player
+Keywords=audio;sound;jackd;alsa;live;show;
+Icon=showq_32x32
+TryExec=showq
+Exec=showq
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

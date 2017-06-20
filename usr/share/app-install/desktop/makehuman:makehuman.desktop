@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=makehuman
+X-AppInstall-Popcon=16
+X-AppInstall-Section=universe
+
+Name=MakeHuman
+Comment=MakeHuman is a free, open source tool for creating realistic 3D human characters.
+Exec=/usr/bin/makehuman
+Terminal=false
+Type=Application
+Icon=_usr_share_makehuman_icons_makehuman
+Categories=Graphics
+
+X-Ubuntu-Gettext-Domain=app-install-data

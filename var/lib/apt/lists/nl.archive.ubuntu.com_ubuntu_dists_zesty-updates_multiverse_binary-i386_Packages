@@ -1,0 +1,368 @@
+Package: flashplugin-downloader
+Priority: optional
+Section: multiverse/web
+Installed-Size: 25
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 26.0.0.131ubuntu0.17.04.1
+Depends: flashplugin-installer (>= 11.1.102.55ubuntu3)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-downloader_26.0.0.131ubuntu0.17.04.1_i386.deb
+Size: 1894
+MD5sum: af180b0f7e07987732a47c118c27cf80
+SHA1: 0200b677b1f68b9c490514b8a9d948cd62261c07
+SHA256: b2e2529fdede53f4ab43a438aab2e547cd4f5d72781b4117ee0f9cea3d2f536e
+Description: Adobe Flash Player plugin installer (transitional package)
+Multi-Arch: foreign
+Homepage: http://www.adobe.com/products/flashplayer.html
+Description-md5: 66ea91f4e504085408ea841953dc65d0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: flashplugin-installer
+Priority: optional
+Section: multiverse/web
+Installed-Size: 58
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 26.0.0.131ubuntu0.17.04.1
+Replaces: flashplugin (<< 6), flashplugin-downloader (<< 11.1.102.55ubuntu3), flashplugin-nonfree (<< 11.0.1.152ubuntu1)
+Provides: flashplugin-nonfree
+Depends: debconf (>= 0.5) | debconf-2.0, wget, libgtk2.0-0, fontconfig, libxt6, libxext6, libatk1.0-0, libc6, libcairo2, libexpat1, libfontconfig1, libfreetype6, libglib2.0-0, libice6, libpango1.0-0, libsm6, libx11-6, libxau6, libxcursor1, libxdmcp6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g, libnss3, libnspr4, libcurl3 | libcurl3-gnutls, libasound2, update-notifier-common (>= 0.119ubuntu2)
+Recommends: libasound2-plugins (>= 1.0.16)
+Suggests: firefox, x-ttcidfont-conf, ttf-mscorefonts-installer, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-nonfree (<< 11.0.1.152ubuntu1), libflashsupport
+Breaks: flashplugin-downloader (<< 11.1.102.55ubuntu3)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-installer_26.0.0.131ubuntu0.17.04.1_i386.deb
+Size: 6824
+MD5sum: 2ffb6a5f819c6ff4037f20dd0087b9a9
+SHA1: b6262d665f8b679277da8b3664a4075b23cb8fac
+SHA256: ed5396e8d88e3c9b965146be1c674d013abd9d32994a4f091caaee4a5d38be2f
+Description: Adobe Flash Player plugin installer
+Multi-Arch: foreign
+Homepage: http://www.adobe.com/products/flashplayer.html
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash SWF Player (http://www.adobe.com)
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Name: Adobe Flash Player (installer)
+Description-md5: a03e9ebc20ce82c05567d088e79bf750
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: libcuda1-367
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Depends: libcuda1-375
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/libcuda1-367_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 6490
+MD5sum: fe677d03c209a3268ca4d8484279aa35
+SHA1: d40ef551d9157eb0ad1ef0f55d5b0ab8948396b5
+SHA256: d9b48e0ee5b4a13d20176418e7d7412d6c72c9841c39ec5e52db853a3d3828ad
+Description: Transitional package for libcuda1-375
+Description-md5: 084f3742e4f1b51c41e1434a3865e6c3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-367
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Depends: nvidia-libopencl1-375
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/nvidia-libopencl1-367_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 6496
+MD5sum: 009d37098712cc0dca88775ca09c643e
+SHA1: 1c8f2305df4bff2cbe0fd7843d2b948bc15a0e5d
+SHA256: bbb1d808374971750369310e40e5874d68fa49ed92fc49a8e7598a3fb340dc48
+Description: Transitional package for nvidia-libopencl1-375
+Description-md5: ca29c96a34b6d9208ae933195156e109
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-libopencl1-375
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 51
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Replaces: libopencl1
+Provides: libopencl1
+Depends: libc6 (>= 2.1.3)
+Suggests: nvidia-opencl-icd-375
+Conflicts: libopencl1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/nvidia-libopencl1-375_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 14466
+MD5sum: 4b297c816d9deb62848c11b6d8c700a9
+SHA1: 736c95e29e0224895f9581f66d163e6264355fee
+SHA256: 1a8ba8e2d09bd09e7c98d1e19a919eeaa4c3250dcd46d375516cfe14d8b3c372
+Description: NVIDIA OpenCL Driver and ICD Loader library
+Description-md5: b847113bb2144ba87848ff3f7ae69ec2
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: nvidia-opencl-icd-367
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 18
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-375
+Version: 375.66-0ubuntu0.17.04.1
+Depends: nvidia-opencl-icd-375
+Filename: pool/multiverse/n/nvidia-graphics-drivers-375/nvidia-opencl-icd-367_375.66-0ubuntu0.17.04.1_i386.deb
+Size: 6492
+MD5sum: 24b3239ce576753b20f2fb68aace7238
+SHA1: 971af27373df9b667641a6a9f616290dafa0be10
+SHA256: 6d0d3568130827c1d2aedfa194b82e74f3513534d01bedaca071e110e9dd380f
+Description: Transitional package for nvidia-opencl-icd-375
+Description-md5: ea8da607bb67ba132012d762ba1a7725
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 69441
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Depends: adduser, procps, virtualbox-dkms (>= 5.1.22-dfsg-0ubuntu1.17.04.1) | virtualbox-source (>= 5.1.22-dfsg-0ubuntu1.17.04.1) | virtualbox-modules, init-system-helpers (>= 1.18~), python3 (<< 3.6), python3 (>= 3.5~), python3.5, python3:any (>= 3.3.2-2~), libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc1 (>= 1:4.2), libgsoap10, libpng16-16 (>= 1.6.2-1), libpython3.5 (>= 3.5.0~b1), libsdl1.2debian (>= 1.2.11), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libvpx4 (>= 1.6.0), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxmu6, libxt6, zlib1g (>= 1:1.1.4)
+Recommends: virtualbox-qt (= 5.1.22-dfsg-0ubuntu1.17.04.1), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5opengl5 (>= 5.0.2) | libqt5opengl5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2)
+Suggests: vde2, virtualbox-guest-additions-iso
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1
+Filename: pool/multiverse/v/virtualbox/virtualbox_5.1.22-dfsg-0ubuntu1.17.04.1_i386.deb
+Size: 15652296
+MD5sum: 36d74de5dd7948dab6cbe302914dacf4
+SHA1: 4c433b3e412a87cad1315acb176751ad5ff357b4
+SHA256: c34fc480cd5580b51c4b44c8f40820b67088d0826151e81f957e7311357a7744
+Description: x86 virtualization solution - base binaries
+Homepage: http://www.virtualbox.org/
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-dkms
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 5092
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Provides: virtualbox-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: virtualbox (>= 5.1.22-dfsg-0ubuntu1.17.04.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-dkms_5.1.22-dfsg-0ubuntu1.17.04.1_all.deb
+Size: 640854
+MD5sum: 36fda6253bd98575af421777d41ec977
+SHA1: 2b05d319f7cfecd1cda9ff18ded0b85379eaec98
+SHA256: 7433e4133e0fcfd46b1e30f6526dbfe6157db67134a98969e8b3c1977f4ffa97
+Description: x86 virtualization solution - kernel module sources for dkms
+Homepage: http://www.virtualbox.org/
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-ext-pack
+Priority: extra
+Section: multiverse/misc
+Installed-Size: 127
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 5.1.22-2~17.04.1
+Depends: virtualbox (>= 5.1.22-dfsg-0~) | virtualbox-5.1, virtualbox (<< 5.1.22-dfsg-z) | virtualbox-5.1, wget, debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf
+Filename: pool/multiverse/v/virtualbox-ext-pack/virtualbox-ext-pack_5.1.22-2~17.04.1_all.deb
+Size: 11540
+MD5sum: c1c2e77b9f4a63274518c02139cc6b73
+SHA1: 78c4fc54362abd06358f937ea08289d98238e2d6
+SHA256: 359ecfcbf862a15beaa961e67eaacacb55a7563d13e8a5c0af0ad0594393f5a3
+Description: extra capabilities for VirtualBox, downloader.
+Homepage: https://www.virtualbox.org
+Description-md5: d34299a0a1c7bf804958800947ea531c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-additions-iso
+Priority: extra
+Section: multiverse/misc
+Installed-Size: 58073
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 5.1.22-1~17.04.1
+Replaces: virtualbox-guest-additions (<< 4.0.6-1~)
+Recommends: virtualbox (>= 5.1.22)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1
+Breaks: virtualbox-guest-additions (<< 4.0.6-1~)
+Filename: pool/multiverse/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_5.1.22-1~17.04.1_all.deb
+Size: 39790190
+MD5sum: 4adbe8cde0daf92e25676d7627ffcfa2
+SHA1: b099f3f9bf689be7664fa9a91867aef98f8fa362
+SHA256: 6f9ce2b8a590db5e5889d3bc8eafb58be1d604226f3b48d8acbcf9e7ebd7b1ed
+Description: guest additions iso image for VirtualBox
+Homepage: http://www.virtualbox.org/
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: virtualbox-guest-dkms
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 4496
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Provides: virtualbox-guest-modules
+Depends: virtualbox-guest-utils (>= 5.1.22-dfsg-0ubuntu1.17.04.1), dkms (>= 2.1.0.0)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-dkms_5.1.22-dfsg-0ubuntu1.17.04.1_all.deb
+Size: 567716
+MD5sum: 8f59092b6c008a63b79d12026afb747a
+SHA1: 7ad0167b8f3952b88b07f43f55b3fe24da8d2437
+SHA256: c57b7fed19a122f169e0c9ad4d0c74a49e8abe27262b1b50999b37cc89fd7777
+Description: x86 virtualization solution - guest addition module source for dkms
+Homepage: http://www.virtualbox.org/
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-guest-source
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 769
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-source_5.1.22-dfsg-0ubuntu1.17.04.1_all.deb
+Size: 694406
+MD5sum: b72414ec06b72f80fa91d4ab10c4deec
+SHA1: d0ce387d7579ce583d77375b6eb3efaf25a9f3c9
+SHA256: 0e935102b263f994865952de074ac94bc1869e6635590fa57404611eb2af99e0
+Description: x86 virtualization solution - guest addition module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-guest-utils
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 1999
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Depends: adduser, pciutils, libc6 (>= 2.15), libpam0g (>= 0.99.7.1)
+Recommends: virtualbox-guest-dkms (= 5.1.22-dfsg-0ubuntu1.17.04.1) | virtualbox-guest-source (= 5.1.22-dfsg-0ubuntu1.17.04.1) | virtualbox-guest-modules
+Suggests: virtualbox-guest-x11 (= 5.1.22-dfsg-0ubuntu1.17.04.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-utils_5.1.22-dfsg-0ubuntu1.17.04.1_i386.deb
+Size: 405938
+MD5sum: 1069c7fb1e2b3907f7a7ad801877f992
+SHA1: b2298ba9430289d1fb174e5b5f621c237ff6d962
+SHA256: c0e9c4121377d7a6956e9b0c5993d2076cbb952a3fbf2a029d2295ef7e53780e
+Description: x86 virtualization solution - non-X11 guest utilities
+Homepage: http://www.virtualbox.org/
+Description-md5: e69be43e48223cb949bed0ec7715d1e7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-guest-x11
+Priority: optional
+Section: multiverse/x11
+Installed-Size: 5844
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Provides: xorg-driver-video
+Depends: libnotify-bin, x11-xserver-utils, virtualbox-guest-utils (= 5.1.22-dfsg-0ubuntu1.17.04.1), libc6 (>= 2.15), libgl1-mesa-glx | libgl1, libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxmu6, libxrandr2, libxt6, xorg-video-abi-23, xserver-xorg-core (>= 2:1.18.99.901)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-x11_5.1.22-dfsg-0ubuntu1.17.04.1_i386.deb
+Size: 983352
+MD5sum: 0597e56e8a73231a4883b520b4be5c68
+SHA1: 18dfd39f395d13dd94d1610dc453bd6f5bd77aad
+SHA256: ebe6be37267aa6613ccd32e3ee626ec0485d87a645f293bfad7dd186089cb7f9
+Description: x86 virtualization solution - X11 guest utilities
+Homepage: http://www.virtualbox.org/
+Modaliases: vboxx11(pci:v000080EEd0000BEEFsv00000000sd00000000bc*sc*i*)
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-qt
+Priority: optional
+Section: multiverse/misc
+Installed-Size: 27663
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Replaces: virtualbox (<< 4.1.6-dfsg-2~)
+Depends: virtualbox (= 5.1.22-dfsg-0ubuntu1.17.04.1), libc6 (>= 2.15), libgcc1 (>= 1:4.2), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5opengl5 (>= 5.0.2) | libqt5opengl5-gles (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.7.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb1, libxext6, libxinerama1
+Breaks: virtualbox (<< 4.1.6-dfsg-2~)
+Filename: pool/multiverse/v/virtualbox/virtualbox-qt_5.1.22-dfsg-0ubuntu1.17.04.1_i386.deb
+Size: 7687242
+MD5sum: 8b0dbfaf3d078dded093fa0b6ff46f44
+SHA1: 7e05ec16bac0122d00ace9de2423f2e983c843f1
+SHA256: 1cbc3984009ec481047e3b4b83fee2c4e11626de7ae583248e6ab9febb122f54
+Description: x86 virtualization solution - Qt based user interface
+Homepage: http://www.virtualbox.org/
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+
+Package: virtualbox-source
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 836
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Source: virtualbox
+Version: 5.1.22-dfsg-0ubuntu1.17.04.1
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Recommends: virtualbox (>= 5.1.22-dfsg-0ubuntu1.17.04.1)
+Filename: pool/multiverse/v/virtualbox/virtualbox-source_5.1.22-dfsg-0ubuntu1.17.04.1_all.deb
+Size: 764028
+MD5sum: 5905843398c563c665c78b1c37e759e3
+SHA1: 18bab8eb717f8d7e3a4e24673cc5a2339f6bf873
+SHA256: 1580639d6a6293f75abb6ee3c4fc95af3540f1857b95259473b7bc3201a1a4e9
+Description: x86 virtualization solution - kernel module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Phased-Update-Percentage: 0
+

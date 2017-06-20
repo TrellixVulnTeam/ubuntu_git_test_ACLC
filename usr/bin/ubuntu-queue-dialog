@@ -1,0 +1,3 @@
+#!/bin/sh
+
+QT_PRINTER_MODULE=cupsprintersupport APP_ID=ubuntu-queue-dialog qmlscene $@ /usr/share/ubuntu-printing-app/queue-dialog/Main.qml

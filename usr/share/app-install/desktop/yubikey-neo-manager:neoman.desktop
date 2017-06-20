@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=yubikey-neo-manager
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=YubiKey NEO Manager
+GenericName=YubiKey NEO Manager
+Comment=Graphical interface YubiKey NEO management
+Exec=neoman
+Icon=neoman
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=YubiKey;NEO;Manager;
+
+X-Ubuntu-Gettext-Domain=app-install-data

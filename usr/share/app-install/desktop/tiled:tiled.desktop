@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=tiled
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=Tiled
+GenericName=Map editor
+Comment=Tile map editor
+TryExec=tiled
+Exec=tiled %f
+Terminal=false
+Type=Application
+Icon=tiled
+Categories=Graphics;2DGraphics;
+X-Desktop-File-Install-Version=0.1
+MimeType=application/x-tiled-tmx;
+
+X-Ubuntu-Gettext-Domain=app-install-data

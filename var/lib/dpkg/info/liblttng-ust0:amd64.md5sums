@@ -1,0 +1,9 @@
+dd4cbca8ccdade575d3b72f245baa0a9  usr/lib/x86_64-linux-gnu/liblttng-ust-cyg-profile-fast.so.0.0.0
+dc2c3ed5f42e41baa2b4b4577ef69000  usr/lib/x86_64-linux-gnu/liblttng-ust-cyg-profile.so.0.0.0
+57264919a073b8648b8ce7913121b867  usr/lib/x86_64-linux-gnu/liblttng-ust-dl.so.0.0.0
+3e5bf1d8d44db9620a258498544fdef7  usr/lib/x86_64-linux-gnu/liblttng-ust-fork.so.0.0.0
+daa4cd93f0e33fa3d2fd94276acf33ad  usr/lib/x86_64-linux-gnu/liblttng-ust-libc-wrapper.so.0.0.0
+2ed215dcab4f7447de2881e152af2727  usr/lib/x86_64-linux-gnu/liblttng-ust-pthread-wrapper.so.0.0.0
+b2a025d9952407829473520ee6473f2b  usr/lib/x86_64-linux-gnu/liblttng-ust-tracepoint.so.0.0.0
+009381ab3149e95ce104b214085d783c  usr/lib/x86_64-linux-gnu/liblttng-ust.so.0.0.0
+c3fdfd85c5ce99dcb181bffbc4518f42  usr/share/doc/liblttng-ust0/copyright

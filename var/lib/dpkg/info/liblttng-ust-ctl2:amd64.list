@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/liblttng-ust-ctl.so.2.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblttng-ust-ctl2
+/usr/share/doc/liblttng-ust-ctl2/changelog.Debian.gz
+/usr/share/doc/liblttng-ust-ctl2/copyright
+/usr/lib/x86_64-linux-gnu/liblttng-ust-ctl.so.2

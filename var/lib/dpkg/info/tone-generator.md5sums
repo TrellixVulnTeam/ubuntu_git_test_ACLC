@@ -1,0 +1,4 @@
+865dd38d7cf8d2fd14af884378e1a6b8  usr/bin/tonegend
+31b39178b90a7b555ef4bd75156ad82d  usr/share/doc/tone-generator/changelog.Debian.gz
+3094dd568319b0e4812163d4f5a92b4d  usr/share/doc/tone-generator/copyright
+9c445360ce5c7ad9e50e851af40542ac  usr/share/upstart/sessions/tone-generator.conf

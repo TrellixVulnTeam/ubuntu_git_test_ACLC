@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kanagram
+X-AppInstall-Popcon=108
+X-AppInstall-Section=universe
+
+Name=Kanagram
+Exec=kanagram
+Icon=kanagram
+Type=Application
+X-DocPath=kanagram/index.html
+Comment=KDE Letter Order Game
+GenericName=Letter Order Game
+Categories=Qt;KDE;Education;Languages;Game;KidsGame;
+X-DBUS-ServiceName=org.kde.kanagram
+
+X-Ubuntu-Gettext-Domain=app-install-data

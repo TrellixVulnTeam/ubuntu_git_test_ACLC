@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=vim-common
+X-AppInstall-Popcon=25380
+X-AppInstall-Section=main
+
+Name=Vim
+GenericName=Text Editor
+Comment=Edit text files
+TryExec=vim
+Exec=vim %F
+Terminal=true
+Type=Application
+Icon=vim
+Categories=Utility;TextEditor;
+StartupNotify=false
+MimeType=text/plain;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=actiona
+X-AppInstall-Section=universe
+
+Name=Actiona
+GenericName=Automation Tool
+Comment=Automate tasks
+Exec=actiona %f
+Terminal=false
+Icon=actiona
+Type=Application
+Categories=Utility;
+Version=1.0
+MimeType=application/actiona-script;application/actiona-code;application/actionaz-script;application/actionaz-code
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,2 @@
+/etc/apparmor.d/usr.lib.ubuntu-download-manager.udm-extractor
+/etc/dbus-1/system.d/com.canonical.applications.Downloader.conf

@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=kapman
+X-AppInstall-Popcon=94
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Kapman
+GenericName=Pac-Man Clone
+Comment=Eat pills escaping ghosts
+Icon=kapman
+TryExec=kapman
+Exec=kapman
+Categories=Qt;KDE;Game;ArcadeGame;
+X-DocPath=kapman/index.html
+X-DBUS-ServiceName=org.kde.kapman
+
+X-Ubuntu-Gettext-Domain=app-install-data

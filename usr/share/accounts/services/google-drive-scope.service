@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="google-drive-scope">
+  <type>google-documents</type>
+  <name>GoogleDrive</name>
+  <icon>icon_google_docs</icon>
+  <provider>google</provider>
+  <translations>account-plugins</translations>
+  
+  <template>
+    <group name="auth">
+      <group name="oauth2">
+        <group name="web_server">
+					<setting type="as" name="Scope">["https://www.googleapis.com/auth/drive.readonly"]</setting>
+					<setting name="ClientId">401977606506-2f9ubd66m8822uhrhiq3ka7k81i76bsk.apps.googleusercontent.com</setting>
+					<setting name="ClientSecret">Vx_vflfl2tT6NV18BDETcNRC</setting>
+          <setting name="RedirectUri">https://wiki.ubuntu.com</setting>
+        </group>
+      </group>
+    </group>
+  </template>
+
+</service>

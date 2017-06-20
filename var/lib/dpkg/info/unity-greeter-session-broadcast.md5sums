@@ -1,0 +1,7 @@
+030ccf4efd4e8e28079f475ac286bafa  usr/lib/x86_64-linux-gnu/unity-greeter-session-broadcast/unity-greeter-session-broadcast-service
+6cd311765b903011a6b936f89ff137dd  usr/share/dbus-1/interfaces/com.canonical.Unity.Greeter.Broadcast.xml
+1d813bbfb3c6d66b765fc3e120609988  usr/share/dbus-1/system-services/com.canonical.Unity.Greeter.Broadcast.service
+a92ba06675aeccd73049bbe6f7e4d7f0  usr/share/doc/unity-greeter-session-broadcast/changelog.Debian.gz
+b4927225cd88a18bd095d58e203f1980  usr/share/doc/unity-greeter-session-broadcast/copyright
+20d21931d1a471859b16cae0355edcff  usr/share/glib-2.0/schemas/com.canonical.Unity.Greeter.Broadcast.gschema.xml
+9f9c94b05796fd3f409283683f9967e4  usr/share/upstart/sessions/unity-greeter-session-broadcast-session.conf

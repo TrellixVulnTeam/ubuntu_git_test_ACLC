@@ -1,0 +1,6 @@
+[profile]
+name=Screen reader with speech
+description=This profile configures the desktop environment to best suit the use of Orca with text to speech
+monitor-schema=org.gnome.desktop.a11y.applications
+monitor-key=screen-reader-enabled
+at-command=orca

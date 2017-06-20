@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=audacity
+X-AppInstall-Popcon=6796
+X-AppInstall-Section=universe
+
+Name=Audacity
+GenericName=Sound Editor
+Comment=Record and edit audio files
+
+Icon=audacity
+
+Type=Application
+Categories=AudioVideo;Audio;AudioVideoEditing;
+
+Exec=audacity %F
+StartupNotify=false
+Terminal=false
+MimeType=application/x-audacity-project;audio/aac;audio/ac3;audio/mp4;audio/x-ms-wma;video/mpeg;audio/flac;audio/x-flac;audio/mpeg;audio/basic;audio/x-aiff;audio/x-wav;application/ogg;audio/x-vorbis+ogg;
+
+X-Ubuntu-Gettext-Domain=app-install-data

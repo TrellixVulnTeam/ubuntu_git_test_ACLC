@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kfourinline
+X-AppInstall-Popcon=55
+X-AppInstall-Section=universe
+
+Name=KFourInLine
+GenericName=Four-in-a-row Board Game
+Exec=kfourinline
+Icon=kfourinline
+Terminal=false
+Type=Application
+X-DocPath=kfourinline/index.html
+Categories=Qt;KDE;Game;BoardGame;
+X-DBUS-ServiceName=org.kde.kfourinline
+
+X-Ubuntu-Gettext-Domain=app-install-data

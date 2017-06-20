@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=opentyrian
+X-AppInstall-Popcon=1
+X-AppInstall-Section=multiverse
+
+Type=Application
+Name=OpenTyrian
+Comment=An arcade-style shoot 'em up
+Icon=opentyrian
+Categories=Game;ArcadeGame;
+TryExec=opentyrian
+Exec=opentyrian
+Terminal=false
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

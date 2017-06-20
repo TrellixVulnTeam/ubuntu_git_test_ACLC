@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=cryptote
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Terminal=false
+Type=Application
+Icon=cryptote
+Exec=cryptote %f
+Name=CryptoTE
+GenericName=Encrypting Text Editor
+Comment=Text Editor with integrated cryptography
+MimeType=application/x-cryptote-container;
+StartupNotify=true
+Categories=TextEditor;Utility;
+X-Ubuntu-Gettext-Domain=app-install-data

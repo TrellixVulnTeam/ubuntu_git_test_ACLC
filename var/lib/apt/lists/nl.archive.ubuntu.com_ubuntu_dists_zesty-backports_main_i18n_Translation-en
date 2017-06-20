@@ -1,0 +1,43 @@
+Package: golang-github-lxc-lxd-dev
+Description-md5: bf546539c311f366eeb0ad488709554f
+Description-en: Container hypervisor based on LXC - go source
+ LXD offers a REST API to remotely manage containers over the network,
+ using an image based workflow and with support for live migration.
+ .
+ This package contains the source tree of the lxd project.
+
+Package: lxc2
+Description-md5: 16aa6b32a6decc4b676db644304f6925
+Description-en: Container hypervisor based on LXC - metapackage
+ LXD offers a REST API to remotely manage containers over the network,
+ using an image based workflow and with support for live migration.
+ .
+ This is a dummy metapackage to install LXD and its client.
+
+Package: lxd
+Description-md5: aae21ff20f4cc6a1e21b22e39cdd87bf
+Description-en: Container hypervisor based on LXC - daemon
+ LXD offers a REST API to remotely manage containers over the network,
+ using an image based workflow and with support for live migration.
+ .
+ This package contains the LXD daemon.
+
+Package: lxd-client
+Description-md5: c5f7d80cfd076c2db1400c3ee9b9332f
+Description-en: Container hypervisor based on LXC - client
+ LXD offers a REST API to remotely manage containers over the network,
+ using an image based workflow and with support for live migration.
+ .
+ This package contains the command line client.
+
+Package: lxd-tools
+Description-md5: 0dfa59a5cd7d8576e3182fb10faa4e93
+Description-en: Container hypervisor based on LXC - extra tools
+ LXD offers a REST API to remotely manage containers over the network,
+ using an image based workflow and with support for live migration.
+ .
+ This package contains extra tools provided with LXD.
+  - fuidshift - A tool to map/unmap filesystem uids/gids
+  - lxc-to-lxd - A tool to migrate LXC containers to LXD
+  - lxd-benchmark - A benchmarking tool for LXD
+

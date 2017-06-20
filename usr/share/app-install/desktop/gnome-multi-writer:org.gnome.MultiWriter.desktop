@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-multi-writer
+X-AppInstall-Section=universe
+
+Name=MultiWriter
+Comment=Write an ISO file to multiple USB devices at once
+Icon=gnome-multi-writer
+Exec=gnome-multi-writer
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;
+# TRANSLATORS: these are desktop keywords - remember the trailing ';' :)
+Keywords=Image;Writer;ISO;USB;
+StartupNotify=true
+NoDisplay=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

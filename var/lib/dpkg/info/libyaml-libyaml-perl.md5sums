@@ -1,0 +1,13 @@
+64d41d886d12f14283f560767b4d28d6  usr/lib/x86_64-linux-gnu/perl5/5.24/YAML/LibYAML.pm
+6ce381c74aff4e3d9c79d4cee101a67a  usr/lib/x86_64-linux-gnu/perl5/5.24/YAML/LibYAML.pod
+447a29596b2ecfd74798da44e19b3344  usr/lib/x86_64-linux-gnu/perl5/5.24/YAML/XS.pm
+b64507957fda013c4cd2a4ff7b23e458  usr/lib/x86_64-linux-gnu/perl5/5.24/YAML/XS.pod
+7052ddc83aafc45d00019e2404e0ac07  usr/lib/x86_64-linux-gnu/perl5/5.24/YAML/XS/LibYAML.pm
+a708ebc0fe6a07081c92d08a3f9a83da  usr/lib/x86_64-linux-gnu/perl5/5.24/auto/YAML/XS/LibYAML/LibYAML.so
+e4485c5f258d1071ebc81033727522dc  usr/share/doc/libyaml-libyaml-perl/CONTRIBUTING
+550ebb881997c1ff907a10f253ecf14f  usr/share/doc/libyaml-libyaml-perl/changelog.Debian.gz
+fec1cc9de092420ba9a1b22576aea79e  usr/share/doc/libyaml-libyaml-perl/copyright
+199c447ed3fc95f37e03c717a48acee9  usr/share/lintian/overrides/libyaml-libyaml-perl
+341aabaaace6b33ef026c4253286fb78  usr/share/man/man3/YAML::LibYAML.3pm.gz
+d4cbae32701573ef33c33ede1a1c3f66  usr/share/man/man3/YAML::XS.3pm.gz
+0cd1c37e645973c7a909546b7b134fdd  usr/share/man/man3/YAML::XS::LibYAML.3pm.gz

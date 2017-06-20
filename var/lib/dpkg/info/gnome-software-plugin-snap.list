@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/gs-plugins-11
+/usr/lib/gs-plugins-11/libgs_plugin_snap.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/gnome-software-plugin-snap
+/usr/share/doc/gnome-software-plugin-snap/changelog.Debian.gz
+/usr/share/doc/gnome-software-plugin-snap/copyright

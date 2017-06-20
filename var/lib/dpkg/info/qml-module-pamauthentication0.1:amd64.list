@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/com
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/ubuntu
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/ubuntu/PamAuthentication
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/ubuntu/PamAuthentication/libPamAuthentication.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/com/ubuntu/PamAuthentication/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-pamauthentication0.1
+/usr/share/doc/qml-module-pamauthentication0.1/changelog.Debian.gz
+/usr/share/doc/qml-module-pamauthentication0.1/copyright

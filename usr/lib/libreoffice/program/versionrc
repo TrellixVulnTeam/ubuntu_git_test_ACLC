@@ -1,0 +1,10 @@
+[Version]
+AllLanguages=en-US
+BuildVersion=1:5.3.1-0ubuntu2
+buildid=30m0(Build:2)
+ExtensionUpdateURL=http://updateexte.libreoffice.org/ExtensionUpdateService/check.Update
+ReferenceOOoMajorMinor=4.1
+UpdateID=LibreOffice_4_en-US
+UpdateURL=
+UpdateUserAgent=<PRODUCT> (${buildid}; ${_OS}; ${_ARCH}; <OPTIONAL_OS_HW_DATA>)
+Vendor=The Document Foundation, Debian and Ubuntu

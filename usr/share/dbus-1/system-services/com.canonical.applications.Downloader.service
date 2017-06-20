@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=com.canonical.applications.Downloader
+User=root
+Exec=/usr/bin/ubuntu-download-manager
+SystemdService=ubuntu-download-manager-systemd.service

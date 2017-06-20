@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=sagasu
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Sagasu
+Categories=Utility;
+Comment=GNOME tool to find strings in a set of files
+Keywords=graphics;scanning;
+Exec=sagasu
+Icon=sagasu
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

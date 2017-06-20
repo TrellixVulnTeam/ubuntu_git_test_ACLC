@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=zipper.app
+X-AppInstall-Popcon=16
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Compression;Archiving;Utility;
+Name=Zipper
+Comment=Archive manager for GNUstep
+Keywords=zip;tar;extract;unpack;
+Icon=_usr_lib_GNUstep_Applications_Zipper.app_Resources_zipper
+Exec=Zipper
+MimeType=
+
+X-Ubuntu-Gettext-Domain=app-install-data

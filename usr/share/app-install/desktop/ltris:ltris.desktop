@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ltris
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Name=LTris
+GenericName=Puzzle game
+Comment=A tetris clone with nice graphics
+Exec=ltris
+Icon=_usr_share_games_icons_ltris48
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Game;
+Keywords=Bricks;Tetris;
+
+X-Ubuntu-Gettext-Domain=app-install-data

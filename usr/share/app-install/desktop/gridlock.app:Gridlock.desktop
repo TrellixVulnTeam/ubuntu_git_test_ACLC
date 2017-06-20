@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=gridlock.app
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Game;BoardGame;
+Name=Gridlock
+Comment=Collection of grid-based board games for GNUstep
+Keywords=board;game;
+Icon=_usr_lib_GNUstep_Applications_Gridlock.app_Resources_Gridlock
+Exec=Gridlock
+
+X-Ubuntu-Gettext-Domain=app-install-data

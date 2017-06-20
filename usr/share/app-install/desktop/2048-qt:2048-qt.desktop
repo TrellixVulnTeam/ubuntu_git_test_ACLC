@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=2048-qt
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Version=0.1.5
+Exec=2048-qt
+Name=2048-qt
+GenericName=2048-qt
+Comment=mathematics based puzzle game
+Icon=_usr_share_pixmaps_2048-qt
+Terminal=false
+StartupNotify=true
+Keywords=game;puzzle
+Categories=Game;LogicGame
+
+X-Ubuntu-Gettext-Domain=app-install-data

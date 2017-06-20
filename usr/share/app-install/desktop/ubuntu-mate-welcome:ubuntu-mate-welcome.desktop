@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntu-mate-welcome
+X-AppInstall-Section=universe
+
+Terminal=false
+Type=Application
+Categories=System;GTK;Utility;
+Name=Welcome
+Comment=Welcome to Ubuntu MATE
+Exec=ubuntu-mate-welcome
+Icon=ubuntu-mate
+OnlyShowIn=MATE;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

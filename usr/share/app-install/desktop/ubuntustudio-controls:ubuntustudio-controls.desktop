@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-controls
+X-AppInstall-Popcon=38
+X-AppInstall-Section=universe
+
+Name=Ubuntu Studio Controls
+GenericName=Realtime Audio Administrator
+Comment=Administer realtime privilege for users
+Exec=ubuntustudio-controls-pkexec
+Icon=ubuntustudio-controls
+Terminal=false
+Type=Application
+Categories=GTK;System;Settings
+
+X-Ubuntu-Gettext-Domain=app-install-data

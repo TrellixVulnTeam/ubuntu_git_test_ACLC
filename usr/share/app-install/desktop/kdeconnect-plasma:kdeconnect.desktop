@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kdeconnect-plasma
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=kdeconnect
+Terminal=false
+Exec=kcmshell5 kcm_kdeconnect
+Name=KDE Connect
+GenericName=Connect and sync your devices
+Categories=Qt;KDE;Settings;HardwareSettings;
+NotShowIn=KDE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=content-hub-testability
+X-AppInstall-Section=universe
+
+Name=Auto Sharer
+Comment=Test Auto Sharer
+Exec=content-hub-test-sharer
+Icon=content-hub-test-sharer
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

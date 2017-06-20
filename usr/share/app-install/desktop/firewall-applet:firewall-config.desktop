@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=firewall-applet
+X-AppInstall-Popcon=31
+X-AppInstall-Section=universe
+
+Name=Firewall
+Comment=Firewall Configuration
+Icon=firewall-config
+Categories=System;Settings;Security;
+# Translators: These are searchable keywords for the firewall configuration tool
+Keywords=firewall;network;security;iptables;netfilter;
+Exec=/usr/bin/firewall-config
+Type=Application
+StartupNotify=true
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

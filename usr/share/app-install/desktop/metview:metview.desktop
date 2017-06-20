@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=metview
+X-AppInstall-Section=universe
+
+X-SuSE-translate=true
+Name=Metview
+GenericName=Meteorological workstation
+X-GNOME-FullName=ECMWF Metview - meteorological workstation
+Comment=Process and visualise meteorological data
+Type=Application
+Categories=Education;Science;DataVisualization;Geoscience;Qt;
+#MimeType=image/svg+xml;image/svg+xml-compressed;
+Exec=metview
+TryExec=metview
+Terminal=false
+StartupNotify=true
+Icon=metview
+
+X-Ubuntu-Gettext-Domain=app-install-data

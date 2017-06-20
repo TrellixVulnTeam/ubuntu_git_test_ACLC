@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=tint2
+X-AppInstall-Popcon=125
+X-AppInstall-Section=universe
+
+Type=Application
+Encoding=UTF-8
+Name=Tint2 panel
+Comment=Lightweight panel
+Exec=tint2
+Icon=taskbar
+Terminal=false
+Categories=System;
+X-Ubuntu-Gettext-Domain=app-install-data

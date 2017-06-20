@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="guide" style="task" id="files-search" xml:lang="en-CA">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision version="14.10" date="2014-09-14" status="review"/>
+
+    <desc>Search for files or folders.</desc>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Search for files or folders</title>
+
+  <p>You can search for:</p>
+  <list type="disc">
+  <item><p>Files based on name or file type, and</p></item>
+  <item><p>Folders based on name.</p></item>
+  </list>
+
+  <links type="topic" style="linklist">
+    <title>Other search applications</title>
+    <!-- This is an extension point where search apps can add
+    their own topics. It's empty by default. -->
+  </links>
+
+  <steps>
+    <title>Search</title>
+    <item><p>Open <app>Files</app> from the <gui>Dash</gui>.</p></item>
+
+    <item><p>If you know the files or folders that you want are under a particular folder, navigate
+    to that folder.</p></item>
+
+    <item><p>Click the magnifying glass
+    <media type="image" mime="image/png" src="figures/system-search.png">Magnifying glass icon</media>
+     in the toolbar, or press
+    <keyseq><key>Ctrl</key><key>F</key></keyseq>.</p></item>
+
+    <item><p>In the search box type a word or words that you know appear in the name. For
+    example, if you name all your invoices with the word "Invoice", type
+    <input>invoice</input>. Words are matched regardless of case.</p></item>
+
+    <item><p>If you want to restrict your search to files of a particular type, click the
+    <media type="image" mime="image/png" src="figures/go-down.png">Down arrow icon</media>
+      button and select a file type from the <gui>What</gui>
+      drop-down list. Click the <key>x</key> button to remove this restriction.</p>
+
+    <p>You can open, copy, delete, or otherwise work with your files and folders from
+    the search results, just as you would from any folder in the file manager.
+    </p>
+
+    </item>
+
+    <item><p>Click the magnifying glass 
+    <media type="image" mime="image/png" src="figures/system-search.png">Magnifying glass icon</media>
+    in the toolbar again to exit the search
+    and return to the folder.</p></item>
+
+  </steps>
+
+
+</page>

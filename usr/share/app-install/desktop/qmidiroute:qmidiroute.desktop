@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=qmidiroute
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Qmidiroute
+GenericName=qmidiroute
+Comment=Midi Router
+Keywords=route;jackd;midi;
+Icon=qmidiroute_32x32
+TryExec=qmidiroute
+Exec=qmidiroute
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="net-firewall-on-off" xml:lang="en-GB">
+
+  <info>
+    <link type="guide" xref="net-security"/>
+    <desc>You can control network traffic in and out of your computer. This helps to keep your computer secure.</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision version="16.10" date="2016-09-14" status="review"/>
+
+    <credit type="author">
+      <name>Paul W. Frields</name>
+      <email>stickster@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Control network traffic in and out of your computer</title>
+
+  <p>You can use a firewall to control network traffic in and out of your computer. Ubuntu comes equipped with the <app>Uncomplicated Firewall</app> (<app>ufw</app>) - other firewalls are available - but the firewall is not enabled by default. Because Ubuntu does not have any open network services (except for basic network infrastructure) in the default installation, a firewall is not needed to block incoming attempted malicious connections.</p>
+
+  <p>For detailed information about how to use ufw, see the <link href="https://wiki.ubuntu.com/UncomplicatedFirewall">online documentation</link>.</p>
+
+<section id="ufw-enable">
+ <title>Turn the firewall on or off</title>
+  <p>To turn on the firewall, enter <cmd>sudo ufw enable</cmd> in a terminal. To turn off the firewall, enter <cmd>sudo ufw disable</cmd>.</p>
+</section>
+
+<section id="ufw-filter">
+ <title>Allow or block specific network activity</title>
+  <p>Many programs are built to offer network services. For instance, you can share content, or let someone view your desktop remotely. Depending on which additional programs you install, you may need to adjust the firewall to allow these services to work as intended. ufw comes with a number of rules already pre-configured and you can add your own rules. For instance, to allow SSH connections, enter <cmd>sudo ufw allow ssh</cmd> in a terminal. To block SSH connections, enter <cmd>sudo ufw deny ssh</cmd>.</p>
+
+  <p>Each program that provides services uses a specific <em>network port</em>. To enable access to that program's services, you may need to allow access to its assigned port on the firewall. To allow connections on port 53, enter <cmd>sudo ufw allow 53</cmd> in a terminal. To block port 53, enter <cmd>sudo ufw deny 53</cmd>.</p>
+  <p>To check the current status of ufw, enter <cmd>sudo ufw status</cmd> in a terminal.</p>
+</section>
+
+<section id="gufw">
+ <title>Use ufw without a terminal</title>
+  <p>You can also install <app>gufw</app> if you prefer to set up the firewall without using a terminal. To install, click <link href="apt:gufw">this link</link>.</p>
+  <p>You can launch this program by searching for <app>Firewall Configuration</app> in the <gui>Dash</gui>. The program does not need to be kept open for the firewall to work.</p>
+</section>
+
+</page>

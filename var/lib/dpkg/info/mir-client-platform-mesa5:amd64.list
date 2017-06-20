@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/mir
+/usr/lib/x86_64-linux-gnu/mir/client-platform
+/usr/lib/x86_64-linux-gnu/mir/client-platform/mesa.so.5
+/usr/share
+/usr/share/doc
+/usr/share/doc/mir-client-platform-mesa5
+/usr/share/doc/mir-client-platform-mesa5/copyright
+/usr/share/doc/mir-client-platform-mesa5/changelog.Debian.gz

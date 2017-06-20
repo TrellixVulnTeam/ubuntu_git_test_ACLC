@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gosa-desktop
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+GenericName=GOsa²
+Exec=/usr/bin/gosa
+Icon=gosa
+Path=/usr/bin
+Type=Application
+Terminal=false
+Name=GOsa
+X-KDE-StartupNotify=true
+Categories=Qt;KDE;Utility;System;
+Keywords=LDAP;Manager;Site;Administration;Systems;Users;Groups;Plugins;Directory;Organization;
+
+X-Ubuntu-Gettext-Domain=app-install-data

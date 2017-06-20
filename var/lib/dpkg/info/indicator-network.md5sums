@@ -1,0 +1,13 @@
+1bcf122ed291a590b30e64bf17a73737  usr/lib/systemd/user/indicator-network-secret-agent.service
+853083770e6083edac28491c4fcc84c7  usr/lib/systemd/user/indicator-network.service
+6067e68e4860924e0957e8cd8d1c8256  usr/lib/x86_64-linux-gnu/indicator-network/indicator-network-secret-agent
+0cd99175a43b1807f1ba886304a70036  usr/lib/x86_64-linux-gnu/indicator-network/indicator-network-service
+8b5eaa005bde3c2cb02a6b16156bc5a3  usr/share/doc/indicator-network/README
+a768b4433afd0b80a1d2b4d48ebdce0e  usr/share/doc/indicator-network/changelog.Debian.gz
+e457203186ff9dbc204ed52929969d5f  usr/share/doc/indicator-network/copyright
+912ae842a878197aa08a66a45bef26df  usr/share/glib-2.0/schemas/com.canonical.indicator.network.gschema.xml
+0d837e3bcb3848eaaf8b09eed1db3e4b  usr/share/unity/indicators/com.canonical.indicator.network
+b37243c916a586586c6ac5f64c03dfb8  usr/share/upstart/sessions/indicator-network-secret-agent.conf
+5f50d51f2bc8d99b46dbc8432cf28ce5  usr/share/upstart/sessions/indicator-network.conf
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/indicator-network-secret-agent.override
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/indicator-network.override

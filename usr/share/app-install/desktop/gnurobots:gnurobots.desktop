@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gnurobots
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=gnurobots
+GenericName=Programming-based robot game
+Comment=Program robots to explore a world
+Exec=gnurobots
+TryExec=gnurobots
+Icon=gnurobots
+StartupNotify=false
+Terminal=false
+Categories=Game;LogicGame;
+Keywords=robots;scheme;puzzle;programming;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,4 @@
+6206ee0049d4925ad9324112c1ee9f85  lib/x86_64-linux-gnu/libnss_resolve.so.2
+9eff90b026f0601b306e161c7b9f991e  usr/share/doc/libnss-resolve/copyright
+888dd94208d3bcc75b2a96e7edc04db2  usr/share/lintian/overrides/libnss-resolve
+1a5f9f942c5a37a26351f1f1927fa931  usr/share/man/man8/nss-resolve.8.gz

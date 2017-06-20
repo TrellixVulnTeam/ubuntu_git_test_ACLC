@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gpa
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+Name=gpa
+GenericName=GNU Privacy Assistant
+Exec=gpa
+Icon=gpa
+Terminal=false
+Type=Application
+Categories=GTK;Application;Security;Utility;
+Keywords=keyring;encryption;security;sign;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

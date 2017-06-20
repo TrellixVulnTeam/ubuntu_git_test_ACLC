@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQt5Contacts.so.5.0.0
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/plugins
+/usr/lib/x86_64-linux-gnu/qt5/plugins/contacts
+/usr/lib/x86_64-linux-gnu/qt5/plugins/contacts/libqtcontacts_memory.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqt5contacts5
+/usr/share/doc/libqt5contacts5/changelog.Debian.gz
+/usr/share/doc/libqt5contacts5/copyright
+/usr/lib/x86_64-linux-gnu/libQt5Contacts.so.5
+/usr/lib/x86_64-linux-gnu/libQt5Contacts.so.5.0

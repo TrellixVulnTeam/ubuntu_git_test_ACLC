@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+
+  <vendor>Snapcraft</vendor>
+  <vendor_url>http://snapcraft.io</vendor_url>
+
+  <action id="io.snapcraft.login">
+    <description gettext-domain="snapd-glib">Install / remove snaps</description>
+    <description xml:lang="am" gettext-domain="snapd-glib">snaps መግጠሚያ / ማስወገጃ</description>
+    <description xml:lang="en_GB" gettext-domain="snapd-glib">Install / remove snaps</description>
+    <description xml:lang="fi" gettext-domain="snapd-glib">Asenna tai poista snap-paketteja</description>
+    <description xml:lang="fr" gettext-domain="snapd-glib">Installer / supprimer des paquets Snap</description>
+    <description xml:lang="it" gettext-domain="snapd-glib">Installazione / Rimozione snaps</description>
+    <description xml:lang="lt" gettext-domain="snapd-glib">Įdiegti / šalinti snap paketus</description>
+    <description xml:lang="sr" gettext-domain="snapd-glib">Инсталирај /уклони снимке</description>
+    <description xml:lang="tr" gettext-domain="snapd-glib">Snap Yükle / Kaldır</description>
+    <message gettext-domain="snapd-glib">Authentication is required to install / remove snaps</message>
+    <message xml:lang="am" gettext-domain="snapd-glib">ማረጋገጫ ያስፈልጋል snaps ለ መግጠም / ለ ማስወገድ</message>
+    <message xml:lang="en_GB" gettext-domain="snapd-glib">Authentication is required to install / remove snaps</message>
+    <message xml:lang="fi" gettext-domain="snapd-glib">Snap-pakettien asentaminen tai poistaminen vaatii tunnistautumisen</message>
+    <message xml:lang="fr" gettext-domain="snapd-glib">Une authentification est nécessaire pour installer / supprimer des paquets Snap</message>
+    <message xml:lang="it" gettext-domain="snapd-glib">È necessario autenticarsi per installare / rimuovere snaps</message>
+    <message xml:lang="lt" gettext-domain="snapd-glib">Norint įdiegti / šalinti snap paketus, reikia nustatyti jūsų tapatybę</message>
+    <message xml:lang="sr" gettext-domain="snapd-glib">Потврђивање идентитета је потребно за инсталирање /уклањање снимака</message>
+    <message xml:lang="tr" gettext-domain="snapd-glib">Snap Yüklemek veya Kaldırmak için doğrulama gerekli !</message>
+    <defaults>
+      <allow_any>auth_admin_keep</allow_any>
+      <allow_inactive>auth_admin_keep</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+</policyconfig>

@@ -1,0 +1,7 @@
+I:4518713
+E:ID_PCI_CLASS_FROM_DATABASE=Display controller
+E:ID_PCI_SUBCLASS_FROM_DATABASE=VGA compatible controller
+E:ID_PCI_INTERFACE_FROM_DATABASE=VGA controller
+E:ID_VENDOR_FROM_DATABASE=InnoTek Systemberatung GmbH
+E:ID_MODEL_FROM_DATABASE=VirtualBox Graphics Adapter
+E:FWUPD_GUID=0x80ee:0xbeef

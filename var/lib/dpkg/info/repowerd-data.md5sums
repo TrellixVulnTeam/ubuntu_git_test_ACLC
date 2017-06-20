@@ -1,0 +1,10 @@
+4a89d886ca2610f6c8abdfd109dc0a8f  usr/share/doc/repowerd-data/changelog.Debian.gz
+86b2ba30e44bd96d7873c893a754059a  usr/share/doc/repowerd-data/copyright
+eb04cabc4a2476ed399bf29f0c5c3ee1  usr/share/powerd/device_configs/config-default.xml
+eb04cabc4a2476ed399bf29f0c5c3ee1  usr/share/repowerd/device-configs/config-default.xml
+577978295689c32427fec1681928a02b  usr/share/repowerd/device-configs/config-flo.xml
+710a5b67dcd7af1db75ab3e54e0e1190  usr/share/repowerd/device-configs/config-grouper.xml
+0d5d7ecbcf6d7ef2c8cc56c49c0a81d6  usr/share/repowerd/device-configs/config-hammerhead.xml
+b48b65e4c30ccd6e01fd68f5619d7a84  usr/share/repowerd/device-configs/config-maguro.xml
+f8cc925831198cd35605271bb34ac651  usr/share/repowerd/device-configs/config-mako.xml
+1ad626838d69ad3a5a516e01c815c937  usr/share/repowerd/device-configs/config-manta.xml

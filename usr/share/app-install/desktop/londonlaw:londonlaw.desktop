@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=londonlaw
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=London Law
+Comment=London Law board game with network support
+Keywords=London Law;Scotland Yard;Mr. X;detective;
+Exec=/usr/games/london-client
+Icon=londonlaw
+Terminal=false
+Type=Application
+Categories=BoardGame;Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

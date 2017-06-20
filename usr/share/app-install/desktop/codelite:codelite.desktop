@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=codelite
+X-AppInstall-Popcon=60
+X-AppInstall-Section=universe
+
+Name=CodeLite
+Exec=codelite %f
+Icon=codelite
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true
+Keywords=IDE;development;programming;
+
+X-Ubuntu-Gettext-Domain=app-install-data

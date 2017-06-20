@@ -1,0 +1,18 @@
+Generating locales (this might take a while)...
+Generation complete.
+pwconv: failed to change the mode of /etc/passwd- to 0600
+Using CD-ROM mount point /cdrom/
+Identifying... [37faf2e09f73d288b750b7fe001295bb-2]
+Scanning disc for index files...
+Found 2 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+Found label 'Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412)'
+This disc is called: 
+'Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412)'
+Copying package lists...gpgv: Signature made Wed Apr 12 03:43:31 2017 UTC
+gpgv:                using RSA key 
+gpgv: Good signature from "Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>"
+Reading Package Indexes... 0%Reading Package Indexes... Done
+Writing new source list
+Source list entries for this disc are:
+deb cdrom:[Ubuntu 17.04 _Zesty Zapus_ - Release amd64 (20170412)]/ zesty main restricted
+Repeat this process for the rest of the CDs in your set.

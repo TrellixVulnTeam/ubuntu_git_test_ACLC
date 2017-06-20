@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-contacts
+X-AppInstall-Popcon=1707
+X-AppInstall-Section=main
+
+Name=Contacts
+Comment=A contacts manager for GNOME
+Keywords=friends;address book;
+Icon=x-office-address-book
+Exec=gnome-contacts
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;
+OnlyShowIn=GNOME;Unity;
+DBusActivatable=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=content-hub-testability
+X-AppInstall-Section=universe
+
+Name=Auto Exporter
+Comment=Test Auto Exporter
+Exec=content-hub-test-exporter
+Icon=content-hub-test-exporter
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

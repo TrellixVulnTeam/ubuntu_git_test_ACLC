@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="task" version="1.0 if/1.0" id="disk-format" xml:lang="en-CA">
+  <info>
+    <link type="guide" xref="disk"/>
+
+
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision version="13.10" date="2013-09-07" status="review"/>
+
+    <desc>Delete all of the files and folders from an external hard disk or USB
+    flash drive by formatting it.</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Wipe the data off a removable disk and reuse it</title>
+
+  <p>If you have a removable disk, like a USB flash drive or an external hard
+ disk, you may sometimes wish to wipe the disk, that is, completely delete all its files and
+ folders. You can do this by <em>formatting</em> the disk - this deletes all
+ the files on the disk and leaves it empty.</p>
+
+
+<p>To format a removable disk:</p>
+<steps>
+
+  <item>
+   <p>Open the <app>Disks</app> application from the <gui>Dash</gui>.</p>
+  </item>
+
+  <item>
+   <p>Select the disk that you want to wipe from the list on the left.</p>
+
+  <note style="warning">
+   <p>Make sure that you have selected the correct disk! If you select the wrong
+ disk, all the files on the other disk will be deleted!</p>
+  </note>
+<p> 
+</p>
+  </item>
+
+
+  <item>
+   <p>Click the <gui>window menu</gui> <media type="image" mime="image/png" src="figures/window-menu.png">Window menu icon</media>
+    and then select <gui>Format Disk...</gui>. The <gui>Format Disk</gui> window opens.</p>
+  </item>
+
+  <item>
+   <p>If you want to securely wipe the data from the disk, select <gui>Overwrite existing data with zeroes</gui>
+   from the <gui>Erase</gui> dropdown list.</p>
+  </item>
+
+  <item>
+   <p>Click <gui>Format...</gui>.</p>
+  </item>
+
+  <item>
+   <p>In the window that opens click <gui>Format</gui> to begin wiping the disk.
+   Once the formatting has finished the disk contents will be listed as "Unallocated Space".</p>
+  </item>
+</steps>
+
+<p>In order to reuse the wiped disk you must create one or more partitions.
+The simplest case is where you create one partition that fills the whole disk:</p>
+
+<steps>
+
+  <item>
+   <p>Open the <app>Disks</app> application from the <gui>Dash</gui>.</p>
+  </item>
+
+  <item>
+   <p>Select the disk from the list on the left.</p>
+  </item>
+
+  <item>
+   <p>Click the <gui>+</gui> button. The <gui>Create Partition</gui> window opens.</p>
+  </item>
+
+  <item>
+   <p>Type a name for the partition into the <gui>Name</gui> field.</p>
+  </item>
+
+    <item>
+    <p>Click <gui>Create</gui> to create the partition. You can now store data on the disk.</p>
+    </item>
+
+</steps>
+
+
+</page>

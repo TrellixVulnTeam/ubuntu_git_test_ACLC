@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=lgeneral
+X-AppInstall-Popcon=12
+X-AppInstall-Section=multiverse
+
+Name=LGeneral
+Comment=LGeneral is a turn-based strategy engine heavily inspired by Panzer General
+Exec=lgeneral
+Icon=lgeneral
+Type=Application
+Categories=Game;StrategyGame;
+Keywords=turn-based;tiles;WWI;army;troops;battle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

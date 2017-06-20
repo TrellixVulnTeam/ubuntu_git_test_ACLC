@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="unity-shopping" xml:lang="en-AU">
+
+  <info>
+    <link type="guide" xref="unity-dash-intro"/>
+    <link type="seealso" xref="unity-dash-intro#dash-home"/>
+
+    <desc>Online results make the Dash more useful and help fund Ubuntu 
+    development.</desc>
+
+    <revision version="14.04" date="2014-04-03" status="review"/>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+       <name>Ubuntu Documentation Team</name>
+       <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Why are there shopping links in the Dash?</title>
+
+<p>In addition to helping you find apps or files on your computer, the 
+<gui>Dash</gui> can also show you related online results for your searches. 
+Online sources include Amazon.com and dozens of other online sources.</p>
+
+<p>When you purchase music or products from these sources, Canonical receives a small portion of the profits in exchange for directing more business to these stores. Canonical, the company that created and continues to support the Ubuntu project, then uses this money to make Ubuntu better.</p>
+
+<p>By default, the inclusion of online search results is turned off. 
+If you want to include online search results, you can 
+  enable this feature through the <link xref="security-settings"><gui>Security &amp; Privacy</gui></link> settings.</p>
+
+
+</page>

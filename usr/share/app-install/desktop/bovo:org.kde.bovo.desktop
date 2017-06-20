@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=bovo
+X-AppInstall-Popcon=63
+X-AppInstall-Section=universe
+
+Exec=bovo -qwindowtitle %c
+Name=Bovo
+Icon=bovo
+Type=Application
+X-DocPath=bovo/index.html
+GenericName=Five-in-a-row Board Game
+Terminal=false
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;BoardGame;
+X-DBUS-ServiceName=org.kde.bovo
+
+X-Ubuntu-Gettext-Domain=app-install-data

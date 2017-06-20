@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Print Queue
+Exec=ubuntu-queue-dialog %u
+Icon=/usr/share/ubuntu-printing-app/queue-dialog/ubuntu-queue-dialog.svg
+Keywords=Queue;Paper;Print;Printing;
+OnlyShowIn=Unity8
+Terminal=false
+Type=Application
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Touch=true

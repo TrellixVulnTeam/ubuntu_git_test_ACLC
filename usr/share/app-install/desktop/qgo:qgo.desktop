@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=qgo
+X-AppInstall-Popcon=115
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=qGo
+GenericName=Go Client
+Comment=Play Go online and against computer, view and edit SGF files
+Icon=qgo
+Exec=qgo %F
+Terminal=false
+MimeType=application/x-go-sgf;
+Categories=Qt;Game;BoardGame;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

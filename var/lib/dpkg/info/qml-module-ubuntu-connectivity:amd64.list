@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Connectivity
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Connectivity/libconnectivity-qml.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Connectivity/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-ubuntu-connectivity
+/usr/share/doc/qml-module-ubuntu-connectivity/copyright
+/usr/share/doc/qml-module-ubuntu-connectivity/changelog.Debian.gz

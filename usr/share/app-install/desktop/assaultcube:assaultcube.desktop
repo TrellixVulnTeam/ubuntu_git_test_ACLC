@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=assaultcube
+X-AppInstall-Popcon=48
+X-AppInstall-Section=multiverse
+
+Type=Application
+Version=1.0
+Name=AssaultCube
+Comment=Realistic first-person shooter
+Icon=assaultcube
+Exec=assaultcube
+Categories=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

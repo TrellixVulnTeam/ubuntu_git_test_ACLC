@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=lives
+X-AppInstall-Popcon=69
+X-AppInstall-Section=universe
+
+Name=LiVES
+GenericName=Video Editor/VJ tool
+Comment=A video editor and VJ program
+Categories=AudioVideo;AudioVideoEditing;
+Exec=lives
+Icon=lives
+Type=Application
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

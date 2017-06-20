@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=bareos-bat
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Bareos Administration Tool
+GenericName=Backup Administration Tool
+Comment=Bareos Administration Tool
+Icon=bat
+TryExec=/usr/bin/bat
+Exec=/usr/bin/bat -c /etc/bareos/bat.conf
+Terminal=false
+Type=Application
+Encoding=UTF-8
+StartupNotify=true
+X-Desktop-File-Install-Version=0.3
+Categories=System;Utility;Archiving;X-SuSE-Backup;
+
+X-Ubuntu-Gettext-Domain=app-install-data

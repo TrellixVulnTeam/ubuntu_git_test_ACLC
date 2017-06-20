@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=solaar
+X-AppInstall-Popcon=138
+X-AppInstall-Section=universe
+
+Name=Solaar
+Comment=Logitech Unifying Receiver peripherals manager
+Exec=solaar
+Icon=solaar
+StartupNotify=true
+Terminal=false
+Type=Application
+Keywords=logitech;unifying;receiver;mouse;keyboard;
+Categories=Utility;GTK;
+#Categories=Utility;GTK;Settings;HardwareSettings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

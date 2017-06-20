@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=netbeans
+X-AppInstall-Popcon=109
+X-AppInstall-Section=universe
+
+Name=NetBeans
+Comment=Integrated Development Environment
+Exec=netbeans
+Icon=netbeans
+Categories=Development;IDE;Java;
+Terminal=false
+Type=Application
+Keywords=development;Java;IDE;platform;javafx;javase;
+
+X-Ubuntu-Gettext-Domain=app-install-data

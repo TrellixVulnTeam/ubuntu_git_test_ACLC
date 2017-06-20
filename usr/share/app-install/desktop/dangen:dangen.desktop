@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dangen
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=dangen
+Comment=shoot 'em up game
+Exec=dangen
+Icon=dangen
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;
+Keywords=shooting;battle;explosions;2D;
+
+X-Ubuntu-Gettext-Domain=app-install-data

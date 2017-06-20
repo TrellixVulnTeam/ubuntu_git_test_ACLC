@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=spring
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Name=Spring
+MimeType=application/x-spring-demo;x-scheme-handler/spring;
+Comment=An open source RTS with similar gameplay to TA
+Exec=spring %u
+Icon=spring
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,4 @@
+e1a225b9bbd9913ee96bea31763450fd  usr/lib/x86_64-linux-gnu/policykit-unity8/policykit-agent
+39c52074e2857e61769944e6ba943163  usr/share/doc/policykit-unity8/changelog.Debian.gz
+a42bf0cad496da2661eb0642917e81b8  usr/share/doc/policykit-unity8/copyright
+c692c055dd002caad923f1165c32f1a3  usr/share/upstart/sessions/unity8-policy-kit.conf

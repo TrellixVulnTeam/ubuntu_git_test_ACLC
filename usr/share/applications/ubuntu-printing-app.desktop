@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Print
+Exec=ubuntu-printing-app
+Icon=/usr/share/ubuntu-printing-app/ubuntu-printing-app/ubuntu-printing-app.svg
+Keywords=Print;Printing;
+NoDisplay=true
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=false

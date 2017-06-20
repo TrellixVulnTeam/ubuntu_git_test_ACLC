@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=openyahtzee
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Open Yahtzee
+GenericName=Yahtzee
+Comment=The classic dice game Yahtzee
+Exec=openyahtzee
+TryExec=openyahtzee
+Icon=openyahtzee
+Terminal=false
+Categories=Game;BoardGame;
+Keywords=dice;board;yahtzee;
+
+X-Ubuntu-Gettext-Domain=app-install-data

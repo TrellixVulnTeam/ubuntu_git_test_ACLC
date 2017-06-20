@@ -1,0 +1,14 @@
+982154bb6a6400bb37a85b3ed8891dd7  usr/bin/gnome-screensaver
+95d6184b01e11d0e991321247a6478bf  usr/bin/gnome-screensaver-command
+25c75b5f6f7acb4c4c2de24465e82cf4  usr/lib/gnome-screensaver/gnome-screensaver-dialog
+e5e4b5f64bdc3e4cb1a3d85b56b2f8f3  usr/share/apport/package-hooks/source_gnome-screensaver.py
+2a37e58c29eff72c2bb15a260f512c04  usr/share/dbus-1/services/org.gnome.ScreenSaver.service
+093d21dc5537b69e19645f2881782045  usr/share/doc/gnome-screensaver/AUTHORS
+cd9b024779eedb2cde2311b5cbd1f9e5  usr/share/doc/gnome-screensaver/NEWS.gz
+8a22aa9a6601b920409bcc21b4b24dbf  usr/share/doc/gnome-screensaver/README
+6444b044a3642711ab7197b2793f6064  usr/share/doc/gnome-screensaver/README.Debian
+ad86f2130031464b4b8a36d848329c22  usr/share/doc/gnome-screensaver/changelog.Debian.gz
+fe84f38f9f048f9ee27dc1b902dea114  usr/share/doc/gnome-screensaver/copyright
+0bd54574fa682599314bc17a9b603485  usr/share/doc/gnome-screensaver/gnome-screensaver.html
+06b0ac051eb800c82068443b04a6ca82  usr/share/man/man1/gnome-screensaver-command.1.gz
+a18e911889a7baebcb8ef3ea0e3a4fd8  usr/share/man/man1/gnome-screensaver.1.gz

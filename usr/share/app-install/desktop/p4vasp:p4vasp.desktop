@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=p4vasp
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Categories=Education;Science
+Comment=visualization suite for VASP
+Exec=p4v
+Icon=p4vasp
+Name=p4vasp
+Type=Application
+Version=1.0
+Keywords=atom;material;crystal;band;structure;lattice;
+
+X-Ubuntu-Gettext-Domain=app-install-data

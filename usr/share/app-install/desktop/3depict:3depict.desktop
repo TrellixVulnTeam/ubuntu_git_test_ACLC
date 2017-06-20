@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=3depict
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Categories=Science;DataVisualization;
+Comment=Valued point cloud visualisation and analysis
+TryExec=3depict
+Exec=3depict %F
+Icon=3depict
+Name=3depict
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

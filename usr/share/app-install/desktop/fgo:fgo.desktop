@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=fgo
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Keywords=flightgear;fgfs;flight;simulator;sim;
+Exec=fgo
+Icon=fgo
+Terminal=false
+Categories=Game;Simulation;
+Name=FGo!
+GenericName=Front-end for FlightGear
+Comment=A simple and fast front-end for FlightGear Flight Simulator
+
+X-Ubuntu-Gettext-Domain=app-install-data

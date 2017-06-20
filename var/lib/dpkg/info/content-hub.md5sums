@@ -1,0 +1,14 @@
+84ce86df90248408c779a920358d4eda  usr/bin/content-hub-clipboard
+dfab8ccc2ddd3451efcc637a46afdfb0  usr/bin/content-hub-peer-picker
+fb5138bbc3a0a493ef67ca066e4e13d4  usr/bin/content-hub-send
+c583db37f2ebc672b746c93bf8b5301b  usr/bin/content-hub-service
+1268fb7596fcef5248b1f3c3ba1591fa  usr/lib/systemd/user/content-hub.service
+f419576c0f559d7fb1e61db8403e47a4  usr/lib/x86_64-linux-gnu/ubuntu-app-launch/content-hub/exec-tool
+781abfc69f7f681b490e61397f2c980c  usr/share/applications/content-hub-clipboard.desktop
+bbb0277d95df35bd0d121498f5a29e46  usr/share/applications/content-hub-peer-picker.desktop
+d02f430c4a2898b5a010061c0637595d  usr/share/applications/content-hub-send.desktop
+3e093cde2ffed2192e8db4c8bfe07c2b  usr/share/content-hub/icons/xorg.png
+3cade9f8f31bd14ed83dee77ca947bbc  usr/share/dbus-1/services/com.ubuntu.content.dbus.Service.service
+205211022c6ca557dbf54645dd383e57  usr/share/doc/content-hub/copyright
+95103a9e534044d26ea0ca5778309334  usr/share/glib-2.0/schemas/com.ubuntu.content.hub.gschema.xml
+57e062803a8073216123ff2f4b1af5ea  usr/share/url-dispatcher/urls/content-hub-send.url-dispatcher

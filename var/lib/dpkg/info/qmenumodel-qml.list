@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/QMenuModel
+/usr/lib/x86_64-linux-gnu/qt5/qml/QMenuModel/libqmenumodel-qml.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/QMenuModel/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qmenumodel-qml
+/usr/share/doc/qmenumodel-qml/copyright
+/usr/share/doc/qmenumodel-qml/changelog.Debian.gz

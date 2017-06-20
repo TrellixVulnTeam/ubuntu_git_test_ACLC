@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=aghermann
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Edfhed
+GenericName=EDF file header editor
+Comment=EDF file header editor
+Icon=edfhed-gtk
+TryExec=edfhed-gtk
+Exec=edfhed-gtk %U
+Terminal=false
+Categories=Education;Science;MedicalSoftware;GTK;
+MimeType=application/x-edf;
+Keywords=EEG,EDF;
+
+X-Ubuntu-Gettext-Domain=app-install-data

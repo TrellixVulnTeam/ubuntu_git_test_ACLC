@@ -1,0 +1,6 @@
+[profile]
+name=On-screen Keyboard
+description=This profile configures the desktop environment to best suit the use of an on-screen keyboard
+monitor-schema=org.gnome.desktop.a11y.applications
+monitor-key=screen-keyboard-enabled
+at-command=onboard --not-show-in=GNOME,GNOME-Classic:GNOME

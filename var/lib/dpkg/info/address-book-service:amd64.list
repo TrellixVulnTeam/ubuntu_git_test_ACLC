@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/address-book-service
+/usr/lib/x86_64-linux-gnu/address-book-service/address-book-service
+/usr/share
+/usr/share/dbus-1
+/usr/share/dbus-1/services
+/usr/share/dbus-1/services/com.canonical.pim.service
+/usr/share/doc
+/usr/share/doc/address-book-service
+/usr/share/doc/address-book-service/copyright
+/usr/share/upstart
+/usr/share/upstart/sessions
+/usr/share/upstart/sessions/address-book-service.conf
+/usr/share/doc/address-book-service/changelog.Debian.gz

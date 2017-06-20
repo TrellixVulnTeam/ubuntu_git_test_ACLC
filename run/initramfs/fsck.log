@@ -1,0 +1,7 @@
+Log of fsck -C -a -T -t ext4 /dev/sda1 
+Tue Jun 20 12:34:52 2017
+
+/dev/sda1: clean, 185514/983040 files, 1284804/3931648 blocks
+
+Tue Jun 20 12:34:52 2017
+----------------

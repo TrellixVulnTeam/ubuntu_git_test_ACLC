@@ -1,0 +1,11 @@
+[Desktop Entry]
+X-AppInstall-Package=wxmaxima
+X-AppInstall-Popcon=102
+X-AppInstall-Section=universe
+
+Name=wxMaxima
+Exec=/usr/bin/wxmaxima
+Icon=wxmaxima
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

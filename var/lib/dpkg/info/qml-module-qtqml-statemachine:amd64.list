@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/StateMachine
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/StateMachine/libqtqmlstatemachine.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/StateMachine/plugins.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/StateMachine/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-qtqml-statemachine
+/usr/share/doc/qml-module-qtqml-statemachine/copyright
+/usr/share/doc/qml-module-qtqml-statemachine/changelog.Debian.gz

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=spatialite-gui
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=Spatialite GUI
+Exec=spatialite-gui %f
+Terminal=false
+Type=Application
+Categories=Development;Database;
+Keywords=spatial;sqlite;gis
+
+X-Ubuntu-Gettext-Domain=app-install-data

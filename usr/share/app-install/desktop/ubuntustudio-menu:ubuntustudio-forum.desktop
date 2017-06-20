@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=120
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=xdg-open http://ubuntuforums.org/forumdisplay.php?f=335
+Icon=system-help
+StartupNotify=false
+Name=Ubuntu Studio Forum
+Comment=Go to the Ubuntu Studio Forum
+Keywords=Info;Information;Ubuntustudio;Forum;
+Terminal=false
+Categories=System;Documentation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

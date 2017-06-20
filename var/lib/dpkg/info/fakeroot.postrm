@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "remove" ]
+then
+    # ldconfig would clean this up the next time it's run, but
+    # we remove it to make piuparts stop complaining
+    rm -f /usr/lib/x86_64-linux-gnu/libfakeroot/libfakeroot-0.so
+fi
+
+

@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/profile.d
+/etc/profile.d/qtubuntu-print.sh
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/plugins
+/usr/lib/x86_64-linux-gnu/qt5/plugins/printsupport
+/usr/lib/x86_64-linux-gnu/qt5/plugins/printsupport/libqtubuntu-print.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/qtubuntu-print
+/usr/share/doc/qtubuntu-print/changelog.Debian.gz
+/usr/share/doc/qtubuntu-print/copyright

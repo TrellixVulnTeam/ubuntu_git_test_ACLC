@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=plume-creator
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Name=Plume Creator
+GenericName=Writing software
+Comment=Write your fiction here ! Manage your writing projects
+Icon=plume-creator
+Exec=plume-creator
+Terminal=false
+Type=Application
+Categories=Qt;Office;
+MimeType=application/x-plume;application/x-plume-backup;
+
+X-Ubuntu-Gettext-Domain=app-install-data

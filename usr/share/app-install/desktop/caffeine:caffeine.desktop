@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=caffeine
+X-AppInstall-Popcon=385
+X-AppInstall-Section=universe
+
+Icon=caffeine
+Name=Caffeine
+Comment=Temporarily deactivate the screensaver and sleep mode
+Exec=/usr/bin/caffeine
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=Screensaver,Power,Saving,Blank
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="unity-scope-gdrive">
+  <description>Google Drive search plugin</description>
+  <translations>unity-scope-gdrive</translations>
+  <desktop-entry>unity-scope-gdrive.desktop</desktop-entry>
+
+
+  <services>
+    <service id="google-drive-scope">
+      <description>Search your Google Drive files</description>
+    </service>
+  </services>
+
+</application>

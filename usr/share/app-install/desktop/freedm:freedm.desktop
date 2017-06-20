@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=freedm
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=FreeDM
+Comment=Fight friends and enemies in competitive deathmatch
+GenericName=First Person Shooter Game
+Type=Application
+Icon=freedm
+Keywords=first;person;shooter;doom;freedoom;
+Categories=Game;ActionGame;
+Path=/usr/share/games/doom
+Exec=freedm
+
+X-Ubuntu-Gettext-Domain=app-install-data

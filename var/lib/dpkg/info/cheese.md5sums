@@ -1,0 +1,12 @@
+3be3d48bb306ecc53d20928ed6ca91f5  usr/bin/cheese
+34ded73574cd7bc5270aa94467ae9b01  usr/lib/cheese/gnome-camera-service
+ceb91b195cbdccb42fb7bdeacaf2b47a  usr/share/appdata/org.gnome.Cheese.appdata.xml
+51435288ddeed436cee9c776b1058fbd  usr/share/applications/cheese.desktop
+d4e02adcaebacdcb640634ca49bbbcc7  usr/share/applications/org.gnome.Cheese.desktop
+fe372a592a5730951640584dd67a4af3  usr/share/dbus-1/services/org.gnome.Camera.service
+47f2a253a32c85ce8a02a183329884d2  usr/share/dbus-1/services/org.gnome.Cheese.service
+74ac5ab12d0fbb3d7d9ca403c800e26a  usr/share/doc/cheese/AUTHORS
+451e284b22a3d741615fd91fe1c179f6  usr/share/doc/cheese/NEWS.gz
+acee96f2611de5bc506dc32c89233f9a  usr/share/doc/cheese/README
+06900a7d855a539f631203a80bc0feda  usr/share/doc/cheese/copyright
+1e6dc0005e5b5a010c43cfef42727017  usr/share/man/man1/cheese.1.gz

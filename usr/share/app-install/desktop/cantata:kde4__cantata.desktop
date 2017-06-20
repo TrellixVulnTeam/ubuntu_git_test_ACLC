@@ -1,0 +1,48 @@
+[Desktop Entry]
+X-AppInstall-Package=cantata
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Cantata
+GenericName=Music Player Client
+Icon=cantata
+Exec=cantata %U
+Categories=Qt;KDE;AudioVideo;Player;
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=com.googlecode.cantata
+Keywords=Music;MPD;
+Actions=Previous;Play;Pause;Stop;StopAfterCurrent;Next;
+
+[Desktop Action Previous]
+Name=Previous Track
+Exec=/usr/share/cantata/scripts/cantata-remote Previous
+OnlyShowIn=Unity;
+
+[Desktop Action Play]
+Name=Play
+Exec=/usr/share/cantata/scripts/cantata-remote Play
+OnlyShowIn=Unity;
+
+[Desktop Action Pause]
+Name=Pause
+Exec=/usr/share/cantata/scripts/cantata-remote Pause
+OnlyShowIn=Unity;
+
+[Desktop Action Stop]
+Name=Stop
+Exec=/usr/share/cantata/scripts/cantata-remote Stop
+OnlyShowIn=Unity;
+
+[Desktop Action StopAfterCurrent]
+Name=Stop After Current Track
+Exec=/usr/share/cantata/scripts/cantata-remote StopAfterCurrent
+OnlyShowIn=Unity;
+
+[Desktop Action Next]
+Name=Next Track
+Exec=/usr/share/cantata/scripts/cantata-remote Next
+OnlyShowIn=Unity;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,4 @@
+90b8efae34f397ac1f3266e853922d1b  usr/lib/dconf/dconf-service
+b0d84954bc27d0a7237e87f8612fc6c4  usr/share/dbus-1/services/ca.desrt.dconf.service
+13b63f5a07beec6391a9c2295db3c670  usr/share/doc/dconf-service/copyright
+d5d0d9e5afce5d3e3fb8e6c2e808f7c0  usr/share/man/man1/dconf-service.1.gz

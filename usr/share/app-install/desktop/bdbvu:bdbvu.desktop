@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=bdbvu
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=BDBVu
+Comment=Berkeley DB Viewer
+TryExec=bdbvu
+Exec=bdbvu %U
+Terminal=false
+Type=Application
+Categories=Database;Development;Qt;
+Keywords=berkeley;database;
+MimeType=application/octet-stream;
+
+X-Ubuntu-Gettext-Domain=app-install-data

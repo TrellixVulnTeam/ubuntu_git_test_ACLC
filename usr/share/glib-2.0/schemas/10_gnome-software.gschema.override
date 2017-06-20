@@ -1,0 +1,4 @@
+[org.gnome.software]
+official-sources=['ubuntu-*']
+free-sources=['ubuntu-*-main', 'ubuntu-*-universe']
+free-sources-url='https://www.ubuntu.com/about/about-ubuntu/licensing'

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pyracerz
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=pyRacerz
+Icon=pyracerz
+GenericName=Racing game
+Exec=pyracerz
+Categories=Game;ArcadeGame;
+Comment=2D racing game
+Keywords=2D;racing;cars;tracks;pygame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,4 @@
+[Whitelisted installs]
+Identity=unix-group:admin;unix-group:sudo
+Action=org.debian.apt.install-packages.high-trust-repo
+ResultActive=yes

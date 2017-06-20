@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=pyqso
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=/usr/bin/pyqso
+Name=PyQSO
+Comment=Contact Logging Tool
+Icon=_usr_share_icons_log_64x64
+Categories=Utility;HamRadio
+Keywords=Ham Radio;Logbook
+
+X-Ubuntu-Gettext-Domain=app-install-data

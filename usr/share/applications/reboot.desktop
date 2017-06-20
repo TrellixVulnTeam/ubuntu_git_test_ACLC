@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Reboot
+Comment=Reboot the computer
+GenericName=Reboot
+Exec=gnome-session-quit --reboot
+Terminal=false
+Type=Application
+Categories=Utility
+Icon=/usr/share/unity/icons/restart_highlight.png
+NotShowIn=GNOME-Flashback;
+X-AppStream-Ignore=true

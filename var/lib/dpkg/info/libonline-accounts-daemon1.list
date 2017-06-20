@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libOnlineAccountsDaemon.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/libonline-accounts-daemon1
+/usr/share/doc/libonline-accounts-daemon1/changelog.Debian.gz
+/usr/share/doc/libonline-accounts-daemon1/copyright

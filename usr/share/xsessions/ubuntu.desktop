@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Ubuntu
+Comment=This session logs you into Ubuntu
+Exec=/usr/lib/gnome-session/run-systemd-session ubuntu-session.target
+TryExec=unity
+Icon=
+Type=Application
+DesktopNames=Unity:Unity7
+X-Ubuntu-Gettext-Domain=gnome-session-3.0

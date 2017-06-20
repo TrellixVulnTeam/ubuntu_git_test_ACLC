@@ -1,0 +1,9 @@
+d1565ba5cfec83ee8f3921d46a9b17ad  usr/bin/ubuntu-webapps-update-index
+b20d4afa9399f6df65bb4c0edb308af3  usr/bin/unity-webapps-desktop-file
+43431e298b37f905802587be0074fd5c  usr/bin/unity-webapps-runner
+364b83fbefd11de4d838bd70e1fae12c  usr/lib/libunity-webapps/unity-webapps-context-daemon
+bdd579fff5133cdd169c03f075f502f6  usr/lib/libunity-webapps/unity-webapps-service
+ca1d1e9b8c8c084d1c48520cae600536  usr/share/dbus-1/services/com.canonical.Unity.Webapps.Service.service
+88ac57fafec08cf466e23dc5fd5da896  usr/share/doc/unity-webapps-service/changelog.Debian.gz
+26d763d1c893cca3b02e3ca7f4d64485  usr/share/doc/unity-webapps-service/copyright
+9bbce4dea51a13522424f63932ae95cf  usr/share/glib-2.0/schemas/com.canonical.unity.webapps.gschema.xml

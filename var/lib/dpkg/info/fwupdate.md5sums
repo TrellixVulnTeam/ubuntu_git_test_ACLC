@@ -1,0 +1,11 @@
+e0b4af5b9cab749f804aaac2aeb03ce4  lib/systemd/system/fwupdate-cleanup.service
+19fe825255ee05a2f8f935bb70fb1bf4  usr/bin/fwupdate
+60557cf6a58df24d38cf44919314d82c  usr/lib/fwupdate/cleanup
+985e86df5b98eaca19e8b2c74c96c874  usr/lib/fwupdate/fwupx64.efi
+a2bb063a4a883851944cf6448ebb4a8f  usr/lib/fwupdate/install
+bf9c7ad32d8d5058815b2002fceb3c54  usr/share/doc/fwupdate/copyright
+21c16c2bf26c3f1cc382b3e2ce461ed8  usr/share/lintian/overrides/fwupdate
+3315a612fef7d9a35d3199e2418ffedd  usr/share/locale/en/fwupdate.po
+e93643af8ef4031bb04282147f864c05  usr/share/locale/en/libfwup.po
+e35fbbbf3f681a47d09a15af1bf872b4  usr/share/man/man1/fwupdate.1.gz
+252f2554ed849a4f0ef4a59c0551c3c4  usr/share/man/man3/libfwup.3.gz

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=usbview
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=USBView
+Comment=View USB devices attached to system
+Exec=su-to-root -X -c /usr/bin/usbview
+Icon=usbview
+Terminal=false
+Type=Application
+Keywords=USB;devices;connected;removable;
+Categories=GTK;HardwareSettings;Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

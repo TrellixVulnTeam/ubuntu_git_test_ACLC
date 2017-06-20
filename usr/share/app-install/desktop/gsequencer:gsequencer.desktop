@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=gsequencer
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Exec=gsequencer
+Icon=_usr_share_gsequencer_icons_ags
+Name=Advanced Gtk+ Sequencer
+Categories=AudioVideo;Audio;
+Keywords=audio,sequencer,notation,editor,midi,synth,mixing,effects
+
+X-Ubuntu-Gettext-Domain=app-install-data

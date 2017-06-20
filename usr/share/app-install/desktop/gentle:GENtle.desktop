@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=gentle
+X-AppInstall-Popcon=2
+X-AppInstall-Section=multiverse
+
+Version=1.0
+Type=Application
+Name=GENtle
+Comment=Suite to plan genetic cloning
+Exec=GENtle
+Icon=gentle
+Categories=Science;Biology;MedicalSoftware;
+
+X-Ubuntu-Gettext-Domain=app-install-data

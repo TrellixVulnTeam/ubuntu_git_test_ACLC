@@ -1,0 +1,11 @@
+[PlainBox Provider]
+bin_dir = /usr/lib/plainbox-provider-resource-generic/bin
+data_dir = /usr/share/plainbox-provider-resource-generic/data
+description = PlainBox resources provider
+gettext_domain = plainbox-provider-resource-generic
+jobs_dir = /usr/share/plainbox-provider-resource-generic/jobs
+locale_dir = /usr/share/locale
+name = plainbox-provider-resource-generic
+namespace = 2013.com.canonical.certification
+version = 0.23
+

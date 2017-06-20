@@ -1,0 +1,46 @@
+[Desktop Entry]
+X-AppInstall-Package=pinta
+X-AppInstall-Popcon=305
+X-AppInstall-Section=universe
+
+Name=Pinta
+Comment=Easily create and edit images
+GenericName=Image Editor
+X-GNOME-FullName=Pinta Image Editor
+X-GNOME-FullName[ast]=Editor d'imaxes Pinta
+X-GNOME-FullName[bg]=Редактор на изображения Pinta
+X-GNOME-FullName[br]=Pinta Embanner skeudennoù
+X-GNOME-FullName[ca]=Editor d’imatges Pinta
+X-GNOME-FullName[cs]=Grafický editor Pinta
+X-GNOME-FullName[da]=Pinta billedredigeringsprogram
+X-GNOME-FullName[de]=Pinta-Bildbearbeitung
+X-GNOME-FullName[el]=Επεξεργασία εικόνας Pinta
+X-GNOME-FullName[en_AU]=Pinta Image Editor
+X-GNOME-FullName[en_CA]=Pinta Image Editor
+X-GNOME-FullName[en_GB]=Pinta Image Editor
+X-GNOME-FullName[es]=Editor de imágenes Pinta
+X-GNOME-FullName[eu]=Pinta irudi-editorea
+X-GNOME-FullName[fi]=Pinta-kuvankäsittely
+X-GNOME-FullName[fr]=Éditeur d'image Pinta
+X-GNOME-FullName[gl]=Editor de imaxes Pinta
+X-GNOME-FullName[he]=עורך התמונות פינטה
+X-GNOME-FullName[hu]=Pinta képszerkesztő
+X-GNOME-FullName[ja]=Pinta 画像エディター
+X-GNOME-FullName[ms]=Penyunting Imej Pinta
+X-GNOME-FullName[nl]=Pinta afbeeldingsbewerker
+X-GNOME-FullName[pt]=Editor de imagens Pinta
+X-GNOME-FullName[ru]=Редактор изображений Pinta
+X-GNOME-FullName[sk]=Pinta editor obrázkov
+X-GNOME-FullName[sl]=Urejevalnik slik Pinta
+X-GNOME-FullName[uk]=Редактор зображень Pinta
+X-GNOME-FullName[zh_CN]=Pinta 图片编辑器
+X-GNOME-FullName[zh_TW]=Pinta 圖片編輯器
+Exec=pinta %F
+Icon=pinta
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Graphics;2DGraphics;RasterGraphics;GTK;
+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/svg+xml;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/x-targa;image/x-tga;image/openraster;
+
+X-Ubuntu-Gettext-Domain=app-install-data

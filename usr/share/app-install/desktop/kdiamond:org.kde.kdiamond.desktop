@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kdiamond
+X-AppInstall-Popcon=76
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=kdiamond -qwindowtitle %c
+Name=KDiamond
+GenericName=Three-in-a-row game
+Terminal=false
+Icon=kdiamond
+StartupNotify=true
+Categories=Qt;KDE;Game;LogicGame;
+X-DocPath=kdiamond/index.html
+X-DBUS-ServiceName=org.kde.kdiamond
+
+X-Ubuntu-Gettext-Domain=app-install-data

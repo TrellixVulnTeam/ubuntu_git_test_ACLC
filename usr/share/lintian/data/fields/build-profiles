@@ -1,0 +1,11 @@
+cross
+nobiarch
+nocheck
+nodoc
+nogolang
+nojava
+noperl
+nopython
+noudeb
+stage1
+stage2

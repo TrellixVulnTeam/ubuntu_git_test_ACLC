@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=kmenuedit
+X-AppInstall-Popcon=794
+X-AppInstall-Section=universe
+
+Exec=kmenuedit
+Icon=kmenuedit
+X-DocPath=kmenuedit/index.html
+Type=Application
+StartupNotify=true
+OnlyShowIn=KDE;
+
+Name=Menu Editor
+
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.kmenuedit
+Categories=Qt;KDE;Settings;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

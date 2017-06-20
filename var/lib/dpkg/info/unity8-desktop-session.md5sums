@@ -1,0 +1,8 @@
+5f43138f7501b232e66a07eafbf27437  usr/bin/lightdm-unity8-session
+a9ec235e15d893cf8ba17edca907e56b  usr/share/doc/unity8-desktop-session/changelog.Debian.gz
+1c48f72fc8685b96f700c294bc1d7156  usr/share/doc/unity8-desktop-session/copyright
+ed5277ae8a8ce760110594f28a98a760  usr/share/lightdm/lightdm.conf.d/45-unity8.conf
+1d6a753a394bc737f01746df3f822e0d  usr/share/lightdm/sessions/unity8.desktop
+3d646697cf3f9067894b7d8acd6f4bf8  usr/share/unity-greeter/custom_unity8_badge.png
+8d99873fe69a52137dbbaccc980f499c  usr/share/unity8-desktop-session/sensors.txt
+11fe574149d2185c566d8d99946c151b  usr/share/upstart/sessions/unity8-copy-env.conf

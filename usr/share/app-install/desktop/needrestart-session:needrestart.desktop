@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=needrestart-session
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=needrestart
+Comment=Check which system services need to be restarted after upgrades.
+Icon=_usr_share_needrestart-session_needrestart
+TryExec=/usr/sbin/needrestart
+Exec=/usr/bin/pkexec /usr/sbin/needrestart -f gnome
+Terminal=false
+Categories=System;
+Keywords=system;upgrades;packages;services;security;
+X-Desktop-File-Install-Version=0.22
+
+X-Ubuntu-Gettext-Domain=app-install-data

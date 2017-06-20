@@ -1,0 +1,5 @@
+85187c84e87ebc2b5ae1033b4c94c36f  usr/lib/x86_64-linux-gnu/libgflags.so.2.1.2
+85f6f65ceb5c400a18a7d7ba0ab599d3  usr/lib/x86_64-linux-gnu/libgflags_nothreads.so.2.1.2
+cfc9be676748fb27947e2bc1b027b2fc  usr/share/doc/libgflags2v5/changelog.Debian.gz
+452f14665776c74e6a1636b6f4ae24e6  usr/share/doc/libgflags2v5/copyright
+4abb00b07abe9f2dcab50e367c8f01d1  usr/share/lintian/overrides/libgflags2v5

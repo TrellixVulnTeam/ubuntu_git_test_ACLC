@@ -1,0 +1,4 @@
+eb1bc8cf883836629c3ddce5198770d3  usr/lib/x86_64-linux-gnu/libboost_system.so.1.61.0
+3ed96c56be6608a4647dd7ebd9df464d  usr/share/doc/libboost-system1.61.0/changelog.Debian.gz
+6c7dc80f142c405194dda249ff6e9a11  usr/share/doc/libboost-system1.61.0/copyright
+6037d22bbf2db9dec8036d59f677750f  usr/share/lintian/overrides/libboost-system1.61.0

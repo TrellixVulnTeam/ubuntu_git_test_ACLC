@@ -1,0 +1,8 @@
+# Prompt the user to reboot so they get the new u-s-c that has been installed
+[ -x /usr/share/update-notifier/notify-reboot-required ] && \
+  /usr/share/update-notifier/notify-reboot-required || true
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/lightdm/lightdm.conf.d/10-unity-system-compositor.conf 0.0.1+14.04.20131028.1-0ubuntu1 unity-system-compositor -- "$@"
+# End automatically added section
+

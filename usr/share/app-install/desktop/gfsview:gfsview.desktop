@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gfsview
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=GfsView
+Comment=View Gerris simulations
+Exec=gfsview -s %F
+Terminal=false
+Type=Application
+Categories=Application;Education;Science;DataVisualization;
+MimeType=application/gerris-compressed;application/gfsview-2D;application/gfsview-3D;
+NoDisplay=true
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=qsampler
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Name=Qsampler
+Version=1.0
+GenericName=LinuxSampler GUI
+Comment=Qsampler is a LinuxSampler Qt GUI Interface
+Keywords=audio;sound;jackd;midi;sampler;
+Exec=/usr/bin/qsampler
+Icon=qsampler
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Terminal=false
+Type=Application
+X-SuSE-translate=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

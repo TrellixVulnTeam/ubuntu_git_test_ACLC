@@ -1,0 +1,37 @@
+Ubiquity 17.04.9
+/usr/lib/ubiquity/ubiquity/frontend/gtk_ui.py:53: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GObject, GLib, Atk
+/usr/lib/ubiquity/plugins/ubi-timezone.py:195: PyGIWarning: TimezoneMap was imported without specifying a version first. Use gi.require_version('TimezoneMap', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import TimezoneMap
+/usr/lib/ubiquity/ubiquity/misc.py:662: PyGIWarning: Xkl was imported without specifying a version first. Use gi.require_version('Xkl', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Xkl, GdkX11
+update_release_notes_label()
+update_release_notes_label()
+
+(ubiquity:1827): Gdk-CRITICAL **: Window 0x563981e8d980 has not been made visible in GdkSeatGrabPrepareFunc
+Could not translate page (prepare): 'NoneType' object has no attribute 'replace'
+/usr/lib/ubiquity/ubiquity/segmented_bar.py:34: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import GObject, Gdk, Gtk, PangoCairo
+
+(ubiquity:1827): Gtk-CRITICAL **: gtk_widget_set_allocation: assertion '_gtk_widget_get_visible (widget) || _gtk_widget_is_toplevel (widget)' failed
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+
+(ubiquity:1827): Gtk-CRITICAL **: gtk_widget_set_allocation: assertion '_gtk_widget_get_visible (widget) || _gtk_widget_is_toplevel (widget)' failed
+/usr/lib/ubiquity/plugins/ubi-timezone.py:98: PyGIWarning: Soup was imported without specifying a version first. Use gi.require_version('Soup', '2.4') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, GObject, GLib, Soup
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:72: Warning: Source ID 2102 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_layout_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:74: Warning: Source ID 2105 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 2519 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 2529 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 2543 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 2562 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 2571 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 2615 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)

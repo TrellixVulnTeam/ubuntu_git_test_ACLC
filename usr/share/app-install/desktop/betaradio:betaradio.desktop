@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=betaradio
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Categories=GTK;AudioVideo;Audio;Tuner;Music;TrayIcon;
+OnlyShowIn=GNOME;
+Exec=betaradio
+Icon=betaradio
+Type=Application
+Terminal=false
+Name=BetaRadio Tuner
+Comment=An easy way to listen to internet radio of Taiwan.
+Keywords=radio;taiwan;
+
+X-Ubuntu-Gettext-Domain=app-install-data

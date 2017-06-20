@@ -1,0 +1,11 @@
+[Unit]
+Description=GnuPG network certificate management daemon
+Documentation=man:dirmngr(8)
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/dirmngr --daemon --homedir %h/.gnupg
+Restart=always
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,32 @@
+System Settings Server/Client
+=============================
+
+Both Server and Client applications are using cmake as default build tool.
+This file will guide you to compile these applications.
+
+
+1. SERVER
+=========
+
+The Server application is the application which make available the menu
+structure over dbus.
+
+3. COMPILING
+============
+
+./autogen.sh
+make
+
+3. EXAMPLES
+===========
+
+To test the current implementation you should run the server and client
+application simultaneously. To do that follow the steps below:
+
+In the build directory(<project-dir>/build):
+    ./exportmenu/exportmenu examples/test.xml &
+
+Then from the chewie-client package run:
+     ./client/examples/run-client-app.sh
+
+

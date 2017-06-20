@@ -1,0 +1,25 @@
+[Window Manager]
+SessionManaged=true
+
+[Desktop Entry]
+X-AppInstall-Package=afterstep
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=AfterStep
+Type=Application
+Comment=AfterStep is feature rich NeXTish window manager.
+# name we put on the WM spec check window
+X-GNOME-WMName=AfterStep
+# back compat only 
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=true
+
+
+NoDisplay=true
+Exec=/usr/bin/afterstep
+TryExec=/usr/bin/afterstep
+Icon=_usr_share_afterstep_desktop_icons_large_AfterStep3
+
+X-Ubuntu-Gettext-Domain=app-install-data

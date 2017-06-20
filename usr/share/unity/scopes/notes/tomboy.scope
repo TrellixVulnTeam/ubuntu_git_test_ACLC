@@ -1,0 +1,19 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Notes.Tomboy
+DBusPath=/com/canonical/unity/scope/notes/tomboy
+Icon=/usr/share/icons/unity-icon-theme/places/svg/group-notes.svg
+QueryBinary=tomboy
+Keywords=tomboy;note;notes;memo;
+RequiredMetadata=
+OptionalMetadata=tags[s];last_changed[s];
+Loader=/usr/share/unity-scopes/tomboy/unity_tomboy_daemon.py
+Module=tomboy.unity_tomboy_daemon
+ModuleType=python3
+RemoteContent=false
+Type=notes
+Name=Tomboy
+Description=This is an Ubuntu search plugin that enables information from Tomboy to be searched and displayed in the Dash underneath the Notes header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Tomboy notes
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-tomboy

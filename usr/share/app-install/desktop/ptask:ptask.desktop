@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ptask
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=ptask
+GenericName=ptask
+Comment=ptask is a task management tool based on taskwarrior
+Icon=ptask
+TryExec=ptask
+Exec=ptask
+Categories=Utility;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

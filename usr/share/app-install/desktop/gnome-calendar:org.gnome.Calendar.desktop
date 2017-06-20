@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-calendar
+X-AppInstall-Section=universe
+
+Name=Calendar
+Comment=Access, and manage calendar
+Exec=gnome-calendar
+Icon=gnome-calendar
+Terminal=false
+Type=Application
+StartupNotify=true
+OnlyShowIn=GNOME;
+Categories=GNOME;GTK;Utility;Core;
+Keywords=Calendar;Event;Reminder;
+MimeType=text/calendar;
+DBusActivatable=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

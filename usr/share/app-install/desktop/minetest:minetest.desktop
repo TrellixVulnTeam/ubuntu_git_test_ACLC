@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=minetest
+X-AppInstall-Popcon=65
+X-AppInstall-Section=universe
+
+Name=Minetest
+GenericName=Minetest
+Comment=Multiplayer infinite-world block sandbox
+Exec=minetest
+Icon=minetest-icon
+Terminal=false
+Type=Application
+Categories=Game;
+StartupNotify=false
+Keywords=sandbox;world;mining;crafting;blocks;nodes;multiplayer;roleplaying;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

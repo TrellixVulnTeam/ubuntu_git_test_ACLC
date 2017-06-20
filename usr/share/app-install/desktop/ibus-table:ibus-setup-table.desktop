@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-table
+X-AppInstall-Popcon=3608
+X-AppInstall-Section=main
+
+Name=IBus Table Setup
+Comment=Set ibus-table preferences
+Exec=/usr/lib/ibus/ibus-setup-table
+Icon=_usr_share_ibus-table_icons_chinese
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

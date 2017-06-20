@@ -1,0 +1,6 @@
+/etc/dbus-1/system.d/com.canonical.Unity.Screen.conf
+/etc/dbus-1/system.d/com.canonical.powerd.conf
+/etc/dbus-1/system.d/com.canonical.repowerd.conf
+/etc/init/repowerd.conf
+/etc/logrotate.d/repowerd
+/etc/rsyslog.d/20-repowerd.conf

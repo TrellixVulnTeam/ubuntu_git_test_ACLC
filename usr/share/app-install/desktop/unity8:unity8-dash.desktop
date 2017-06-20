@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=unity8
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Scopes
+Comment=An interface for using the Scopes system
+Exec=/usr/bin/unity8-dash
+Terminal=false
+Icon=
+NoDisplay=true
+X-Ubuntu-Touch=true
+X-Ubuntu-Supported-Orientations=primary
+
+X-Ubuntu-Gettext-Domain=app-install-data

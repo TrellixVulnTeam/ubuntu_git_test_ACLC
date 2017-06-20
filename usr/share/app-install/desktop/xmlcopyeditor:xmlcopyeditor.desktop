@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xmlcopyeditor
+X-AppInstall-Popcon=48
+X-AppInstall-Section=universe
+
+Name=XML Copy Editor
+GenericName=XML Editor
+Comment=Edit XML documents
+Type=Application
+Exec=xmlcopyeditor %U
+Icon=xmlcopyeditor
+Terminal=false
+MimeType=text/xml;
+Categories=Development;Utility;TextEditor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kmail
+X-AppInstall-Popcon=4125
+X-AppInstall-Section=universe
+
+Name=MBoxImporter
+Type=Application
+Exec=mboximporter %u
+Icon=kmail
+MimeType=application/mbox;
+Categories=Qt;KDE;Office;Network;Email;
+StartupNotify=true
+Hidden=true
+X-DBUS-ServiceName=org.kde.mboximporter
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,327 @@
+# -*- mode: sh -*-
+		      ############################
+		      # Bash Routines for UBUntu #
+		      ############################
+
+########################################################################
+# Defaults
+QUIET=${QUIET:-0}
+COLUMNS=${COLUMNS:-80}
+INTERACTIVE=${INTERACTIVE:-"no"}
+
+########################################################################
+# Notifications
+#
+write_msg() {
+    echo "*** $*" | fold -s -w "${COLUMNS}"
+}
+
+msg() {
+    if [ ${QUIET} -lt 1 ]; then
+	write_msg "$*"
+    fi
+}
+
+dbg() {
+    if [ ${QUIET} -lt 2 ]; then
+	write_msg "$*"
+    fi
+}
+
+warn() {
+    write_msg "Warning:  $*" 1>&2
+}
+
+die() {
+    write_msg "ERROR:  $*" 1>&2
+    final_summary
+    exit 1
+}
+
+interact() {
+    if [ "${INTERACTIVE}" = "yes" ]; then
+	echo -n "Press enter to $1 ..."
+	read nothing
+    else
+	echo "Proceeding to $1"
+    fi
+}
+
+
+########################################################################
+# Test results tracking
+#
+declare -a RESULTS
+declare -a _RESULT_STATUS
+declare -a _RESULT_ACTION
+declare -a _RESULT_ARG
+pass_count=0
+fail_count=0
+
+_push_result() {
+    status=$1
+    action=$2
+    arg=$3
+
+    i=${#RESULTS[*]}
+
+    RESULTS[$i]="$status $action $arg"
+    _RESULT_STATUS[$i]=$status
+    _RESULT_ACTION[$i]=$action
+    _RESULT_ARG[$i]=$arg
+}
+
+clear_results() {
+    RESULTS=()
+    _RESULT_STATUS=()
+    _RESULT_ACTION=()
+    _RESULT_ARG=()
+}
+
+pass() {
+    msg=$1
+    echo "[PASS]  $msg"
+    _push_result "pass" "$msg" ""
+    pass_count=$(( $pass_count + 1 ))
+    return 0
+}
+
+fail() {
+    msg=$1
+    echo "[FAIL]  $msg"
+    _push_result "FAIL" "$msg" ""
+    fail_count=$(( $fail_count + 1 ))
+    return 1
+}
+
+display_results() {
+    for i in $(seq 0 ${#RESULTS[*]}) ; do
+	echo ${RESULTS[$i]}
+    done
+}
+
+final_summary() {
+    echo
+    echo "Results: ${#RESULTS[*]};  Passed: $pass_count;  Failed: $fail_count"
+}
+
+json_test_summary() {
+    [ ! -z "$1" ] || return 1
+    echo > $1 <<EOF
+{
+    "results":    "${#RESULTS[*]}",
+    "passed":     "$pass_count",
+    "failed":     "$fail_count"
+}
+EOF
+    return 0
+}
+
+
+########################################################################
+# Tests of various basic conditions of files, processes, users, etc.
+#
+is_superuser() {
+    test $(id -u) = 0
+}
+
+is_running() {
+    proc=$1
+    $(pidof $proc > /dev/null)
+}
+
+is_installed() {
+    prog=$1
+    need=$2
+    /usr/bin/which $prog > /dev/null 2>&1
+    err=$?
+    if [ ! $err = 0 ]; then
+	warn "Could not $need because $prog is not installed ($err)"
+	return $err
+    fi
+    return 0
+}
+
+# is_pid_running(PID)
+#
+#  Checks if the given $PID is still running.  Returns a true value if
+#  it is, false otherwise.
+#
+is_pid_running() {
+    PID=$1
+    ps --pid ${PID} --no-header | grep ${PID}
+    return $?
+}
+
+is_chroot() {
+    r=$(stat / | grep -v File:)
+    s=$(stat /proc/1/root/ | grep -v File:)
+    test "$r" != "$s"
+    return $?
+}
+
+########################################################################
+# Paths and filenames
+#
+abspath() {
+    if [ -d $1 ] ; then
+	dir=${1%/}/
+    else
+	dir=$(dirname $1)/
+    fi
+    echo $(cd ${dir} && echo ${PWD%/}/${dir##*/})
+}
+
+
+########################################################################
+# Process control
+#
+stop_service() {
+    svc=$1
+    pidof $svc > /dev/null && /etc/init.d/$svc stop
+    pidof $svc > /dev/null && die "Could not stop service $svc"
+    echo "Service $svc stopped"
+}
+
+stop_command() {
+    cmd=$1
+    pidof $cmd > /dev/null && pkill -9 $cmd
+    pidof $cmd > /dev/null && die "Could not stop command $cmd"
+    echo "Command $cmd stopped"
+}
+
+# kill_pid(PID)
+#
+#  Forcibly kills the process ID and prevents it from
+#  displaying any messages (to stdout, stderr, or otherwise)
+#
+kill_pid()
+{
+    PID=$1
+    disown $PID
+    kill -9 $PID > /dev/null 2>&1
+}
+
+
+########################################################################
+# Apt Packaging
+#
+apt_install() {
+    pkgs=$*
+    for pkg in $pkgs; do
+	/usr/bin/apt-get install --yes --allow-unauthenticated $pkg
+	if [ $? -eq 0 ]; then
+	    _push_result "pass" "apt_install" "$pkg"
+	    else
+	    _push_result "FAIL" "apt_install" "$pkg"
+	    fi
+    done
+}
+
+apt_remove()
+{
+    pkgs=$*
+    for pkg in $pkgs; do
+	/usr/bin/apt-get remove --yes --allow-unauthenticated $pkg
+	if [ $? -eq 0 ]; then
+	    _push_result "pass" "apt_install" "$pkg"
+	else
+	    _push_result "FAIL" "apt_install" "$pkg"
+	fi
+    done
+}
+
+apt_build_dep()
+{
+    pkgs=$*
+    for pkg in $pkgs; do
+	/usr/bin/apt-get build-dep --yes --allow-unauthenticated $pkg
+	if [ $? -eq 0 ]; then
+	    _push_result "pass" "apt_build_dep" "$pkg"
+	else
+	    _push_result "FAIL" "apt_build_dep" "$pkg"
+	fi
+    done
+}
+
+
+########################################################################
+# Config file manip
+config_hash_line() {
+    file=$1
+    shift
+    line=$*
+
+    cp ${file} ${file}.orig
+    sed -e "s/^$line$/#$line/g" ${file}.orig \
+	> ${file}
+}
+
+config_contains() {
+    file=$1
+    shift
+    text=$*
+
+    egrep "${text}" $file > /dev/null 2>&1
+    return $?
+}
+
+config_add_line() {
+    file=$1
+    shift
+    line=$*
+
+    egrep "^ *${line}$" $file > /dev/null 2>&1
+    if [ $? -ne 0 ] ; then
+	echo ${line} >> $file
+    fi
+}
+
+
+########################################################################
+# xorg-specific functions
+#
+get_xorg_drivers() {
+    pid=`pidof X`
+    if [ -z "$pid" ]; then
+	echo "Error:  X is not running"
+	return 1
+    fi
+    cat /proc/$pid/smaps | \
+	egrep '_drv.so|_dri.so' | \
+	cut -d '/' -f 7 | \
+	cut -d "_" -f 1 | \
+	sort -u
+}
+
+get_debian_version() {
+    pkg=$1
+    dpkg -l $pkg  | cat \
+	| egrep '^ii' \
+	| sed -e "s/ \+/ /g" \
+	| cut -d' ' -f 3
+}
+
+get_installed_version() {
+    get_debian_version $1 \
+	| sed -e "s/^.*+//" \
+	| cut -d- -f1 \
+	| sed -e "s/^[0-9]://" \
+	| sed -e "s/ubuntu.*$//"
+}
+
+get_base_version() {
+    buf=${1#*:}          # Strip epoch
+    echo ${buf%-*}       # Strip debian version
+}
+
+ok_if_pkg_ge() {
+    pkg=$1; shift || true
+    wanted=$1; shift || true
+
+    have=$(dpkg -s "$pkg" 2>/dev/null | grep -m1 ^Version: | cut -d" " -f2-)
+    if dpkg --compare-versions "$have" ge "$wanted"; then exit 0; fi
+}
+
+
+# vi:set ts=4 sw=4 expandtab:

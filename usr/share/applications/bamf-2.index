@@ -1,0 +1,138 @@
+gkbd-keyboard-display.desktop	gkbd-keyboard-display		GNOME;	true
+libreoffice-impress.desktop	libreoffice --impress %U	libreoffice-impress		false
+nautilus.desktop	nautilus --new-window %U			false
+nautilus-home.desktop	nautilus --new-window %U		GNOME;Unity;	true
+unity-universal-access-panel.desktop	unity-control-center universal-access		Unity7;	false
+geoclue-where-am-i.desktop	/usr/lib/geoclue-2.0/demos/where-am-i			true
+transmission-gtk.desktop	transmission-gtk %U			false
+unity-credentials-panel.desktop	unity-control-center credentials		Unity;	false
+org.gnome.Terminal.desktop	gnome-terminal		GNOME;Unity7;	true
+online-accounts-ui.desktop	/usr/bin/online-accounts-ui			true
+org.gnome.Cheese.desktop	cheese			true
+unity8.desktop	/usr/bin/unity8			true
+mount-archive.desktop	/usr/lib/gvfs/gvfsd-archive file=%u			true
+org.gnome.Totem.desktop	totem %U			true
+ibus-setup.desktop	ibus-setup			false
+ubuntu-terminal-app.desktop	terminal		Unity8	false
+gnome-terminal.desktop	gnome-terminal		GNOME;Unity7;	false
+unity-appearance-panel.desktop	unity-control-center appearance		Unity7;	false
+debian-uxterm.desktop	uxterm			false
+unity-bluetooth-panel.desktop	unity-control-center bluetooth		Unity7;	false
+unity8-dash.desktop	/usr/bin/unity8-dash			false
+python2.7.desktop	/usr/bin/python2.7			true
+gnome-disk-image-writer.desktop	gnome-disks --restore-disk-image %U			true
+unity-wacom-panel.desktop	unity-control-center wacom		Unity7;	false
+onboard.desktop	onboard			false
+gnome-sudoku.desktop	gnome-sudoku			false
+logout.desktop	gnome-session-quit --logout			false
+python3.5.desktop	/usr/bin/python3.5			true
+credentials-preferences.desktop	credentials-preferences			false
+ubuntu-printing-app.desktop	ubuntu-printing-app			true
+unity-region-panel.desktop	unity-control-center region		Unity7;	false
+org.gnome.Calendar.desktop	gnome-calendar			false
+ubuntu-amazon-default.desktop	unity-webapps-runner --amazon --app-id=ubuntu-amazon-default			false
+apturl.desktop	apturl %u			true
+simple-scan.desktop	simple-scan			false
+libreoffice-math.desktop	libreoffice --math %U	libreoffice-math		false
+libreoffice-calc.desktop	libreoffice --calc %U	libreoffice-calc		false
+gnome-software-local-file.desktop	gnome-software --local-filename=%f			true
+unity-power-panel.desktop	unity-control-center power		Unity7;	false
+rhythmbox-device.desktop	rhythmbox-client --select-source %U			true
+org.gnome.PowerStats.desktop	gnome-power-statistics		GNOME;Unity;	false
+rhythmbox.desktop	rhythmbox %U			false
+vino-preferences.desktop	vino-preferences		Unity;	false
+debian-xterm.desktop	xterm			false
+bluetooth-sendto.desktop	bluetooth-sendto			true
+system-config-printer.desktop	system-config-printer			false
+unity-network-panel.desktop	unity-control-center network		Unity7;	false
+update-accounts.desktop	/usr/lib/x86_64-linux-gnu/update-accounts			true
+unity-control-center.desktop	unity-control-center --overview		Unity7;	false
+evince.desktop	evince %U			false
+unity-display-panel.desktop	unity-control-center display		Unity7;	false
+org.gnome.Screenshot.desktop	gnome-screenshot --interactive			false
+onboard-settings.desktop	onboard-settings			false
+update-manager.desktop	/usr/bin/update-manager			false
+yelp.desktop	yelp %u		GNOME;Unity;	false
+libreoffice-writer.desktop	libreoffice --writer %U	libreoffice-writer		false
+unity-sound-panel.desktop	unity-control-center sound		Unity7;	false
+org.gnome.font-viewer.desktop	gnome-font-viewer %u			false
+unity-screen-panel.desktop	unity-control-center screen		Unity7;	false
+org.gnome.DiskUtility.desktop	gnome-disks			false
+libreoffice-startcenter.desktop	libreoffice %U	libreoffice-startcenter		false
+shutdown.desktop	gnome-session-quit --power-off			false
+cheese.desktop	cheese			false
+unity-info-panel.desktop	unity-control-center info		Unity7;	false
+unity-deja-dup-panel.desktop	unity-control-center deja-dup		Unity7;	false
+unity-color-panel.desktop	unity-control-center color		Unity7;	false
+deja-dup-preferences.desktop	deja-dup-preferences			false
+history-daemon.desktop	history-daemon			true
+unitywebappsqmllauncher.desktop	/usr/bin/unity-webapps-qml-launcher $@			true
+nautilus-classic.desktop	nautilus --no-default-window --force-desktop		GNOME;	true
+im-config.desktop	im-config		KDE;GNOME;	false
+unity-activity-log-manager-panel.desktop	unity-control-center activity-log-manager		Unity;	false
+content-hub-send.desktop	content-hub-send %U			true
+ubuntu-system-settings.desktop	system-settings %u			false
+signon-ui.desktop	/usr/bin/signon-ui			true
+gksu.desktop	gksu /usr/bin/x-terminal-emulator			true
+hplj1020.desktop	/usr/share/foo2zjs/hplj10xx_gui.tcl			true
+nm-applet.desktop	nm-applet			true
+sol.desktop	/usr/games/sol			false
+org.gnome.Nautilus.desktop	nautilus --new-window %U		Unity;	false
+gnome-system-monitor.desktop	gnome-system-monitor			false
+file-roller.desktop	file-roller %U			false
+reboot.desktop	gnome-session-quit --reboot			false
+nautilus-autorun-software.desktop	nautilus-autorun-software %u			true
+software-properties-gnome.desktop	software-properties-gtk		GNOME;	false
+gcr-prompter.desktop	/usr/lib/gcr/gcr-prompter			true
+apport-gtk.desktop	/usr/share/apport/apport-gtk -c %f			true
+org.gnome.gedit.desktop	gedit %U			true
+gucharmap.desktop	gucharmap			false
+libreoffice-draw.desktop	libreoffice --draw %U	libreoffice-draw		false
+gnome-disk-image-mounter.desktop	gnome-disk-image-mounter %U			true
+gnome-user-share-webdav.desktop	/usr/lib/gnome-user-share/gnome-user-share-webdav		GNOME;Unity;	true
+libreoffice-xsltfilter.desktop	libreoffice %U			true
+ibus-setup-table.desktop	/usr/lib/ibus/ibus-setup-table			true
+telephony-service-call.desktop	telephony-service-indicator			true
+telephony-service-sms.desktop	telephony-service-indicator			true
+activity-log-manager.desktop	activity-log-manager			false
+content-hub-peer-picker.desktop	content-hub-peer-picker %U			true
+unity-datetime-panel.desktop	unity-control-center datetime		Unity7;	false
+unity-user-accounts-panel.desktop	unity-control-center user-accounts		Unity7;	false
+gnome-mahjongg.desktop	gnome-mahjongg			false
+nm-connection-editor.desktop	nm-connection-editor			false
+unity-keyboard-panel.desktop	unity-control-center keyboard		Unity7;	false
+org.gnome.baobab.desktop	baobab			false
+totem.desktop	totem %U			false
+thunderbird.desktop	thunderbird %u			false
+software-properties-gtk.desktop	software-properties-gtk			false
+webbrowser-app.desktop	webbrowser-app %u			false
+xdiagnose.desktop	xdiagnose-pkexec			false
+eog.desktop	eog %U			false
+usb-creator-gtk.desktop	usb-creator-gtk			false
+remmina.desktop	remmina			false
+gcr-viewer.desktop	/usr/bin/gcr-viewer			true
+org.gnome.Software.desktop	gnome-software %U			false
+org.gnome.FileRoller.desktop	file-roller %U			true
+checkbox-converged.desktop	qmlscene --settings=/usr/share/checkbox-converged/settings.json $@ /usr/share/checkbox-converged/checkbox-touch.qml			false
+ubuntu-queue-dialog.desktop	ubuntu-queue-dialog %u		Unity8	false
+gnome-mines.desktop	gnome-mines			false
+unity-mouse-panel.desktop	unity-control-center mouse		Unity7;	false
+firefox.desktop	firefox %u			false
+nautilus-folder-handler.desktop	nautilus --new-window %U		GNOME;Unity;	true
+evince-previewer.desktop	evince-previewer %U			true
+compiz.desktop	compiz			true
+gedit.desktop	gedit %U			false
+software-properties-drivers.desktop	/usr/bin/software-properties-gtk --open-tab=4			false
+gnome-user-share-properties.desktop	gnome-file-share-properties		Unity;	false
+display-im6.q16.desktop	/usr/bin/display-im6.q16 -nostdin %F			false
+seahorse.desktop	/usr/bin/seahorse			false
+language-selector.desktop	/usr/bin/gnome-language-selector			false
+gnome-session-properties.desktop	gnome-session-properties		GNOME;Unity;	false
+deja-dup.desktop	deja-dup --backup			true
+gnome-system-log.desktop	gnome-system-log-pkexec			false
+shotwell.desktop	shotwell %U			false
+org.gnome.Calculator.desktop	gnome-calculator			false
+vim.desktop	vim %F			false
+gnome-system-monitor-kde.desktop	gnome-system-monitor		KDE;	false
+shotwell-viewer.desktop	shotwell %f			true
+content-hub-clipboard.desktop	content-hub-clipboard %U		Old	false

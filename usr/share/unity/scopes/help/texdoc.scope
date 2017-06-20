@@ -1,0 +1,17 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Help.Texdoc
+DBusPath=/com/canonical/unity/scope/help/texdoc
+Icon=
+QueryBinary=texdoc
+Module=texdoc.unity_texdoc_daemon
+ModuleType=python3
+Keywords=texdoc;tex;latex;
+RequiredMetadata=
+OptionalMetadata=
+Type=help
+Name=TeXdoc
+Description=This is an Ubuntu search plugin that enables information from TeXdoc to be searched and displayed in the Dash underneath the Help header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Texdoc
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-texdoc

@@ -1,0 +1,71 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      style="task"
+      id="security-settings">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+    <desc>Change some security and privacy settings.</desc>
+
+    <revision version="17.04" date="2017-01-24" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu Documentation Team</name>
+    </credit>
+
+   <link type="seealso" xref="display-lock"/>
+   <link type="seealso" xref="net-security-tips"/>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+  <title>Security &amp; Privacy</title>
+
+  <p>This page describes the settings in the <app>Security &amp; Privacy</app> application. The four tabs are as follows:</p>
+
+<section id="tab1">
+ <title>Security</title>
+
+<p>These settings specify whether a password is required when Ubuntu wakes from <link xref="power-suspend">suspend</link> or returns from a blank screen.
+Your computer will be more secure if in these cases passwords are required.</p>
+
+</section>
+
+<section id="tab2">
+ <title>Files &amp; Applications</title>
+
+<p>These settings allow you to specify which recently-used files, folders and applications are listed in the <gui>Dash</gui>, and elsewhere.</p>
+
+<p>In order to determine the recently-used files, folders and applications, Ubuntu collects usage data. 
+If you wish, you can turn <gui>OFF</gui> collection of usage data and clear some or all of the collected usage data.</p>
+
+<p>The <gui>Include:</gui> list lists some common file types. To include a file type in the usage data, tick the checkbox next to it.
+To exclude a file type from the usage data, clear the checkbox next to it.
+</p>
+
+<p>The <gui>Exclude:</gui> list lists folders and applications excluded from the usage data.
+ To add a folder or application to the list, click the "+" button and select the required folder or application.
+To remove a folder or application from the list, select it and click the "-" button.
+</p>
+
+</section>
+
+<section id="tab3">
+ <title>Search</title>
+
+<p>This setting specifies whether online search results are included when searching in the <gui>Dash</gui>.
+ For more details of the online search results, and the companies that provide them,
+ please see Canonical's privacy policy, which you can access via the <gui>Diagnostics</gui> tab.</p>
+
+</section>
+
+<section id="tab4">
+ <title>Diagnostics</title>
+
+<p>These settings specify which types of system information Ubuntu can send to Canonical.
+This information (if you allow it to be sent) will help Canonical improve Ubuntu.
+If you want more information about how Canonical uses the system information,
+click <gui>Privacy Policy</gui> to read Canonical's privacy policy.</p>
+
+</section>
+
+</page>

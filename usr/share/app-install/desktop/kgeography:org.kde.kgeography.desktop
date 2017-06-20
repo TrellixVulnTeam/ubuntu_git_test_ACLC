@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kgeography
+X-AppInstall-Popcon=108
+X-AppInstall-Section=universe
+
+Name=KGeography
+GenericName=Geography Trainer
+Comment=A Geography Learning Program
+Exec=kgeography
+Icon=kgeography
+Type=Application
+X-DocPath=kgeography/index.html
+Terminal=false
+Categories=Qt;KDE;Education;Geography;
+X-DBUS-ServiceName=org.kde.kgeography
+
+X-Ubuntu-Gettext-Domain=app-install-data

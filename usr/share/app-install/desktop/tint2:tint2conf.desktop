@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=tint2
+X-AppInstall-Popcon=125
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Tint2 panel settings
+Exec=tint2conf
+Icon=tint2conf
+Terminal=false
+Categories=Settings;DesktopSettings;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

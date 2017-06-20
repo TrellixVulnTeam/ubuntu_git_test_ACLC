@@ -1,0 +1,16 @@
+
+[Desktop Entry]
+X-AppInstall-Package=ibus-sharada-braille
+X-AppInstall-Section=universe
+
+Categories=GNOME;Utility;
+Version=1.0
+Type=Application
+Terminal=false
+Comment=Change edit languages of ibus-sharada-braille
+Exec=ibus-sharada-braille-language-editor
+Name=ibus-sharada-braille-language-editor
+Icon=_usr_share_ibus-sharada-braille_icons_ibus-sharada-braille
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

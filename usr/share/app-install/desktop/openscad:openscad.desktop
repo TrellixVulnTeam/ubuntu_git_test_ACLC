@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=openscad
+X-AppInstall-Popcon=37
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=OpenSCAD
+Icon=openscad
+Exec=openscad %f
+MimeType=application/x-openscad;
+Categories=Graphics;3DGraphics;Engineering;
+Keywords=3d;solid;geometry;csg;model;stl;
+
+X-Ubuntu-Gettext-Domain=app-install-data

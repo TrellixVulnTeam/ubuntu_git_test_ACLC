@@ -1,0 +1,6 @@
+4676481d04908cb7aaa87dc8aaa2e2e9  usr/lib/x86_64-linux-gnu/qt5/qml/Unity/Application/libunityapplicationplugin.so
+5c000e62b208514a50a87ce1631826ff  usr/lib/x86_64-linux-gnu/qt5/qml/Unity/Application/qmldir
+2827929f6fd5f9977d5e631677c7e47d  usr/lib/x86_64-linux-gnu/qt5/qml/Unity/Screens/libunityscreensplugin.so
+95485f3c74595991ab86e1c94e7eb178  usr/lib/x86_64-linux-gnu/qt5/qml/Unity/Screens/qmldir
+cf2a4a28c36b85450030286cf4a7e369  usr/share/doc/qtdeclarative5-qtmir-plugin/copyright
+ec530a09ae1a2c83dcee1a65f30171a1  usr/share/glib-2.0/schemas/com.canonical.qtmir.gschema.xml

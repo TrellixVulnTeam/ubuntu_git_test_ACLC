@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=openmw-launcher
+X-AppInstall-Popcon=1
+X-AppInstall-Section=multiverse
+
+Type=Application
+Name=OpenMW Launcher
+GenericName=Role Playing Game
+Comment=An engine replacement for The Elder Scrolls III: Morrowind
+Keywords=Morrowind;Reimplementation Mods;esm;bsa;
+TryExec=openmw-launcher
+Exec=openmw-launcher
+Icon=openmw
+Categories=Game;RolePlaying;
+
+X-Ubuntu-Gettext-Domain=app-install-data

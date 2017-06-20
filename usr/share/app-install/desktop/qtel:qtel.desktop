@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=qtel
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Qtel
+GenericName=EchoLink Client
+Exec=/usr/bin/qtel
+Terminal=false
+Categories=Application;HamRadio;Qt;Network;
+Keywords=radio;ham;ptt;
+Icon=_usr_share_icons_link
+Comment=The Qt EchoLink Client
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

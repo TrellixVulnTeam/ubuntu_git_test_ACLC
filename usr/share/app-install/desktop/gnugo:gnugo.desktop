@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gnugo
+X-AppInstall-Popcon=94
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=GnuGo
+Exec=/usr/games/gnugo
+Terminal=true
+Comment=Play Go against computer opponent
+Categories=Game;BoardGame;
+Icon=gnugo48
+
+X-Ubuntu-Gettext-Domain=app-install-data

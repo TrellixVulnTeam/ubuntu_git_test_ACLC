@@ -1,0 +1,1 @@
+../../../linux-headers-4.10.0-24/scripts/mod/devicetable-offsets.c

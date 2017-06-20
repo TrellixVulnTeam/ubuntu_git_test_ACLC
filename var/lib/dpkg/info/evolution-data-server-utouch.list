@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/evolution-data-server
+/usr/lib/evolution-data-server/registry-modules
+/usr/lib/evolution-data-server/registry-modules/module-ubuntu-sources.so
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libubuntu-source-eds.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/evolution-data-server-utouch
+/usr/share/doc/evolution-data-server-utouch/changelog.Debian.gz
+/usr/share/doc/evolution-data-server-utouch/copyright

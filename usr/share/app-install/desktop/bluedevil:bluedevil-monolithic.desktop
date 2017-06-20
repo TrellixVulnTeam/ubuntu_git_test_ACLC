@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=bluedevil
+X-AppInstall-Popcon=5580
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=BlueDevil
+GenericName=BlueDevil
+Exec=bluedevil-monolithic
+Comment=KDE Bluetooth support
+Icon=preferences-system-bluetooth
+Terminal=false
+Categories=Qt;KDE;X-Bluetooth;Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

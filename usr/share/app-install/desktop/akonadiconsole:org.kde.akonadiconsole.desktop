@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=akonadiconsole
+X-AppInstall-Popcon=76
+X-AppInstall-Section=universe
+
+Name=Akonadi Console
+Exec=akonadiconsole
+Icon=akonadiconsole
+Type=Application
+Comment=Akonadi Management and Debugging Console
+Terminal=false
+Categories=Qt;KDE;Development;
+X-DBUS-ServiceName=org.kde.akonadiconsole
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="en-AU">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision version="13.10" date="2013-09-19" status="review"/>
+
+    <desc>Allowing the battery to completely discharge is bad for it.</desc>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Why did my computer shut down when power got critically low?</title>
+
+<p>
+
+If your computer is running on battery only and power gets critically low,
+Ubuntu will enter a low-power mode in which unsaved data is saved.
+In such a case, even if the battery runs out and your computer turns off,
+the data will be available when you restart. If your computer does not
+support such a mode, Ubuntu will shut down and any unsaved data will be lost.
+
+</p>
+
+</page>

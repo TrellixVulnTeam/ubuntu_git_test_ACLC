@@ -1,0 +1,4 @@
+1dc7012196131699373c6e73c3406945  usr/lib/x86_64-linux-gnu/address-book-service/address-book-service
+c9dee11cd37ce0e7e2d82f4e5ec63aa5  usr/share/dbus-1/services/com.canonical.pim.service
+ab7ec439a9a34d244a4413dc7d1c16eb  usr/share/doc/address-book-service/copyright
+95bf39a9297c7d36c49bfe0c345a2a8b  usr/share/upstart/sessions/address-book-service.conf

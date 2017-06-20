@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=qelectrotech
+X-AppInstall-Popcon=39
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=QElectroTech 
+TryExec=qelectrotech
+Exec=qelectrotech %F
+Icon=qelectrotech
+Terminal=false
+Type=Application
+MimeType=application/x-qet-project;application/x-qet-element;application/x-qet-titleblock;
+Categories=Graphics;Qt;VectorGraphics;Science;Electricity;Engineering;
+Keywords=Graphics;Science;Electricity;Engineering;
+Comment=Edit electrical diagrams.
+GenericName=Electrical diagram editor
+
+X-Ubuntu-Gettext-Domain=app-install-data

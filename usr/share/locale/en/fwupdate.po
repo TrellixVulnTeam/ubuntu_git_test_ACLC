@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fwupdate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: fwupdate.c:91
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: fwupdate 9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-08 01:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fwupdate.c:43
+msgid "Could not create iterator"
+msgstr ""
+
+#: fwupdate.c:57
+msgid "efi_guid_to_id_guid failed"
+msgstr ""
+
+#: fwupdate.c:64
+#, c-format
+msgid "%s version %d can be updated to any version above %d\n"
+msgstr ""
+
+#: fwupdate.c:92 fwupdate.c:93 fwupdate.c:97 fwupdate.c:155
+msgid "fwupdate"
+msgstr ""
+
+#: fwupdate.c:98
+msgid "apply"
+msgstr ""
+
+#: fwupdate.c:103
+msgid "Apply firmware updates"
+msgstr ""
+
+#: fwupdate.c:104
+msgid "<guid> <firmware.cap>"
+msgstr ""
+
+#: fwupdate.c:105
+msgid "list"
+msgstr ""
+
+#: fwupdate.c:110
+msgid "List supported firmware updates"
+msgstr ""
+
+#: fwupdate.c:111
+msgid "supported"
+msgstr ""
+
+#: fwupdate.c:116
+msgid "Query for firmware update support"
+msgstr ""
+
+#: fwupdate.c:117
+msgid "info"
+msgstr ""
+
+#: fwupdate.c:123
+msgid "Show the information of firmware update status"
+msgstr ""
+
+#: fwupdate.c:124
+msgid "enable"
+msgstr ""
+
+#: fwupdate.c:129
+msgid ""
+"Enable firmware update support on supported systems (will require a reboot)"
+msgstr ""
+
+#: fwupdate.c:130
+msgid "quiet"
+msgstr ""
+
+#: fwupdate.c:135
+msgid "Work quietly"
+msgstr ""
+
+#: fwupdate.c:136
+msgid "force"
+msgstr ""
+
+#: fwupdate.c:141
+msgid "Forces flash even if GUID isn't in ESRT."
+msgstr ""
+
+#: fwupdate.c:142
+msgid "verbose"
+msgstr ""
+
+#: fwupdate.c:147
+msgid "Be more verbose on errors"
+msgstr ""
+
+#: fwupdate.c:160
+#, c-format
+msgid "poptReadDefaultConfig failed: %s: %s"
+msgstr ""
+
+#: fwupdate.c:169 fwupdate.c:179
+#, c-format
+msgid "missing argument: %s"
+msgstr ""
+
+#: fwupdate.c:169
+msgid "guid"
+msgstr ""
+
+#: fwupdate.c:175
+#, c-format
+msgid "Invalid guid: \"%s\""
+msgstr ""
+
+#: fwupdate.c:180
+msgid "filename.cap"
+msgstr ""
+
+#: fwupdate.c:187
+#, c-format
+msgid "invalid argument: \"%s\": %s"
+msgstr ""
+
+#: fwupdate.c:191
+#, c-format
+msgid "invalid argument: \"%s\""
+msgstr ""
+
+#: fwupdate.c:195
+msgid "no action specified"
+msgstr ""
+
+#: fwupdate.c:204 fwupdate.c:208 fwupdate.c:277 fwupdate.c:283 fwupdate.c:287
+#: fwupdate.c:291
+#, c-format
+msgid "%s\n"
+msgstr ""
+
+#: fwupdate.c:205
+msgid "Firmware updates are not supported on this machine."
+msgstr ""
+
+#: fwupdate.c:209 fwupdate.c:213 fwupdate.c:218
+msgid "Firmware updates are supported on this machine."
+msgstr ""
+
+#: fwupdate.c:212 fwupdate.c:217
+#, c-format
+msgid ""
+"%s\n"
+"%s\n"
+msgstr ""
+
+#: fwupdate.c:214
+msgid "Support is currently disabled."
+msgstr ""
+
+#: fwupdate.c:219
+msgid "Support will be enabled on the next reboot."
+msgstr ""
+
+#: fwupdate.c:226
+msgid "Could not list system firmware resources"
+msgstr ""
+
+#: fwupdate.c:237
+msgid "Could not iterate resources"
+msgstr ""
+
+#: fwupdate.c:252
+msgid "Error configuring GUID"
+msgstr ""
+
+#: fwupdate.c:259
+#, c-format
+msgid "could not open \"%s\""
+msgstr ""
+
+#: fwupdate.c:263
+msgid "Could not set up firmware update"
+msgstr ""
+
+#: fwupdate.c:268
+msgid "firmware resource not found"
+msgstr ""
+
+#: fwupdate.c:273
+msgid "Could not display firmware update status"
+msgstr ""
+
+#: fwupdate.c:278
+msgid "To enable firmware updates, this tool must be launched as root."
+msgstr ""
+
+#: fwupdate.c:284
+msgid "Firmware updates can not be enabled on this machine from this tool."
+msgstr ""
+
+#: fwupdate.c:288
+msgid "Firmware updates are already enabled."
+msgstr ""
+
+#: fwupdate.c:292
+msgid "Firmware updates will be enabled after the system is rebooted."
+msgstr ""

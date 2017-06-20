@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3756" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48" width="48" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata14">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs3758">
+  <linearGradient id="linearGradient4098" y2="15" gradientUnits="userSpaceOnUse" x2="12" gradientTransform="matrix(-.00026857 -1.049 1.049 -.00026857 -50.019 56.026)" y1="33" x1="36">
+   <stop id="stop252" stop-color="#9b9b9b" offset="0"/>
+   <stop id="stop254" stop-color="#ececec" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="layer1">
+  <path id="path4088" style="opacity:.3;color:#000000" d="m3 13.008c-1.6228 0-2.9922 1.3694-2.9922 2.9922v16c0 1.6228 1.3694 2.9922 2.9922 2.9922h19c0.77156 0 1.4631-0.34672 2-0.8457 0.53686 0.49899 1.2284 0.8457 2 0.8457h19c1.6228 0 2.9922-1.3694 2.9922-2.9922v-16c0-1.6228-1.3694-2.9922-2.9922-2.9922h-19c-0.77156 0-1.4631 0.34672-2 0.8457-0.53686-0.49899-1.2284-0.8457-2-0.8457h-19zm3.9922 7.9844h11.016v7.0156h-11.016v-7.0156zm23 0h11.016v7.0156h-11.016v-7.0156z"/>
+  <path id="rect4084" style="color:#000000;fill:url(#linearGradient4098)" d="m3 15c-0.554 0-1 0.446-1 1v16c0 0.554 0.446 1 1 1h19c0.554 0 1-0.446 1-1v-16c0-0.554-0.446-1-1-1zm23 0c-0.554 0-1 0.446-1 1v16c0 0.554 0.446 1 1 1h19c0.554 0 1-0.446 1-1v-16c0-0.554-0.446-1-1-1zm-21 4h15v11h-15zm23 0h15v11h-15z"/>
+  <path id="path4071" style="opacity:.5;color:#000000;fill:#fff" d="m3 15c-0.554 0-1 0.446-1 1v16c0 0.36763 0.20597 0.67391 0.5 0.84766v-15.848c0-0.554 0.446-1 1-1h19c0.18637 0 0.35094 0.06427 0.5 0.15234v-0.152c0-0.554-0.446-1-1-1zm23 0c-0.554 0-1 0.446-1 1v16c0 0.36763 0.20597 0.67391 0.5 0.84766v-15.848c0-0.554 0.446-1 1-1h19c0.18637 0 0.35094 0.06427 0.5 0.15234v-0.152c0-0.554-0.446-1-1-1zm-6 4v11h-15v1h15.5v-12zm23 0v11h-15v1h15.5v-12z"/>
+ </g>
+</svg>

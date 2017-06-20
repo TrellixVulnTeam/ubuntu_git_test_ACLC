@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=fcitx-config-gtk2
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Fcitx Config Tool
+Comment=Fcitx GUI Config Tool
+Exec=fcitx-config-gtk
+Icon=fcitx
+Type=Application
+Categories=Settings;
+NoDisplay=true
+X-KDE-StartupNotify=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

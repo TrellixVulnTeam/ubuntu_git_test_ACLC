@@ -1,0 +1,8 @@
+[Unit]
+Description=Indicator Power
+PartOf=graphical-session.target
+After=indicators-pre.target
+
+[Service]
+ExecStart=/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+Restart=on-failure

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+GenericName=Analysis of Functional NeuroImages
+Name=AFNI
+Exec=nd-autoinstall afni
+Type=Application
+Terminal=false
+Categories=X-NeuroDebian-MedicalImaging
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=qsstv
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=QSSTV
+GenericName=Qt-based slow-scan TV and fax
+Comment=Qt-based slow-scan TV and fax
+Exec=qsstv
+Icon=qsstv
+Terminal=false
+Type=Application
+Categories=Network;HamRadio;
+Keywords=TV;Fax;
+
+X-Ubuntu-Gettext-Domain=app-install-data

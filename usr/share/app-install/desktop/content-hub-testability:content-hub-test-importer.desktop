@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=content-hub-testability
+X-AppInstall-Section=universe
+
+Name=Auto Importer
+Comment=Test Auto Importer
+Exec=content-hub-test-importer
+Icon=content-hub-test-importer
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

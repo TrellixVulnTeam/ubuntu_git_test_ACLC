@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-sound-recorder
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Sound Recorder
+Comment=Record sound via the microphone and play it back
+Icon=gnome-sound-recorder
+Categories=GNOME;GTK;Audio;AudioVideo;
+Keywords=Audio;Application;Record;
+Exec=gnome-sound-recorder
+StartupNotify=true
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

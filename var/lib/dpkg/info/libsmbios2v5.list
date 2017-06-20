@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libsmbios.so.2.1.0
+/usr/lib/libsmbios_c.so.2.2.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsmbios2v5
+/usr/share/doc/libsmbios2v5/changelog.Debian.gz
+/usr/share/doc/libsmbios2v5/copyright
+/usr/lib/libsmbios.so.2
+/usr/lib/libsmbios_c.so.2

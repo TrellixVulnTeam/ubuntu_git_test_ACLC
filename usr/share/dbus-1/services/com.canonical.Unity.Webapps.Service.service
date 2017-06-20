@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.canonical.Unity.Webapps.Service
+Exec=/usr/lib/libunity-webapps/unity-webapps-service

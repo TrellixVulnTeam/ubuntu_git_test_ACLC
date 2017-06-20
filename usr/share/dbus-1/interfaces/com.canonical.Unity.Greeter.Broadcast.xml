@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+	<interface name="com.canonical.Unity.Greeter.Broadcast">
+		<!-- From the Greeter -->
+		<method name="RequestUrlStart">
+			<arg type="s" name="username" direction="in" />
+			<arg type="s" name="url" direction="in" />
+		</method>
+
+		<method name="RequestHomeShown">
+			<arg type="s" name="username" direction="in" />
+		</method>
+
+		<method name="RequestSoundPlayPause">
+			<arg type="s" name="username" direction="in" />
+		</method>
+
+		<method name="RequestSoundNext">
+			<arg type="s" name="username" direction="in" />
+		</method>
+
+		<method name="RequestSoundPrev">
+			<arg type="s" name="username" direction="in" />
+		</method>
+
+		<!-- To the Session -->
+		<signal name="StartUrl">
+			<arg type="s" name="username" direction="out" />
+			<arg type="s" name="url" direction="out" />
+		</signal>
+
+		<signal name="ShowHome">
+			<arg type="s" name="username" direction="out" />
+		</signal>
+
+		<signal name="SoundPlayPause">
+			<arg type="s" name="username" direction="out" />
+		</signal>
+
+		<signal name="SoundNext">
+			<arg type="s" name="username" direction="out" />
+		</signal>
+
+		<signal name="SoundPrev">
+			<arg type="s" name="username" direction="out" />
+		</signal>
+
+		<!-- Other -->
+	</interface>
+</node>

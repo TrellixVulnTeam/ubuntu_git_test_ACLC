@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/plugins
+/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
+/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqpa-ubuntumirclient.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/qtubuntu-desktop
+/usr/share/doc/qtubuntu-desktop/changelog.Debian.gz
+/usr/share/doc/qtubuntu-desktop/copyright

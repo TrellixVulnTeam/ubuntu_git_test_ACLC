@@ -1,0 +1,8 @@
+[Unit]
+Description=Unity HUD
+PartOf=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=com.canonical.hud
+ExecStart=/usr/lib/x86_64-linux-gnu/hud/hud-service

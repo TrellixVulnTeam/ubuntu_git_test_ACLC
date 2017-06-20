@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Phone Calls
+Exec=telephony-service-indicator
+Icon=telephony-service-call
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=telephony-service

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=neurodebian-desktop
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+GenericName=MRI Tractography View
+Name=MRview
+Exec=nd-autoinstall -p mrtrix mrview %F
+Type=Application
+Terminal=false
+Categories=X-NeuroDebian-MedicalImaging
+Icon=mrtrix
+
+X-Ubuntu-Gettext-Domain=app-install-data

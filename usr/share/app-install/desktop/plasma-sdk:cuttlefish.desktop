@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+X-AppInstall-Package=plasma-sdk
+X-AppInstall-Section=universe
+
+Terminal=false
+Name=Cuttlefish
+GenericName=Icon Viewer
+Comment=Icon Previewer for Artists and Developers
+Exec=cuttlefish
+Icon=cuttlefish
+Type=Application
+InitialPreference=7
+Categories=Qt;KDE;Development;IDE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

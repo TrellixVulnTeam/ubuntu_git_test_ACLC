@@ -1,0 +1,5 @@
+df4fc238f4003a20b28412139cf4211d  usr/bin/vmwarectrl
+96c2e83cddb80c140f89b677eaea7a1f  usr/lib/xorg/modules/drivers/vmware_drv.so
+28becba7074fafc8cba0755b487fe0bd  usr/share/doc/xserver-xorg-video-vmware/changelog.Debian.gz
+05cc1e6baa9dbe98a826f3d33132da8d  usr/share/doc/xserver-xorg-video-vmware/copyright
+a774b0be89268e005fde1628a205b77a  usr/share/man/man4/vmware.4.gz

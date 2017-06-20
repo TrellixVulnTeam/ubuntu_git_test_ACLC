@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=kig
+X-AppInstall-Popcon=111
+X-AppInstall-Section=universe
+
+Name=Kig
+GenericName=Interactive Geometry
+Comment=Explore Geometric Constructions
+Exec=kig %U --qwindowtitle %c
+MimeType=application/x-kig;application/x-kgeo;
+Icon=kig
+Type=Application
+X-DocPath=kig/index.html
+Terminal=false
+Categories=Qt;KDE;Education;Math;
+X-DBUS-ServiceName=org.kde.kig
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,11 @@
+df9d56a632301c7deb05a003597bfcc1  usr/lib/systemd/user/unity-panel-service-lockscreen.service
+c80cd28a1ba869c061f48215a3e26a18  usr/lib/systemd/user/unity-panel-service.service
+cdc212066f81fa7dd8288854aeaa3dba  usr/lib/systemd/user/unity-screen-locked.target
+535fe0beade52f8c3bee29e85a1d8284  usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+8cbf45568298c1d8860185e477ca154d  usr/share/doc/unity-services/changelog.Debian.gz
+1b494617ca5e6d5b95ec993c49302665  usr/share/doc/unity-services/copyright
+d20080c2f879a1366a39129bdd45af4f  usr/share/man/man1/unity-panel-service.1.gz
+827618723088935c302048ed1da403f8  usr/share/upstart/sessions/unity-panel-service-lockscreen.conf
+f9242ee8341620f55ab6c0bb5b69124e  usr/share/upstart/sessions/unity-panel-service.conf
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/unity-panel-service-lockscreen.override
+cf3f2a865fbea819dadd439586eaee31  usr/share/upstart/systemd-session/upstart/unity-panel-service.override

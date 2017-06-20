@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kdeconnect-plasma
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Name=KDE Connect
+Comment=Reach out to your devices
+Exec=plasmawindowed org.kde.kdeconnect --statusnotifier
+Icon=kdeconnect
+Type=Application
+Terminal=false
+Categories=Qt;KDE;Network;
+
+NotShowIn=KDE;Plasma;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

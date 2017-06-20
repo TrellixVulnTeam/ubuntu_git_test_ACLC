@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/indicator-transfer
+/usr/lib/x86_64-linux-gnu/indicator-transfer/libdmtransfers.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/indicator-transfer-download-manager
+/usr/share/doc/indicator-transfer-download-manager/copyright
+/usr/share/doc/indicator-transfer-download-manager/changelog.Debian.gz

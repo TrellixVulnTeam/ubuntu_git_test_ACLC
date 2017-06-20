@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/mir
+/usr/lib/x86_64-linux-gnu/mir/server-platform
+/usr/lib/x86_64-linux-gnu/mir/server-platform/input-evdev.so.6
+/usr/share
+/usr/share/doc
+/usr/share/doc/mir-platform-input-evdev6
+/usr/share/doc/mir-platform-input-evdev6/copyright
+/usr/share/doc/mir-platform-input-evdev6/changelog.Debian.gz

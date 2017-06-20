@@ -1,0 +1,4 @@
+32310bad4f0291b9c5e9725e5f430b63  usr/lib/cups/driver/openprinting-ppds
+9ad51318d1d901967bb1fe684b52e320  usr/share/cups/ppd-updaters/openprinting-ppds
+0d6fb0c11c3eac011ac1eb548958bee8  usr/share/doc/openprinting-ppds/changelog.Debian.gz
+2b8db4fa4b622480333b61244760ca4b  usr/share/doc/openprinting-ppds/copyright

@@ -1,0 +1,4 @@
+# This is private data. Do not parse.
+LLMNR=yes
+MDNS=no
+SERVERS=10.0.2.3

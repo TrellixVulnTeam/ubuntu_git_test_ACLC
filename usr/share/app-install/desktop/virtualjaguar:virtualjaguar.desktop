@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=virtualjaguar
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Virtual Jaguar
+Comment=Cross-platform Atari Jaguar emulator
+TryExec=virtualjaguar
+Exec=virtualjaguar %f
+StartupNotify=false
+Terminal=false
+Type=Application
+Icon=vj
+Categories=Game;Emulator;
+Keywords=Emulator;Atari;Console
+
+X-Ubuntu-Gettext-Domain=app-install-data

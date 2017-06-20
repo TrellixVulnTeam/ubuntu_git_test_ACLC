@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=powermanga
+X-AppInstall-Popcon=19
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Powermanga
+GenericName=PowerManga
+Comment=Play a vertical shoot'em up game
+Icon=powermanga
+Exec=powermanga
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=shmup;arcade;shooter;colourful;weapons;spaceship;
+
+X-Ubuntu-Gettext-Domain=app-install-data

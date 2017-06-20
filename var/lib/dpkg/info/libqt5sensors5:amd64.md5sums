@@ -1,0 +1,9 @@
+5a8a411b650e72625a3c4b21f4dd8c7f  usr/lib/x86_64-linux-gnu/libQt5Sensors.so.5.7.1
+45814968399d7283930c1e6ced561cf9  usr/lib/x86_64-linux-gnu/qt5/plugins/sensorgestures/libqtsensorgestures_counterplugin.so
+4ee7e2b5ca4e6a11d2fd5fc3b84203b9  usr/lib/x86_64-linux-gnu/qt5/plugins/sensorgestures/libqtsensorgestures_plugin.so
+e2ff9fd7bb111a32ced1e153b31f2aea  usr/lib/x86_64-linux-gnu/qt5/plugins/sensorgestures/libqtsensorgestures_shakeplugin.so
+e9e4fbb49085d2c5fc153af7e67739eb  usr/lib/x86_64-linux-gnu/qt5/plugins/sensors/libqtsensors_generic.so
+a2691e786bac576827575e93e3241551  usr/lib/x86_64-linux-gnu/qt5/plugins/sensors/libqtsensors_iio-sensor-proxy.so
+2ab3202f36b76cc9a1613e413abcfc32  usr/lib/x86_64-linux-gnu/qt5/plugins/sensors/libqtsensors_linuxsys.so
+76c28361478b31d04d80ca113915a6f0  usr/share/doc/libqt5sensors5/changelog.Debian.gz
+b16f0a03ce2b0cb1da8b620d877c7192  usr/share/doc/libqt5sensors5/copyright

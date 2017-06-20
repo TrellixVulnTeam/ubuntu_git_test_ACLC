@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=spectools
+X-AppInstall-Popcon=68
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=spectool_gtk
+Comment=2.4 GHz spectrum analysis using the Wi-Spy hardware device
+Name=Spectrum Tool
+Keywords=wifi;network;spectrum;analysis;monitoring
+
+X-Ubuntu-Gettext-Domain=app-install-data

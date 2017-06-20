@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=sudoku
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Sudoku
+GenericName=Sudoku
+Comment=console based sudoku game
+Keywords=strategy;text;ncurses;terminal;console;game;sudoku;
+Icon=sudoku
+Exec=sudoku
+Type=Application
+Categories=Game;StrategyGame;
+Terminal=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

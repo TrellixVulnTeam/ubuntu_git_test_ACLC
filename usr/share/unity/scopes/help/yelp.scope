@@ -1,0 +1,18 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Help.Yelp
+DBusPath=/com/canonical/unity/scope/help/yelp
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-yelp.svg
+Keywords=yelp;
+RequiredMetadata=
+OptionalMetadata=manual[s];
+Loader=/usr/share/unity-scopes/yelp/unity_yelp_daemon.py
+Module=yelp.unity_yelp_daemon
+ModuleType=python3
+RemoteContent=true
+Type=help
+Name=Yelp
+Description=This is an Ubuntu search plugin that enables information from the Ubuntu Help to be searched and displayed in the Dash underneath the Help header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Ubuntu Help
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-yelp

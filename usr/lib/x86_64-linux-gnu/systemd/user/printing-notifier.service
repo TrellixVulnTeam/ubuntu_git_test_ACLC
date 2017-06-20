@@ -1,0 +1,8 @@
+[Unit]
+Description=Printing Notification Service
+PartOf=graphical-session.target
+After=indicators-pre.target
+
+[Service]
+ExecStart=/usr/lib/x86_64-linux-gnu/ubuntu-printing-app/printing-notifier-service
+Restart=on-failure

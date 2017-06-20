@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=kmail
+X-AppInstall-Popcon=4125
+X-AppInstall-Section=universe
+
+Name=KMail
+Type=Application
+Exec=kmail -qwindowtitle %c %u
+Icon=kmail
+X-DocPath=kmail/index.html
+GenericName=Mail Client
+Comment=Send, receive and manage your mail with KMail
+Terminal=false
+StartupNotify=true
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.kmail
+X-KDE-ServiceTypes=DBUS/Mailer
+Categories=Qt;KDE;Office;Network;Email;
+MimeType=x-scheme-handler/mailto;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

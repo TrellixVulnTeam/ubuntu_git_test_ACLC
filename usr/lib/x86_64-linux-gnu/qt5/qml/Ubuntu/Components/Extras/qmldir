@@ -1,0 +1,5 @@
+module Ubuntu.Components.Extras
+plugin ubuntu-ui-extras-plugin
+Example 0.2 Example.qml
+PhotoEditor 0.2 PhotoEditor.qml
+TabsBar 0.3 TabsBar.qml

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=chocolate-strife
+X-AppInstall-Section=multiverse
+
+Name=Chocolate Strife
+Exec=chocolate-strife
+Icon=chocolate-doom
+Type=Application
+Comment=Conservative source port
+Categories=Game;ActionGame;
+Keywords=first;person;shooter;doom;vanilla;
+
+X-Ubuntu-Gettext-Domain=app-install-data

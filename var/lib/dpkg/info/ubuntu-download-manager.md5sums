@@ -1,0 +1,6 @@
+4e3f6b4b1eda83b112fb3ed7281a688b  usr/bin/ubuntu-download-manager
+a4fe833bb43eda497875fc62e9144004  usr/lib/systemd/user/ubuntu-download-manager-systemd.service
+6151aa50c7551a33bcd3715f2837f9be  usr/lib/x86_64-linux-gnu/ubuntu-download-manager/udm-extractor
+8a409aafd91e1d4d4938e0e4bad674ed  usr/share/dbus-1/services/ubuntu-download-manager.service
+fb422c8f128cfb8548e486b5a4649d51  usr/share/dbus-1/system-services/com.canonical.applications.Downloader.service
+7305ee9425475cfb9293d0015639703b  usr/share/doc/ubuntu-download-manager/copyright

@@ -1,0 +1,14 @@
+libldap60.so
+libnspr4.so
+libprldap60.so
+libplc4.so
+libplds4.so
+libmozsandbox.so
+libnssutil3.so
+libnss3.so
+libsmime3.so
+libssl3.so
+libmozsqlite3.so
+liblgpllibs.so
+libmozgtk.so
+libxul.so

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=dspdfviewer
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=DS PDF Viewer
+Comment=Dual-Screen PDF Viewer for LaTeX-Beamer presentations utilizing the "show notes on second screen" option
+Keywords=pdf;presentation;latex;beamer;notes;
+Exec=dspdfviewer %f
+
+X-Ubuntu-Gettext-Domain=app-install-data

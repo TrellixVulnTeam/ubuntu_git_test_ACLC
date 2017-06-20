@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=cantor
+X-AppInstall-Popcon=91
+X-AppInstall-Section=universe
+
+Name=Cantor
+Exec=cantor %i -qwindowtitle %c %U
+Icon=cantor
+Type=Application
+X-DocPath=cantor/index.html
+GenericName=KDE Frontend to Mathematical Software
+Comment=KDE Frontend to Mathematical Software
+Terminal=false
+Categories=Qt;KDE;Education;Math;Science;
+MimeType=application/x-cantor;
+X-DBUS-ServiceName=org.kde.cantor
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=xastir
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=Xastir
+Comment=X Amateur Station Tracking and Information Reporting
+Exec=xastir
+Terminal=false
+Type=Application
+Categories=Network;HamRadio
+Keywords=APRS;AX.25;HamRadio
+
+X-Ubuntu-Gettext-Domain=app-install-data

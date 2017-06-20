@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3756" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48" width="48" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata14">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs3758">
+  <linearGradient id="linearGradient3752" x1="15.132" gradientUnits="userSpaceOnUse" y1="33.335" gradientTransform="matrix(-.00026857 -1.049 1.049 -.00026857 -50.019 56.026)" x2="45.572" y2="10.428">
+   <stop id="stop252" stop-color="#9b9b9b" offset="0"/>
+   <stop id="stop254" stop-color="#ececec" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4093" y2="15" xlink:href="#linearGradient3752" gradientUnits="userSpaceOnUse" x2="12" y1="33" x1="36"/>
+ </defs>
+ <g id="layer1">
+  <path id="path4088" style="opacity:.3;color:#000000" d="m3 13.008c-1.6228 0-2.9922 1.369-2.9922 2.992l0.0000125 16c0 1.623 1.3694 2.992 2.9922 2.992h19c0.772 0 1.463-0.347 2-0.846 0.537 0.499 1.228 0.846 2 0.846h19c1.623 0 2.992-1.369 2.992-2.992v-16c0-1.623-1.369-2.992-2.992-2.992h-19c-0.772 0-1.463 0.347-2 0.846-0.537-0.499-1.228-0.846-2-0.846h-19zm23 1.992h19c0.554 0 1 0.446 1 1v16c0 0.554-0.446 1-1 1h-19c-0.554 0-1-0.446-1-1v-16c0-0.554 0.446-1 1-1zm2 4v11h15v-11h-15zm-21.008 1.992h11.016v7.016h-11.016l0.0002-7.016zm23 0h11.016v7.016h-11.016v-7.016z"/>
+  <path id="path4091" style="color:#000000;fill:url(#linearGradient4093)" d="m3 15c-0.554 0-1 0.446-1 1v16c0 0.554 0.446 1 1 1h19c0.554 0 1-0.446 1-1v-16c0-0.554-0.446-1-1-1h-19zm2 4h15v11h-15v-11z"/>
+  <path id="path4089" style="opacity:.3;color:#000000;fill:url(#linearGradient4093)" d="m26 15c-0.554 0-1 0.446-1 1v16c0 0.554 0.446 1 1 1h19c0.554 0 1-0.446 1-1v-16c0-0.554-0.446-1-1-1h-19zm2 4h15v11h-15v-11z"/>
+  <path id="path4071" style="opacity:.5;color:#000000;fill:#fff" d="m3 15c-0.554 0-1 0.446-1 1v16c0 0.36763 0.20597 0.67391 0.5 0.84766v-15.848c0-0.554 0.446-1 1-1h19c0.18637 0 0.35094 0.06427 0.5 0.15234v-0.152c0-0.554-0.446-1-1-1zm17 4v11h-15v1h15.5v-12z"/>
+ </g>
+</svg>

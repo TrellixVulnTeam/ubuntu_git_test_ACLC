@@ -1,0 +1,10 @@
+b8c99a800957b630b224c07b59cee241  usr/bin/thumbnailer-admin
+d5022011691bcc9acee3c663bcd8f915  usr/lib/x86_64-linux-gnu/thumbnailer/thumbnailer-service
+bf7a34fd4ccf32d2375607884146968a  usr/lib/x86_64-linux-gnu/thumbnailer/vs-thumb
+264eaa2ce954c57458e1b77e91101401  usr/share/dbus-1/services/com.canonical.Thumbnailer.service
+d5f468f796f401b09c84996f833749e5  usr/share/doc/thumbnailer-service/changelog.Debian.gz
+84464d4dd281429d9a00ff1854aaa374  usr/share/doc/thumbnailer-service/copyright
+e45ae227611c4922fec70db60ca9a9d3  usr/share/glib-2.0/schemas/com.canonical.Unity.Thumbnailer.gschema.xml
+46617aa2346580947ee3cf8413b7a0d7  usr/share/man/man1/thumbnailer-admin.1.gz
+4d2c01d5c4a0e66555e3d7a19a963de6  usr/share/man/man1/thumbnailer-service.1.gz
+c7bea7b862b59ef0fe7dd2b359d21635  usr/share/man/man5/thumbnailer-settings.5.gz

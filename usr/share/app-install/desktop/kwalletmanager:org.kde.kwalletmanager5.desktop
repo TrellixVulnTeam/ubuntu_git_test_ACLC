@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=kwalletmanager
+X-AppInstall-Popcon=956
+X-AppInstall-Section=universe
+
+Name=KWalletManager
+GenericName=Wallet Management Tool
+Exec=kwalletmanager5 %u
+MimeType=application/x-kwallet;
+InitialPreference=6
+Icon=kwalletmanager
+Type=Application
+Terminal=false
+StartupNotify=false
+Categories=Qt;KDE;System;Security;
+X-DocPath=kwallet/index.html
+X-DBUS-ServiceName=org.kde.kwalletmanager5
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,7 @@
+libc6
+libssl1.0.0
+linux-image-4.10.0-24-generic
+linux-base
+linux-base
+network-manager
+gconf2

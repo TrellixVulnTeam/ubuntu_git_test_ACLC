@@ -1,0 +1,24 @@
+plugin: shell
+category_id: 2013.com.canonical.plainbox::memory
+id: memory/info
+estimated_duration: 5.0 
+user: root
+command: memory_compare
+_description:
+ This test checks the amount of memory which is reporting in meminfo against
+ the size of the memory modules detected by DMI.
+
+plugin: shell
+category_id: 2013.com.canonical.plainbox::memory
+id: memory/check
+estimated_duration: 1000.0
+user: root
+requires:
+ uname.name == 'Linux'
+command: memory_test
+_description:
+ Test to perform some basic stress and exercise of system memory. This test
+ also includes an over-commit function to force swapping to disk, thus SUTs
+ should have suitably large swap files for the amount of RAM they have
+ installed.
+

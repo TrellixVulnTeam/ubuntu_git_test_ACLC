@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=katomic
+X-AppInstall-Popcon=66
+X-AppInstall-Section=universe
+
+Name=KAtomic
+Icon=katomic
+Type=Application
+Exec=katomic -qwindowtitle %c
+X-DocPath=katomic/index.html
+GenericName=Sokoban-like Logic Game
+StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;StrategyGame;
+X-DBUS-ServiceName=org.kde.katomic
+
+X-Ubuntu-Gettext-Domain=app-install-data

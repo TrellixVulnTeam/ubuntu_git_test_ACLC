@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=freeciv-client-qt
+X-AppInstall-Section=universe
+
+Name=Freeciv (Qt)
+Comment=Turn-based strategy game inspired by the history of human civilization
+Exec=freeciv-qt
+Icon=freeciv-client
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Qt;Game;StrategyGame;
+Keywords=strategy;simulation;civilization;tiles;history;mankind;multiplayer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

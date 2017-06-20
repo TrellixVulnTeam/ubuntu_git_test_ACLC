@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=xia
+X-AppInstall-Section=universe
+
+Name=XIA
+GenericName=XIA
+X-GNOME-FullName=XIA
+Comment=Convert svg to html5 interactive pictures
+Keywords=svg;html5;interactive;picture;
+Type=Application
+Categories=Graphics;
+MimeType=image/svg+xml;application/illustrator;
+Exec=xia %f
+Terminal=false
+Icon=_usr_share_xia_images_xia
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

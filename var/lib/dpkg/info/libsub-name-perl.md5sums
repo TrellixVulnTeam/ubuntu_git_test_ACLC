@@ -1,0 +1,6 @@
+f03f7cf0bb678e86d57149b9037b8970  usr/lib/x86_64-linux-gnu/perl5/5.24/Sub/Name.pm
+e48f3b2d38d77691376f8fffc933b78e  usr/lib/x86_64-linux-gnu/perl5/5.24/auto/Sub/Name/Name.so
+cbd4ad143da95afe3869599131b98885  usr/share/doc/libsub-name-perl/changelog.Debian.gz
+030f7b41088629b97430bfad62083c8f  usr/share/doc/libsub-name-perl/copyright
+e490b101eaff60f0aa24aeaf82d5c370  usr/share/lintian/overrides/libsub-name-perl
+019378ff99654545653b939879f4a3f9  usr/share/man/man3/Sub::Name.3pm.gz

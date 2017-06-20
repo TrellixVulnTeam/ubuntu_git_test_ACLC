@@ -1,0 +1,4 @@
+76128b1d156479ea71b1b3cb58e875ca  usr/lib/x86_64-linux-gnu/perl5/5.24/LibAppArmor.pm
+d02a44db3540f7cd38bbad6e61bb4c49  usr/lib/x86_64-linux-gnu/perl5/5.24/auto/LibAppArmor/LibAppArmor.so
+054bfa053b82896a5f4a0ea0224e6cbc  usr/share/doc/libapparmor-perl/copyright
+458837d4ffac38ee205bc7c64c8be24c  usr/share/lintian/overrides/libapparmor-perl

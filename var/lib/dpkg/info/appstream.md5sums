@@ -1,0 +1,7 @@
+a469f3d3088040fae165ca10c2640c52  usr/bin/appstreamcli
+c8ff2a6b75c71f7646fbb550cf8b1f52  usr/share/doc/appstream/NEWS.gz
+e9b1f7365ca4dd9448d01d8bd78f8cd4  usr/share/doc/appstream/copyright
+aea2e4edac9077e198a9bcf13eabbed5  usr/share/gettext/its/metainfo.its
+3914d21ad257f5020c751c23941de36f  usr/share/gettext/its/metainfo.loc
+8a87abc7c631b3c2fee480c66ca0aeb4  usr/share/man/man1/appstreamcli.1.gz
+5ad03dccef1238850522018557ea5cae  usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml

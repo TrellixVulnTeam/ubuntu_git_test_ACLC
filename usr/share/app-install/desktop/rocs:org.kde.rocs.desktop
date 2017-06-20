@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=rocs
+X-AppInstall-Popcon=71
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=rocs %u -qwindowtitle %c
+Icon=rocs
+X-DocPath=rocs/index.html
+MimeType=application/x-rocs;
+Terminal=false
+Name=Rocs
+GenericName=Rocs Graph Theory
+Comment=Graph Theory Tool for Professors and Students.
+Categories=Qt;KDE;Education;Science;Math;
+X-DBUS-ServiceName=org.kde.rocs
+
+X-Ubuntu-Gettext-Domain=app-install-data

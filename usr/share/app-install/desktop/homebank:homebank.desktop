@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=homebank
+X-AppInstall-Popcon=110
+X-AppInstall-Section=universe
+
+Name=HomeBank
+GenericName=Personal finance
+Comment=Free, easy, personal accounting for everyone.
+Keywords=finance;accounting;budget;personal;money;
+Exec=homebank %f
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=homebank
+Categories=GNOME;GTK;Office;Finance;
+MimeType=application/x-homebank;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=arb
+X-AppInstall-Popcon=2
+X-AppInstall-Section=multiverse
+
+Name=ARB
+Exec=arb %f
+Icon=arb
+Type=Application
+Categories=Science;Biology
+Terminal=false
+Comment=Visit http://www.arb-home.de
+MimeType=application/x-arb
+Keywords=sequence;phylogeny;dna;rna;taxonomy;gene;16S;SSU;LSU;rRNA;probe design;
+
+X-Ubuntu-Gettext-Domain=app-install-data

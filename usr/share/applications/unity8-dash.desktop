@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Scopes
+Comment=An interface for using the Scopes system
+Exec=/usr/bin/unity8-dash
+Terminal=false
+Icon=/usr/share/unity8/Dash/unity8-dash.png
+X-Ubuntu-Touch=true

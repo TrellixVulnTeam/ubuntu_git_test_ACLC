@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=abtransfers
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=AB-Transfers
+Categories=Office
+Exec=abtransfers
+Terminal=false
+Type=Application
+Icon=_usr_share_abtransfers_bank_transfer_128x128
+
+X-Ubuntu-Gettext-Domain=app-install-data

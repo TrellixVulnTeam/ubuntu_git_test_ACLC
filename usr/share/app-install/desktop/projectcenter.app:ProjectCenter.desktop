@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=projectcenter.app
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Development;IDE;
+Icon=_usr_share_pixmaps_ProjectCenter
+Name=ProjectCenter
+Comment=The Official GNUstep IDE
+Keywords=IDE;development;programming;
+Exec=ProjectCenter
+
+X-Ubuntu-Gettext-Domain=app-install-data

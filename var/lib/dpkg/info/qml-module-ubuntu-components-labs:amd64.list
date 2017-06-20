@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/qt5
+/usr/lib/x86_64-linux-gnu/qt5/qml
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Components
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Components/Labs
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Components/Labs/libUbuntuComponentsLabs.so
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Components/Labs/plugins.qmltypes
+/usr/lib/x86_64-linux-gnu/qt5/qml/Ubuntu/Components/Labs/qmldir
+/usr/share
+/usr/share/doc
+/usr/share/doc/qml-module-ubuntu-components-labs
+/usr/share/doc/qml-module-ubuntu-components-labs/copyright
+/usr/share/doc/qml-module-ubuntu-components-labs/changelog.gz

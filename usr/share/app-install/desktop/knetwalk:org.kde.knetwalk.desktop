@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=knetwalk
+X-AppInstall-Popcon=94
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=knetwalk -qwindowtitle %c
+X-DocPath=knetwalk/index.html
+Name=KNetWalk
+GenericName=Network Construction Game
+Terminal=false
+Icon=knetwalk
+StartupNotify=true
+Categories=Qt;KDE;Game;StrategyGame;
+X-DBUS-ServiceName=org.kde.knetwalk
+
+X-Ubuntu-Gettext-Domain=app-install-data

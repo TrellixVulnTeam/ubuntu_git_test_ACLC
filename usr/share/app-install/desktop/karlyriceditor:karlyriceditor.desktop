@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=karlyriceditor
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Terminal=false
+Categories=AudioVideo;Video
+Name=karlyriceditor
+GenericName=Karaoke Lyric Editor
+Icon=karlyriceditor
+Exec=karlyriceditor
+Keywords=Lyrics;Subtitles;Music
+
+X-Ubuntu-Gettext-Domain=app-install-data

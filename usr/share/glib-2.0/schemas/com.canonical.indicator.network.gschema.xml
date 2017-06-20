@@ -1,0 +1,11 @@
+<schemalist>
+  <schema id="com.canonical.indicator.network" path="/com/canonical/indicator/network/" gettext-domain="indicator-network">
+    <key name="data-usage-indication" type="b">
+      <default>false</default>
+      <summary>Show indication that data is being sent or received.</summary>
+      <description>
+        Show icon when device is sending or receiving data.
+      </description>
+    </key>
+  </schema>
+</schemalist>

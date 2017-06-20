@@ -1,0 +1,7 @@
+c77b74b03958e1bb177c1e1d00a4f269  lib/netplan/generate
+b46dd3ac4b2808e339c6e45ba9164740  lib/systemd/system/netplan-wpa@.service
+7bdc89011c934e3f0e9f943dea1f7a48  usr/sbin/netplan
+f6f9667b0e4f13b21fd040410ad3cedc  usr/share/doc/netplan/netplan.html
+e82d324256046263d52736622a6f436e  usr/share/doc/nplan/changelog.gz
+97724ad13a1378f3f66c256f5c68db81  usr/share/doc/nplan/copyright
+89427217131c21cf3c0b30c910ad5d1b  usr/share/man/man5/netplan.5.gz

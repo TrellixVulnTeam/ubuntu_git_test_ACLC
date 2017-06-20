@@ -1,0 +1,25 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Photos.Facebook
+DBusPath=/com/canonical/unity/scope/photos/facebook
+Icon=/usr/share/icons/unity-icon-theme/places/svg/service-facebook.svg
+Keywords=facebook;
+Keywords[bg]=facebook;
+Keywords[en_AU]=facebook;
+Keywords[en_GB]=facebook;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/facebook/unity_facebook_daemon.py
+RemoteContent=true
+Type=photos
+Name=Facebook
+Name[bg]=Фейсбук
+Name[en_AU]=Facebook
+Name[en_GB]=Facebook
+Description=This is an Ubuntu search plugin that enables information from Facebook to be searched and displayed in the Dash underneath the Photos header. If you do not wish to search this content source, you can disable this search plugin.
+SearchHint=Search Facebook
+SearchHint[bg]=Търсене във Фейсбук
+SearchHint[en_AU]=Search Facebook
+SearchHint[en_GB]=Search Facebook
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-lens-photos

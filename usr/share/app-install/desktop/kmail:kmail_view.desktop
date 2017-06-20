@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=kmail
+X-AppInstall-Popcon=4125
+X-AppInstall-Section=universe
+
+Name=KMail view
+Type=Application
+Exec=kmail --view %u
+Icon=kmail
+NoDisplay=true
+MimeType=message/rfc822;application/mbox;application/x-mimearchive;
+
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.kmail
+
+X-Ubuntu-Gettext-Domain=app-install-data

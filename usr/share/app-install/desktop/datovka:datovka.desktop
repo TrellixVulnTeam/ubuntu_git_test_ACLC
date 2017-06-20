@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=datovka
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Datovka
+Terminal=false
+Exec=datovka
+Icon=datovka
+Comment=A free graphical user interface for Datove schranky
+Categories=Office;
+
+X-Ubuntu-Gettext-Domain=app-install-data

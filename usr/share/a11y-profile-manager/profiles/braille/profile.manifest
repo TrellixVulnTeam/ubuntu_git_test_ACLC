@@ -1,0 +1,6 @@
+[profile]
+name=Braille
+description=This profile configures the desktop environment to best suit the use of the Orca screen reader with Braille
+monitor-schema=org.gnome.desktop.a11y.applications
+monitor-key=screen-reader-enabled
+at-command=orca

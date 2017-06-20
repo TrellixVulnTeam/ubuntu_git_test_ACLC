@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=dolphin-emu
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Dolphin Emulator
+Comment=A Wii/GameCube Emulator
+Icon=dolphin-emu
+Exec=dolphin-emu
+Categories=Game;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data
